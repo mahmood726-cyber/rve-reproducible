@@ -1,0 +1,1103 @@
+_M_e_t_a-_A_n_a_l_y_s_i_s _v_i_a _L_i_n_e_a_r (_M_i_x_e_d-_E_f_f_e_c_t_s) _M_o_d_e_l_s
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     Function to fit meta-analytic equal-, fixed-, and random-effects
+     models and (mixed-effects) meta-regression models using a linear
+     (mixed-effects) model framework. See below and the introduction to
+     the 'metafor-package' for more details on these models.
+
+_U_s_a_g_e:
+
+     rma.uni(yi, vi, sei, weights, ai, bi, ci, di, n1i, n2i,
+             x1i, x2i, t1i, t2i, m1i, m2i, sd1i, sd2i,
+             xi, mi, ri, ti, fi, pi, sdi, r2i, mini, maxi, ni, mods, scale,
+             measure="GEN", data, slab, subset,
+             add=1/2, to="only0", drop00=FALSE, intercept=TRUE,
+             method="REML", weighted=TRUE, test="z",
+             level=95, btt, att, tau2, verbose=FALSE, digits, control, ...)
+     
+     rma(yi, vi, sei, weights, ai, bi, ci, di, n1i, n2i,
+         x1i, x2i, t1i, t2i, m1i, m2i, sd1i, sd2i,
+         xi, mi, ri, ti, fi, pi, sdi, r2i, mini, maxi, ni, mods, scale,
+         measure="GEN", data, slab, subset,
+         add=1/2, to="only0", drop00=FALSE, intercept=TRUE,
+         method="REML", weighted=TRUE, test="z",
+         level=95, btt, att, tau2, verbose=FALSE, digits, control, ...)
+     
+_A_r_g_u_m_e_n_t_s:
+
+     _These arguments pertain to data input:_
+
+      yi: vector of length k with the effect size estimates. See
+          'Details'.
+
+      vi: vector of length k with the corresponding sampling variances.
+          See 'Details'.
+
+     sei: vector of length k with the corresponding standard errors
+          (only relevant when not using 'vi'). See 'Details'.
+
+ weights: optional argument to specify a vector of length k with
+          user-defined weights. See 'Details'.
+
+      ai: see below and the documentation of the 'escalc' function for
+          more details.
+
+      bi: see below and the documentation of the 'escalc' function for
+          more details.
+
+      ci: see below and the documentation of the 'escalc' function for
+          more details.
+
+      di: see below and the documentation of the 'escalc' function for
+          more details.
+
+     n1i: see below and the documentation of the 'escalc' function for
+          more details.
+
+     n2i: see below and the documentation of the 'escalc' function for
+          more details.
+
+     x1i: see below and the documentation of the 'escalc' function for
+          more details.
+
+     x2i: see below and the documentation of the 'escalc' function for
+          more details.
+
+     t1i: see below and the documentation of the 'escalc' function for
+          more details.
+
+     t2i: see below and the documentation of the 'escalc' function for
+          more details.
+
+     m1i: see below and the documentation of the 'escalc' function for
+          more details.
+
+     m2i: see below and the documentation of the 'escalc' function for
+          more details.
+
+    sd1i: see below and the documentation of the 'escalc' function for
+          more details.
+
+    sd2i: see below and the documentation of the 'escalc' function for
+          more details.
+
+      xi: see below and the documentation of the 'escalc' function for
+          more details.
+
+      mi: see below and the documentation of the 'escalc' function for
+          more details.
+
+      ri: see below and the documentation of the 'escalc' function for
+          more details.
+
+      ti: see below and the documentation of the 'escalc' function for
+          more details.
+
+      fi: see below and the documentation of the 'escalc' function for
+          more details.
+
+      pi: see below and the documentation of the 'escalc' function for
+          more details.
+
+     sdi: see below and the documentation of the 'escalc' function for
+          more details.
+
+     r2i: see below and the documentation of the 'escalc' function for
+          more details.
+
+    mini: see below and the documentation of the 'escalc' function for
+          more details.
+
+    maxi: see below and the documentation of the 'escalc' function for
+          more details.
+
+      ni: see below and the documentation of the 'escalc' function for
+          more details.
+
+    mods: optional argument to include one or more moderators in the
+          model. A single moderator can be given as a vector of length
+          k specifying the values of the moderator. Multiple moderators
+          are specified by giving a matrix with k rows and as many
+          columns as there are moderator variables. Alternatively, a
+          model 'formula' can be used to specify the model. See
+          'Details'.
+
+   scale: optional argument to include one or more predictors for the
+          scale part in a location-scale model. See 'Details'.
+
+ measure: character string to specify the type of data supplied to the
+          function. See 'Details'.
+
+    data: optional data frame containing the data supplied to the
+          function.
+
+    slab: optional vector with labels for the k studies.
+
+  subset: optional (logical or numeric) vector to specify the subset of
+          studies that should be used for the analysis.
+
+     _These arguments pertain to handling of zero
+     cells/counts/frequencies:_
+
+     add: see the documentation of the 'escalc' function.
+
+      to: see the documentation of the 'escalc' function.
+
+  drop00: see the documentation of the 'escalc' function.
+
+     _These arguments pertain to the model / computations and output:_
+
+intercept: logical to specify whether an intercept should be added to
+          the model (the default is 'TRUE'). Ignored when 'mods' is a
+          formula.
+
+  method: character string to specify whether an equal- or a
+          random-effects model should be fitted. An equal-effects model
+          is fitted when using 'method="EE"'. A random-effects model is
+          fitted by setting 'method' equal to one of the following:
+          '"DL"', '"HE"' (or '"CO"'), '"HS"', '"HSk"', '"SJ"', '"ML"',
+          '"REML"', '"EB"', '"PM"', '"GENQ"', '"PMM"', or '"GENQM"'.
+          The default is '"REML"'. See 'Details'.
+
+weighted: logical to specify whether weighted (default) or unweighted
+          estimation should be used to fit the model (the default is
+          'TRUE').
+
+    test: character string to specify how test statistics and
+          confidence intervals for the fixed effects should be
+          computed. By default ('test="z"'), Wald-type tests and CIs
+          are obtained, which are based on a standard normal
+          distribution. When 'test="t"', a t-distribution is used
+          instead. When 'test="knha"', the method by Knapp and Hartung
+          (2003) is used. See 'Details' and also here for some
+          recommended practices.
+
+   level: numeric value between 0 and 100 to specify the confidence
+          interval level (the default is 95; see here for details).
+
+     btt: optional vector of indices to specify which coefficients to
+          include in the omnibus test of moderators. Can also be a
+          string to 'grep' for. See 'Details'.
+
+     att: optional vector of indices to specify which scale
+          coefficients to include in the omnibus test. Only relevant
+          for location-scale models. See 'Details'.
+
+    tau2: optional numeric value to specify the amount of (residual)
+          heterogeneity in a random- or mixed-effects model (instead of
+          estimating it). Useful for sensitivity analyses (e.g., for
+          plotting results as a function of tau^2). If unspecified, the
+          value of tau^2 is estimated from the data.
+
+ verbose: logical to specify whether output should be generated on the
+          progress of the model fitting (the default is 'FALSE'). Can
+          also be an integer. Values > 1 generate more verbose output.
+          See 'Note'.
+
+  digits: optional integer to specify the number of decimal places to
+          which the printed results should be rounded. If unspecified,
+          the default is 4. See also here for further details on how to
+          control the number of digits in the output.
+
+ control: optional list of control values for the iterative estimation
+          algorithms. If unspecified, default values are defined inside
+          the function. See 'Note'.
+
+     ...: additional arguments.
+
+_D_e_t_a_i_l_s:
+
+  _S_p_e_c_i_f_y_i_n_g _t_h_e _D_a_t_a:
+
+       The function can be used in combination with any of the usual
+       effect size measures used in meta-analyses (e.g., log risk
+       ratios, log odds ratios, risk differences, mean differences,
+       standardized mean differences, log transformed ratios of means,
+       raw correlation coefficients, correlation coefficients
+       transformed with Fisher's r-to-z transformation), or, more
+       generally, any set of estimates (with corresponding sampling
+       variances) one would like to analyze. Simply specify the
+       estimates via the 'yi' argument and the corresponding sampling
+       variances via the 'vi' argument. Instead of specifying 'vi', one
+       can specify the standard errors (the square root of the sampling
+       variances) via the 'sei' argument. The 'escalc' function can be
+       used to compute a wide variety of effect size measures (and the
+       corresponding sampling variances) based on various summary
+       statistics. If the estimates were computed with some other
+       software and they are one of the types of measures implemented
+       in 'escalc', one can use the 'measure' argument to declare what
+       the estimates actually represent (this is for example useful so
+       that plots based on a model object automatically use correct
+       axis labels).
+
+       Note that the second argument of the function is used to specify
+       the sampling variances of the estimates, not the standard
+       errors. So, assuming that the variable with the standard errors
+       is called ''stderrs'', writing 'rma(yi, stderrs)' would
+       incorrectly pass the standard errors of the estimates to the
+       second argument for the sampling variances, which would yield
+       incorrect results. Instead, 'rma(yi, sei=stderrs)' or 'rma(yi,
+       stderrs^2)' would yield correct results. See here for further
+       details.
+
+       Alternatively, the function can automatically calculate the
+       values of a chosen effect size measure (and the corresponding
+       sampling variances) when supplied with the necessary data. The
+       'escalc' function describes which measures are currently
+       implemented and what data/arguments should then be
+       specified/used. The 'measure' argument should then be set to the
+       desired measure.
+
+  _S_p_e_c_i_f_y_i_n_g _t_h_e _M_o_d_e_l:
+
+       The function can be used to fit equal-, fixed-, and
+       random-effects models, as well as (mixed-effects)
+       meta-regression models including one or multiple moderators (the
+       difference between the various models is described in detail on
+       the introductory 'metafor-package' help page).
+
+       Assuming the effect size estimates and corresponding sampling
+       variances are supplied via the 'yi' and 'vi' arguments, an
+       _equal-effects model_ can be fitted with 'rma(yi, vi,
+       method="EE")'. Setting 'method="FE"' fits a _fixed-effects
+       model_ (see here for a discussion of this model and how the
+       interpretation of these models differ despite yielding identical
+       results). Weighted estimation (with inverse-variance weights) is
+       used by default. User-defined weights can be supplied via the
+       'weights' argument. Unweighted estimation can be used by setting
+       'weighted=FALSE' (which is the same as setting the weights equal
+       to a constant).
+
+       A _random-effects model_ can be fitted with the same code but
+       setting the 'method' argument to one of the various estimators
+       for the amount of heterogeneity:
+
+         * 'method="DL"' for the DerSimonian-Laird estimator
+           (DerSimonian & Laird, 1986; Raudenbush, 2009),
+
+         * 'method="HE"' for the Hedges estimator (Cochran, 1954;
+           Hedges, 1983, 1992),
+
+         * 'method="HS"' for the Hunter-Schmidt estimator (Hunter &
+           Schmidt, 1990; Viechtbauer et al., 2015),
+
+         * 'method="HSk"' for the Hunter-Schmidt estimator with a small
+           sample-size correction (Brannick et al., 2019),
+
+         * 'method="SJ"' for the Sidik-Jonkman estimator (Sidik &
+           Jonkman, 2005b, 2007),
+
+         * 'method="ML"' for the maximum likelihood estimator (Hardy &
+           Thompson, 1996; Raudenbush, 2009),
+
+         * 'method="REML"' for the restricted maximum likelihood
+           estimator (Viechtbauer, 2005; Raudenbush, 2009)
+
+         * 'method="EB"' for the empirical Bayes estimator (Morris,
+           1983; Berkey et al. 1995),
+
+         * 'method="PM"' for the Paule-Mandel estimator (Paule &
+           Mandel, 1982; Viechtbauer et al., 2015),
+
+         * 'method="GENQ"' for the generalized Q-statistic estimator
+           (DerSimonian & Kacker, 2007; Jackson et al., 2014),
+
+         * 'method="PMM"' for the median-unbiased Paule-Mandel
+           estimator (Viechtbauer, 2021),
+
+         * 'method="GENQM"' for the median-unbiased generalized
+           Q-statistic estimator (Viechtbauer, 2021).
+
+       For a description of the various estimators, see Brannick et al.
+       (2019), DerSimonian and Kacker (2007), Raudenbush (2009),
+       Veroniki et al. (2016), Viechtbauer (2005), and Viechtbauer et
+       al. (2015). Note that the Hedges estimator is also called the
+       'variance component estimator' or 'Cochran estimator' (hence,
+       one can also use 'method="VC"' or 'method="CO"' to choose this
+       estimator), the Sidik-Jonkman estimator is also called the
+       'model error variance estimator', the empirical Bayes estimator
+       is actually identical to the Paule-Mandel estimator (Viechtbauer
+       et al., 2015), and the generalized Q-statistic estimator is a
+       general method-of-moments estimator (DerSimonian & Kacker, 2007)
+       requiring the specification of weights (the HE and DL estimators
+       are just special cases with equal and inverse sampling variance
+       weights, respectively). Finally, the two median-unbiased
+       estimators are versions of the Paule-Mandel and generalized
+       Q-statistic estimators that equate the respective estimating
+       equations not to their expected values, but to the medians of
+       their theoretical distributions (Viechtbauer, 2021).
+
+       One or more moderators can be included in a model via the 'mods'
+       argument. A single moderator can be given as a (row or column)
+       vector of length k specifying the values of the moderator.
+       Multiple moderators are specified by giving an appropriate model
+       matrix (i.e., X) with k rows and as many columns as there are
+       moderator variables (e.g., 'mods = cbind(mod1, mod2, mod3)',
+       where 'mod1', 'mod2', and 'mod3' correspond to the names of the
+       variables for three moderator variables). The intercept is added
+       to the model matrix by default unless 'intercept=FALSE'.
+
+       Alternatively, one can use standard 'formula' syntax to specify
+       the model. In this case, the 'mods' argument should be set equal
+       to a one-sided formula of the form 'mods = ~ model' (e.g., 'mods
+       = ~ mod1 + mod2 + mod3'). Interactions, polynomial/spline terms,
+       and factors can be easily added to the model in this manner.
+       When specifying a model formula via the 'mods' argument, the
+       'intercept' argument is ignored. Instead, the
+       inclusion/exclusion of the intercept is controlled by the
+       specified formula (e.g., 'mods = ~ 0 + mod1 + mod2 + mod3' or
+       'mods = ~ mod1 + mod2 + mod3 - 1' would lead to the removal of
+       the intercept).
+
+       When the effect size estimates and corresponding sampling
+       variances are supplied via the 'yi' and 'vi' (or 'sei')
+       arguments, one can also specify moderators via the 'yi' argument
+       (e.g., 'rma(yi ~ mod1 + mod2 + mod3, vi)'). In that case, the
+       'mods' argument is ignored and the inclusion/exclusion of the
+       intercept is again controlled by the specified formula.
+
+  _O_m_n_i_b_u_s _T_e_s_t _o_f _M_o_d_e_r_a_t_o_r_s:
+
+       For models including moderators, an omnibus test of all model
+       coefficients is conducted that excludes the intercept (the first
+       coefficient) if it is included in the model. If no intercept is
+       included in the model, then the omnibus test includes all
+       coefficients in the model including the first. Alternatively,
+       one can manually specify the indices of the coefficients to test
+       via the 'btt' ('betas to test') argument (i.e., to test
+       \text{H}_0{:}\; beta_{j \in \texttt{btt}} = 0, where beta_{j \in
+       \texttt{btt}} is the set of coefficients to be tested). For
+       example, with 'btt=c(3,4)', only the third and fourth
+       coefficients from the model are included in the test (if an
+       intercept is included in the model, then it corresponds to the
+       first coefficient in the model). Instead of specifying the
+       coefficient numbers, one can specify a string for 'btt'. In that
+       case, 'grep' will be used to search for all coefficient names
+       that match the string. The omnibus test is called the Q_M-test
+       and follows asymptotically a chi-square distribution with m
+       degrees of freedom (with m denoting the number of coefficients
+       tested) under the null hypothesis (that the true value of all
+       coefficients tested is equal to 0).
+
+  _C_a_t_e_g_o_r_i_c_a_l _M_o_d_e_r_a_t_o_r_s:
+
+       Categorical moderator variables can be included in the model via
+       the 'mods' argument in the same way that appropriately (dummy)
+       coded categorical variables can be included in linear models.
+       One can either do the dummy coding manually or use a model
+       formula together with the 'factor' function to automate the
+       coding (note that string/character variables in a model formula
+       are automatically converted to factors). An example to
+       illustrate these different approaches is provided below.
+
+  _T_e_s_t_s _a_n_d _C_o_n_f_i_d_e_n_c_e _I_n_t_e_r_v_a_l_s:
+
+       By default, tests of individual coefficients in the model (and
+       the corresponding confidence intervals) are based on a standard
+       normal distribution, while the omnibus test is based on a
+       chi-square distribution (see above). As an alternative, one can
+       set 'test="t"', in which case tests of individual coefficients
+       and confidence intervals are based on a t-distribution with k-p
+       degrees of freedom, while the omnibus test then uses an
+       F-distribution with m and k-p degrees of freedom (with k
+       denoting the total number of estimates included in the analysis
+       and p the total number of model coefficients including the
+       intercept if it is present). Furthermore, when 'test="knha"' (or
+       equivalently, 'test="hksj"'), the method by Hartung (1999),
+       Sidik and Jonkman (2002), and Knapp and Hartung (2003) (the
+       Knapp-Hartung method; also referred to as the
+       Hartung-Knapp-Sidik-Jonkman method) is used, which applies an
+       adjustment to the standard errors of the estimated coefficients
+       (to account for the uncertainty in the estimate of the amount of
+       (residual) heterogeneity) and uses t- and F-distributions as
+       described above (see also here). Finally, one can set
+       'test="adhoc"', in which case the Knapp-Hartung method is used,
+       but with the restriction that the adjustment to the standard
+       errors can never result in adjusted standard errors that are
+       smaller than the unadjusted ones (see Jackson et al., 2017,
+       section 4.3).
+
+  _T_e_s_t _f_o_r (_R_e_s_i_d_u_a_l) _H_e_t_e_r_o_g_e_n_e_i_t_y:
+
+       A test for (residual) heterogeneity is automatically carried out
+       by the function. Without moderators in the model, this is simply
+       Cochran's Q-test (Cochran, 1954), which tests whether the
+       variability in the estimates is larger than would be expected
+       based on sampling variability alone. A significant test suggests
+       that the true effects are heterogeneous. When moderators are
+       included in the model, this is the Q_E-test for residual
+       heterogeneity, which tests whether the variability in the
+       estimates not accounted for by the moderators included in the
+       model is larger than would be expected based on sampling
+       variability alone.
+
+  _L_o_c_a_t_i_o_n-_S_c_a_l_e _M_o_d_e_l_s:
+
+       The function can also be used to fit so-called 'location-scale
+       models' (Viechtbauer & Lopez-Lopez, 2022). In such models, one
+       can specify not only predictors for the size of the average true
+       effect (i.e., for their 'location'), but also predictors for the
+       amount of heterogeneity in the true effects (i.e., for their
+       'scale'). The model is given by
+
+       y_i = beta_0 + beta_1 x_i1 + beta_2 x_i2 + ... + beta_p' x_ip' + u_i + epsilon_i,
+       
+                u_i ~ N(0, tau_i^2), epsilon_i \sim N(0, v_i),          
+       
+       log(tau^2) = alpha_0 + alpha z_i1 + alpha z_i2 + ... + alpha_q' z_iq',
+       
+       where x_i1, ..., x_ip' are the values of the p' predictor
+       variables that may be related to the size of the average true
+       effect (letting p = p' + 1 denote the total number of location
+       coefficients in the model including the model intercept beta_0)
+       and z_i1, ..., z_iq' are the values of the q' scale variables
+       that may be related to the amount of heterogeneity in the true
+       effects (letting q = q' + 1 denote the total number of scale
+       coefficients in the model including the model intercept
+       alpha_0). Location variables can be specified via the 'mods'
+       argument as described above (e.g., 'mods = ~ mod1 + mod2 +
+       mod3'). Scale variables can be specified via the 'scale'
+       argument (e.g., 'scale = ~ var1 + var2 + var3'). A log link is
+       used for specifying the relationship between the scale variables
+       and the amount of heterogeneity so that tau_i^2 is guaranteed to
+       be non-negative (one can also set (the undocumented) argument
+       'link="identity"' to use an identity link, but this is more
+       likely to lead to estimation problems). Estimates of the
+       location and scale coefficients can be obtained either with
+       maximum likelihood ('method="ML"') or restricted maximum
+       likelihood ('method="REML"') estimation. An omnibus test of the
+       scale coefficients is conducted as described above (where the
+       'att' argument can be used to specify which scale coefficients
+       to include in the test).
+
+_V_a_l_u_e:
+
+     An object of class 'c("rma.uni","rma")'. The object is a list
+     containing the following components:
+
+    beta: estimated coefficients of the model.
+
+      se: standard errors of the coefficients.
+
+    zval: test statistics of the coefficients.
+
+    pval: corresponding p-values.
+
+   ci.lb: lower bound of the confidence intervals for the coefficients.
+
+   ci.ub: upper bound of the confidence intervals for the coefficients.
+
+      vb: variance-covariance matrix of the estimated coefficients.
+
+    tau2: estimated amount of (residual) heterogeneity. Always '0' when
+          'method="EE"'.
+
+ se.tau2: standard error of the estimated amount of (residual)
+          heterogeneity.
+
+       k: number of studies included in the analysis.
+
+       p: number of coefficients in the model (including the
+          intercept).
+
+       m: number of coefficients included in the omnibus test of
+          moderators.
+
+      QE: test statistic of the test for (residual) heterogeneity.
+
+     QEp: corresponding p-value.
+
+      QM: test statistic of the omnibus test of moderators.
+
+     QMp: corresponding p-value.
+
+      I2: value of I^2. See 'print' for more details.
+
+      H2: value of H^2. See 'print' for more details.
+
+      R2: value of R^2. See 'print' for more details.
+
+int.only: logical that indicates whether the model is an intercept-only
+          model.
+
+yi, vi, X: the vector of estimates, the corresponding sampling
+          variances, and the model matrix.
+
+fit.stats: a list with the log-likelihood, deviance, AIC, BIC, and AICc
+          values under the unrestricted and restricted likelihood.
+
+     ...: some additional elements/values.
+
+     For location-scale models, the object is of class
+     'c("rma.ls","rma.uni","rma")' and includes the following
+     components in addition to the ones listed above:
+
+   alpha: estimated scale coefficients of the model.
+
+se.alpha: standard errors of the coefficients.
+
+zval.alpha: test statistics of the coefficients.
+
+pval.alpha: corresponding p-values.
+
+ci.lb.alpha: lower bound of the confidence intervals for the
+          coefficients.
+
+ci.ub.alpha: upper bound of the confidence intervals for the
+          coefficients.
+
+      va: variance-covariance matrix of the estimated coefficients.
+
+    tau2: as above, but now a vector of values.
+
+       q: number of scale coefficients in the model (including the
+          intercept).
+
+      QS: test statistic of the omnibus test of the scale coefficients.
+
+     QSp: corresponding p-value.
+
+     ...: some additional elements/values.
+
+_M_e_t_h_o_d_s:
+
+     The results of the fitted model are formatted and printed with the
+     'print' function. If fit statistics should also be given, use
+     'summary' (or use the 'fitstats' function to extract them). Full
+     versus reduced model comparisons in terms of fit statistics and
+     likelihood ratio tests can be obtained with 'anova'. Wald-type
+     tests for sets of model coefficients or linear combinations
+     thereof can be obtained with the same function. Permutation tests
+     for the model coefficient(s) can be obtained with 'permutest'.
+     Tests and confidence intervals based on (cluster) robust methods
+     can be obtained with 'robust'.
+
+     Predicted/fitted values can be obtained with 'predict' and
+     'fitted'. For best linear unbiased predictions, see 'blup' and
+     'ranef'.
+
+     The 'residuals', 'rstandard', and 'rstudent' functions extract raw
+     and standardized residuals. Additional model diagnostics (e.g., to
+     determine influential studies) can be obtained with the
+     'influence' function. For models without moderators, leave-one-out
+     diagnostics can also be obtained with 'leave1out'. For models with
+     moderators, variance inflation factors can be obtained with 'vif'.
+
+     A confidence interval for the amount of (residual) heterogeneity
+     in the random/mixed-effects model can be obtained with 'confint'.
+     For location-scale models, 'confint' can provide confidence
+     intervals for the scale coefficients.
+
+     Forest, funnel, radial, L'Abbe, and Baujat plots can be obtained
+     with 'forest', 'funnel', 'radial', 'labbe', and 'baujat' (radial
+     and L'Abbe plots only for models without moderators). The 'qqnorm'
+     function provides normal QQ plots of the standardized residuals.
+     One can also call 'plot' on the fitted model object to obtain
+     various plots at once. For random/mixed-effects models, the
+     'profile' function can be used to obtain a plot of the
+     (restricted) log-likelihood as a function of tau^2. For
+     location-scale models, 'profile' draws analogous plots based on
+     the scale coefficients. For models with moderators, 'regplot'
+     draws scatter plots / bubble plots, showing the (marginal)
+     relationship between the estimates and a selected moderator from
+     the model.
+
+     Tests for funnel plot asymmetry (which may be indicative of
+     publication bias) can be obtained with 'ranktest' and 'regtest'.
+     For models without moderators, the 'trimfill' method can be used
+     to carry out a trim and fill analysis and 'hc' provides a
+     random-effects model analysis that is more robust to publication
+     bias (based on the method by Henmi & Copas, 2010). The test of
+     'excess significance' can be carried out with the 'tes' function.
+     The fail-safe N (based on a file drawer analysis) can be computed
+     using 'fsn'. Selection models can be fitted with the 'selmodel'
+     function.
+
+     For models without moderators, a cumulative meta-analysis (i.e.,
+     adding one observation at a time) can be obtained with 'cumul'.
+
+     Other extractor functions include 'coef', 'vcov', 'se', 'logLik',
+     'deviance', 'AIC', 'BIC', 'hatvalues', and 'weights'.
+
+_N_o_t_e:
+
+     While the HS, HSk, HE, DL, SJ, and GENQ estimators of tau^2 are
+     based on closed-form solutions, the ML, REML, and EB estimators
+     must be obtained iteratively. For this, the function makes use of
+     the Fisher scoring algorithm, which is robust to poor starting
+     values and usually converges quickly (Harville, 1977; Jennrich &
+     Sampson, 1976). By default, the starting value is set equal to the
+     value of the Hedges (HE) estimator and the algorithm terminates
+     when the change in the estimated value of tau^2 is smaller than
+     10^(-5) from one iteration to the next. The maximum number of
+     iterations is 100 by default (which should be sufficient in most
+     cases). Information on the progress of the algorithm can be
+     obtained by setting 'verbose=TRUE'. One can also set 'verbose' to
+     an integer ('verbose=2' yields even more information and
+     'verbose=3' also sets 'option(warn=1)' temporarily).
+
+     A different starting value, threshold, and maximum number of
+     iterations can be specified via the 'control' argument by setting
+     'control=list(tau2.init=value, threshold=value, maxiter=value)'.
+     The step length of the Fisher scoring algorithm can also be
+     adjusted by a desired factor with 'control=list(stepadj=value)'
+     (values below 1 will reduce the step length). If using
+     'verbose=TRUE' shows the estimate jumping around erratically (or
+     cycling through a few values), decreasing the step length (and
+     increasing the maximum number of iterations) can often help with
+     convergence (e.g., 'control=list(stepadj=0.5, maxiter=1000)').
+
+     The PM, PMM, and GENQM estimators also involve iterative
+     algorithms, which make use of the 'uniroot' function. By default,
+     the desired accuracy ('tol') is set equal to
+     '.Machine$double.eps^0.25' and the maximum number of iterations
+     ('maxiter') to '100' (as above). The upper bound of the interval
+     searched ('tau2.max') is set to the larger of 100 and
+     '10*mad(yi)^2' (i.e., 10 times the squared median absolute
+     deviation of the estimates computed with the 'mad' function).
+     These values can be adjusted with 'control=list(tol=value,
+     maxiter=value, tau2.max=value)'.
+
+     All of the heterogeneity estimators except SJ can in principle
+     yield negative estimates for the amount of (residual)
+     heterogeneity. However, negative estimates of tau^2 are outside of
+     the parameter space. For the HS, HSk, HE, DL, and GENQ estimators,
+     negative estimates are therefore truncated to zero. For the ML,
+     REML, and EB estimators, the Fisher scoring algorithm makes use of
+     step halving (Jennrich & Sampson, 1976) to guarantee a
+     non-negative estimate. Finally, for the PM, PMM, and GENQM
+     estimators, the lower bound of the interval searched is set to
+     zero by default. For those brave enough to step into risky
+     territory, there is the option to set the lower bound for all
+     these estimators to some other value besides zero (even a negative
+     one) with 'control=list(tau2.min=value)', but the lowest value
+     permitted is '-min(vi)' (to ensure that the marginal variances are
+     always non-negative).
+
+     The Hunter-Schmidt estimator for the amount of heterogeneity is
+     defined in Hunter and Schmidt (1990) only in the context of the
+     random-effects model when analyzing correlation coefficients. A
+     general version of this estimator for random- and mixed-effects
+     models not specific to any particular effect size measure is
+     described in Viechtbauer (2005) and Viechtbauer et al. (2015) and
+     is implemented here.
+
+     The Sidik-Jonkman estimator starts with a crude estimate of tau^2,
+     which is then updated as described in Sidik and Jonkman (2005b,
+     2007). If, instead of the crude estimate, one wants to use a
+     better a priori estimate, one can do so by passing this value via
+     'control=list(tau2.init=value)'.
+
+     One can also specify a vector of estimators via the 'method'
+     argument (e.g., 'rma(yi, vi, method=c("REML","DL"))'). The various
+     estimators are then applied in turn until one converges. This is
+     mostly useful for simulation studies where an estimator (like the
+     REML estimator) is not guaranteed to converge and one can then
+     substitute one (like the DL estimator) that does not involve
+     iterative methods and is guaranteed to provide an estimate.
+
+     Estimates with non-positive sampling variances are problematic. If
+     a sampling variance is equal to zero, then its weight will be 1/0
+     for equal-effects models when using weighted estimation. Switching
+     to unweighted estimation is a possible solution then. For
+     random/mixed-effects model, some estimators of tau^2 are undefined
+     when there is at least one sampling variance equal to zero. Other
+     estimators may work, but it may still be necessary to switch to
+     unweighted model fitting, especially when the estimate of tau^2
+     converges to zero.
+
+     When including moderators in the model, it is possible that the
+     model matrix is not of full rank (i.e., there is a linear
+     relationship between the moderator variables included in the
+     model). The function automatically tries to reduce the model
+     matrix to full rank by removing redundant predictors, but if this
+     fails the model cannot be fitted and an error will be issued.
+     Deleting (redundant) moderator variables from the model as needed
+     should solve this problem.
+
+     Some general words of caution about the assumptions underlying the
+     models:
+
+        * The sampling variances (i.e., the 'vi' values) are treated as
+          if they are known constants, even though in practice they are
+          usually estimates themselves. This implies that the
+          distributions of the test statistics and corresponding
+          confidence intervals are only exact and have nominal coverage
+          when the within-study sample sizes are large (i.e., when the
+          error in the sampling variance estimates is small). Certain
+          effect size measures (e.g., the arcsine square root
+          transformed risk difference and Fisher's r-to-z transformed
+          correlation coefficient) are based on variance stabilizing
+          transformations that also help to make the assumption of
+          known sampling variances much more reasonable.
+
+        * When fitting a mixed/random-effects model, tau^2 is estimated
+          and then treated as a known constant thereafter. This ignores
+          the uncertainty in the estimate of tau^2. As a consequence,
+          the standard errors of the parameter estimates tend to be too
+          small, yielding test statistics that are too large and
+          confidence intervals that are not wide enough. The Knapp and
+          Hartung (2003) adjustment (i.e., using 'test="knha"') can be
+          used to counter this problem, yielding test statistics and
+          confidence intervals whose properties are closer to nominal.
+
+        * Most effect size measures do not have exactly normal sampling
+          distributions as assumed under the various models. However,
+          the normal approximation usually becomes more accurate for
+          most measures as the within-study sample sizes increase.
+          Therefore, sufficiently large within-study sample sizes are
+          (usually) needed to be certain that the tests and confidence
+          intervals have nominal levels/coverage. Again, certain
+          measures (e.g., Fisher's r-to-z transformed correlation
+          coefficient) may be preferable from this perspective as well.
+
+     For location-scale models, model fitting is done via numerical
+     optimization over the model parameters. By default, 'nlminb' is
+     used for the optimization. One can also chose a different
+     optimizer from 'optim' via the 'control' argument (e.g.,
+     'control=list(optimizer="BFGS")' or
+     'control=list(optimizer="Nelder-Mead")'). Besides 'nlminb' and one
+     of the methods from 'optim', one can also choose one of the
+     optimizers from the 'minqa' package (i.e., 'uobyqa', 'newuoa', or
+     'bobyqa'), one of the (derivative-free) algorithms from the
+     'nloptr' package, the Newton-type algorithm implemented in 'nlm',
+     the various algorithms implemented in the 'dfoptim' package ('hjk'
+     for the Hooke-Jeeves, 'nmk' for the Nelder-Mead, and 'mads' for
+     the Mesh Adaptive Direct Searches algorithm), the quasi-Newton
+     type optimizers 'ucminf' and 'lbfgsb3c' and the subspace-searching
+     simplex algorithm 'subplex' from the packages of the same name,
+     the Barzilai-Borwein gradient decent method implemented in
+     'BBoptim', the 'Rcgmin' and 'Rvmmin' optimizers, or the
+     parallelized version of the L-BFGS-B algorithm implemented in
+     'optimParallel' from the package of the same name. When using an
+     identity link with 'link="identity"', constrained optimization (to
+     ensure non-negative tau_i^2 values) as implemented in
+     'constrOptim' is used by default. Alternative optimizers in this
+     case are the 'solnp' solver from the 'Rsolnp' package, 'nloptr',
+     or the augmented Lagrangian algorithms 'constrOptim.nl' and
+     'auglag' from the 'alabama' package.
+
+     The optimizer name must be given as a character string (i.e., in
+     quotes). Additional control parameters can be specified via the
+     'control' argument (e.g., 'control=list(iter.max=1000,
+     rel.tol=1e-8)'). For 'nloptr', the default is to use the BOBYQA
+     implementation from that package with a relative convergence
+     criterion of '1e-8' on the function value (i.e., log-likelihood),
+     but this can be changed via the 'algorithm' and 'ftop_rel'
+     arguments (e.g., 'control=list(optimizer="nloptr",
+     algorithm="NLOPT_LN_SBPLX", ftol_rel=1e-6)') (note: when using
+     'optimizer="nloptr"' in combination with an identity link, the
+     '"NLOPT_LN_COBYLA"' algorithm is automatically used, since it
+     allows for inequality constraints). For 'optimParallel', the
+     control argument 'ncpus' can be used to specify the number of
+     cores to use for the parallelization (e.g.,
+     'control=list(optimizer="optimParallel", ncpus=2)'). Control
+     argument 'mfmaxit' (which is '10^5' by default and is independent
+     of the control arguments of the various optimizers) hard exits
+     when the specified number of iterations has been exceeded.
+
+     Under certain circumstances (e.g., when the amount of
+     heterogeneity is very small for certain combinations of values for
+     the scale variables and scale coefficients), the values of the
+     scale coefficients may try to drift towards minus or plus
+     infinity, which can lead to problems with the optimization. One
+     can impose constraints on the scale coefficients via
+     'control=list(alpha.min=minval, alpha.max=maxval)' where 'minval'
+     and 'maxval' are either scalars or vectors of the appropriate
+     length.
+
+     Finally, for location-scale models, the standard errors of the
+     scale coefficients are obtained by inverting the Hessian, which is
+     numerically approximated using the 'hessian' function from the
+     'numDeriv' package. This may fail (especially when using an
+     identity link), leading to 'NA' values for the standard errors and
+     hence test statistics, p-values, and confidence interval bounds.
+     One can set control argument 'hessianCtrl' to a list of named
+     arguments to be passed on to the 'method.args' argument of the
+     'hessian' function (the default is
+     'control=list(hessianCtrl=list(r=8))'). One can also set
+     'control=list(hesspack="pracma")' or
+     'control=list(hesspack="calculus")' in which case the
+     'pracma::hessian' or 'calculus::hessian' functions from the
+     respective packages are used instead for approximating the
+     Hessian.
+
+     Even if the Hessian can be approximated and inverted, the standard
+     errors may be unreasonably large when the likelihood surface is
+     very flat around the estimated scale coefficients. This is more
+     likely to happen when k is small and when the amount of
+     heterogeneity is very small under some conditions as defined by
+     the scale coefficients/variables. Setting constraints on the scale
+     coefficients as described above can also help to mitigate this
+     issue.
+
+_A_u_t_h_o_r(_s):
+
+     Wolfgang Viechtbauer (<mailto:wvb@metafor-project.org>,
+     <https://www.metafor-project.org>).
+
+_R_e_f_e_r_e_n_c_e_s:
+
+     Berkey, C. S., Hoaglin, D. C., Mosteller, F., & Colditz, G. A.
+     (1995). A random-effects regression model for meta-analysis.
+     _Statistics in Medicine_, *14*(4), 395-411.
+     https://doi.org/10.1002/sim.4780140406
+
+     Brannick, M. T., Potter, S. M., Benitez, B., & Morris, S. B.
+     (2019). Bias and precision of alternate estimators in
+     meta-analysis: Benefits of blending Schmidt<e2><80><93>Hunter and Hedges
+     approaches. _Organizational Research Methods_, *22*(2), 490-514.
+     https://doi.org/10.1177/1094428117741966
+
+     Cochran, W. G. (1954). The combination of estimates from different
+     experiments. _Biometrics_, *10*(1), 101-129.
+     https://doi.org/10.2307/3001666
+
+     DerSimonian, R., & Laird, N. (1986). Meta-analysis in clinical
+     trials. _Controlled Clinical Trials_, *7*(3), 177-188.
+     https://doi.org/10.1016/0197-2456(86)90046-2
+
+     DerSimonian, R., & Kacker, R. (2007). Random-effects model for
+     meta-analysis of clinical trials: An update. _Contemporary
+     Clinical Trials_, *28*(2), 105-114.
+     https://doi.org/10.1016/j.cct.2006.04.004
+
+     Hardy, R. J. & Thompson, S. G. (1996). A likelihood approach to
+     meta-analysis with random effects. _Statistics in Medicine_,
+     *15*(6), 619-629.
+     https://doi.org/10.1002/(SICI)1097-0258(19960330)15:6<619::AID-SIM188>3.0.CO;2-A
+
+     Hartung, J. (1999). An alternative method for meta-analysis.
+     _Biometrical Journal_, *41*(8), 901-916.
+     https://doi.org/10.1002/(SICI)1521-4036(199912)41:8<901::AID-BIMJ901>3.0.CO;2-W
+
+     Harville, D. A. (1977). Maximum likelihood approaches to variance
+     component estimation and to related problems. _Journal of the
+     American Statistical Association_, *72*(358), 320-338.
+     https://doi.org/10.2307/2286796
+
+     Hedges, L. V. (1983). A random effects model for effect sizes.
+     _Psychological Bulletin_, *93*(2), 388-395.
+     https://doi.org/10.1037/0033-2909.93.2.388
+
+     Hedges, L. V. (1992). Meta-analysis. _Journal of Educational
+     Statistics_, *17*(4), 279-296.
+     https://doi.org/10.3102/10769986017004279
+
+     Hedges, L. V., & Olkin, I. (1985). _Statistical methods for
+     meta-analysis_. San Diego, CA: Academic Press.
+
+     Henmi, M., & Copas, J. B. (2010). Confidence intervals for random
+     effects meta-analysis and robustness to publication bias.
+     _Statistics in Medicine_, *29*(29), 2969-2983.
+     https://doi.org/10.1002/sim.4029
+
+     Hunter, J. E., & Schmidt, F. L. (1990). _Methods of meta-analysis:
+     Correcting error and bias in research findings_. Thousand Oaks,
+     CA: Sage.
+
+     Jackson, D., Turner, R., Rhodes, K. & Viechtbauer, W. (2014).
+     Methods for calculating confidence and credible intervals for the
+     residual between-study variance in random effects meta-regression
+     models. _BMC Medical Research Methodology_, *14*, 103.
+     https://doi.org/10.1186/1471-2288-14-103
+
+     Jackson, D., Law, M., Ruecker, G., & Schwarzer, G. (2017). The
+     Hartung-Knapp modification for random-effects meta-analysis: A
+     useful refinement but are there any residual concerns? _Statistics
+     in Medicine_, *36*(25), 3923-3934.
+     https://doi.org/10.1002/sim.7411
+
+     Jennrich, R. I., & Sampson, P. F. (1976). Newton-Raphson and
+     related algorithms for maximum likelihood variance component
+     estimation. _Technometrics_, *18*(1), 11-17.
+     https://doi.org/10.2307/1267911
+
+     Knapp, G., & Hartung, J. (2003). Improved tests for a random
+     effects meta-regression with a single covariate. _Statistics in
+     Medicine_, *22*(17), 2693-2710. https://doi.org/10.1002/sim.1482
+
+     Morris, C. N. (1983). Parametric empirical Bayes inference: Theory
+     and applications. _Journal of the American Statistical
+     Association_, *78*(381), 47-55. https://doi.org/10.2307/2287098
+
+     Paule, R. C., & Mandel, J. (1982). Consensus values and weighting
+     factors. _Journal of Research of the National Bureau of
+     Standards_, *87*(5), 377-385. https://doi.org/10.6028/jres.087.022
+
+     Raudenbush, S. W. (2009). Analyzing effect sizes: Random effects
+     models. In H. Cooper, L. V. Hedges, & J. C. Valentine (Eds.), _The
+     handbook of research synthesis and meta-analysis_ (2nd ed., pp.
+     295-315). New York: Russell Sage Foundation.
+
+     Sidik, K. & Jonkman, J. N. (2002). A simple confidence interval
+     for meta-analysis. _Statistics in Medicine_, *21*(21), 3153-3159.
+     https://doi.org/10.1002/sim.1262
+
+     Sidik, K., & Jonkman, J. N. (2005a). A note on variance estimation
+     in random effects meta-regression. _Journal of Biopharmaceutical
+     Statistics_, *15*(5), 823-838.
+     https://doi.org/10.1081/BIP-200067915
+
+     Sidik, K., & Jonkman, J. N. (2005b). Simple heterogeneity variance
+     estimation for meta-analysis. _Journal of the Royal Statistical
+     Society, Series C_, *54*(2), 367-384.
+     https://doi.org/10.1111/j.1467-9876.2005.00489.x
+
+     Sidik, K., & Jonkman, J. N. (2007). A comparison of heterogeneity
+     variance estimators in combining results of studies. _Statistics
+     in Medicine_, *26*(9), 1964-1981. https://doi.org/10.1002/sim.2688
+
+     Veroniki, A. A., Jackson, D., Viechtbauer, W., Bender, R., Bowden,
+     J., Knapp, G., Kuss, O., Higgins, J. P., Langan, D., & Salanti, G.
+     (2016). Methods to estimate the between-study variance and its
+     uncertainty in meta-analysis. _Research Synthesis Methods_,
+     *7*(1), 55-79. https://doi.org/10.1002/jrsm.1164
+
+     Viechtbauer, W. (2005). Bias and efficiency of meta-analytic
+     variance estimators in the random-effects model. _Journal of
+     Educational and Behavioral Statistics_, *30*(3), 261-293.
+     https://doi.org/10.3102/10769986030003261
+
+     Viechtbauer, W. (2010). Conducting meta-analyses in R with the
+     metafor package. _Journal of Statistical Software_, *36*(3), 1-48.
+     https://doi.org/10.18637/jss.v036.i03
+
+     Viechtbauer, W. (2021). Median-unbiased estimators for the amount
+     of heterogeneity in meta-analysis. _European Congress of
+     Methodology_, Valencia, Spain.
+     https://www.wvbauer.com/lib/exe/fetch.php/talks:2021_viechtbauer_eam_median_tau2.pdf
+
+     Viechtbauer, W., & Lopez-Lopez, J. A. (2022). Location-scale
+     models for meta-analysis. _Research Synthesis Methods_. *13*(6),
+     697-715. https://doi.org/10.1002/jrsm.1562
+
+     Viechtbauer, W., Lopez-Lopez, J. A., Sanchez-Meca, J., &
+     Marin-Martinez, F. (2015). A comparison of procedures to test for
+     moderators in mixed-effects meta-regression models. _Psychological
+     Methods_, *20*(3), 360-374. https://doi.org/10.1037/met0000023
+
+_S_e_e _A_l_s_o:
+
+     'rma.mh', 'rma.peto', 'rma.glmm', and 'rma.mv' for other model
+     fitting functions.
+
+_E_x_a_m_p_l_e_s:
+
+     ### calculate log risk ratios and corresponding sampling variances
+     dat <- escalc(measure="RR", ai=tpos, bi=tneg, ci=cpos, di=cneg, data=dat.bcg)
+     
+     ### fit a random-effects model using the log risk ratios and sampling variances as input
+     ### note: method="REML" is the default, so one could leave this out
+     rma(yi, vi, data=dat, method="REML")
+     
+     ### fit a random-effects model using the log risk ratios and standard errors as input
+     ### note: the second argument of rma() is for the *sampling variances*, so we use the
+     ### named argument 'sei' to supply the standard errors to the function
+     dat$sei <- sqrt(dat$vi)
+     rma(yi, sei=sei, data=dat)
+     
+     ### fit a random-effects model supplying the 2x2 table cell frequencies to the function
+     ### and requesting that log risk ratios (measure="RR") should be computed based on the data
+     rma(measure="RR", ai=tpos, bi=tneg, ci=cpos, di=cneg, data=dat)
+     
+     ### fit a mixed-effects model with two moderators (absolute latitude and publication year)
+     rma(yi, vi, mods=cbind(ablat, year), data=dat)
+     
+     ### using a model formula to specify the same model
+     rma(yi, vi, mods = ~ ablat + year, data=dat)
+     
+     ### using a model formula as part of the yi argument
+     rma(yi ~ ablat + year, vi, data=dat)
+     
+     ### manual dummy coding of the allocation factor
+     alloc.random     <- ifelse(dat$alloc == "random",     1, 0)
+     alloc.alternate  <- ifelse(dat$alloc == "alternate",  1, 0)
+     alloc.systematic <- ifelse(dat$alloc == "systematic", 1, 0)
+     
+     ### test the allocation factor (in the presence of the other moderators)
+     ### note: 'alternate' is the reference level of the allocation factor,
+     ###       since this is the dummy/level we leave out of the model
+     ### note: the intercept is the first coefficient, so with btt=2:3 we test
+     ###       coefficients 2 and 3, corresponding to the coefficients for the
+     ###       allocation factor
+     rma(yi, vi, mods = ~ alloc.random + alloc.systematic + year + ablat, data=dat, btt=2:3)
+     
+     ### using a model formula to specify the same model
+     rma(yi, vi, mods = ~ factor(alloc) + year + ablat, data=dat, btt=2:3)
+     
+     ### factor() is not needed as character variables are automatically converted to factors
+     res <- rma(yi, vi, mods = ~ alloc + year + ablat, data=dat, btt=2:3)
+     res
+     
+     ### test all pairwise differences between the 'alloc' levels
+     anova(res, X=pairmat(btt="alloc"))
+     
+     ### subgrouping versus using a single model with a factor (subgrouping provides
+     ### an estimate of tau^2 within each subgroup, but the number of studies in each
+     ### subgroup is quite small; the model with the allocation factor provides a
+     ### single estimate of tau^2 based on a larger number of studies, but assumes
+     ### that tau^2 is the same within each subgroup)
+     res.a <- rma(yi, vi, data=dat, subset=(alloc=="alternate"))
+     res.r <- rma(yi, vi, data=dat, subset=(alloc=="random"))
+     res.s <- rma(yi, vi, data=dat, subset=(alloc=="systematic"))
+     res.a
+     res.r
+     res.s
+     res <- rma(yi, vi, mods = ~ 0 + factor(alloc), data=dat)
+     res
+     
+     ############################################################################
+     
+     ### demonstrating that Q_E + Q_M = Q_Total for fixed-effects models
+     ### note: this does not work for random/mixed-effects models, since Q_E and
+     ### Q_Total are calculated under the assumption that tau^2 = 0, while the
+     ### calculation of Q_M incorporates the estimate of tau^2
+     res <- rma(yi, vi, data=dat, method="FE")
+     res # this gives Q_Total
+     res <- rma(yi, vi, mods = ~ ablat + year, data=dat, method="FE")
+     res # this gives Q_E and Q_M
+     res$QE + res$QM
+     
+     ### decomposition of Q_E into subgroup Q-values
+     res <- rma(yi, vi, mods = ~ factor(alloc), data=dat)
+     res
+     
+     res.a <- rma(yi, vi, data=dat, subset=(alloc=="alternate"))
+     res.r <- rma(yi, vi, data=dat, subset=(alloc=="random"))
+     res.s <- rma(yi, vi, data=dat, subset=(alloc=="systematic"))
+     
+     res.a$QE # Q-value within subgroup "alternate"
+     res.r$QE # Q-value within subgroup "random"
+     res.s$QE # Q-value within subgroup "systematic"
+     
+     res$QE
+     res.a$QE + res.r$QE + res.s$QE
+     
+     ############################################################################
+     
+     ### an example of a location-scale model
+     dat <- dat.bangertdrowns2004
+     
+     ### fit a standard random-effects model
+     res <- rma(yi, vi, data=dat)
+     res
+     
+     ### fit the same model as a location-scale model
+     res <- rma(yi, vi, scale = ~ 1, data=dat)
+     res
+     
+     ### check that we obtain the same estimate for tau^2
+     predict(res, newscale=1, transf=exp)
+     
+     ### add the total sample size (per 100) as a location and scale predictor
+     dat$ni100 <- dat$ni/100
+     res <- rma(yi, vi, mods = ~ ni100, scale = ~ ni100, data=dat)
+     res
+     
+     ### variables in the location and scale parts can differ
+     res <- rma(yi, vi, mods = ~ ni100 + meta, scale = ~ ni100 + imag, data=dat)
+     res
+     

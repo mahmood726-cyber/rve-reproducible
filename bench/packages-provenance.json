@@ -1,0 +1,12 @@
+{
+  "robumeta": {
+    "version": "2.1",
+    "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/robumeta_2.1.zip",
+    "sha256": "6fb4d3519c20a35ce980f0216d42ffefd8ce11dbc2b5aa31bade2cbd5c3c80f4"
+  },
+  "clubSandwich": {
+    "version": "0.7.0",
+    "url": "https://cloud.r-project.org/bin/windows/contrib/4.6/clubSandwich_0.7.0.zip",
+    "sha256": "a243ce486f4ef963084926add4407a0fe0422553ae4c5dd9401dcfa5ddb514a9"
+  }
+}

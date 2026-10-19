@@ -1,0 +1,25 @@
+Robust Variance Estimation (RVE)
+================================
+
+Generated 2026-10-19 with allmeta — browser-only evidence synthesis (https://github.com/).
+
+METHODS
+
+Cluster-robust sandwich estimator for meta-regression with dependent effect sizes (multiple outcomes per study, multi-arm trials, repeated measures). Implements the Hedges-Tipton-Johnson 2010 correlated-effects (CORR) working model with a CR1 small-sample correction. The robustness is to misspecification of the within-cluster correlation ρ — it closes the inverse-variance underestimate that breaks fixed-effect / standard random-effects meta-regression when effects are nested. Coverage is good when the number of clusters is reasonably large; with few clusters (m≲20) the CR1 SEs are anticonservative — see the footer and use robumeta/clubSandwich (CR2) in R for inference there.
+
+Engine: shared/rve.js — Hedges-Tipton-Johnson 2010 correlated-effects working model with the CR2 bias-reduced small-sample correction (Tipton 2015; Pustejovsky-Tipton 2018) and per-coefficient Satterthwaite degrees of freedom, the accurate default for inference with few clusters. τ² is the HTJ CORR moment estimator (not a plain DerSimonian-Laird across rows). t-quantiles via exact qt (Hill 1970). Calibration: matches robumeta::robu(modelweights="CORR", small=TRUE) on every reported quantity — τ², coefficients, CR2 SEs and Satterthwaite df — to ≤1e-5 (verified on homogeneous and heterogeneous datasets; see rve-meta-cr2-parity.spec.mjs). Because the CORR weights are constant within a cluster, the within-cluster annihilator block is symmetric, so Aj is a true symmetric inverse-square-root. CR1 (a single scalar correction, anticonservative at small m) remains available via fitCORR(rows,{method:"CR1"}). The HIER working model is not yet implemented; for hierarchical effects use robumeta::robu(model="HIER") in R.
+
+RESULTS
+
+fit.beta: [0.358156642146257,-0.024513197749891802]
+fit.cov_robust: [[0.09733141312872037,-0.03753194683708894],[-0.03753194683708894,0.017664359830647215]]
+fit.se_robust: [0.31197982807983016,0.13290733550352749]
+fit.df: [1.2536395149836765,1.4422181366282847]
+fit.m_clusters: 4
+fit.k_total: 4
+fit.p: 2
+fit.tau2: 0.03692307692307692
+fit.rho: 0.8
+fit.method: CR2
+fit.weights: [14.942528735632186,13,17.56756756756757,11.504424778761061]
+summary: [{"coef_index":0,"estimate":0.358156642146257,"se":0.31197982807983016,"t":1.1480121787060251,"df":1.2536395149836765,"ci_lo":-2.133519498673669,"ci_hi":2.8498327829661836,"p":0.4244494563439076},{"coef_index":1,"estimate":-0.024513197749891802,"se":0.13290733550352749,"t":-0.1844382603640504,"df":1.4422181366282847,"ci_lo":-0.8706195825024007,"ci_hi":0.8215931870026171,"p":0.876211088683422}]

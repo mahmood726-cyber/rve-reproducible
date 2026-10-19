@@ -1,0 +1,44 @@
+_I_A_T _C_r_i_t_e_r_i_o_n-_R_e_l_a_t_e_d _C_o_r_r_e_l_a_t_i_o_n_s
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     Data from a meta-analysis on IAT conducted by Oswald et al.,
+     (2013) examining the predictive validity of the Implicit
+     Association Test (IAT) and various explicit measures of bias for a
+     variety of criterion measures of discrimination. Included in the
+     dataset are the study level correlations between IAT scores and
+     some criterion measure of discrimination.
+
+_F_o_r_m_a_t:
+
+     A dataframe containing 308 effect sizes from 46 studies.
+
+        [,1]  Study        Factor  
+        [,2]  Crit.Domain  Factor  
+        [,3]  IAT.ID       Integer 
+        [,4]  IAT.Focus    Factor  
+        [,5]  Crit.ID      Integer 
+        [,6]  Crit.Cat     Factor  
+        [,7]  Scoring      Factor  
+        [,8]  Target       Factor  
+        [,9]  Type         Factor  
+       [,10]  Sample.ID    Integer 
+       [,11]  N            Integer 
+       [,12]  R            Numeric 
+      
+_S_o_u_r_c_e:
+
+     Oswald FL, Mitchell G, Blanton H, Jaccard J, Tetlock PE (2013)
+     Predicting ethnic and racial discrimination: a meta-analysis of
+     IAT criterion studies. _Journal of Personality and Social
+     Psychology_, 105(2), 171-192. ISSN 1939-1315.
+     doi:10.1037/a0032734. PMID: 23773046.
+
+_R_e_f_e_r_e_n_c_e_s:
+
+     Oswald FL, Mitchell G, Blanton H, Jaccard J, Tetlock PE (2013)
+     Predicting ethnic and racial discrimination: a meta-analysis of
+     IAT criterion studies. _Journal of Personality and Social
+     Psychology_, 105(2), 171-192. ISSN 1939-1315.
+     doi:10.1037/a0032734. PMID: 23773046.
+

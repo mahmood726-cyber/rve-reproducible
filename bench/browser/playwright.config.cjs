@@ -1,0 +1,1 @@
+module.exports={testDir:__dirname,timeout:14400000,workers:2,fullyParallel:true,use:{browserName:'chromium',channel:process.env.PW_CHANNEL||'chrome',headless:true},webServer:{command:'python -m http.server 8088 --bind 127.0.0.1 --directory ..',url:'http://127.0.0.1:8088',reuseExistingServer:false,timeout:30000},reporter:'line'};

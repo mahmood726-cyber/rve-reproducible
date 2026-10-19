@@ -1,0 +1,5 @@
+{
+  "dat.bartos2023": {"columns": ["person"], "source": "documentation/dat.bartos2023.R: escalc slab=person"},
+  "dat.meeker2017": {"columns": ["team"], "source": "documentation/dat.meeker2017.R: escalc slab=team"},
+  "dat.maire2019": {"columns": ["site", "site_station"], "source": "documentation/dat.maire2019.R: documented random effects site/station and site_station"}
+}

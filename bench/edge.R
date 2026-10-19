@@ -1,0 +1,5 @@
+.libPaths(c(normalizePath('../re/Rlib_dta'),normalizePath('Rlib'),Sys.getenv('EXTRA_R_LIB'),.libPaths()))
+library(robumeta);source('json17.R')
+d<-data.frame(yi=c(.2,.4,.1,.6,.3),vi=rep(1e15,5),cl=letters[1:5])
+r<-robu(yi~1,data=d,studynum=cl,var.eff.size=vi,modelweights='CORR',rho=.8,small=TRUE)
+write_json17(list(description='Synthetic numerical-scale fixture; no research interpretation',rows=lapply(seq_len(nrow(d)),function(i)list(cluster=d[['cl']][i],yi=d[['yi']][i],vi=d[['vi']][i],X=1)),reference=as.list(r[['reg_table',exact=TRUE]][1,]),tau2=as.numeric(r[['mod_info',exact=TRUE]][['tau.sq',exact=TRUE]])),'edge-reference.json')

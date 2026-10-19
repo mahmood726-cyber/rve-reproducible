@@ -1,0 +1,323 @@
+--- a/rve-meta/index.html
++++ b/rve-meta/index.html
+@@ -55,7 +55,7 @@
+ <a id="hub-back" href="../" aria-label="Back to allmeta hub" style="position:fixed;top:12px;left:12px;z-index:99999;padding:6px 12px;background:rgba(28,31,35,0.85);color:#fff;text-decoration:none;border-radius:14px;font:600 12px/1 system-ui,sans-serif;letter-spacing:.04em;box-shadow:0 2px 8px rgba(0,0,0,0.18);transition:opacity .15s ease;opacity:.85" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">← allmeta</a>
+   <header>
+     <h1>Robust Variance Estimation (RVE)</h1>
+-    <p>Cluster-robust sandwich estimator for meta-regression with dependent effect sizes (multiple outcomes per study, multi-arm trials, repeated measures). Implements the Hedges-Tipton-Johnson 2010 correlated-effects (CORR) working model with a CR1 small-sample correction. The robustness is to <em>misspecification of the within-cluster correlation ρ</em> — it closes the inverse-variance underestimate that breaks fixed-effect / standard random-effects meta-regression when effects are nested. Coverage is good when the number of clusters is reasonably large; with <strong>few clusters (m≲20) the CR1 SEs are anticonservative</strong> — see the footer and use <code>robumeta</code>/<code>clubSandwich</code> (CR2) in R for inference there.</p>
++    <p>Cluster-robust meta-regression for dependent effects using the Hedges-Tipton-Johnson CORR working model, CR2 bias-reduced standard errors and per-coefficient Satterthwaite degrees of freedom. Inference can be unreliable with very low degrees of freedom; inspect the coefficient-specific df and sensitivity to the working correlation.</p>
+   </header>
+   <main>
+     <section class="panel">
+@@ -82,12 +82,12 @@
+ 
+       <label style="margin-top:0.5rem">
+         <span>Working correlation ρ</span>
+-        <input id="f-rho" type="number" step="0.05" min="0" max="0.99" value="0.8" aria-label="F rho">
++        <input id="f-rho" type="number" step="0.05" min="0" max="1" value="0.8" aria-label="F rho">
+         <span style="color:var(--muted);font-size:0.78rem">Typical 0.6–0.8 in education / public-health reviews. Result is robust to mis-specification — sensitivity analysis recommended.</span>
+       </label>
+ 
+       <label>
+-        <span>Predictor names (comma-separated; one fewer than data columns after vi)</span>
++        <span>Predictor names (comma-separated; one per data column after vi)</span>
+         <input id="f-names" type="text" value="intervention, dose_weeks" aria-label="F names">
+       </label>
+ 
+@@ -109,7 +109,7 @@
+       <div id="alm-flow-mount" aria-live="polite"></div>
+ </main>
+   <footer>
+-    Engine: <code>shared/rve.js</code> — Hedges-Tipton-Johnson 2010 correlated-effects working model with the <strong>CR2 bias-reduced small-sample correction</strong> (Tipton 2015; Pustejovsky-Tipton 2018) and per-coefficient <strong>Satterthwaite degrees of freedom</strong>, the accurate default for inference with few clusters. τ² is the HTJ CORR moment estimator (not a plain DerSimonian-Laird across rows). t-quantiles via exact qt (Hill 1970). Calibration: matches <code>robumeta::robu(modelweights="CORR", small=TRUE)</code> on <strong>every reported quantity — τ², coefficients, CR2 SEs and Satterthwaite df — to ≤1e-5</strong> (verified on homogeneous and heterogeneous datasets; see <code>rve-meta-cr2-parity.spec.mjs</code>). Because the CORR weights are constant within a cluster, the within-cluster annihilator block is symmetric, so A<sub>j</sub> is a true symmetric inverse-square-root. CR1 (a single scalar correction, anticonservative at small m) remains available via <code>fitCORR(rows,{method:"CR1"})</code>. The HIER working model is not yet implemented; for hierarchical effects use <code>robumeta::robu(model="HIER")</code> in R.
++    Engine: <code>shared/rve.js</code> — Hedges-Tipton-Johnson 2010 correlated-effects working model with the <strong>CR2 bias-reduced small-sample correction</strong> (Tipton 2015; Pustejovsky-Tipton 2018) and per-coefficient <strong>Satterthwaite degrees of freedom</strong>, with potentially unreliable inference at very low degrees of freedom. τ² is the HTJ CORR moment estimator (not a plain DerSimonian-Laird across rows). t-quantiles via safeguarded inversion of the Student-t CDF. Reference implementation: <code>robumeta::robu(modelweights="CORR", small=TRUE)</code>. Check numerical conditioning and coefficient-specific degrees of freedom before interpreting inference. Because the CORR weights are constant within a cluster, the within-cluster annihilator block is symmetric, so A<sub>j</sub> is a true symmetric inverse-square-root. CR1 (a single scalar correction, anticonservative at small m) remains available via <code>fitCORR(rows,{method:"CR1"})</code>. The HIER working model is not yet implemented; for hierarchical effects use <code>robumeta::robu(model="HIER")</code> in R.
+   </footer>
+ 
+   <script>
+@@ -118,23 +118,27 @@
+ 
+     function parseInput(text, predictorNames) {
+       var rows = [];
++      var width = null;
+       var warnings = [];
+       var lines = text.split(/\r?\n/);
+       for (var i = 0; i < lines.length; i++) {
+         var line = lines[i].trim();
+         if (!line || line.charAt(0) === "#") continue;
+         var parts = line.split(/\s*,\s*/);
+-        if (parts.length < 3) { warnings.push("Row " + (i + 1) + ": needs at least cluster, yi, vi"); continue; }
++        if (parts.length < 3) throw new Error("Row " + (i + 1) + ": needs at least cluster, yi, vi");
++        if (width === null) width = parts.length;
++        if (parts.length !== width) throw new Error("Row " + (i + 1) + ": inconsistent predictor count");
+         var cluster = parts[0];
+-        var yi = parseFloat(parts[1]);
+-        var vi = parseFloat(parts[2]);
+-        if (!isFinite(yi) || !isFinite(vi) || vi <= 0) {
+-          warnings.push("Row " + (i + 1) + ": invalid yi/vi"); continue;
++        if (!cluster) throw new Error("Row " + (i + 1) + ": empty cluster");
++        var yi = Number(parts[1]);
++        var vi = Number(parts[2]);
++        if (!parts[1].trim() || !parts[2].trim() || !isFinite(yi) || !isFinite(vi) || vi <= 0) {
++          throw new Error("Row " + (i + 1) + ": invalid yi/vi");
+         }
+         var xs = [1]; // intercept
+         for (var j = 3; j < parts.length; j++) {
+-          var v = parseFloat(parts[j]);
+-          if (!isFinite(v)) { warnings.push("Row " + (i + 1) + ": non-finite predictor"); v = 0; }
++          var v = Number(parts[j]);
++          if (!parts[j].trim() || !isFinite(v)) throw new Error("Row " + (i + 1) + ": invalid predictor");
+           xs.push(v);
+         }
+         rows.push({ cluster: cluster, yi: yi, vi: vi, X: xs });
+@@ -148,7 +152,13 @@
+       var text = document.getElementById("src").value;
+       var rho = parseFloat(document.getElementById("f-rho").value);
+       var nameInput = document.getElementById("f-names").value;
+-      var parsed = parseInput(text);
++      window.__almLastRVE = null;
++      var parsed;
++      try { parsed = parseInput(text); } catch (e) {
++        document.getElementById("meta-row").textContent = "Fit failed: " + e.message;
++        document.getElementById("coef-body").innerHTML = "";
++        return;
++      }
+       if (!parsed.rows.length) {
+         document.getElementById("meta-row").textContent = "No valid rows.";
+         document.getElementById("coef-body").innerHTML = "";
+@@ -156,7 +166,7 @@
+       }
+       var fit, summary;
+       try {
+-        fit = AlmRVE.fitCORR(parsed.rows, { rho: isFinite(rho) ? rho : 0.8 });
++        fit = AlmRVE.fitCORR(parsed.rows, { rho: rho });
+         summary = AlmRVE.summary(fit);
+       } catch (e) {
+         document.getElementById("meta-row").innerHTML = '<span style="color:#b04444">Fit failed: ' + e.message + '</span>';
+@@ -166,13 +176,14 @@
+       document.getElementById("meta-row").innerHTML =
+         "k = " + fit.k_total + " effects, m = " + fit.m_clusters + " clusters, " +
+         "p = " + fit.p + " coefficients, τ²(CORR) = <code>" + fmt(fit.tau2, 4) + "</code>, ρ = " + fmt(fit.rho, 2);
++      if (summary.some(function (s) { return s.df < 4; })) document.getElementById("meta-row").appendChild(document.createTextNode(" Warning: df < 4; inference may be unreliable."));
+       var names = ["(intercept)"].concat(
+         nameInput.split(/\s*,\s*/).filter(function (s) { return s.length; }));
+       while (names.length < fit.p) names.push("x" + names.length);
+       var rowsHtml = "";
+       for (var j = 0; j < summary.length; j++) {
+         var s = summary[j];
+-        rowsHtml += "<tr><td>" + names[j] + "</td>" +
++        rowsHtml += "<tr><td>" + names[j].replace(/[&<>"']/g, function(c) { return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }) + "</td>" +
+           "<td>" + fmt(s.estimate, 3) + "</td>" +
+           "<td>" + fmt(s.se, 3) + "</td>" +
+           "<td>" + fmt(s.t, 2) + "</td>" +
+--- a/shared/rve.js
++++ b/shared/rve.js
+@@ -77,27 +77,38 @@
+   function trace(A) { var s = 0; for (var i = 0; i < A.length; i++) s += A[i][i]; return s; }
+ 
+   // Gauss-Jordan inverse; small p ≤ ~20 is fine for meta-regression designs.
++  // Partial-pivot LU, followed by triangular solves (R solve.default/dgesv order).
+   function invert(A) {
+-    var n = A.length;
+-    var M = new Array(n);
+-    for (var i = 0; i < n; i++) M[i] = A[i].slice().concat(identity(n)[i]);
+-    for (var c = 0; c < n; c++) {
+-      var pivRow = c;
+-      for (var r = c + 1; r < n; r++) if (Math.abs(M[r][c]) > Math.abs(M[pivRow][c])) pivRow = r;
+-      if (Math.abs(M[pivRow][c]) < 1e-12) throw new Error("RVE: singular X'WX");
+-      if (pivRow !== c) { var tmp = M[c]; M[c] = M[pivRow]; M[pivRow] = tmp; }
+-      var piv = M[c][c];
+-      for (var j = 0; j < 2 * n; j++) M[c][j] /= piv;
+-      for (var r2 = 0; r2 < n; r2++) {
+-        if (r2 === c) continue;
+-        var f = M[r2][c];
+-        if (f === 0) continue;
+-        for (var j2 = 0; j2 < 2 * n; j2++) M[r2][j2] -= f * M[c][j2];
+-      }
+-    }
+-    var inv = zeros(n, n);
+-    for (var ii = 0; ii < n; ii++) for (var jj = 0; jj < n; jj++) inv[ii][jj] = M[ii][n + jj];
+-    return inv;
++    var n=A.length, LU=A.map(r=>r.slice()), piv=[];
++    for(var k=0;k<n;k++) {
++      var pivot=k;
++      for(var i=k+1;i<n;i++) if(Math.abs(LU[i][k])>Math.abs(LU[pivot][k])) pivot=i;
++      if(LU[pivot][k]===0 || !Number.isFinite(LU[pivot][k])) throw new Error("RVE: singular X'WX");
++      piv.push(pivot);
++      if(pivot!==k) {var tmp=LU[k];LU[k]=LU[pivot];LU[pivot]=tmp;}
++      for(var i=k+1;i<n;i++) LU[i][k]*=(1/LU[k][k]);
++      for(var j=k+1;j<n;j++) for(var i=k+1;i<n;i++) LU[i][j]-=LU[i][k]*LU[k][j];
++    }
++    var out=identity(n);
++    for(var k=0;k<n;k++) if(piv[k]!==k) {var tmp=out[k];out[k]=out[piv[k]];out[piv[k]]=tmp;}
++    for(var col=0;col<n;col++) {
++      for(var k=0;k<n;k++) for(var i=k+1;i<n;i++) out[i][col]-=out[k][col]*LU[i][k];
++      for(var k=n-1;k>=0;k--) {
++        out[k][col]/=LU[k][k];
++        for(var i=0;i<k;i++) out[i][col]-=out[k][col]*LU[i][k];
++      }
++    }
++    // solve.default uses machine epsilon as its computational-singularity tolerance.
++    // The explicit inverse is already available, so use its one-norm condition bound.
++    var normA=0,normInv=0;
++    for(var j=0;j<n;j++) {
++      var sa=0,si=0;
++      for(var i=0;i<n;i++){sa+=Math.abs(A[i][j]);si+=Math.abs(out[i][j]);}
++      normA=Math.max(normA,sa);normInv=Math.max(normInv,si);
++    }
++    var reciprocalCondition=(1/normA)/normInv;
++    if(!(reciprocalCondition>=Number.EPSILON)) throw new Error("RVE: computationally singular X'WX");
++    return out;
+   }
+ 
+   // Symmetric eigendecomposition via cyclic Jacobi rotations (Numerical Recipes
+@@ -168,10 +179,15 @@
+   function fitCORR(rows, opts) {
+     opts = opts || {};
+     var rho = (typeof opts.rho === "number" && opts.rho >= 0 && opts.rho <= 1) ? opts.rho : 0.8;
++    if (opts.rho !== undefined && (!Number.isFinite(opts.rho) || opts.rho < 0 || opts.rho > 1)) throw new Error("RVE: rho must be in [0, 1]");
+     var method = (opts.method === "CR1") ? "CR1" : "CR2";
+     var k = rows.length;
+     if (!k) throw new Error("RVE: no rows");
+     var p = rows[0].X.length; // includes intercept (robumeta's p+1)
++
++    rows.forEach(function(r) {
++      if (!r.X || r.X.length !== p || !r.X.every(Number.isFinite) || !Number.isFinite(r.yi) || !Number.isFinite(r.vi) || r.vi <= 0 || r.cluster == null || String(r.cluster).trim() === "") throw new Error("RVE: invalid row or predictor count");
++    });
+ 
+     // Group by cluster (preserves first-seen order).
+     var clusterOrder = [];
+@@ -183,8 +199,9 @@
+     }
+     var m = clusterOrder.length; // N in robumeta (number of studies/clusters)
+ 
++
+     // Per-cluster size k_j and mean sampling variance v̄_j.
+-    var clKj = {}, clVbar = {};
++    var clKj = Object.create(null), clVbar = Object.create(null);
+     for (var ci = 0; ci < m; ci++) {
+       var key = clusterOrder[ci], idx = byCluster[key], sv = 0;
+       for (var a = 0; a < idx.length; a++) sv += rows[idx[a]].vi;
+@@ -196,10 +213,15 @@
+ 
+     // Weighted IV fit for a per-row weight vector. Returns {M=(X'WX)^{-1}, beta}.
+     function fitW(weights) {
+-      var XtW = transpose(X).map(function (col) { return col.map(function (v2, i2) { return v2 * weights[i2]; }); });
+-      var XtWX = matMul(XtW, X);
++      var XtWX = zeros(p,p), Xty = new Array(p).fill(0);
++      clusterOrder.forEach(function(key) {
++        var idx=byCluster[key], Xj=idx.map(function(i) { return X[i]; });
++        var XtW=transpose(Xj).map(function(col) { return col.map(function(v,j) {return v*weights[idx[j]];}); });
++        var lhs=matMul(XtW,Xj), rhs=matVec(XtW,idx.map(function(i) {return y[i];}));
++        for(var i=0;i<p;i++) { Xty[i]+=rhs[i]; for(var j=0;j<p;j++) XtWX[i][j]+=lhs[i][j]; }
++      });
+       var Minv = invert(XtWX);
+-      return { M: Minv, beta: matVec(Minv, matVec(XtW, y)) };
++      return { M: Minv, beta: matVec(Minv, Xty) };
+     }
+     function residuals(beta) {
+       var e = new Array(k);
+@@ -234,12 +256,17 @@
+       var sumXWJWX = zeros(p, p), MWKXX = zeros(p, p), MwkXJ = zeros(p, p);
+       for (var cj = 0; cj < m; cj++) {
+         var keyj = clusterOrder[cj], idxj = byCluster[keyj], wj0 = wFE[idxj[0]], kj0 = idxj.length;
+-        var cs = new Array(p); for (var jj = 0; jj < p; jj++) { var s2 = 0; for (var aa = 0; aa < idxj.length; aa++) s2 += X[idxj[aa]][jj]; cs[jj] = s2; }
+-        for (var rr = 0; rr < p; rr++) for (var c2 = 0; c2 < p; c2++) {
+-          var xtx = 0; for (var ab = 0; ab < idxj.length; ab++) xtx += X[idxj[ab]][rr] * X[idxj[ab]][c2];
+-          sumXWJWX[rr][c2] += wj0 * wj0 * cs[rr] * cs[c2];
+-          MWKXX[rr][c2] += (wj0 / kj0) * xtx;
+-          MwkXJ[rr][c2] += (wj0 / kj0) * (cs[rr] * cs[c2] - xtx);
++        var Xj=idxj.map(function(i) {return X[i];}), Xt=transpose(Xj);
++        var XtW=Xt.map(function(row) {return row.map(function(v) {return v*wj0;});});
++        var XtWJ=XtW.map(function(row) {var sum=0;for(var a=0;a<row.length;a++)sum+=row[a];return new Array(kj0).fill(sum);});
++        var XWJWX=matMul(XtWJ.map(function(row) {return row.map(function(v) {return v*wj0;});}),Xj);
++        var WKXX=matMul(Xt.map(function(row) {return row.map(function(v) {return v*(wj0/kj0);});}),Xj);
++        var XtJ=Xt.map(function(row) {var sum=0;for(var a=0;a<row.length;a++)sum+=row[a];return new Array(kj0).fill(sum);});
++        var XJX=matMul(XtJ,Xj), XX=matMul(Xt,Xj);
++        for(var rr=0;rr<p;rr++)for(var c2=0;c2<p;c2++) {
++          sumXWJWX[rr][c2]+=XWJWX[rr][c2];
++          MWKXX[rr][c2]+=WKXX[rr][c2];
++          MwkXJ[rr][c2]+=(wj0/kj0)*(XJX[rr][c2]-XX[rr][c2]);
+         }
+       }
+       var denom = sumW - trace(matMul(f0.M, sumXWJWX));
+@@ -249,6 +276,8 @@
+       var term2 = termB / denom;
+       tau2 = Math.max(0, term1 + rho * term2);
+     }
++
++    if (m <= p) throw new Error("RVE: m<=p; insufficient clusters for inference");
+ 
+     // ---- Re-weighted fit with the RVE weights ----------------------------
+     var weights = clusterWeights(tau2);
+@@ -288,12 +317,13 @@
+         }
+         var Aj = invSqrtSym(ImHii);
+         Alist.push(Aj); idxList.push(idxC);
+-        // g_j = w_j X_jᵀ A_j e_j
+-        var Ae = new Array(kj);
+-        for (var a5 = 0; a5 < kj; a5++) { var sA = 0; for (var b5 = 0; b5 < kj; b5++) sA += Aj[a5][b5] * resid[idxC[b5]]; Ae[a5] = sA; }
+-        var g = new Array(p);
+-        for (var j5 = 0; j5 < p; j5++) { var sg = 0; for (var a6 = 0; a6 < kj; a6++) sg += X[idxC[a6]][j5] * Ae[a6]; g[j5] = wj * sg; }
+-        for (var i6 = 0; i6 < p; i6++) for (var j6 = 0; j6 < p; j6++) meat[i6][j6] += g[i6] * g[j6];
++        var Xj = idxC.map(function(i) { return X[i]; });
++        var XtWj = transpose(Xj).map(function(row) { return row.map(function(v) { return v * wj; }); });
++        var Sj = idxC.map(function(i) { return idxC.map(function(j) { return resid[i]*resid[j]; }); });
++        var block = matMul(matMul(matMul(XtWj, Aj), Sj), Aj);
++        block = block.map(function(row) { return row.map(function(v) { return v*wj; }); });
++        block = matMul(block, Xj);
++        for (var i6=0;i6<p;i6++) for(var j6=0;j6<p;j6++) meat[i6][j6]+=block[i6][j6];
+       }
+       cov = matMul(matMul(Q, meat), Q);
+ 
+@@ -365,19 +395,16 @@
+   function summary(fit, opts) {
+     opts = opts || {};
+     var qt = (global.AlmStats && global.AlmStats.qt) ? global.AlmStats.qt : null;
++    if (!qt || !global.AlmStats.pt) throw new Error("RVE: Student-t inference dependency unavailable");
+     var out = [];
+     for (var j = 0; j < fit.p; j++) {
+       var dfj = Array.isArray(fit.df) ? fit.df[j] : fit.df;
+-      var crit = qt ? qt(0.975, dfj) : 1.96;
++      var crit = qt(0.975, dfj);
+       var est = fit.beta[j];
+       var sej = fit.se_robust[j];
+-      var tval = sej > 0 ? est / sej : 0;
++      var tval = est / sej;
+       var pval;
+-      if (global.AlmStats && global.AlmStats.pt) {
+-        pval = 2 * (1 - global.AlmStats.pt(Math.abs(tval), dfj));
+-      } else {
+-        pval = 2 * (1 - 0.5 * (1 + _erfApprox(Math.abs(tval) / Math.SQRT2)));
+-      }
++      pval = 2 * global.AlmStats.pt(-Math.abs(tval), dfj);
+       out.push({ coef_index: j, estimate: est, se: sej, t: tval, df: dfj, ci_lo: est - crit * sej, ci_hi: est + crit * sej, p: pval });
+     }
+     return out;
+--- a/shared/stats-qt.js
++++ b/shared/stats-qt.js
+@@ -55,7 +55,7 @@
+     return -t + Math.log(2.5066282746310005 * ser / x);
+   }
+   function _betacf(a, b, x) {
+-    var MAXIT = 200, EPS = 3e-7, FPMIN = 1e-30;
++    var MAXIT = 1000, EPS = 4e-15, FPMIN = 1e-30;
+     var qab = a + b, qap = a + 1, qam = a - 1;
+     var c = 1, d = 1 - qab * x / qap;
+     if (Math.abs(d) < FPMIN) d = FPMIN;
+@@ -86,7 +86,7 @@
+   }
+   function pt(t, df) {
+     // Two-sided expression via incomplete beta: P(T ≤ t) for t real.
+-    if (df <= 0) return NaN;
++    if (df <= 0 || Number.isNaN(t) || Number.isNaN(df)) return NaN;
+     if (!Number.isFinite(t)) return t > 0 ? 1 : 0;
+     var x = df / (df + t * t);
+     var p = 0.5 * _ibeta(df / 2, 0.5, x);
+@@ -98,7 +98,7 @@
+     if (p <= 0) return -Infinity;
+     if (p >= 1) return Infinity;
+     if (p === 0.5) return 0;
+-    if (df < 1) return NaN;
++    if (!(df > 0)) return NaN;
+     if (df === 1) return Math.tan(Math.PI * (p - 0.5));
+     if (df === 2) {
+       var alpha = 4 * p * (1 - p);

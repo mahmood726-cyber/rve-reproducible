@@ -1,0 +1,63 @@
+{
+  "engine": {
+    "original": {
+      "checks": 546655,
+      "passes": 511964,
+      "failures": 34691,
+      "failed_configurations": 11921
+    },
+    "patched": {
+      "checks": 546941,
+      "passes": 544324,
+      "failures": 2617,
+      "failed_configurations": 785
+    }
+  },
+  "browser": {
+    "original": {
+      "checks": 876415,
+      "passes": 840829,
+      "failures": 35586,
+      "failed_configurations": 12206
+    },
+    "patched": {
+      "checks": 876415,
+      "passes": 873759,
+      "failures": 2656,
+      "failed_configurations": 790
+    }
+  },
+  "browser_ui": {
+    "original": {
+      "checks": 17,
+      "passes": 6
+    },
+    "patched": {
+      "checks": 17,
+      "passes": 17
+    }
+  },
+  "patched_failure_causes": {
+    "ill-conditioned design (kappa_2(XtWX) > 1e-9/u = 9.0e6)": {
+      "configurations": 584,
+      "failed_checks": 1470
+    },
+    "exact fit (near-zero reference SE)": {
+      "configurations": 190,
+      "failed_checks": 1120
+    },
+    "robumeta vs clubSandwich reference conflict (disjoint acceptance intervals)": {
+      "configurations": 4,
+      "failed_checks": 20
+    },
+    "refusal disagreement: reason (app m<=p; R complex-eigenvalue error)": {
+      "configurations": 5,
+      "failed_checks": 5
+    },
+    "refusal disagreement: acceptance (R refuses, app fits); design ill-conditioned": {
+      "configurations": 2,
+      "failed_checks": 2
+    }
+  },
+  "refusal_disagreements_total": 7
+}

@@ -1,0 +1,84 @@
+_F_o_r_e_s_t _P_l_o_t_s _f_o_r _R_o_b_u_s_t _V_a_r_i_a_n_c_e _E_s_t_i_m_a_t_i_o_n _M_e_t_a-_A_n_a_l_y_s_i_s
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     'forest.robu' In meta-analysis, forest plots provide a graphical
+     depiction of effect size estimates and their corresponding
+     confidence intervals. The 'forest.robu()' function in 'robumeta'
+     can be used to produce forest plots for RVE meta-analyses. The
+     function requires the 'grid' package and is based on examples
+     provided in (Murrell, 2011). As is the case with traditional
+     forest plots, point estimates of individual effect sizes are
+     plotted as boxes with areas proportional to the weight assigned to
+     that effect size.  Importantly, here the weight is not necessarily
+     proportional to the effect size variance or confidence intervals,
+     since the combined study weight is divided evenly across the study
+     effect sizes. Two-sided 95% confidence intervals are calculated
+     for each effect size using a standard normal distribution and
+     plotted along with each block. The overall effect is included at
+     the bottom of the plot as a diamond with width equivalent to the
+     confidence interval for the estimated effect. The RVE forest
+     function is designed to provide users with forest plots which
+     display each individual effect size used in the meta-analysis,
+     while taking into account the study- or cluster-level properties
+     inherent to the RVE analysis. As such, the user must specify
+     columns from their original dataset that contain labels for the
+     study or cluster and for the individual effect sizes.
+
+_U_s_a_g_e:
+
+     forest.robu(x, es.lab, study.lab, ...)
+     
+_A_r_g_u_m_e_n_t_s:
+
+       x: An intercept-only RVE model previously fit using the 'robu()'
+          function..
+
+  es.lab: A vector of labels to be used to individual effect sizes in
+          the forest plot. Labels for individual effect sizes might be
+          ``Math Score'' or ``Reading Score'' for a meta-analysis that
+          included such measures or as simple as ``Effect Size 1'' and
+          ``Effect Size 2.''
+
+study.lab: A vector of labels to be used to identify study (or cluster)
+          level groupings in the forest plot. For instance, labels for
+          the study column might be author names with corresponding
+          publication years.
+
+     ...: Additional arguments to be passed to the forest function. Any
+          number of additional columns can be specified to be plotted
+          along side the confidence interval column and can be
+          specified with the following syntax '``arg1'' = ``arg2'''
+          where '``arg1''' is the title of the column on the forest
+          plot, and '``arg2''' is the name of the column from the
+          original 'data.frame' that contains the information to be
+          displayed alongside the estimates and confidence intervals.
+
+_R_e_f_e_r_e_n_c_e_s:
+
+     Hedges, L.V., Tipton, E., Johnson, M.C. (2010) Robust variance
+     estimation in meta-regression with dependent effect size
+     estimates. _Research Synthesis Methods_. *1*(1): 39-65. Erratum in
+     *1*(2): 164-165. DOI: 10.1002/jrsm.5
+
+     Murrell P (2011). R Graphics. CRC/Taylor & Francis. ISBN
+     9781439831762.
+
+     Tipton, E. (in press) Small sample adjustments for robust variance
+     estimation with meta-regression. _Psychological Methods_.
+
+_E_x_a_m_p_l_e_s:
+
+     # Load data
+     data(oswald2013.ex1)
+     
+     # Run intercept only model.
+     oswald_intercept <- robu(formula = effect.size ~ 1, data = oswald2013.ex1, 
+                              studynum = Study, var.eff.size = var.eff.size, 
+                              rho = 0.8, small = TRUE)
+     
+     # Create forest plot. 
+     forest.robu(oswald_intercept, es.lab = "Crit.Cat", study.lab = "Study", 
+                 "Effect Size" = effect.size, # optional column
+                 "Weight" = r.weights)        # optional column
+     

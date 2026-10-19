@@ -1,0 +1,6 @@
+reproduced lane failures exactly: 2617 checks / 785 configurations
+table1_engine_by_quantity: original 511,964/546,655; patched 544,324/546,941
+table3_browser_by_quantity: original 840,829/876,415; patched 873,759/876,415
+causes: {'ill-conditioned design (kappa_2(XtWX) > 1e-9/u = 9.0e6)': 584, 'exact fit (near-zero reference SE)': 190, 'robumeta vs clubSandwich reference conflict (disjoint acceptance intervals)': 4, 'refusal disagreement: reason (app m<=p; R complex-eigenvalue error)': 5, 'refusal disagreement: acceptance (R refuses, app fits); design ill-conditioned': 2} ; refusal disagreements (reason + acceptance): 7
+conditioning.csv regenerated: failure columns identical=True; max relative kappa difference=0; byte-identical=True
+conditioning-summary.json regenerated from the archived table: identical = True ; exactfit.json identical = True

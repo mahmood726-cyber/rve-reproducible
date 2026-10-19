@@ -1,0 +1,11 @@
+{
+  "completed_capture": 16270,
+  "engine_hashes": {
+    "shared/rve.js": "c12a87ce03827a20c47ec97a4ec70dec72aeb1adcd66f8dd0294538aaf6b61ac",
+    "shared/stats-qt.js": "fb4110ba8e4b2e784193fde258ac37086713dc8d75a3295f84272d6fbdba8efb"
+  },
+  "report": "RESULT_R2.md",
+  "strict_failures": 2617,
+  "strict_failed_configurations": 785,
+  "report_verification": "PASS; includes five refusal-wording changes as well as five corrected status decisions"
+}

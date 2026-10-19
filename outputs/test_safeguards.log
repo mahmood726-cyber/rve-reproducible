@@ -1,0 +1,39 @@
+PASS reference_core.R lines are byte-identical to bench/reference.R lines 10-26
+PASS reference_core.R adds only the return of res
+PASS reference_core.R recipe keeps robu(CORR, small=TRUE) and coef_test(CR2, Satterthwaite)
+PASS worker partition rule is the documented modulo rule
+PASS partition W=1 covers 16270 configurations once
+PASS partition W=2 covers 16270 configurations once
+PASS worker forces locale C for all categories
+PASS validate.R caps workers at two
+PASS validate.R refuses an existing work directory
+PASS materialize.py refuses an existing directory
+PASS privacy scan detects planted path and address
+PASS privacy scan passes clean text
+PASS versions: exact versions accepted 
+PASS versions: wrong robumeta rejected 
+PASS versions: missing package rejected 
+PASS inventory: intact files accepted 
+PASS inventory: one changed byte rejected 
+PASS inventory: unpinned extra file rejected 
+PASS inventory: missing file rejected 
+PASS coverage: complete keyed references accepted 
+PASS coverage: duplicate id rejected 
+PASS coverage: missing configuration rejected 
+PASS coverage: extra reference rejected 
+PASS counts original: archived engine result accepted 
+PASS counts original: one per-quantity pass changed rejected 
+PASS counts original: missing quantity rejected 
+PASS counts original: extra quantity rejected 
+PASS counts original: changed grand total rejected 
+PASS counts patched: archived engine result accepted 
+PASS counts patched: one per-quantity pass changed rejected 
+PASS counts patched: missing quantity rejected 
+PASS counts patched: extra quantity rejected 
+PASS counts patched: changed grand total rejected 
+PASS failure digest: archived patched failures reproduce the expected digest and 785-type count 
+PASS failure digest: dropping one failing check is detected 
+PASS failure digest: relabelling one failing check is detected 
+24/24 gate tests pass
+PASS analysis/test_gate.R: all R gate tests pass
+13/13 safeguard tests pass

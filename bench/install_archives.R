@@ -1,0 +1,6 @@
+.libPaths(c(normalizePath('../re/Rlib_dta'),normalizePath('Rlib'),Sys.getenv('EXTRA_R_LIB'),.libPaths()))
+install.packages(c('packages/robumeta.zip','packages/clubSandwich.zip'),repos=NULL,type='win.binary',lib='Rlib')
+stopifnot(requireNamespace('robumeta'),requireNamespace('clubSandwich'))
+print(.libPaths())
+for(p in c('metafor','metadat','robumeta','clubSandwich','jsonlite')) cat(p,as.character(packageVersion(p)),find.package(p),'\n')
+cat(R.version.string,'\n')

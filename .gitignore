@@ -1,0 +1,6 @@
+.validate-work/
+.verify-*/
+__pycache__/
+.pytest_cache/
+PROGRESS.md
+*.tmp

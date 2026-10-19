@@ -1,0 +1,63 @@
+Package: metafor
+Version: 5.2.1
+License: GPL (>= 2)
+To cite the metafor package in publications, please use:
+
+  Viechtbauer, W. (2010). Conducting meta-analyses in R with the
+  metafor package. Journal of Statistical Software, 36(3), 1-48.
+  https://doi.org/10.18637/jss.v036.i03
+
+A BibTeX entry for LaTeX users is
+
+  @Article{,
+    title = {Conducting meta-analyses in {R} with the {metafor} package},
+    author = {Wolfgang Viechtbauer},
+    journal = {Journal of Statistical Software},
+    year = {2010},
+    volume = {36},
+    number = {3},
+    pages = {1--48},
+    doi = {10.18637/jss.v036.i03},
+  }
+
+Package: metadat
+Version: 1.6.0
+License: GPL (>= 2)
+To cite package 'metadat' in publications use:
+
+  Viechtbauer W, White T, Noble D, Senior A, Hamilton W (2026).
+  _metadat: Meta-Analysis Datasets_. R package version 1.6-0,
+  <https://github.com/wviechtb/metadat>.
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {metadat: Meta-Analysis Datasets},
+    author = {Wolfgang Viechtbauer and Thomas White and Daniel Noble and Alistair Senior and W. Kyle Hamilton},
+    year = {2026},
+    note = {R package version 1.6-0},
+    url = {https://github.com/wviechtb/metadat},
+  }
+
+Package: meta
+Version: 8.5.0
+License: GPL (>= 2)
+To cite package 'meta' in publications use:
+
+  Balduzzi S, R<U+00FC>cker G, Schwarzer G (2019), How to perform a
+  meta-analysis with R: a practical tutorial, Evidence-Based Mental
+  Health; 22: 153-160.
+
+A BibTeX entry for LaTeX users is
+
+  @Article{,
+    title = {How to perform a meta-analysis with {R}: a practical tutorial},
+    author = {Sara Balduzzi and Gerta R<U+00FC>cker and Guido Schwarzer},
+    journal = {Evidence-Based Mental Health},
+    year = {2019},
+    volume = {22},
+    pages = {153--160},
+  }
+
+DOI: 10.1136/ebmental-2019-300117
+

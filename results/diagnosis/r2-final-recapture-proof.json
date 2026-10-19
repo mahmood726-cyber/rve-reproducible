@@ -1,0 +1,19 @@
+{
+  "configurations": 16270,
+  "unchanged_serialized_records": 16260,
+  "status_changed_ids": [
+    "dat.bonett2010::002::study::mi::rho=0",
+    "dat.bonett2010::002::study::mi::rho=0.2",
+    "dat.bonett2010::002::study::mi::rho=0.5",
+    "dat.bonett2010::002::study::mi::rho=0.8",
+    "dat.bonett2010::002::study::mi::rho=1"
+  ],
+  "refusal_wording_only_ids": [
+    "dat.bonett2010::001::study::mi::rho=0",
+    "dat.bonett2010::001::study::mi::rho=0.2",
+    "dat.bonett2010::001::study::mi::rho=0.5",
+    "dat.bonett2010::001::study::mi::rho=0.8",
+    "dat.bonett2010::001::study::mi::rho=1"
+  ],
+  "all_accepted_fit_records_byte_identical": true
+}

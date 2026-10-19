@@ -1,0 +1,363 @@
+_P_r_e_d_i_c_t_e_d _V_a_l_u_e_s _f_o_r '_r_m_a' _O_b_j_e_c_t_s
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     The function computes predicted values, corresponding standard
+     errors, confidence intervals, and prediction intervals for objects
+     of class '"rma"'.
+
+_U_s_a_g_e:
+
+     ## S3 method for class 'rma'
+     predict(object, newmods, intercept, tau2.levels, gamma2.levels, hetvar, prob,
+             addx=FALSE, level, adjust=FALSE, digits, transf, targs, vcov=FALSE, ...)
+     
+     ## S3 method for class 'rma.ls'
+     predict(object, newmods, intercept, addx=FALSE, newscale, addz=FALSE,
+             prob, level, adjust=FALSE, digits, transf, targs, vcov=FALSE, ...)
+     
+_A_r_g_u_m_e_n_t_s:
+
+  object: an object of class '"rma"' or '"rma.ls"'.
+
+ newmods: optional vector or matrix to specify the values of the
+          moderator values for which the predicted values should be
+          calculated. See 'Details'.
+
+intercept: logical to specify whether the intercept should be included
+          when calculating the predicted values for 'newmods'. If
+          unspecified, the intercept is automatically added when the
+          model also included an intercept.
+
+tau2.levels: optional vector to specify the levels of the inner factor
+          when computing prediction intervals. Only relevant for models
+          of class '"rma.mv"' (see 'rma.mv') and when the model
+          includes more than a single tau^2 value. See 'Details'.
+
+gamma2.levels: optional vector to specify the levels of the inner
+          factor when computing prediction intervals. Only relevant for
+          models of class '"rma.mv"' (see 'rma.mv') and when the model
+          includes more than a single gamma^2 value. See 'Details'.
+
+  hetvar: optional numeric vector with the amount of heterogeneity for
+          computing prediction intervals. See 'Details'.
+
+    prob: optional character string to obtain probabilistic estimates
+          from predictive distributions. See 'Details'.
+
+    addx: logical to specify whether the values of the moderator
+          variables should be added to the returned object. See
+          'Examples'.
+
+newscale: optional vector or matrix to specify the values of the scale
+          variables for which the predicted values should be
+          calculated. Only relevant for location-scale models (see
+          'rma.uni'). See 'Details'.
+
+    addz: logical to specify whether the values of the scale variables
+          should be added to the returned object.
+
+   level: numeric value between 0 and 100 to specify the confidence and
+          prediction interval level (see here for details). If
+          unspecified, the default is to take the value from the
+          object.
+
+  adjust: logical to specify whether the width of confidence/prediction
+          intervals should be adjusted using a Bonferroni correction
+          (the default is 'FALSE').
+
+  digits: optional integer to specify the number of decimal places to
+          which the printed results should be rounded.
+
+  transf: optional argument to specify a function to transform the
+          predicted values and interval bounds (e.g., 'transf=exp'; see
+          also transf). If unspecified, no transformation is used.
+
+   targs: optional arguments needed by the function specified under
+          'transf'.
+
+    vcov: logical to specify whether the variance-covariance matrix of
+          the predicted values should also be returned (the default is
+          'FALSE'). Ignored when using the 'transf' argument.
+
+     ...: other arguments.
+
+_D_e_t_a_i_l_s:
+
+     For an equal-effects model, 'predict(object)' returns the
+     estimated (average) effect for the set of studies included in the
+     meta-analysis. This is the same as the estimated intercept in the
+     equal-effects model (i.e., \hat{theta}).
+
+     For a random-effects model, 'predict(object)' returns the
+     estimated (average) effect in the hypothetical population of
+     studies from which the set of studies included in the
+     meta-analysis are assumed to be a random selection. This is the
+     same as the estimated intercept in the random-effects model (i.e.,
+     \hat{mu}).
+
+     For models including one or more moderators, 'predict(object)'
+     returns \hat{y} = Xb, where X denotes the model matrix (see
+     'model.matrix') and b the estimated model coefficient (see
+     'coef'), or in words, the estimated (average) effects for values
+     of the moderator(s) equal to those of the k studies included in
+     the meta-analysis (i.e., the 'fitted values' for the k studies).
+
+     For models including p' moderator variables, new moderator values
+     (for k_new hypothetical new studies) can be specified by setting
+     'newmods' equal to a k_new x p' matrix with the corresponding new
+     moderator values (if 'newmods' is a vector, then only a single
+     predicted value is computed unless the model only includes a
+     single moderator variable, in which case predicted values
+     corresponding to all the vector values are computed). If the model
+     object includes an intercept (so that the model matrix has p' + 1
+     columns), then it will be automatically added to 'newmods' unless
+     one sets 'intercept=FALSE'; alternatively, if 'newmods' is a k_new
+     x (p'+1) matrix, then the 'intercept' argument is ignored and the
+     first column of the matrix determines whether the intercept is
+     included when computing the predicted values or not. Note that any
+     factors in the original model get turned into the appropriate
+     contrast variables within the 'rma.uni' function, so that
+     'newmods' should actually include the values for the contrast
+     variables. If the matrix specified via 'newmods' has row names,
+     then these are used to label the predicted values in the output.
+     Examples are shown below.
+
+     For random/mixed-effects models, a prediction interval is also
+     computed (Riley et al., 2011, but see 'Note'). The interval
+     estimates where 'level'% of the true effects fall in the
+     population of studies (and hence where the true effect of a new
+     study from the population of studies should fall in 'level'% of
+     the cases).
+
+     Analogously, argument 'prob' can be used to specify a string along
+     the lines of 'prob="<0"' or 'prob=">0"' to estimate based on the
+     predictive distribution the proportion of true effects below/above
+     0 (or some other cutoff, such as a minimally clinically useful
+     value). Equivalently, this is the probability that the true effect
+     in a new study (from the same population of studies) will fall
+     below/above the specified cutoff value (e.g.,
+     \textrm{Pr}(theta_{i,new} < 0) or \textrm{Pr}(theta_{i,new} > 0)).
+
+     For random-effects models that were fitted with the 'rma.mv'
+     function, the model may actually include multiple tau^2 values
+     (i.e., when the 'random' argument includes an ''~ inner | outer''
+     term and 'struct="HCS"', 'struct="DIAG"', 'struct="HAR"', or
+     'struct="UN"'). In that case, the function will provide prediction
+     intervals for each level of the inner factor (since the prediction
+     intervals differ depending on the tau^2 value). Alternatively, one
+     can use the 'tau2.levels' argument to specify for which level(s)
+     the prediction interval should be provided. If the model includes
+     a second ''~ inner | outer'' term with multiple gamma^2 values,
+     prediction intervals for each combination of levels of the inner
+     factors will be provided. Alternatively, one can use the
+     'tau2.levels' and 'gamma2.levels' arguments to specify for which
+     level combination(s) the prediction interval should be provided.
+
+     When using the 'newmods' argument for mixed-effects models that
+     were fitted with the 'rma.mv' function, if the model includes
+     multiple tau^2 (and multiple gamma^2) values, then one must use
+     the 'tau2.levels' (and 'gamma2.levels') argument to specify the
+     levels of the inner factor(s) (i.e., a vector of length k_new) to
+     obtain the appropriate prediction interval(s). Alternatively, one
+     can use the 'hetvar' argument to specify a vector with the amount
+     of heterogeneity for the predicted values.
+
+     For location-scale models fitted with the 'rma.uni' function, one
+     can use 'newmods' to specify the values of the p' moderator
+     variables included in the model and 'newscale' to specify the
+     values of the q' scale variables included in the model. Whenever
+     'newmods' is specified, the function computes predicted effects
+     for the specified moderators values. To obtain the corresponding
+     prediction intervals, one must also specify the corresponding
+     'newscale' values. If only 'newscale' is specified (and not
+     'newmods'), the function computes the predicted log-transformed
+     tau^2 values (when using a log link) for the specified scale
+     values. By setting 'transf=exp', one can then obtain the predicted
+     tau^2 values.
+
+     When computing multiple predicted values, one can set
+     'adjust=TRUE' to obtain confidence/prediction intervals whose
+     width is adjusted based on a Bonferroni correction (e.g., instead
+     of 95% CIs, the function provides (100-5/k_new)% CIs, where k_new
+     denotes the number of predicted values computed).
+
+_V_a_l_u_e:
+
+     An object of class 'c("predict.rma","list.rma")'. The object is a
+     list containing the following components:
+
+    pred: predicted value(s).
+
+      se: corresponding standard error(s).
+
+   ci.lb: lower bound of the confidence interval(s).
+
+   ci.ub: upper bound of the confidence interval(s).
+
+   pi.lb: lower bound of the prediction interval(s) (only for
+          random/mixed-effects models).
+
+   pi.ub: upper bound of the prediction interval(s) (only for
+          random/mixed-effects models).
+
+    prob: probabilistic estimate(s) from the predictive distribution
+          (only when 'prob' was specified).
+
+tau2.level: the level(s) of the inner factor (only for models of class
+          '"rma.mv"' with multiple tau^2 values).
+
+gamma2.level: the level(s) of the inner factor (only for models of
+          class '"rma.mv"' with multiple gamma^2 values).
+
+       X: the moderator value(s) used to calculate the predicted values
+          (only when 'addx=TRUE').
+
+       Z: the scale value(s) used to calculate the predicted values
+          (only when 'addz=TRUE' and only for location-scale models).
+
+     ...: some additional elements/values.
+
+     If 'vcov=TRUE', then the returned object is a list with the first
+     element equal to the one as described above and the second element
+     equal to the variance-covariance matrix of the predicted values.
+
+     The object is formatted and printed with the 'print' function. To
+     format the results as a data frame, one can use the
+     'as.data.frame' function.
+
+_N_o_t_e:
+
+     Confidence and prediction intervals are constructed based on the
+     critical values from a standard normal distribution (i.e., <c2><b1>1.96
+     for 'level=95'). When the model was fitted with 'test="t"',
+     'test="knha"', 'test="hksj"', or 'test="adhoc"', then a
+     t-distribution with k-p degrees of freedom is used, where p
+     denotes the total number of columns of the model matrix (i.e.,
+     counting the intercept term if the model includes one).
+
+     For a random-effects model (where p=1) fitted with the 'rma.uni'
+     function, note that this differs slightly from Riley et al.
+     (2011), who suggest to use a t-distribution with k-2 degrees of
+     freedom for constructing the prediction interval. Neither a
+     normal, nor a t-distribution with k-1 or k-2 degrees of freedom is
+     correct; all of these are approximations. The computations are
+     done in the way described above, so that the prediction interval
+     is identical to the confidence interval when hat(tau)^2 = 0, which
+     could be argued is the logical thing that should happen. If the
+     prediction interval for a random-effects model should be computed
+     as described by Riley et al. (2011), then one can use argument
+     'predtype="Riley"' (and for mixed-effects meta-regression models,
+     the function then uses k-p-1 degrees of freedom).
+
+     The predicted values are based only on the fixed effects of the
+     model. Best linear unbiased predictions (BLUPs) that combine the
+     fitted values based on the fixed effects and the estimated
+     contributions of the random effects can be obtained with 'blup'
+     (currently only for objects of class '"rma.uni"').
+
+     When using the 'transf' argument, the transformation is applied to
+     the predicted values and the corresponding interval bounds. The
+     standard errors are omitted from the printed output. Also,
+     'vcov=TRUE' is ignored when using the 'transf' argument.
+
+_A_u_t_h_o_r(_s):
+
+     Wolfgang Viechtbauer (<mailto:wvb@metafor-project.org>,
+     <https://www.metafor-project.org>).
+
+_R_e_f_e_r_e_n_c_e_s:
+
+     Hedges, L. V., & Olkin, I. (1985). _Statistical methods for
+     meta-analysis_. San Diego, CA: Academic Press.
+
+     Riley, R. D., Higgins, J. P. T., & Deeks, J. J. (2011).
+     Interpretation of random effects meta-analyses. _British Medical
+     Journal_, *342*, d549. https://doi.org/10.1136/bmj.d549
+
+     Viechtbauer, W. (2010). Conducting meta-analyses in R with the
+     metafor package. _Journal of Statistical Software_, *36*(3), 1-48.
+     https://doi.org/10.18637/jss.v036.i03
+
+     Viechtbauer, W., & Lopez-Lopez, J. A. (2022). Location-scale
+     models for meta-analysis. _Research Synthesis Methods_. *13*(6),
+     697-715. https://doi.org/10.1002/jrsm.1562
+
+_S_e_e _A_l_s_o:
+
+     'fitted' for a function to (only) extract the fitted values,
+     'blup' for a function to compute BLUPs that combine the fitted
+     values and predicted random effects, and 'addpoly' to add polygons
+     based on predicted values to a forest plot.
+
+_E_x_a_m_p_l_e_s:
+
+     ### calculate log risk ratios and corresponding sampling variances
+     dat <- escalc(measure="RR", ai=tpos, bi=tneg, ci=cpos, di=cneg, data=dat.bcg)
+     
+     ### fit random-effects model
+     res <- rma(yi, vi, data=dat)
+     
+     ### estimated average log risk ratio with 95% CI/PI
+     predict(res, digits=2)
+     
+     ### estimated average risk ratio with 95% CI/PI
+     predict(res, transf=exp, digits=2)
+     
+     ### note: strictly speaking, the value obtained is the estimated median risk ratio
+     ### because exponentiation is a non-linear transformation; but we can estimate the
+     ### average risk ratio by using the integral transformation
+     predict(res, transf=transf.exp.int, targs=res$tau2, digits=2)
+     
+     ### predict() can automatically extract the tau^2 value needed for the integral
+     ### transformation from the model object, so we don't need to specify it
+     predict(res, transf=transf.exp.int, digits=2)
+     
+     ### note: the prediction interval is not printed here, because the regular back-
+     ### transformation gives the correct bounds for the PI (the integral transformation
+     ### is only needed to obtain the estimated average risk ratio and its CI)
+     
+     ### estimate the probability that the true log risk ratio is below 0 in a new study
+     predict(res, digits=2, prob="<0")
+     
+     ### fit mixed-effects model with absolute latitude as a moderator
+     res <- rma(yi, vi, mods = ~ ablat, data=dat)
+     
+     ### predicted average risk ratios for given absolute latitude values
+     predict(res, transf=exp, addx=TRUE)
+     
+     ### predicted average risk ratios for 10-60 degrees absolute latitude
+     predict(res, newmods=c(10, 20, 30, 40, 50, 60), transf=exp, addx=TRUE)
+     
+     ### can also include the intercept term in the 'newmods' matrix
+     predict(res, newmods=cbind(1, c(10, 20, 30, 40, 50, 60)), transf=exp, addx=TRUE)
+     
+     ### apply a Bonferroni correction for obtaining the interval bounds
+     predict(res, newmods=cbind(1, c(10, 20, 30, 40, 50, 60)), transf=exp, addx=TRUE, adjust=TRUE)
+     
+     ### fit mixed-effects model with absolute latitude and publication year as moderators
+     res <- rma(yi, vi, mods = ~ ablat + year, data=dat)
+     
+     ### predicted average risk ratios for 10 and 60 degrees latitude in 1950 and 1980
+     predict(res, newmods=cbind(c(10,60,10,60),c(1950,1950,1980,1980)), transf=exp, addx=TRUE)
+     
+     ### predicted average risk ratios for 10 and 60 degrees latitude in 1970 (row names as labels)
+     predict(res, newmods=rbind(at10=c(10,1970), at60=c(60,1970)), transf=exp)
+     
+     ### fit mixed-effects model with two moderators (one of which is a factor)
+     res <- rma(yi, vi, mods = ~ ablat + factor(alloc), data=dat)
+     
+     ### examine how the factor was actually coded for the studies in the dataset
+     predict(res, addx=TRUE)
+     
+     ### predicted average risk ratios at 30 degrees for the three factor levels
+     ### note: the contrast (dummy) variables need to specified explicitly here
+     predict(res, newmods=c(30, 0, 0), addx=TRUE) # for alternate  allocation
+     predict(res, newmods=c(30, 1, 0), addx=TRUE) # for random     allocation
+     predict(res, newmods=c(30, 0, 1), addx=TRUE) # for systematic allocation
+     
+     ### can also use a named vector with arbitrary order and abbreviated variable names
+     predict(res, newmods=c(sys=0, ran=0, abl=30))
+     predict(res, newmods=c(sys=0, ran=1, abl=30))
+     predict(res, newmods=c(sys=1, ran=0, abl=30))
+     

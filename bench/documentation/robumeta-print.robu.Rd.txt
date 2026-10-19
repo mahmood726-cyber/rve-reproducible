@@ -1,0 +1,42 @@
+_O_u_t_p_u_t_s _M_o_d_e_l _I_n_f_o_r_m_a_t_i_o_n
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     Prints relevant information from robu function.
+
+_U_s_a_g_e:
+
+     ## S3 method for class 'robu'
+     print(x, digits = 3, ...)
+     
+_A_r_g_u_m_e_n_t_s:
+
+       x: Object from robu class.
+
+  digits: Controls the number of digits to print when printing numeric
+          values.
+
+     ...: Additional arguments to be passed to the fitting function.
+
+_R_e_f_e_r_e_n_c_e_s:
+
+     Hedges, L.V., Tipton, E., Johnson, M.C. (2010) Robust variance
+     estimation in meta-regression with dependent effect size
+     estimates. _Research Synthesis Methods_. *1*(1): 39-65. Erratum in
+     *1*(2): 164-165. DOI: 10.1002/jrsm.5
+
+     Tipton, E. (in press) Small sample adjustments for robust variance
+     estimation with meta-regression. _Psychological Methods_.
+
+_E_x_a_m_p_l_e_s:
+
+     # Load data
+     data(hierdat)
+     
+     ### Small-Sample Corrections - Hierarchical Dependence Model
+     HierMod  <-  robu(formula = effectsize ~ binge + followup + sreport
+                        + age, data = hierdat, studynum = studyid, 
+                        var.eff.size = var, modelweights = "HIER", small = FALSE)
+     
+     print(HierMod) # Output results
+     

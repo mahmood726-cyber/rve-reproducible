@@ -1,0 +1,22 @@
+{
+  "title": "Robust variance estimation in the browser: validation of allmeta rve-meta against robumeta and clubSandwich",
+  "creators": [
+    {
+      "name": "Ahmad, Mahmood",
+      "orcid": "0000-0001-9107-3704",
+      "affiliation": "Tahir Heart Institute"
+    }
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/mahmood726-cyber/allmeta",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    }
+  ],
+  "description": "Validation archive for the allmeta rve-meta page (engine shared/rve.js + shared/stats-qt.js) against robumeta 2.1 robu(modelweights=\"CORR\", small=TRUE) and clubSandwich 0.7.0 coef_test(vcov=\"CR2\", test=\"Satterthwaite\") in R 4.6.0 on 16,270 configurations. Page as committed on allmeta branch fix/rve-meta-cr2-parity-p15-v2, commit e042af5 (draft PR #146). allmeta release: [ALLMETA RELEASE PENDING]; allmeta release DOI: [ALLMETA RELEASE PENDING]. The documented strict result is not full strict agreement: 785 configurations fail the 1e-9 criterion, each with a recorded diagnosis."
+}

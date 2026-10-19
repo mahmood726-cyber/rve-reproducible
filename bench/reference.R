@@ -1,0 +1,29 @@
+.libPaths(c(normalizePath('../re/Rlib_dta'),normalizePath('Rlib'),Sys.getenv('EXTRA_R_LIB'),.libPaths()))
+library(jsonlite); library(robumeta); library(clubSandwich)
+source('json17.R')
+dir.create('reference',showWarnings=FALSE)
+args<-commandArgs(TRUE); start<-as.integer(args[1])
+cs<-fromJSON(file.path('shards',sprintf('%06d.json',start)),simplifyVector=FALSE)
+for(jj in seq_along(cs)) {
+ i<-start+jj-1
+ c<-cs[[jj]]; path<-file.path('reference',sprintf('%06d.json',i)); if(file.exists(path))next
+ warnings<-character()
+ res<-tryCatch(withCallingHandlers({
+  rows<-c[['rows',exact=TRUE]]
+  if(!length(rows))stop('no rows')
+  d<-data.frame(yi=vapply(rows,function(r)r[['yi',exact=TRUE]],0.0),vi=vapply(rows,function(r)r[['vi',exact=TRUE]],0.0),cl=vapply(rows,function(r)r[['cluster',exact=TRUE]],''))
+  X<-do.call(rbind,lapply(rows,function(r)unlist(r[['X',exact=TRUE]])))
+  p<-ncol(X); m<-length(unique(d[['cl',exact=TRUE]]))
+  if(p>1)d[['x']]<-X[,2]
+  f<-if(p==1)yi~1 else yi~x
+  rr<-tryCatch(robu(f,data=d,studynum=cl,var.eff.size=vi,modelweights='CORR',rho=c[['rho',exact=TRUE]],small=TRUE),error=function(e)e)
+  if(inherits(rr,'error'))stop(conditionMessage(rr))
+  if(m<=p)stop('m<=p: insufficient clusters for inference (audit domain guard)')
+  if(qr(X)[['rank',exact=TRUE]]<p)stop('rank deficient design')
+  tab<-rr[['reg_table',exact=TRUE]]
+  cb<-tryCatch(as.data.frame(coef_test(rr,vcov='CR2',test='Satterthwaite')),error=function(e)list(error=conditionMessage(e)))
+  list(id=c[['id',exact=TRUE]],status='ok',table=unname(lapply(seq_len(nrow(tab)),function(j)as.list(tab[j,]))),tau2=as.numeric(rr[['mod_info',exact=TRUE]][['tau.sq',exact=TRUE]]),mod_info=rr[['mod_info',exact=TRUE]],club=cb,m=m,p=p,n=nrow(d))
+ },warning=function(w){warnings<<-c(warnings,conditionMessage(w));invokeRestart('muffleWarning')}),error=function(e)list(id=c[['id',exact=TRUE]],status='refused',reason=conditionMessage(e)))
+ res[['warnings']]<-warnings;write_json17(res,path)
+ if(i%%25==0)cat(i,'/',length(cs),'\n')
+}

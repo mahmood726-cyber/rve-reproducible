@@ -1,0 +1,102 @@
+_C_l_u_s_t_e_r-_r_o_b_u_s_t _v_a_r_i_a_n_c_e-_c_o_v_a_r_i_a_n_c_e _m_a_t_r_i_x _f_o_r _a_n '_e_s_t_i_m_a_t_r::_i_v__r_o_b_u_s_t'
+_o_b_j_e_c_t.
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     'vcovCR' returns a sandwich estimate of the variance-covariance
+     matrix of a set of regression coefficient estimates from an
+     'iv_robust' object.
+
+_U_s_a_g_e:
+
+     ## S3 method for class 'iv_robust'
+     vcovCR(
+       obj,
+       cluster,
+       type,
+       target = NULL,
+       inverse_var = FALSE,
+       form = "sandwich",
+       ...
+     )
+     
+_A_r_g_u_m_e_n_t_s:
+
+     obj: Fitted model for which to calculate the variance-covariance
+          matrix
+
+ cluster: Vector indicating which observations belong to the same
+          cluster. Required for 'iv_robust' objects unless the model
+          was fitted with a 'clusters' argument.
+
+    type: Character string specifying which small-sample adjustment
+          should be used, with available options '"CR0"', '"CR1"',
+          '"CR1p"', '"CR1S"', '"CR2"', or '"CR3"'. See "Details"
+          section of 'vcovCR' for further information.
+
+  target: Optional matrix or vector describing the working
+          variance-covariance model used to calculate the 'CR2' and
+          'CR4' adjustment matrices. If a vector, the target matrix is
+          assumed to be diagonal. If not specified, the target is taken
+          to be an identity matrix.
+
+inverse_var: Not used for 'iv_robust' objects.
+
+    form: Controls the form of the returned matrix. The default
+          '"sandwich"' will return the sandwich variance-covariance
+          matrix.  Alternately, setting 'form = "meat"' will return
+          only the meat of the sandwich and setting 'form = B', where
+          'B' is a matrix of appropriate dimension, will return the
+          sandwich variance-covariance matrix calculated using 'B' as
+          the bread. 'form = "estfun"' will return the (appropriately
+          scaled) estimating function, the transposed crossproduct of
+          which is equal to the sandwich variance-covariance matrix.
+
+     ...: Additional arguments available for some classes of objects.
+
+_V_a_l_u_e:
+
+     An object of class 'c("vcovCR","clubSandwich")', which consists of
+     a matrix of the estimated variance of and covariances between the
+     regression coefficient estimates.
+
+_S_e_e _A_l_s_o:
+
+     'vcovCR'
+
+_E_x_a_m_p_l_e_s:
+
+     if (requireNamespace("estimatr", quietly = TRUE)) withAutoprint({
+       library(estimatr)
+     
+       set.seed(20261201)
+       N <- 200
+       cluster <- factor(rep(1:20, each = 10))
+       z1 <- rnorm(N)
+       z2 <- rnorm(N)
+       x_exog <- rnorm(N)
+       x_endog <- 0.5 * z1 + 0.3 * z2 + rnorm(N)
+       y <- 1 + 2 * x_endog + 0.5 * x_exog + rnorm(N)
+       dat <- data.frame(y, x_endog, x_exog, z1, z2, cluster)
+     
+       # Basic 2SLS with clusters and CR2
+       iv_fit <- iv_robust(
+         y ~ x_endog + x_exog | x_exog + z1 + z2,
+         data = dat, 
+         clusters = cluster, se_type = "CR2"
+       )
+       vcovCR(iv_fit)
+       conf_int(iv_fit, vcov = "CR2")
+     
+       # 2SLS with fixed effects
+       iv_fe <- iv_robust(
+         y ~ x_endog + x_exog | x_exog + z1 + z2,
+         fixed_effects = ~ cluster, 
+         data = dat, 
+         clusters = cluster,
+         se_type = "CR2"
+       )
+       vcovCR(iv_fe)
+       conf_int(iv_fe, vcov = "CR2")
+     })
+     

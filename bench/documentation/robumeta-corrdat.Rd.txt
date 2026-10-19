@@ -1,0 +1,22 @@
+_D_a_t_a _f_o_r _F_i_t_t_i_n_g _C_o_r_r_e_l_a_t_e_d _E_f_f_e_c_t_s _M_o_d_e_l
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     Fictional data used in TannerTanner-Smith and Tipton (2013).
+
+_F_o_r_m_a_t:
+
+     A dataframe containing 172 effect sizes from 39 studies used in
+     Tanner- Smith and Tipton (2013).
+
+_S_o_u_r_c_e:
+
+     https://my.vanderbilt.edu/emilytannersmith/training-materials/
+
+_R_e_f_e_r_e_n_c_e_s:
+
+     Tanner-Smith E.E., Tipton, E. (2013) Robust variance estimation
+     with dependent effect sizes: practical considerations including a
+     software tutorial in Stata and SPSS. _Research Synthesis Methods_.
+     ISSN 1759-2887.
+

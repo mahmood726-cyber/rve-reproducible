@@ -1,0 +1,9 @@
+{
+  "checks": [
+    {
+      "name": "large variance accepted like R",
+      "pass": false,
+      "error": "RVE: singular X'WX"
+    }
+  ]
+}

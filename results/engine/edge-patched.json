@@ -1,0 +1,93 @@
+{
+  "checks": [
+    {
+      "name": "large variance accepted like R",
+      "pass": true
+    },
+    {
+      "name": "estimate",
+      "pass": true,
+      "app": 0.32,
+      "reference": 0.32
+    },
+    {
+      "name": "se",
+      "pass": true,
+      "app": 0.08602325267042626,
+      "reference": 0.08602325267042626
+    },
+    {
+      "name": "t",
+      "pass": true,
+      "app": 3.719924439802217,
+      "reference": 3.719924439802217
+    },
+    {
+      "name": "df",
+      "pass": true,
+      "app": 3.999999999999999,
+      "reference": 4
+    },
+    {
+      "name": "p",
+      "pass": true,
+      "app": 0.020475874420909815,
+      "reference": 0.02047587442091059
+    },
+    {
+      "name": "ci_lo",
+      "pass": true,
+      "app": 0.08116116119000574,
+      "reference": 0.081161161190002
+    },
+    {
+      "name": "ci_hi",
+      "pass": true,
+      "app": 0.5588388388099943,
+      "reference": 0.5588388388099981
+    }
+  ],
+  "result": {
+    "fit": {
+      "beta": [
+        0.32
+      ],
+      "cov_robust": [
+        [
+          0.007399999999999999
+        ]
+      ],
+      "se_robust": [
+        0.08602325267042626
+      ],
+      "df": [
+        3.999999999999999
+      ],
+      "m_clusters": 5,
+      "k_total": 5,
+      "p": 1,
+      "tau2": 0,
+      "rho": 0.8,
+      "method": "CR2",
+      "weights": [
+        1e-15,
+        1e-15,
+        1e-15,
+        1e-15,
+        1e-15
+      ]
+    },
+    "summary": [
+      {
+        "coef_index": 0,
+        "estimate": 0.32,
+        "se": 0.08602325267042626,
+        "t": 3.719924439802217,
+        "df": 3.999999999999999,
+        "ci_lo": 0.08116116119000574,
+        "ci_hi": 0.5588388388099943,
+        "p": 0.020475874420909815
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "hashes": {
+    "patched\\rve-meta\\index.html": "e943b838dd6f71a45a0d8061a71c81f5a7560f8e774d735ef3361d1b367dc2ee",
+    "patched\\shared\\rve.js": "c12a87ce03827a20c47ec97a4ec70dec72aeb1adcd66f8dd0294538aaf6b61ac",
+    "patched\\shared\\stats-qt.js": "fb4110ba8e4b2e784193fde258ac37086713dc8d75a3295f84272d6fbdba8efb",
+    "fix.patch": "424513f49263811372c6f91d25aae433e3f04312e43540fe2d180539cd41ff3e"
+  }
+}

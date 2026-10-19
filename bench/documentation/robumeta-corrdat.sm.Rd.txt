@@ -1,0 +1,20 @@
+_D_a_t_a _f_o_r _F_i_t_t_i_n_g _C_o_r_r_e_l_a_t_e_d _E_f_f_e_c_t_s _M_o_d_e_l _W_i_t_h _S_m_a_l_l-_S_a_m_p_l_e _C_o_r_r_e_c_t_i_o_n_s
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     Data used in Tipton (2013).
+
+_F_o_r_m_a_t:
+
+     A dataframe containing 300 effect sizes from 28 studies used in
+     Tipton (2013).
+
+_S_o_u_r_c_e:
+
+     Elizabeth Tipton
+
+_R_e_f_e_r_e_n_c_e_s:
+
+     Tipton, E. (in press) Small sample adjustments for robust variance
+     estimation with meta-regression. _Psychological Methods_.
+

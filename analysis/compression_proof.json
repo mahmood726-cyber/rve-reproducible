@@ -1,0 +1,82 @@
+[
+  {
+    "stored": "data/configurations.json.xz",
+    "original_name": "configurations.json",
+    "original_bytes": 109207974,
+    "original_sha256": "91b6f6fe0935e36650a0bcb13126937f7ed978ad2d9535b9ebdbded8db0f3b73",
+    "stored_sha256": "d225a4cd0637a1f6da572657ed6abd9600ee58f4bcd4c89050315356846df155",
+    "method": "Python lzma FORMAT_XZ, CHECK_CRC64, preset 6 (deterministic)"
+  },
+  {
+    "stored": "results/engine/engine-full-original.jsonl.xz",
+    "original_name": "engine-full-original.jsonl",
+    "original_bytes": 36138575,
+    "original_sha256": "574b5729e0a227b0056891224e619945375a5c235fb45ee50e19a4699a284b84",
+    "stored_sha256": "202825eec47890505fb63bc36cb12b2a920427ef223e7dcbb0232f710043ed72",
+    "method": "Python lzma FORMAT_XZ, CHECK_CRC64, preset 6 (deterministic)"
+  },
+  {
+    "stored": "results/engine/engine-full-patched.jsonl.xz",
+    "original_name": "engine-full-patched.jsonl",
+    "original_bytes": 35382045,
+    "original_sha256": "805639c7dfdc5c5b9e9e5d87f71b5bd8e21c8dd29c4c6f8ce29e10837606fc75",
+    "stored_sha256": "60685a8807dcf18f96b27ff2b7c7fbe391c254ac5b92749d1a75f02661b362a9",
+    "method": "Python lzma FORMAT_XZ, CHECK_CRC64, preset 6 (deterministic)"
+  },
+  {
+    "stored": "results/engine/engine-failures-full-original.json.xz",
+    "original_name": "engine-failures-full-original.json",
+    "original_bytes": 7129071,
+    "original_sha256": "142571e21506668d22e222e8e0c9c83ef397c0781d153ac500f12029e71f80b3",
+    "stored_sha256": "39df0c4ad0ec5aa177b5b2a5ea8340be252fae9c311b93c68356df4006f37d76",
+    "method": "Python lzma FORMAT_XZ, CHECK_CRC64, preset 6 (deterministic)"
+  },
+  {
+    "stored": "results/reference/r-reference.jsonl.xz",
+    "original_name": "r-reference.jsonl",
+    "original_bytes": 15138533,
+    "original_sha256": "1966d1b209b93696a30684cf978c656dbc5b036e83a9395dd81f2306a8e0c557",
+    "stored_sha256": "9f099bac3f2b32461599d0a1670a77a4bfee5ec28a766f370f1725a79bab4903",
+    "method": "Python lzma FORMAT_XZ, CHECK_CRC64, preset 6 (deterministic)"
+  },
+  {
+    "stored": "results/diagnosis/strict-diagnosis.json.xz",
+    "original_name": "strict-diagnosis.json",
+    "original_bytes": 15918496,
+    "original_sha256": "ffd991d2059d0aaa71ab17557394f08d02f8a616b2e5303307a1e94714a6fdba",
+    "stored_sha256": "254f18fffbcc981f078e552e33f04784c47584361b6cc865038bba0e16b1299f",
+    "method": "Python lzma FORMAT_XZ, CHECK_CRC64, preset 6 (deterministic)"
+  },
+  {
+    "stored": "results/browser/app-original.jsonl.xz",
+    "original_name": "app-original.jsonl",
+    "original_bytes": 1041643524,
+    "original_sha256": "1723116d75dc39de22403e76919dc158b4bc184ac04bb32d8346fd123047ede7",
+    "method": "Python lzma FORMAT_XZ, CHECK_CRC64, preset 6 (deterministic), streamed in 16 MiB chunks",
+    "stored_sha256": "56ad86ed3680eb60ec14e54d99b3547ab8703ea8f1d05ddc2a3578dcb21dc2cd"
+  },
+  {
+    "stored": "results/browser/compare-failures-original.json.xz",
+    "original_name": "compare-failures-original.json",
+    "original_bytes": 9571756,
+    "original_sha256": "75925df782eb4d567f27cd3d4308b79789c920fb97cfb8e0030c386e0eb4728a",
+    "stored_sha256": "450290569dfe2d0f2d692dd3c9e6abe59ed21e7c30d343a47e9d543b9bef4d1b",
+    "method": "Python lzma FORMAT_XZ, CHECK_CRC64, preset 6 (deterministic)"
+  },
+  {
+    "stored": "results/browser/app-patched.jsonl.xz",
+    "original_name": "app-patched.jsonl",
+    "original_bytes": 1000284041,
+    "original_sha256": "e631945a77f2a6faa1e27d2bc5e5f47170b4375e175b3995b02a9b209a58dc6b",
+    "method": "Python lzma FORMAT_XZ, CHECK_CRC64, preset 6 (deterministic), streamed in 16 MiB chunks",
+    "stored_sha256": "26126331a189cac5f82d5e85a0e028a1d23288547912ee614dc9a9a54ab59e10"
+  },
+  {
+    "stored": "results/browser/compare-failures-patched.json.xz",
+    "original_name": "compare-failures-patched.json",
+    "original_bytes": 640015,
+    "original_sha256": "e951ad151c95cc1cc130815fa3673591242f0f63a364c1b9d513bf11dae9e70f",
+    "stored_sha256": "7895302b098bd1f71c1db01d90debd5631dbc155a166105a7bd61acc83bb8279",
+    "method": "Python lzma FORMAT_XZ, CHECK_CRC64, preset 6 (deterministic)"
+  }
+]

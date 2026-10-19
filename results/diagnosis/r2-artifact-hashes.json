@@ -1,0 +1,20 @@
+{
+  "TASK_R2.md": "088e1b26404289507e0acc7adafca9ab1bd24dd87c84b5a84cf834bec0d4202e",
+  "patch_app.py": "c1c713ab26d290aafc688eb31708840c680f4397895e276424f95503fc43358d",
+  "r2-invert.js": "9f9a458b9c90c3b0ac33f58387a7b7a1252bc5c9d62f474d4c94c1267caa135f",
+  "fix.patch": "424513f49263811372c6f91d25aae433e3f04312e43540fe2d180539cd41ff3e",
+  "patched/shared/rve.js": "c12a87ce03827a20c47ec97a4ec70dec72aeb1adcd66f8dd0294538aaf6b61ac",
+  "patched/shared/stats-qt.js": "fb4110ba8e4b2e784193fde258ac37086713dc8d75a3295f84272d6fbdba8efb",
+  "patched/rve-meta/index.html": "e943b838dd6f71a45a0d8061a71c81f5a7560f8e774d735ef3361d1b367dc2ee",
+  "engine_full.cjs": "d9ed2f70582efcc6531ef13cd32a5a4c86e7ad0ba1b6ed6ff1ba4ee713697e37",
+  "r2-capture-worker.cjs": "5863dee45cc6186b3df525405eea35851a920ff8d0db915606fa4197e7d608c8",
+  "compare_engine.py": "6b8dd7922188ff9af2b1e55f3aa78cdb5c72d52800e3c93c06f69d9d0f099d1a",
+  "diagnose_failures.py": "18071c0cdc0e2a7bfb44be3a2dc6f2751c604028f07f1058acda1350a49e48da",
+  "configuration-ledger.csv": "70f5bc41bd57bc80e28c59f60763450ff97f24a6aa0ef247980e8143c088b901",
+  "engine-full-patched.jsonl": "805639c7dfdc5c5b9e9e5d87f71b5bd8e21c8dd29c4c6f8ce29e10837606fc75",
+  "engine-results-patched.json": "93932c7c3e7624364e214bd421f32f6e7e14ea3925494435a5184eb98216013e",
+  "engine-failures-full-patched.json": "c279b0d46732bb4726fb6a6f578f1bf7926788e60ca57cb0cf884e16afe86b9c",
+  "strict-diagnosis.json": "ffd991d2059d0aaa71ab17557394f08d02f8a616b2e5303307a1e94714a6fdba",
+  "RESULT_R2.md": "6a533fcfbe5476c28533f592fb77a363a3cb21f7db263e853a48ecb391522343",
+  "r2-final-recapture-proof.json": "8322c6334c23006488dfa5d1690f3e9d7ff22687c1185e5fa57d0e45168de1d7"
+}

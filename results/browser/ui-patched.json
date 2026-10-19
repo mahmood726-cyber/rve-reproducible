@@ -1,0 +1,105 @@
+[
+  {
+    "name": "CR2 introduction",
+    "pass": true
+  },
+  {
+    "name": "default low-df warning",
+    "pass": true
+  },
+  {
+    "name": "nonfinite",
+    "pass": true,
+    "actual": {
+      "text": "Fit failed: Row 1: invalid predictor",
+      "result": null,
+      "cells": 0
+    }
+  },
+  {
+    "name": "blank",
+    "pass": true,
+    "actual": {
+      "text": "Fit failed: Row 1: invalid predictor",
+      "result": null,
+      "cells": 0
+    }
+  },
+  {
+    "name": "width",
+    "pass": true,
+    "actual": {
+      "text": "Fit failed: Row 4: inconsistent predictor count",
+      "result": null,
+      "cells": 0
+    }
+  },
+  {
+    "name": "rank",
+    "pass": true,
+    "actual": {
+      "text": "Fit failed: RVE: singular X'WX",
+      "result": null,
+      "cells": 0
+    }
+  },
+  {
+    "name": "m<=p",
+    "pass": true,
+    "actual": {
+      "text": "Fit failed: RVE: m<=p; insufficient clusters for inference",
+      "result": null,
+      "cells": 0
+    }
+  },
+  {
+    "name": "empty",
+    "pass": true,
+    "actual": {
+      "text": "No valid rows.",
+      "result": null,
+      "cells": 0
+    }
+  },
+  {
+    "name": "rho endpoint",
+    "pass": true
+  },
+  {
+    "name": "prototype cluster",
+    "pass": true
+  },
+  {
+    "name": "missing Student-t dependency",
+    "pass": true
+  },
+  {
+    "name": "download Methods+Results (.md)",
+    "pass": true,
+    "file": "rve-meta-report.md"
+  },
+  {
+    "name": "download .txt",
+    "pass": true,
+    "file": "rve-meta-report.txt"
+  },
+  {
+    "name": "download JSON",
+    "pass": true,
+    "file": "rve-meta.json"
+  },
+  {
+    "name": "JSON content equals displayed fit",
+    "pass": true
+  },
+  {
+    "name": "download CSV",
+    "pass": true,
+    "file": "rve-meta.csv"
+  },
+  {
+    "name": "download Data (.md)",
+    "pass": true,
+    "file": "rve-meta.md"
+  }
+]

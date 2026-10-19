@@ -1,0 +1,83 @@
+_P_r_e_d_i_c_t_i_o_n _m_e_t_h_o_d _f_o_r _a _r_o_b_u_m_e_t_a _o_b_j_e_c_t.
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     'predict.robu' produces the predicted mean and confidence interval
+     of a fitted robumeta model object given a prediction vector.
+
+_U_s_a_g_e:
+
+     ## S3 method for class 'robu'
+     predict(object, pred.vector, level = 0.95, ...)
+     
+_A_r_g_u_m_e_n_t_s:
+
+  object: A fitted robumeta model object.
+
+pred.vector: A prediction vector containing the new covariate values.
+
+   level: Confidence level.
+
+     ...: Additional arguments to predict.
+
+_D_e_t_a_i_l_s:
+
+        * 'intercept' If an intercept is included in the robumeta
+          model, the first element should always be 1, representing the
+          intercept, followed by the covariate values in appropriate
+          order.  If the robumeta model does not have an intercept, the
+          prediction vector should begin with the first covariate
+          value.
+
+        * 'variable' For continuous variables, use the variable value
+          as the corresponding element value in ' pred.vector'.  For a
+          categorical variable the original variable value should be
+          transformed to match the coding system used in the robumeta
+          model (e.g. dummy coding, deviation coding, etc.).
+
+        * 'NA' If the vector contains NAs, 'predict.robu' will remove
+          the corresponding covariates from the original data, and
+          refit a new robumeta model. The prediction and confidence
+          interval will be estimated based on the new model.
+
+       robu_mod <- robu(LOR1 ~ study_design + duration + service_hrs, 
+                        data = dropoutPrevention, 
+                        studynum = studyID, 
+                        var.eff.size = varLOR, 
+                        modelweights = "HIER",
+                        small = TRUE)
+     
+     In this robumeta model, the first covariate is a categorical
+     variable that contains three levels: "Matched" (33 percent, dummy
+     code: 00), "Randomized"(24 percent, 01) and "non-match
+     non-randomized"(43 percent, 10). The corresponding prediction
+     vector begins with 1 (intercept), and followed by 0, 0, the dummy
+     code for "Matched". The last two elements are 38 and 5, the values
+     for duration and sevice_hrs.
+
+       predict(object = robu_mod, pred.vector = c(1,0,0,38,5),level = 0.95)
+     
+     If we do not know the value of duration, the prediction vector
+     should be c(1,0,0,NA,5). predict.robu() will refit a new model
+     without the covariate duration, and the prediction will be based
+     on it.
+
+       predict(object = robu_mod, pred.vector = c(1,0,0,NA,5),level = 0.95)
+     
+_V_a_l_u_e:
+
+     'prediction' the predicted value based on the prediction vector.
+
+     'se' The standard error for the predicted mean.
+
+     't' The t-statistic calculated based on the predicted mean.
+
+     'df' The small sample corrected degrees of freedom of the
+     distribution of the t-statistic.
+
+     'lower' The lower bound of the confidence interval for the
+     predicted mean.
+
+     'upper' The upper bound of the confidence interval for the
+     predicted mean.
+

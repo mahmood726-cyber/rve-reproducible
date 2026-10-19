@@ -1,0 +1,175 @@
+# validate.R console output from the archived run; host paths replaced by <host-root>.
+Registered S3 method overwritten by 'clubSandwich':
+  method    from    
+  bread.mlm sandwich
+Warning message:
+package 'digest' was built under R version 4.6.1 
+Library paths: <host-root>/Rlib | C:/Program Files/R/R-4.6.0/library 
+           R     robumeta clubSandwich      metadat     jsonlite       digest 
+     "4.6.0"        "2.1"      "0.7.0"      "1.6.0"      "2.0.0"     "0.6.39" 
+Input SHA-256 checks PASS (463 files; no unpinned files)
+Python: <Python 3.14 (py launcher)> 
+materialised configurations.json: 109207974 bytes, SHA-256 verified
+materialised engine-full-original.jsonl: 36138575 bytes, SHA-256 verified
+materialised app-original.jsonl: 1041643524 bytes, SHA-256 verified
+materialised engine-full-patched.jsonl: 35382045 bytes, SHA-256 verified
+materialised app-patched.jsonl: 1000284041 bytes, SHA-256 verified
+work directory ready: <host-root>\rve-reproducible\.validate-work
+Refitting 16270 configurations fresh with 2 R worker(s)...
+Fresh references: 16270/16270 configurations, one each, keys match the ledger (1992 s)
+Information: 16270/16270 fresh reference files are byte-identical to the archived R2 references
+original: 511964/546655 engine checks pass; 16270/16270 captures
+engine original key: 16270/16270, maximum difference 0
+engine original reference_present: 16270/16270, maximum difference 0
+engine original reference_key: 16270/16270, maximum difference 0
+engine original status: 15982/16270, maximum difference 0
+engine original tau2: 15678/15688, maximum difference 2.6873121505843756e-09
+engine original method: 15688/15688, maximum difference 0
+engine original n: 15688/15688, maximum difference 0
+engine original m: 15688/15688, maximum difference 0
+engine original design_columns: 15688/15688, maximum difference 0
+engine original coefficient_count: 15688/15688, maximum difference 0
+engine original estimate: 29738/29781, maximum difference 8.173677528975671e-09
+engine original se: 29716/29781, maximum difference 4.6763896885443866e-09
+engine original t: 29241/29781, maximum difference 69.145376975099026
+engine original df: 29741/29781, maximum difference 2.5189049514249886e-09
+engine original p: 23403/29781, maximum difference 1
+engine original ci_lo: 19694/29781, maximum difference 1.1952606655540876e-05
+engine original ci_hi: 19697/29781, maximum difference 1.2250631698407233e-05
+engine original club_reference_success: 29781/29781, maximum difference 0
+engine original club_estimate: 29738/29781, maximum difference 8.173677528975671e-09
+engine original club_se: 29700/29781, maximum difference 2.5815375965798637e-06
+engine original club_t: 29210/29781, maximum difference 69.145376975098998
+engine original club_df: 29711/29781, maximum difference 60.630819983458473
+engine original club_p: 23399/29781, maximum difference 1
+engine original refusal_category: 285/294, maximum difference 0
+patched: 544324/546941 engine checks pass; 16270/16270 captures
+engine patched key: 16270/16270, maximum difference 0
+engine patched reference_present: 16270/16270, maximum difference 0
+engine patched reference_key: 16270/16270, maximum difference 0
+engine patched status: 16268/16270, maximum difference 0
+engine patched tau2: 15678/15688, maximum difference 1.3385147712430268e-09
+engine patched method: 15688/15688, maximum difference 0
+engine patched n: 15688/15688, maximum difference 0
+engine patched m: 15688/15688, maximum difference 0
+engine patched design_columns: 15688/15688, maximum difference 0
+engine patched coefficient_count: 15688/15688, maximum difference 0
+engine patched estimate: 29742/29781, maximum difference 4.0863908917465224e-09
+engine patched se: 29756/29781, maximum difference 4.5933382229495235e-09
+engine patched t: 29361/29781, maximum difference 6.1446057768759097
+engine patched df: 29751/29781, maximum difference 2.5737479882387522e-09
+engine patched p: 29586/29781, maximum difference 0.99998840788873733
+engine patched ci_lo: 29241/29781, maximum difference 2.3727134248474613e-06
+engine patched ci_hi: 29243/29781, maximum difference 4.0118393371812999e-06
+engine patched club_reference_success: 29781/29781, maximum difference 0
+engine patched club_estimate: 29742/29781, maximum difference 4.0863908917465224e-09
+engine patched club_se: 29718/29781, maximum difference 2.5815769614245809e-06
+engine patched club_t: 29340/29781, maximum difference 6.1446057768759124
+engine patched club_df: 29721/29781, maximum difference 60.63081998345838
+engine patched club_p: 29571/29781, maximum difference 0.99998840788873733
+engine patched refusal_category: 575/580, maximum difference 0
+tau2 15678/15688 2.6873121505843756e-09
+unique_app_keys 1/1 0
+840829/876415 checks pass
+browser original unique_app_keys: 1/1, maximum difference 0
+browser original extra_app_keys: 1/1, maximum difference 0
+browser original app_present: 16270/16270, maximum difference 0
+browser original reference_present: 16270/16270, maximum difference 0
+browser original reference_key: 16270/16270, maximum difference 0
+browser original JSON_export: 16270/16270, maximum difference 0
+browser original export_json_present: 16270/16270, maximum difference 0
+browser original export_csv_present: 16270/16270, maximum difference 0
+browser original export_md_present: 16270/16270, maximum difference 0
+browser original export_report-md_present: 16270/16270, maximum difference 0
+browser original export_report-txt_present: 16270/16270, maximum difference 0
+browser original CSV_content: 16270/16270, maximum difference 0
+browser original Markdown_content: 16270/16270, maximum difference 0
+browser original report_MD_data: 16270/16270, maximum difference 0
+browser original report_text_data: 16270/16270, maximum difference 0
+browser original status: 15982/16270, maximum difference 0
+browser original input_count: 15688/15688, maximum difference 0
+browser original input_identity: 15688/15688, maximum difference 0
+browser original coefficient_count: 15688/15688, maximum difference 0
+browser original n: 15688/15688, maximum difference 0
+browser original m: 15688/15688, maximum difference 0
+browser original design_columns: 15688/15688, maximum difference 0
+browser original rho: 15688/15688, maximum difference 0
+browser original tau2: 15678/15688, maximum difference 2.6873121505843756e-09
+browser original method: 15688/15688, maximum difference 0
+browser original export_beta_consistency: 29781/29781, maximum difference 0
+browser original export_se_consistency: 29781/29781, maximum difference 0
+browser original export_df_consistency: 29781/29781, maximum difference 0
+browser original coefficient_index: 29781/29781, maximum difference 0
+browser original estimate: 29738/29781, maximum difference 8.173677528975671e-09
+browser original se: 29716/29781, maximum difference 4.6763896885443866e-09
+browser original t: 29241/29781, maximum difference 69.145376975099026
+browser original df: 29741/29781, maximum difference 2.5189049514249886e-09
+browser original p: 23403/29781, maximum difference 1
+browser original ci_lo: 19694/29781, maximum difference 1.1952606655540876e-05
+browser original ci_hi: 19697/29781, maximum difference 1.2250631698407233e-05
+browser original club_estimate: 29738/29781, maximum difference 8.173677528975671e-09
+browser original club_se: 29700/29781, maximum difference 2.5815375965798637e-06
+browser original club_t: 29210/29781, maximum difference 69.145376975098998
+browser original club_df: 29711/29781, maximum difference 60.630819983458473
+browser original club_p: 23399/29781, maximum difference 1
+browser original display_row: 29756/29781, maximum difference 0
+browser original refusal_category: 285/582, maximum difference 0
+browser original refusal_export_cleared: 0/582, maximum difference 0
+browser-ui original (archived observations): 6/17 checks pass
+tau2 15678/15688 1.3385147712430268e-09
+unique_app_keys 1/1 0
+873759/876415 checks pass
+browser patched unique_app_keys: 1/1, maximum difference 0
+browser patched extra_app_keys: 1/1, maximum difference 0
+browser patched app_present: 16270/16270, maximum difference 0
+browser patched reference_present: 16270/16270, maximum difference 0
+browser patched reference_key: 16270/16270, maximum difference 0
+browser patched JSON_export: 16270/16270, maximum difference 0
+browser patched export_json_present: 16270/16270, maximum difference 0
+browser patched export_csv_present: 16270/16270, maximum difference 0
+browser patched export_md_present: 16270/16270, maximum difference 0
+browser patched export_report-md_present: 16270/16270, maximum difference 0
+browser patched export_report-txt_present: 16270/16270, maximum difference 0
+browser patched CSV_content: 16270/16270, maximum difference 0
+browser patched Markdown_content: 16270/16270, maximum difference 0
+browser patched report_MD_data: 16270/16270, maximum difference 0
+browser patched report_text_data: 16270/16270, maximum difference 0
+browser patched status: 16268/16270, maximum difference 0
+browser patched input_count: 15688/15688, maximum difference 0
+browser patched input_identity: 15688/15688, maximum difference 0
+browser patched coefficient_count: 15688/15688, maximum difference 0
+browser patched n: 15688/15688, maximum difference 0
+browser patched m: 15688/15688, maximum difference 0
+browser patched design_columns: 15688/15688, maximum difference 0
+browser patched rho: 15688/15688, maximum difference 0
+browser patched tau2: 15678/15688, maximum difference 1.3385147712430268e-09
+browser patched method: 15688/15688, maximum difference 0
+browser patched export_beta_consistency: 29781/29781, maximum difference 0
+browser patched export_se_consistency: 29781/29781, maximum difference 0
+browser patched export_df_consistency: 29781/29781, maximum difference 0
+browser patched coefficient_index: 29781/29781, maximum difference 0
+browser patched estimate: 29742/29781, maximum difference 4.0863908917465224e-09
+browser patched se: 29756/29781, maximum difference 4.5933382229495235e-09
+browser patched t: 29361/29781, maximum difference 6.1446057768759097
+browser patched df: 29751/29781, maximum difference 2.5737479882387522e-09
+browser patched p: 29586/29781, maximum difference 0.99998840788873733
+browser patched ci_lo: 29241/29781, maximum difference 2.3726970539428294e-06
+browser patched ci_hi: 29243/29781, maximum difference 4.0118247852660716e-06
+browser patched club_estimate: 29742/29781, maximum difference 4.0863908917465224e-09
+browser patched club_se: 29718/29781, maximum difference 2.5815769614245809e-06
+browser patched club_t: 29340/29781, maximum difference 6.1446057768759124
+browser patched club_df: 29721/29781, maximum difference 60.63081998345838
+browser patched club_p: 29571/29781, maximum difference 0.99998840788873733
+browser patched display_row: 29746/29781, maximum difference 0
+browser patched refusal_category: 575/582, maximum difference 0
+browser patched refusal_export_cleared: 580/582, maximum difference 0
+browser-ui patched (archived observations): 17/17 checks pass
+
+==== Grand totals (fresh R references; strict criterion, unchanged) ====
+engine original: 511964/546655 checks pass; 11921 failing configurations
+engine patched: 544324/546941 checks pass; 785 failing configurations
+browser original: 840829/876415 checks pass; 12206 failing configurations
+browser-ui original: 6/17 checks pass
+browser patched: 873759/876415 checks pass; 790 failing configurations
+browser-ui patched: 17/17 checks pass
+REPRODUCED: every per-quantity count equals expected/paper_values.json (2204 s). This is the documented strict result, NOT full strict agreement.

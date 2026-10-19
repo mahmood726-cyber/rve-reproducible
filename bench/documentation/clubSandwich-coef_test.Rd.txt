@@ -1,0 +1,86 @@
+_T_e_s_t _a_l_l _o_r _s_e_l_e_c_t_e_d _r_e_g_r_e_s_s_i_o_n _c_o_e_f_f_i_c_i_e_n_t_s _i_n _a _f_i_t_t_e_d _m_o_d_e_l
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     'coef_test' reports one- or two-sided t-tests for each coefficient
+     estimate in a fitted linear regression model, using a sandwich
+     estimator for the standard errors and (optionally) a small sample
+     correction for the p-value. Available small-sample corrections
+     include Satterthwaite approximation or a saddlepoint
+     approximation. Coefficients can be tested against non-zero null
+     values by specifying 'null_constants'.
+
+_U_s_a_g_e:
+
+     coef_test(
+       obj,
+       vcov,
+       test = "Satterthwaite",
+       alternative = c("two-sided", "greater", "less"),
+       coefs = "All",
+       null_constants = 0,
+       p_values = TRUE,
+       ...
+     )
+     
+_A_r_g_u_m_e_n_t_s:
+
+     obj: Fitted model for which to calculate t-tests.
+
+    vcov: Variance covariance matrix estimated using 'vcovCR' or a
+          character string specifying which small-sample adjustment
+          should be used to calculate the variance-covariance.
+
+    test: Character vector specifying which small-sample corrections to
+          calculate. '"z"' returns a z test (i.e., using a standard
+          normal reference distribution). '"naive-t"' returns a t test
+          with 'm - 1' degrees of freedom, where 'm' is the number of
+          unique clusters. '"naive-tp"' returns a t test with 'm - p'
+          degrees of freedom, where 'p' is the number of regression
+          coefficients in 'obj'. '"Satterthwaite"' returns a
+          Satterthwaite correction. '"saddlepoint"' returns a
+          saddlepoint correction. Default is '"Satterthwaite"'.
+
+alternative: Character string specifying the alternative hypothesis,
+          with options "two-sided" (the default), "greater" or "less".
+
+   coefs: Character, integer, or logical vector specifying which
+          coefficients should be tested. The default value '"All"' will
+          test all estimated coefficients.
+
+null_constants: vector of null values for each coefficient to test.
+          Must have length equal to the number of coefficients
+          specified in 'coefs'. Default is '0', in which case the null
+          values are taken to be zero.
+
+p_values: Logical indicating whether to report p-values. The default
+          value is 'TRUE'.
+
+     ...: Further arguments passed to 'vcovCR', which are only needed
+          if 'vcov' is a character string.
+
+_V_a_l_u_e:
+
+     A data frame containing estimated regression coefficients,
+     standard errors, specified values of null hypotheses, and test
+     results. For the Satterthwaite approximation, degrees of freedom
+     and a p-value are reported.  For the saddlepoint approximation,
+     the saddlepoint and a p-value are reported.
+
+_S_e_e _A_l_s_o:
+
+     'vcovCR'
+
+_E_x_a_m_p_l_e_s:
+
+     data("ChickWeight", package = "datasets")
+     lm_fit <- lm(weight ~ Diet  * Time, data = ChickWeight)
+     diet_index <- grepl("Diet.:Time", names(coef(lm_fit)))
+     coef_test(lm_fit, vcov = "CR2", cluster = ChickWeight$Chick, coefs = diet_index)
+     
+     V_CR2 <- vcovCR(lm_fit, cluster = ChickWeight$Chick, type = "CR2")
+     coef_test(lm_fit, vcov = V_CR2, coefs = diet_index)
+     
+     # non-inferiority test whether time-by-diet interaction effects are 2 or greater
+     coef_test(lm_fit, vcov = V_CR2, coefs = diet_index, null_constants = 2, alternative = "greater")
+     

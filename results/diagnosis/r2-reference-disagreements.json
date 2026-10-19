@@ -1,0 +1,1320 @@
+{
+  "differences": [
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.2",
+      "coefficient": 0,
+      "quantity": "df",
+      "robumeta": 61.61264930150112,
+      "clubSandwich": 1.0017747750229908,
+      "difference": 60.61087452647813,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.2",
+      "coefficient": 0,
+      "quantity": "p",
+      "robumeta": 1.1950214151568161e-09,
+      "clubSandwich": 0.08812339794129367,
+      "difference": 0.08812339674627226,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.2",
+      "coefficient": 1,
+      "quantity": "df",
+      "robumeta": 61.61264930150123,
+      "clubSandwich": 1.001303603584448,
+      "difference": 60.61134569791678,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.2",
+      "coefficient": 1,
+      "quantity": "p",
+      "robumeta": 6.445066702553959e-11,
+      "clubSandwich": 0.08008473836986284,
+      "difference": 0.08008473830541217,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.5",
+      "coefficient": 0,
+      "quantity": "df",
+      "robumeta": 61.62045550756471,
+      "clubSandwich": 1.0078381794081632,
+      "difference": 60.612617328156546,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.5",
+      "coefficient": 0,
+      "quantity": "p",
+      "robumeta": 1.200080479435428e-09,
+      "clubSandwich": 0.08718929370724264,
+      "difference": 0.08718929250716216,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.5",
+      "coefficient": 1,
+      "quantity": "df",
+      "robumeta": 61.62045550756433,
+      "clubSandwich": 1.0057574702742242,
+      "difference": 60.614698037290104,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.5",
+      "coefficient": 1,
+      "quantity": "p",
+      "robumeta": 6.475842084796568e-11,
+      "clubSandwich": 0.0794304883749387,
+      "difference": 0.07943048831018028,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.8",
+      "coefficient": 0,
+      "quantity": "df",
+      "robumeta": 61.62822118263065,
+      "clubSandwich": 0.9974011991718394,
+      "difference": 60.63081998345881,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.8",
+      "coefficient": 0,
+      "quantity": "p",
+      "robumeta": 1.2051488695874468e-09,
+      "clubSandwich": 0.08884526567667485,
+      "difference": 0.08884526447152598,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.8",
+      "coefficient": 1,
+      "quantity": "df",
+      "robumeta": 61.62822118263055,
+      "clubSandwich": 0.9980904611168847,
+      "difference": 60.63013072151366,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.8",
+      "coefficient": 1,
+      "quantity": "p",
+      "robumeta": 6.50672848934164e-11,
+      "clubSandwich": 0.08059909846291881,
+      "difference": 0.08059909839785152,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 0.7790463244277611,
+      "clubSandwich": 0.7790489059597029,
+      "difference": 2.58153194176991e-06,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+      "coefficient": 0,
+      "quantity": "df",
+      "robumeta": 2.8975512477083973,
+      "clubSandwich": 0.9958087725939346,
+      "difference": 1.9017424751144627,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": -3.6770074092678695,
+      "clubSandwich": -3.6769952247798297,
+      "difference": 1.2184488039856944e-05,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+      "coefficient": 0,
+      "quantity": "p",
+      "robumeta": 0.03691107948942074,
+      "clubSandwich": 0.16987205766659064,
+      "difference": 0.1329609781771699,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+      "coefficient": 1,
+      "quantity": "se",
+      "robumeta": 0.0556461660310343,
+      "clubSandwich": 0.05564638115764427,
+      "difference": 2.1512660997036193e-07,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+      "coefficient": 1,
+      "quantity": "df",
+      "robumeta": 2.8975512477081895,
+      "clubSandwich": 0.9969043835105112,
+      "difference": 1.9006468641976784,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": 4.116439409661844,
+      "clubSandwich": 4.116423495677197,
+      "difference": 1.5913984646509505e-05,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+      "coefficient": 1,
+      "quantity": "p",
+      "robumeta": 0.027763540191136027,
+      "clubSandwich": 0.1523094621564526,
+      "difference": 0.12454592196531658,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.collins1985a::001::trial::year::rho=0.8",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 131.55721155045757,
+      "clubSandwich": 131.55721169514624,
+      "difference": 1.446886699341121e-07,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.gibson2002::002::author::year::rho=0",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 180.82029870686918,
+      "clubSandwich": 180.82029831253485,
+      "difference": 3.9433433585145394e-07,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.gibson2002::002::author::year::rho=0.2",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 180.82029870686918,
+      "clubSandwich": 180.82029831253485,
+      "difference": 3.9433433585145394e-07,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.gibson2002::002::author::year::rho=0.5",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 180.82029870686918,
+      "clubSandwich": 180.82029831253485,
+      "difference": 3.9433433585145394e-07,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.gibson2002::002::author::year::rho=0.8",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 180.82029870686918,
+      "clubSandwich": 180.82029831253485,
+      "difference": 3.9433433585145394e-07,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.gibson2002::002::author::year::rho=1",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 180.82029870686918,
+      "clubSandwich": 180.82029831253485,
+      "difference": 3.9433433585145394e-07,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=0",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 80.35426417643488,
+      "clubSandwich": 80.3542643032472,
+      "difference": 1.2681232419708977e-07,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=0",
+      "coefficient": 0,
+      "quantity": "df",
+      "robumeta": 1.6353562862304023,
+      "clubSandwich": 1.635356283348648,
+      "difference": 2.8817543906711762e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=0",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": 1.8622306899873307,
+      "clubSandwich": 1.8622306870484224,
+      "difference": 2.9389082278896694e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=0",
+      "coefficient": 1,
+      "quantity": "df",
+      "robumeta": 1.6350867222004626,
+      "clubSandwich": 1.6350867193177718,
+      "difference": 2.882690752770145e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=0",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": -1.8763136185092821,
+      "clubSandwich": -1.8763136158634472,
+      "difference": 2.6458348845181945e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=0.2",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 80.35426417643488,
+      "clubSandwich": 80.3542643032472,
+      "difference": 1.2681232419708977e-07,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=0.2",
+      "coefficient": 0,
+      "quantity": "df",
+      "robumeta": 1.6353562862304023,
+      "clubSandwich": 1.635356283348648,
+      "difference": 2.8817543906711762e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=0.2",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": 1.8622306899873307,
+      "clubSandwich": 1.8622306870484224,
+      "difference": 2.9389082278896694e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=0.2",
+      "coefficient": 1,
+      "quantity": "df",
+      "robumeta": 1.6350867222004626,
+      "clubSandwich": 1.6350867193177718,
+      "difference": 2.882690752770145e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=0.2",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": -1.8763136185092821,
+      "clubSandwich": -1.8763136158634472,
+      "difference": 2.6458348845181945e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=0.5",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 80.35426417643488,
+      "clubSandwich": 80.3542643032472,
+      "difference": 1.2681232419708977e-07,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=0.5",
+      "coefficient": 0,
+      "quantity": "df",
+      "robumeta": 1.6353562862304023,
+      "clubSandwich": 1.635356283348648,
+      "difference": 2.8817543906711762e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=0.5",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": 1.8622306899873307,
+      "clubSandwich": 1.8622306870484224,
+      "difference": 2.9389082278896694e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=0.5",
+      "coefficient": 1,
+      "quantity": "df",
+      "robumeta": 1.6350867222004626,
+      "clubSandwich": 1.6350867193177718,
+      "difference": 2.882690752770145e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=0.5",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": -1.8763136185092821,
+      "clubSandwich": -1.8763136158634472,
+      "difference": 2.6458348845181945e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=0.8",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 80.35426417643488,
+      "clubSandwich": 80.3542643032472,
+      "difference": 1.2681232419708977e-07,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=0.8",
+      "coefficient": 0,
+      "quantity": "df",
+      "robumeta": 1.6353562862304023,
+      "clubSandwich": 1.635356283348648,
+      "difference": 2.8817543906711762e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=0.8",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": 1.8622306899873307,
+      "clubSandwich": 1.8622306870484224,
+      "difference": 2.9389082278896694e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=0.8",
+      "coefficient": 1,
+      "quantity": "df",
+      "robumeta": 1.6350867222004626,
+      "clubSandwich": 1.6350867193177718,
+      "difference": 2.882690752770145e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=0.8",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": -1.8763136185092821,
+      "clubSandwich": -1.8763136158634472,
+      "difference": 2.6458348845181945e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=1",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 80.35426417643488,
+      "clubSandwich": 80.3542643032472,
+      "difference": 1.2681232419708977e-07,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=1",
+      "coefficient": 0,
+      "quantity": "df",
+      "robumeta": 1.6353562862304023,
+      "clubSandwich": 1.635356283348648,
+      "difference": 2.8817543906711762e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=1",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": 1.8622306899873307,
+      "clubSandwich": 1.8622306870484224,
+      "difference": 2.9389082278896694e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=1",
+      "coefficient": 1,
+      "quantity": "df",
+      "robumeta": 1.6350867222004626,
+      "clubSandwich": 1.6350867193177718,
+      "difference": 2.882690752770145e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.hart1999::001::study::year::rho=1",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": -1.8763136185092821,
+      "clubSandwich": -1.8763136158634472,
+      "difference": 2.6458348845181945e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::001::study::year::rho=0.5",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 90.40967981574433,
+      "clubSandwich": 90.4096799412847,
+      "difference": 1.255403674349509e-07,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::001::study::year::rho=0.5",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": 0.79985534174863,
+      "clubSandwich": 0.7998553406379731,
+      "difference": 1.11065689978318e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::001::study::year::rho=0.5",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": -0.7921865199577992,
+      "clubSandwich": -0.7921865188891835,
+      "difference": 1.0686157514427919e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::001::author::year::rho=0",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 90.41298562045094,
+      "clubSandwich": 90.4129854836069,
+      "difference": 1.3684403654679045e-07,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::001::author::year::rho=0",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": 0.8001284401815534,
+      "clubSandwich": 0.800128441392583,
+      "difference": 1.2110296099265838e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::001::author::year::rho=0",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": -0.7924593202019822,
+      "clubSandwich": -0.7924593214494576,
+      "difference": 1.2474754562674661e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::001::author::year::rho=0.2",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 90.41165888126427,
+      "clubSandwich": 90.41165899497288,
+      "difference": 1.1370860875103972e-07,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::001::author::year::rho=0.2",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": 0.8000191567078988,
+      "clubSandwich": 0.8000191557017337,
+      "difference": 1.0061651511961145e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::001::author::year::rho=0.2",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": -0.7923501557824193,
+      "clubSandwich": -0.7923501547225937,
+      "difference": 1.0598255606453222e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::001::author::year::rho=0.8",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 90.40771398893784,
+      "clubSandwich": 90.40771408525914,
+      "difference": 9.632130115733162e-08,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::001::author::year::rho=1",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 90.40641088993483,
+      "clubSandwich": 90.40641098161669,
+      "difference": 9.168185499675019e-08,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::002::study::year::rho=0",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 10.865039794466353,
+      "clubSandwich": 10.86503978201758,
+      "difference": 1.2448772679363174e-08,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::002::study::year::rho=0",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": 1.2895332005365414,
+      "clubSandwich": 1.2895332020140422,
+      "difference": 1.477500788382713e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::002::study::year::rho=0",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": -1.284240118123393,
+      "clubSandwich": -1.2842401195454274,
+      "difference": 1.42203449016165e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::002::study::year::rho=0.5",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 10.865002567856177,
+      "clubSandwich": 10.865002579022471,
+      "difference": 1.1166294555664535e-08,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::002::study::year::rho=0.5",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": 1.2895440225060892,
+      "clubSandwich": 1.2895440211807856,
+      "difference": 1.325303644605924e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::002::study::year::rho=0.5",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": -1.2842509058576457,
+      "clubSandwich": -1.2842509043562538,
+      "difference": 1.5013918996942266e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::002::study::year::rho=0.8",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 10.86498022624252,
+      "clubSandwich": 10.86498021388813,
+      "difference": 1.235439128777216e-08,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::002::study::year::rho=0.8",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": 1.2895505140557606,
+      "clubSandwich": 1.2895505155220874,
+      "difference": 1.4663268377290706e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::002::study::year::rho=1",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 10.864965338709975,
+      "clubSandwich": 10.864965352471776,
+      "difference": 1.3761800587985817e-08,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::002::study::year::rho=1",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": 1.2895548423422052,
+      "clubSandwich": 1.289554840708827,
+      "difference": 1.6333780994415292e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::002::author::year::rho=0",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 10.86503979170766,
+      "clubSandwich": 10.86503980982586,
+      "difference": 1.811819849706353e-08,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::002::author::year::rho=0",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": 1.2895331998353525,
+      "clubSandwich": 1.2895331976849675,
+      "difference": 2.1503849811921327e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::002::author::year::rho=0",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": -1.2842401174125078,
+      "clubSandwich": -1.2842401153481278,
+      "difference": 2.0643800002773105e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::002::author::year::rho=0.5",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 10.86500256433807,
+      "clubSandwich": 10.865002608755784,
+      "difference": 4.441771395136129e-08,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.obrien2003::002::author::year::rho=0.5",
+      "coefficient": 0,
+      "quantity": "df",
+      "robumeta": 4.869403243800026,
+      "clubSandwich": 4.86940323775079,
+      "difference": 6.049235778959883e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::002::author::year::rho=0.5",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": 1.2895440226182768,
+      "clubSandwich": 1.2895440173464328,
+      "difference": 5.271844072396448e-09,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.obrien2003::002::author::year::rho=0.5",
+      "coefficient": 0,
+      "quantity": "p",
+      "robumeta": 0.2550583123281185,
+      "clubSandwich": 0.2550583140834627,
+      "difference": 1.7553442033246824e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::002::author::year::rho=0.5",
+      "coefficient": 1,
+      "quantity": "df",
+      "robumeta": 4.870598837715617,
+      "clubSandwich": 4.870598831655184,
+      "difference": 6.060433044297042e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::002::author::year::rho=0.5",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": -1.2842509053983673,
+      "clubSandwich": -1.2842509004558564,
+      "difference": 4.942510845040715e-09,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.obrien2003::002::author::year::rho=0.5",
+      "coefficient": 1,
+      "quantity": "p",
+      "robumeta": 0.2567447637547844,
+      "clubSandwich": 0.25674476541437036,
+      "difference": 1.6595859686496794e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.obrien2003::002::author::year::rho=0.8",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 10.864980232162074,
+      "clubSandwich": 10.864980209603885,
+      "difference": 2.2558188206289742e-08,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.obrien2003::002::author::year::rho=0.8",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": 1.2895505141420485,
+      "clubSandwich": 1.2895505168194508,
+      "difference": 2.6774022998665714e-09,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.obrien2003::002::author::year::rho=0.8",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": -1.2842573767833574,
+      "clubSandwich": -1.2842573792552003,
+      "difference": 2.471842952544989e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.raudenbush1985::001::author::year::rho=1",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 36.73305263996069,
+      "clubSandwich": 36.73305268078348,
+      "difference": 4.082279048134296e-08,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.raudenbush1985::001::author::year::rho=1",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": 1.3729095341383046,
+      "clubSandwich": 1.37290953261254,
+      "difference": 1.5257646257538227e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.raudenbush1985::001::author::year::rho=1",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": -1.3710032869046895,
+      "clubSandwich": -1.3710032850545735,
+      "difference": 1.8501160603534572e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.rivera2025::002::Author::Year::rho=0",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 293.0296841659197,
+      "clubSandwich": 293.02968453405043,
+      "difference": 3.681307134684175e-07,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.rivera2025::002::Author::Year::rho=0",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": 0.9974524550619029,
+      "clubSandwich": 0.9974524538088119,
+      "difference": 1.2530910753483226e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.rivera2025::002::Author::Year::rho=0",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": -0.9923461073936222,
+      "clubSandwich": -0.9923461061404458,
+      "difference": 1.2531763404766139e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.roever2022::001::study::year::rho=0",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 108.7732439352376,
+      "clubSandwich": 108.77324404503166,
+      "difference": 1.0979405828948074e-07,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.roever2022::001::study::year::rho=0.2",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 108.7732439352376,
+      "clubSandwich": 108.77324404503166,
+      "difference": 1.0979405828948074e-07,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.roever2022::001::study::year::rho=0.5",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 108.7732439352376,
+      "clubSandwich": 108.77324404503166,
+      "difference": 1.0979405828948074e-07,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.roever2022::001::study::year::rho=0.8",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 108.7732439352376,
+      "clubSandwich": 108.77324404503166,
+      "difference": 1.0979405828948074e-07,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.roever2022::001::study::year::rho=1",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 108.7732439352376,
+      "clubSandwich": 108.77324404503166,
+      "difference": 1.0979405828948074e-07,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.steurer2006::001::author::year::rho=0",
+      "coefficient": 0,
+      "quantity": "df",
+      "robumeta": 1.058439510938309,
+      "clubSandwich": 1.058439509678184,
+      "difference": 1.2601248933208353e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.steurer2006::001::author::year::rho=0",
+      "coefficient": 1,
+      "quantity": "df",
+      "robumeta": 1.058336793054193,
+      "clubSandwich": 1.058336791792225,
+      "difference": 1.261967863541713e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.steurer2006::001::author::year::rho=0.2",
+      "coefficient": 0,
+      "quantity": "df",
+      "robumeta": 1.058439510938309,
+      "clubSandwich": 1.058439509678184,
+      "difference": 1.2601248933208353e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.steurer2006::001::author::year::rho=0.2",
+      "coefficient": 1,
+      "quantity": "df",
+      "robumeta": 1.058336793054193,
+      "clubSandwich": 1.058336791792225,
+      "difference": 1.261967863541713e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.steurer2006::001::author::year::rho=0.5",
+      "coefficient": 0,
+      "quantity": "df",
+      "robumeta": 1.058439510938309,
+      "clubSandwich": 1.058439509678184,
+      "difference": 1.2601248933208353e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.steurer2006::001::author::year::rho=0.5",
+      "coefficient": 1,
+      "quantity": "df",
+      "robumeta": 1.058336793054193,
+      "clubSandwich": 1.058336791792225,
+      "difference": 1.261967863541713e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.steurer2006::001::author::year::rho=0.8",
+      "coefficient": 0,
+      "quantity": "df",
+      "robumeta": 1.058439510938309,
+      "clubSandwich": 1.058439509678184,
+      "difference": 1.2601248933208353e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.steurer2006::001::author::year::rho=0.8",
+      "coefficient": 1,
+      "quantity": "df",
+      "robumeta": 1.058336793054193,
+      "clubSandwich": 1.058336791792225,
+      "difference": 1.261967863541713e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.steurer2006::001::author::year::rho=1",
+      "coefficient": 0,
+      "quantity": "df",
+      "robumeta": 1.058439510938309,
+      "clubSandwich": 1.058439509678184,
+      "difference": 1.2601248933208353e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.steurer2006::001::author::year::rho=1",
+      "coefficient": 1,
+      "quantity": "df",
+      "robumeta": 1.058336793054193,
+      "clubSandwich": 1.058336791792225,
+      "difference": 1.261967863541713e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.steurer2006::002::author::year::rho=0",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": 7.294438865431318,
+      "clubSandwich": 7.294438873420561,
+      "difference": 7.98924304490356e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.steurer2006::002::author::year::rho=0.2",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": 7.294438865431318,
+      "clubSandwich": 7.294438873420561,
+      "difference": 7.98924304490356e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.steurer2006::002::author::year::rho=0.5",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": 7.294438865431318,
+      "clubSandwich": 7.294438873420561,
+      "difference": 7.98924304490356e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.steurer2006::002::author::year::rho=0.8",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": 7.294438865431318,
+      "clubSandwich": 7.294438873420561,
+      "difference": 7.98924304490356e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.steurer2006::002::author::year::rho=1",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": 7.294438865431318,
+      "clubSandwich": 7.294438873420561,
+      "difference": 7.98924304490356e-09,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.ursino2021::001::study::year::rho=0",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 105.91810105890757,
+      "clubSandwich": 105.91810121116872,
+      "difference": 1.5226115124278294e-07,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.ursino2021::001::study::year::rho=0.2",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 105.91810105890757,
+      "clubSandwich": 105.91810121116872,
+      "difference": 1.5226115124278294e-07,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.ursino2021::001::study::year::rho=0.5",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 105.91810105890757,
+      "clubSandwich": 105.91810121116872,
+      "difference": 1.5226115124278294e-07,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.ursino2021::001::study::year::rho=0.8",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 105.91810105890757,
+      "clubSandwich": 105.91810121116872,
+      "difference": 1.5226115124278294e-07,
+      "disjoint_acceptance_intervals": false
+    },
+    {
+      "id": "dat.ursino2021::001::study::year::rho=1",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 105.91810105890757,
+      "clubSandwich": 105.91810121116872,
+      "difference": 1.5226115124278294e-07,
+      "disjoint_acceptance_intervals": false
+    }
+  ],
+  "disjoint": [
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.2",
+      "coefficient": 0,
+      "quantity": "df",
+      "robumeta": 61.61264930150112,
+      "clubSandwich": 1.0017747750229908,
+      "difference": 60.61087452647813,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.2",
+      "coefficient": 0,
+      "quantity": "p",
+      "robumeta": 1.1950214151568161e-09,
+      "clubSandwich": 0.08812339794129367,
+      "difference": 0.08812339674627226,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.2",
+      "coefficient": 1,
+      "quantity": "df",
+      "robumeta": 61.61264930150123,
+      "clubSandwich": 1.001303603584448,
+      "difference": 60.61134569791678,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.2",
+      "coefficient": 1,
+      "quantity": "p",
+      "robumeta": 6.445066702553959e-11,
+      "clubSandwich": 0.08008473836986284,
+      "difference": 0.08008473830541217,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.5",
+      "coefficient": 0,
+      "quantity": "df",
+      "robumeta": 61.62045550756471,
+      "clubSandwich": 1.0078381794081632,
+      "difference": 60.612617328156546,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.5",
+      "coefficient": 0,
+      "quantity": "p",
+      "robumeta": 1.200080479435428e-09,
+      "clubSandwich": 0.08718929370724264,
+      "difference": 0.08718929250716216,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.5",
+      "coefficient": 1,
+      "quantity": "df",
+      "robumeta": 61.62045550756433,
+      "clubSandwich": 1.0057574702742242,
+      "difference": 60.614698037290104,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.5",
+      "coefficient": 1,
+      "quantity": "p",
+      "robumeta": 6.475842084796568e-11,
+      "clubSandwich": 0.0794304883749387,
+      "difference": 0.07943048831018028,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.8",
+      "coefficient": 0,
+      "quantity": "df",
+      "robumeta": 61.62822118263065,
+      "clubSandwich": 0.9974011991718394,
+      "difference": 60.63081998345881,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.8",
+      "coefficient": 0,
+      "quantity": "p",
+      "robumeta": 1.2051488695874468e-09,
+      "clubSandwich": 0.08884526567667485,
+      "difference": 0.08884526447152598,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.8",
+      "coefficient": 1,
+      "quantity": "df",
+      "robumeta": 61.62822118263055,
+      "clubSandwich": 0.9980904611168847,
+      "difference": 60.63013072151366,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.8",
+      "coefficient": 1,
+      "quantity": "p",
+      "robumeta": 6.50672848934164e-11,
+      "clubSandwich": 0.08059909846291881,
+      "difference": 0.08059909839785152,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 0.7790463244277611,
+      "clubSandwich": 0.7790489059597029,
+      "difference": 2.58153194176991e-06,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+      "coefficient": 0,
+      "quantity": "df",
+      "robumeta": 2.8975512477083973,
+      "clubSandwich": 0.9958087725939346,
+      "difference": 1.9017424751144627,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": -3.6770074092678695,
+      "clubSandwich": -3.6769952247798297,
+      "difference": 1.2184488039856944e-05,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+      "coefficient": 0,
+      "quantity": "p",
+      "robumeta": 0.03691107948942074,
+      "clubSandwich": 0.16987205766659064,
+      "difference": 0.1329609781771699,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+      "coefficient": 1,
+      "quantity": "se",
+      "robumeta": 0.0556461660310343,
+      "clubSandwich": 0.05564638115764427,
+      "difference": 2.1512660997036193e-07,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+      "coefficient": 1,
+      "quantity": "df",
+      "robumeta": 2.8975512477081895,
+      "clubSandwich": 0.9969043835105112,
+      "difference": 1.9006468641976784,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": 4.116439409661844,
+      "clubSandwich": 4.116423495677197,
+      "difference": 1.5913984646509505e-05,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+      "coefficient": 1,
+      "quantity": "p",
+      "robumeta": 0.027763540191136027,
+      "clubSandwich": 0.1523094621564526,
+      "difference": 0.12454592196531658,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.gibson2002::002::author::year::rho=0",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 180.82029870686918,
+      "clubSandwich": 180.82029831253485,
+      "difference": 3.9433433585145394e-07,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.gibson2002::002::author::year::rho=0.2",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 180.82029870686918,
+      "clubSandwich": 180.82029831253485,
+      "difference": 3.9433433585145394e-07,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.gibson2002::002::author::year::rho=0.5",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 180.82029870686918,
+      "clubSandwich": 180.82029831253485,
+      "difference": 3.9433433585145394e-07,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.gibson2002::002::author::year::rho=0.8",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 180.82029870686918,
+      "clubSandwich": 180.82029831253485,
+      "difference": 3.9433433585145394e-07,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.gibson2002::002::author::year::rho=1",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 180.82029870686918,
+      "clubSandwich": 180.82029831253485,
+      "difference": 3.9433433585145394e-07,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.obrien2003::002::author::year::rho=0.5",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 10.86500256433807,
+      "clubSandwich": 10.865002608755784,
+      "difference": 4.441771395136129e-08,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.obrien2003::002::author::year::rho=0.5",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": 1.2895440226182768,
+      "clubSandwich": 1.2895440173464328,
+      "difference": 5.271844072396448e-09,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.obrien2003::002::author::year::rho=0.5",
+      "coefficient": 1,
+      "quantity": "t",
+      "robumeta": -1.2842509053983673,
+      "clubSandwich": -1.2842509004558564,
+      "difference": 4.942510845040715e-09,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.obrien2003::002::author::year::rho=0.8",
+      "coefficient": 0,
+      "quantity": "se",
+      "robumeta": 10.864980232162074,
+      "clubSandwich": 10.864980209603885,
+      "difference": 2.2558188206289742e-08,
+      "disjoint_acceptance_intervals": true
+    },
+    {
+      "id": "dat.obrien2003::002::author::year::rho=0.8",
+      "coefficient": 0,
+      "quantity": "t",
+      "robumeta": 1.2895505141420485,
+      "clubSandwich": 1.2895505168194508,
+      "difference": 2.6774022998665714e-09,
+      "disjoint_acceptance_intervals": true
+    }
+  ]
+}

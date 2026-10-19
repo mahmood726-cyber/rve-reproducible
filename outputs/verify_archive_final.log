@@ -1,0 +1,34 @@
+PASS inventory: pinned set equals source files -- 463 pinned, 463 present
+PASS inventory: every SHA-256 matches
+PASS sizes: every file < 90 MB
+PASS sizes: archive < 500 MB -- 51.9 MB in 484 files
+PASS xz: data/configurations.json.xz -- 109207974 bytes in 1 part(s)
+PASS xz: results/engine/engine-full-original.jsonl.xz -- 36138575 bytes in 1 part(s)
+PASS xz: results/engine/engine-full-patched.jsonl.xz -- 35382045 bytes in 1 part(s)
+PASS xz: results/engine/engine-failures-full-original.json.xz -- 7129071 bytes in 1 part(s)
+PASS xz: results/reference/r-reference.jsonl.xz -- 15138533 bytes in 1 part(s)
+PASS xz: results/diagnosis/strict-diagnosis.json.xz -- 15918496 bytes in 1 part(s)
+PASS xz: results/browser/app-original.jsonl.xz -- 1041643524 bytes in 1 part(s)
+PASS xz: results/browser/compare-failures-original.json.xz -- 9571756 bytes in 1 part(s)
+PASS xz: results/browser/app-patched.jsonl.xz -- 1000284041 bytes in 1 part(s)
+PASS xz: results/browser/compare-failures-patched.json.xz -- 640015 bytes in 1 part(s)
+PASS app: shipped page files match app-sha256.json -- 9 files
+PASS app-original: files match app-sha256.json
+PASS app: captured CRLF engine files equal the committed LF bytes after CRLF->LF
+PASS engine patched: capture meta hashes equal archived engine bytes
+PASS engine original: capture meta hashes equal archived engine bytes
+PASS references: one line per configuration, keyed and hashed as indexed -- 16270 references
+PASS expected engine original: totals and per-quantity counts equal archived results -- 511964/546655
+PASS expected engine original: failing (id, quantity) digest and configuration count -- 11921 configurations
+PASS expected browser original: totals, per-quantity counts and failing digest equal archived compare output -- 840829/876415
+PASS expected browser UI original
+PASS expected engine patched: totals and per-quantity counts equal archived results -- 544324/546941
+PASS expected engine patched: failing (id, quantity) digest and configuration count -- 785 configurations
+PASS expected browser patched: totals, per-quantity counts and failing digest equal archived compare output -- 873759/876415
+PASS expected browser UI patched
+PASS causes: failing-configurations-patched.csv covers every failing configuration once
+PASS causes: counts equal expected -- {"exact fit (near-zero reference SE)": 190, "ill-conditioned design (kappa_2(XtWX) > 1e-9/u = 9.0e6)": 584, "refusal disagreement: acceptance (R refuses, app fits); design ill-conditioned": 2, "refusal disagreement: reason (app m<=p; R complex-eigenvalue error)": 5, "robumeta vs clubSandwich reference conflict (disjoint acceptance intervals)": 4}
+PASS release placeholders present; no allmeta DOI asserted
+PASS .zenodo.json metadata
+PASS privacy: no host paths, addresses or key names in text files
+33/33 archive checks pass

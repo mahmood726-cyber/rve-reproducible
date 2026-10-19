@@ -1,0 +1,120 @@
+dataset,status,configurations,effect_definitions,cluster_columns,moderator_columns,reason
+dat.aloe2013,included,75,3,['study'],"['R2', 'n', 'preds', 'tval']",included under declared clustering/moderator eligibility rule
+dat.anand1999,included,80,2,['study'],"['ai', 'asp.c', 'asp.t', 'ci', 'n1i', 'n2i', 'year']",included under declared clustering/moderator eligibility rule
+dat.anker2025,included,420,4,['study'],"['baseline.age', 'baseline.ft', 'baseline.hgb', 'baseline.lvef', 'baseline.tsat', 'female.logrr', 'female.n', 'female.se', 'followup', 'intv.n', 'male.logrr', 'male.n', 'male.se', 'placebo.n', 'sex.logrrr', 'sex.se', 'total.logrr', 'total.n', 'total.se', 'year']",included under declared clustering/moderator eligibility rule
+dat.assink2016,included,50,1,"['id', 'study']","['esid', 'id', 'pubstatus', 'study', 'year']",included under declared clustering/moderator eligibility rule
+dat.axfors2021,included,25,1,['id'],"['control_arm_event', 'control_arm_total', 'hcq_arm_event', 'hcq_arm_total']",included under declared clustering/moderator eligibility rule
+dat.bakdash2021,included,35,1,['Author'],"['Outcome', 'Sample.size', 'Sample.size.stats', 'Year', 'es.z', 'vi.z']",included under declared clustering/moderator eligibility rule
+dat.baker2009,included,220,1,"['id', 'studlab', 'study']","['TE', 'event1', 'event2', 'exac1', 'exac2', 'id', 'incr1', 'incr2', 'n1', 'n2', 'seTE', 'total1', 'total2', 'year']",included under declared clustering/moderator eligibility rule
+dat.bangertdrowns2004,included,125,1,"['author', 'id']","['feedback', 'grade', 'id', 'imag', 'info', 'length', 'meta', 'minutes', 'ni', 'pers', 'wic', 'year']",included under declared clustering/moderator eligibility rule
+dat.bartos2023,included,140,4,['person'],"['flips', 'hdiff', 'hsame', 'same', 'tdiff', 'tsame']",included under declared clustering/moderator eligibility rule
+dat.baskerville2012,included,80,1,['author'],"['alloconc', 'blind', 'duration', 'fumonths', 'hours', 'itt', 'meetings', 'outcomes', 'pperf', 'retention', 'score', 'se', 'smd', 'tailor', 'year']",included under declared clustering/moderator eligibility rule
+dat.bassler2004,included,50,2,['study'],"['Ec', 'Ee', 'Nc', 'Ne']",included under declared clustering/moderator eligibility rule
+dat.bauer2002,included,100,2,['study'],"['lower', 'n.control', 'n.total', 'n.treat', 'stderr', 'threshold', 'upper', 'wmwstat', 'year']",included under declared clustering/moderator eligibility rule
+dat.bcg,included,75,1,"['author', 'trial']","['ablat', 'cneg', 'cpos', 'tneg', 'tpos', 'trial', 'year']",included under declared clustering/moderator eligibility rule
+dat.begg1989,included,10,1,['study'],['arms'],included under declared clustering/moderator eligibility rule
+dat.berkey1998,included,55,1,"['author', 'trial']","['ni', 'trial', 'v1i', 'v2i', 'year']",included under declared clustering/moderator eligibility rule
+dat.berkey1998r,included,55,1,"['author', 'trial']","['ni', 'trial', 'v1i', 'v2i', 'year']",included under declared clustering/moderator eligibility rule
+dat.besson2016,included,940,1,"['animal_ID', 'authors_behaviour_classification', 'comp_ID', 'con_ID', 'dam_ID', 'study_ID', 'time_trial']","['age_mating', 'bm_N_contr', 'bm_N_exp', 'bm_dPP', 'bodymass_SE_contr', 'bodymass_SE_exp', 'bodymass_mean_contr', 'bodymass_mean_exp', 'con_mean', 'con_n', 'con_se', 'dam_diet_end_dPC', 'dam_diet_start_dPC', 'exp_mean', 'exp_n', 'exp_se', 'litter_size', 'n_con_dam', 'n_exp_dam', 'offspring_diet_end_dPP', 'photoperiod', 'response_age_dPP', 'sd_c', 'sd_e', 'temperature', 'time_trial']",included under declared clustering/moderator eligibility rule
+dat.bonett2010,included,60,3,['study'],"['ai', 'mi', 'ni']",included under declared clustering/moderator eligibility rule
+dat.bornmann2007,included,35,1,['study'],"['maward', 'mtotal', 'obs', 'waward', 'wtotal', 'year']",included under declared clustering/moderator eligibility rule
+dat.bourassa1996,included,85,1,"['author', 'study']","['lh.le', 'lh.re', 'mage', 'rh.le', 'rh.re', 'sample', 'study', 'year']",included under declared clustering/moderator eligibility rule
+dat.cannon2006,included,525,7,['trial'],"['ep1c', 'ep1t', 'ep2c', 'ep2t', 'ep3c', 'ep3t', 'ep4c', 'ep4t', 'ep5c', 'ep5t', 'ep6c', 'ep6t', 'nc', 'nt']",included under declared clustering/moderator eligibility rule
+dat.chiarito2020,included,505,6,"['studlab', 'study']","['aspirin.daily.mg', 'aspirin.death', 'aspirin.mi', 'aspirin.stroke', 'aspirin.total', 'aspirin.vdeath', 'baseline.age', 'baseline.diabetes', 'baseline.dyslipidaemia', 'baseline.hypertension', 'baseline.males', 'duration.months', 'p2y12.daily.mg', 'p2y12.death', 'p2y12.mi', 'p2y12.stroke', 'p2y12.total', 'p2y12.vdeath', 'year']",included under declared clustering/moderator eligibility rule
+dat.cohen1981,included,15,1,['study'],"['ni', 'ri']",included under declared clustering/moderator eligibility rule
+dat.colditz1994,included,75,1,"['author', 'trial']","['ablat', 'cneg', 'cpos', 'tneg', 'tpos', 'trial', 'year']",included under declared clustering/moderator eligibility rule
+dat.collins1985a,included,690,6,"['id', 'trial']","['b.xci', 'b.xti', 'd.xci', 'd.xti', 'id', 'nci', 'nti', 'o.xci', 'o.xti', 'ref', 'year']",included under declared clustering/moderator eligibility rule
+dat.collins1985b,included,775,5,"['author', 'id']","['fup.nci', 'fup.nti', 'id', 'ned.xci', 'ned.xti', 'oedema', 'ped.xci', 'ped.xti', 'pre.nci', 'pre.nti', 'pre.xci', 'pre.xti', 'stb.xci', 'stb.xti', 'year']",included under declared clustering/moderator eligibility rule
+dat.craft2003,included,15,1,['study'],"['ni', 'ri']",included under declared clustering/moderator eligibility rule
+dat.crede2010,included,25,1,['studyid'],"['ni', 'ri', 'sampleid', 'year']",included under declared clustering/moderator eligibility rule
+dat.crisafulli2020,included,30,1,['study'],"['cases', 'from', 'pubyear', 'to', 'total']",included under declared clustering/moderator eligibility rule
+dat.curtin2002,included,25,1,['author'],"['N', 'SE', 'corr', 'mean']",included under declared clustering/moderator eligibility rule
+dat.curtis1998,included,110,1,"['id', 'paper']","['co2.ambi', 'co2.elev', 'id', 'm1i', 'm2i', 'n1i', 'n2i', 'paper', 'sd1i', 'sd2i', 'time']",included under declared clustering/moderator eligibility rule
+dat.dagostino1998,included,165,3,['study'],"['mc', 'mt', 'nc', 'nt', 'sdc', 'sdt', 'tnc', 'tnt', 'xc', 'xt']",included under declared clustering/moderator eligibility rule
+dat.damico2009,included,80,2,['study'],"['blind', 'conceal', 'nc', 'nt', 'xc', 'xt', 'year']",included under declared clustering/moderator eligibility rule
+dat.debruin2009,included,30,1,['author'],"['mi', 'ni', 'scq', 'xi', 'year']",included under declared clustering/moderator eligibility rule
+dat.demir2022,included,65,1,"['author', 'studyid']","['alpha', 'esid', 'items', 'n', 'studyid', 'year']",included under declared clustering/moderator eligibility rule
+dat.dogliotti2014,included,205,1,"['id', 'studlab', 'study']","['TE', 'event1', 'event2', 'id', 'incr1', 'incr2', 'n1', 'n2', 'seTE', 'stroke1', 'stroke2', 'total1', 'total2']",included under declared clustering/moderator eligibility rule
+dat.dong2013,included,140,1,"['id', 'studlab']","['TE', 'death1', 'death2', 'event1', 'event2', 'id', 'incr1', 'incr2', 'n1', 'n2', 'randomized1', 'randomized2', 'seTE', 'studlab']",included under declared clustering/moderator eligibility rule
+dat.dorn2007,included,95,1,"['id', 'study']","['days', 'id', 'jadad', 'n.a', 'n.p', 'visits', 'x.a', 'x.p', 'year']",included under declared clustering/moderator eligibility rule
+dat.dumouchel1994,included,20,1,['study'],"['lower', 'or', 'upper']",included under declared clustering/moderator eligibility rule
+dat.egger2001,included,130,2,"['id', 'study']","['ai', 'ci', 'id', 'n1i', 'n2i', 'year']",included under declared clustering/moderator eligibility rule
+dat.feng2019,included,70,2,['author'],"['age', 'depr', 'first', 'males', 'n', 'year']",included under declared clustering/moderator eligibility rule
+dat.fine1993,included,285,5,['study'],"['c1i', 'c2i', 'c3i', 'c4i', 'e1i', 'e2i', 'e3i', 'e4i', 'nci', 'nei', 'v1i', 'y1i']",included under declared clustering/moderator eligibility rule
+dat.franchini2012,included,180,1,"['Study', 'studlab']","['TE', 'mean1', 'mean2', 'n1', 'n1.orig', 'n2', 'n2.orig', 'n3', 'sd1', 'sd1.orig', 'sd2', 'sd2.orig', 'sd3', 'seTE', 'y1', 'y2', 'y3']",included under declared clustering/moderator eligibility rule
+dat.frank2008,included,140,4,['study'],"['bc.del.del', 'bc.ins.del', 'bc.ins.ins', 'ct.del.del', 'ct.ins.del', 'ct.ins.ins']",included under declared clustering/moderator eligibility rule
+dat.furukawa2003,included,105,3,['author'],"['Mc', 'Me', 'Nc', 'Ne', 'Sc', 'Se']",included under declared clustering/moderator eligibility rule
+dat.gibson2002,included,260,4,['author'],"['ai', 'bi', 'ci', 'di', 'm1i', 'm2i', 'n1i', 'n2i', 'sd1i', 'sd2i', 'type', 'year']",included under declared clustering/moderator eligibility rule
+dat.graves2010,included,25,1,['study'],"['ai', 'ci', 'n1i', 'n2i']",included under declared clustering/moderator eligibility rule
+dat.greb2008,included,50,2,['study'],"['Ec', 'Ee', 'Nc', 'Ne']",included under declared clustering/moderator eligibility rule
+dat.greenland1992,included,20,1,['author'],"['SE', 'b', 'year']",included under declared clustering/moderator eligibility rule
+dat.gurusamy2011,included,130,1,"['studlab', 'study']","['TE', 'death1', 'death2', 'event1', 'event2', 'incr1', 'incr2', 'n.orig1', 'n.orig2', 'n1', 'n2', 'seTE']",included under declared clustering/moderator eligibility rule
+dat.hackshaw1998,included,65,1,"['author', 'study']","['cases', 'or', 'or.lb', 'or.ub', 'study', 'year']",included under declared clustering/moderator eligibility rule
+dat.hahn2001,included,50,2,['study'],"['ai', 'ci', 'n1i', 'n2i']",included under declared clustering/moderator eligibility rule
+dat.hannum2020,included,60,3,['authorName'],"['ni', 'percentOlfactoryLoss', 'xi']",included under declared clustering/moderator eligibility rule
+dat.hart1999,included,170,2,"['study', 'trial']","['n1i', 'n2i', 't1i', 't2i', 'trial', 'x1i', 'x2i', 'year']",included under declared clustering/moderator eligibility rule
+dat.hartmannboyce2018,included,25,1,['study'],"['n.ctrl', 'n.nrt', 'x.ctrl', 'x.nrt']",included under declared clustering/moderator eligibility rule
+dat.hasselblad1998,included,190,2,"['authors', 'id', 'study']","['id', 'ni', 'ni.1', 'ni.2', 'study', 'xi', 'xi.1', 'xi.2', 'year']",included under declared clustering/moderator eligibility rule
+dat.higgins2008,included,70,2,['author'],"['fail.halo', 'fail.plac', 'miss.halo', 'miss.plac', 'resp.halo', 'resp.plac']",included under declared clustering/moderator eligibility rule
+dat.hine1989,included,50,2,['study'],"['ai', 'ci', 'n1i', 'n2i']",included under declared clustering/moderator eligibility rule
+dat.huber2000,included,5,1,['study'],[],included under declared clustering/moderator eligibility rule
+dat.ishak2007,included,220,4,['study'],"['mbase', 'mdur', 'v1i', 'v2i', 'v3i', 'v4i', 'y1i', 'y2i', 'y3i', 'y4i']",included under declared clustering/moderator eligibility rule
+dat.kalaian1996,included,85,1,"['id', 'study']","['ets', 'homework', 'hrs', 'id', 'n1i', 'n2i', 'type', 'year']",included under declared clustering/moderator eligibility rule
+dat.karner2014,included,1000,8,['study'],"['baseline.age', 'baseline.fev1', 'baseline.fev1pp', 'baseline.males', 'baseline.pyr', 'fev1.md', 'fev1.se', 'placebo.deaths', 'placebo.dropout', 'placebo.exa', 'placebo.hospi', 'placebo.sae', 'placebo.sexa', 'placebo.total', 'sgrq.md', 'sgrq.se', 'tiotropium.deaths', 'tiotropium.dropout', 'tiotropium.exa', 'tiotropium.hospi', 'tiotropium.sae', 'tiotropium.sexa', 'tiotropium.total', 'year']",included under declared clustering/moderator eligibility rule
+dat.kearon1998,included,170,4,"['id', 'study']","['id', 'invessi', 'nn', 'np', 'out1', 'out2', 'tn', 'tp', 'year']",included under declared clustering/moderator eligibility rule
+dat.knapp2017,included,85,1,"['authors', 'study']","['comp', 'difficulty', 'n_hc', 'n_sz', 'study', 'vi_iq', 'year', 'yi_iq']",included under declared clustering/moderator eligibility rule
+dat.konstantopoulos2011,included,40,1,"['district', 'study']","['district', 'school', 'study', 'year']",included under declared clustering/moderator eligibility rule
+dat.landenberger2005,included,65,1,['study'],"['age', 'hrs_total', 'hrs_week', 'interval', 'length', 'male', 'minority', 'n.cbt.non', 'n.cbt.rec', 'n.ctrl.non', 'n.ctrl.rec', 'sessions']",included under declared clustering/moderator eligibility rule
+dat.laopaiboon2015,included,45,1,['author'],"['ai', 'ci', 'diag.ab', 'diag.cb', 'diag.pn', 'n1i', 'n2i', 'year']",included under declared clustering/moderator eligibility rule
+dat.lau1992,included,60,2,['trial'],"['ai', 'ci', 'n1i', 'n2i', 'year']",included under declared clustering/moderator eligibility rule
+dat.lee2004,included,65,1,"['id', 'study']","['ai', 'ci', 'id', 'n1i', 'n2i', 'year']",included under declared clustering/moderator eligibility rule
+dat.lehmann2018,included,270,3,['PRPublication'],"['Control_Age', 'Control_Attractiveness', 'Control_M', 'Control_N', 'Control_SD', 'DV_Items', 'DV_ScaleBottom', 'DV_ScaleTop', 'RM_r', 'Red_Age', 'Red_M', 'Red_N', 'Red_SD', 'SD_diff', 'Total.SampleSize', 'Year', 'pooled']",included under declared clustering/moderator eligibility rule
+dat.li2007,included,130,2,"['id', 'study']","['ai', 'ci', 'id', 'n1i', 'n2i', 'year']",included under declared clustering/moderator eligibility rule
+dat.lim2014,included,35,1,"['article', 'author']","['article', 'ni', 'ri']",included under declared clustering/moderator eligibility rule
+dat.linde2005,included,290,2,"['id', 'study']","['ai', 'baseline', 'ci', 'dosage', 'duration', 'group', 'id', 'major', 'n1i', 'n2i', 'ni', 'response', 'version', 'year']",included under declared clustering/moderator eligibility rule
+dat.linde2015,included,880,2,"['author', 'id', 'studlab']","['TE', 'ae1', 'ae2', 'ae3', 'event1', 'event2', 'id', 'incr1', 'incr2', 'loss.ae1', 'loss.ae2', 'loss.ae3', 'loss1', 'loss2', 'loss3', 'n1', 'n1.orig', 'n2', 'n2.orig', 'n3', 'remi1', 'remi2', 'remi3', 'resp1', 'resp2', 'resp3', 'seTE', 'studlab', 'year']",included under declared clustering/moderator eligibility rule
+dat.linde2016,included,220,1,"['author', 'id', 'studlab']","['TE', 'event1', 'event2', 'id', 'incr1', 'incr2', 'n.orig1', 'n.orig2', 'n1', 'n2', 'resp1', 'resp2', 'seTE', 'year']",included under declared clustering/moderator eligibility rule
+dat.lloyd2010,included,100,4,"['author', 'studlab']","['lower.das', 'lower.haq', 'mean.das', 'mean.haq', 'n', 'upper.das', 'upper.haq', 'year']",included under declared clustering/moderator eligibility rule
+dat.lopez2019,included,325,1,"['id', 'study']","['CBT', 'F2F.CBT', 'Hybrid.CBT', 'Multimedia.CBT', 'No.treatment', 'Placebo', 'TAU', 'Wait.list', 'act', 'ba', 'cog', 'diff1', 'diff2', 'final', 'goal', 'group', 'home', 'id', 'intensity', 'length', 'mind', 'multi', 'n1', 'n2', 'prob', 'psed', 'relax', 'se1', 'se2', 'sessions', 'soc', 'tailored']",included under declared clustering/moderator eligibility rule
+dat.maire2019,included,80,1,"['site', 'site_station']","['const', 's1', 's2', 's3', 'vars1', 'vars2', 'vars3']",included under declared clustering/moderator eligibility rule
+dat.mccurdy2020,included,95,1,"['article', 'experiment', 'id']","['article', 'id', 'ni', 'pairing', 'sample', 'stimuli']",included under declared clustering/moderator eligibility rule
+dat.mcdaniel1994,included,30,2,['study'],"['ni', 'ri']",included under declared clustering/moderator eligibility rule
+dat.meeker2017,included,20,1,['team'],"['batters', 'mean', 'se']",included under declared clustering/moderator eligibility rule
+dat.metap,excluded,0,0,[],[],no eligible effect/variance construction: p-value collections; no effect sizes with sampling variances or raw outcome summaries for escalc
+dat.michael2013,included,70,2,['Study'],"['Brain_m', 'Brain_n', 'Brain_s', 'No_brain_m', 'No_brain_n', 'No_brain_s']",included under declared clustering/moderator eligibility rule
+dat.molloy2014,included,30,1,['authors'],"['meanage', 'ni', 'quality', 'ri', 'year']",included under declared clustering/moderator eligibility rule
+dat.moore1998,included,210,2,"['author', 'id']","['Ec', 'Ee', 'Nc', 'Ne', 'grey', 'id', 'medline', 'nonenglish', 'samecont', 'year']",included under declared clustering/moderator eligibility rule
+dat.moura2021,included,90,1,"['effect.size.id', 'publication.year', 'species.id', 'study.id']","['effect.size.id', 'ni', 'publication.year', 'ri']",included under declared clustering/moderator eligibility rule
+dat.nakagawa2007,included,15,1,['StudyID'],"['Correlation', 'SampleSize']",included under declared clustering/moderator eligibility rule
+dat.nielweise2007,included,130,2,"['author', 'study']","['ai', 'ci', 'n1i', 'n2i', 'study', 'year']",included under declared clustering/moderator eligibility rule
+dat.nielweise2008,included,65,1,"['authors', 'study']","['study', 't1i', 't2i', 'x1i', 'x2i', 'year']",included under declared clustering/moderator eligibility rule
+dat.nissen2007,included,240,6,['study'],"['cont.death', 'cont.infarction', 'cont.total', 'treat.death', 'treat.infarction', 'treat.total', 'weeks']",included under declared clustering/moderator eligibility rule
+dat.normand1999,included,70,2,['study'],"['m1i', 'm2i', 'n1i', 'n2i', 'sd1i', 'sd2i']",included under declared clustering/moderator eligibility rule
+dat.obrien2003,included,240,2,"['author', 'study']","['bmi', 'bmi.lb', 'bmi.ub', 'bmi1', 'bmi2', 'bmicent', 'cases', 'cases1', 'cases2', 'grp', 'grp1', 'grp2', 'ref', 'study', 'total', 'total1', 'total2', 'year']",included under declared clustering/moderator eligibility rule
+dat.pagliaro1992,included,75,2,"['id', 'study']","['id', 'ni', 'ni.1', 'ni.2', 'study', 'xi', 'xi.1', 'xi.2']",included under declared clustering/moderator eligibility rule
+dat.pignon2000,included,45,1,"['id', 'trial']","['OmE', 'V', 'grp', 'id']",included under declared clustering/moderator eligibility rule
+dat.poole2003,included,80,2,['author'],"['Mc', 'Me', 'Nc', 'Ne', 'Sc', 'Se', 'year']",included under declared clustering/moderator eligibility rule
+dat.pritz1997,included,140,4,"['authors', 'study']","['ni', 'study', 'xi']",included under declared clustering/moderator eligibility rule
+dat.quan2000,included,50,2,['study'],"['Ec', 'Ee', 'Nc', 'Ne']",included under declared clustering/moderator eligibility rule
+dat.raudenbush1985,included,55,1,"['author', 'study']","['n1i', 'n2i', 'study', 'weeks', 'year']",included under declared clustering/moderator eligibility rule
+dat.riley2003,included,5,1,['study'],[],included under declared clustering/moderator eligibility rule
+dat.rivera2025,included,395,5,['Author'],"['AUC', 'FN', 'FP', 'NPV', 'PPV', 'Prevalence', 'Sample.size', 'Sensitivity', 'Specificity', 'TN', 'TP', 'Year', 'n1', 'n2', 'ncase', 'ncontrol']",included under declared clustering/moderator eligibility rule
+dat.roever2022,included,25,1,['study'],"['dose', 'events', 'total', 'year']",included under declared clustering/moderator eligibility rule
+dat.senn2013,included,95,2,"['id', 'study']","['id', 'mi', 'mi.1', 'mi.2', 'ni', 'ni.1', 'ni.2', 'sdi', 'sdi.1', 'sdi.2']",included under declared clustering/moderator eligibility rule
+dat.spooner2002,included,80,2,['author'],"['Mc', 'Me', 'Nc', 'Ne', 'Sc', 'Se', 'order']",included under declared clustering/moderator eligibility rule
+dat.steurer2006,included,90,2,['author'],"['HR', 'Nc', 'Ne', 'lnHR', 'lowHR', 'selnHR', 'uppHR', 'year']",included under declared clustering/moderator eligibility rule
+dat.stowe2010,included,280,1,"['id', 'studlab', 'study']","['TE', 'id', 'mean1', 'mean2', 'n1', 'n1.orig', 'n2', 'n2.orig', 'n3', 'sd1', 'sd1.orig', 'sd2', 'sd2.orig', 'sd3', 'seTE', 'y1', 'y2', 'y3']",included under declared clustering/moderator eligibility rule
+dat.tannersmith2016,included,20,1,['studyid'],"['aget1', 'aget2', 'propmale']",included under declared clustering/moderator eligibility rule
+dat.thompson1999,included,90,2,['studyid'],"['OR', 'cholr', 'ihd.cont', 'ihd.exp', 'logOR', 'noihd.cont', 'noihd.exp', 'varlogOR']",included under declared clustering/moderator eligibility rule
+dat.tian2009,included,100,2,['study'],"['age', 'deaths', 'duration', 'hemoglobin', 'infarcts', 'male', 'n', 'n.all', 'phase']",included under declared clustering/moderator eligibility rule
+dat.ursino2021,included,25,1,['study'],"['dose', 'events', 'total', 'year']",included under declared clustering/moderator eligibility rule
+dat.vanhowe1999,included,25,1,['study'],"['cir.neg', 'cir.pos', 'non.neg', 'non.pos']",included under declared clustering/moderator eligibility rule
+dat.viechtbauer2021,included,30,1,['trial'],"['dose', 'nCi', 'nTi', 'xCi', 'xTi']",included under declared clustering/moderator eligibility rule
+dat.white2020,included,25,1,['study_id'],"['control', 'iridescent', 'n', 'r']",included under declared clustering/moderator eligibility rule
+dat.woods2010,included,130,1,"['author', 'studlab']","['N1', 'N2', 'TE', 'event1', 'event2', 'incr1', 'incr2', 'n1', 'n2', 'r1', 'r2', 'seTE']",included under declared clustering/moderator eligibility rule
+dat.yusuf1985,included,110,2,"['id', 'trial']","['ai', 'ci', 'id', 'n1i', 'n2i']",included under declared clustering/moderator eligibility rule
+robumeta::corrdat,included,30,1,['studyid'],"['binge', 'college', 'esid', 'followup', 'males']",included under declared clustering/moderator eligibility rule
+robumeta::hierdat,included,35,1,['studyid'],"['age', 'binge', 'esid', 'followup', 'males', 'sreport']",included under declared clustering/moderator eligibility rule
+clubSandwich::dropoutPrevention,included,205,1,"['big_study', 'studyID', 'studySample', 'study_design']","['attrition', 'average_age', 'big_study', 'duration', 'group_equivalence', 'male_pct', 'service_hrs', 'studyID', 'studySample', 'white_pct']",included under declared clustering/moderator eligibility rule
+clubSandwich::SATcoaching,included,70,1,"['study', 'study_type']","['ETS', 'homework', 'hrs', 'nC', 'nT', 'year']",included under declared clustering/moderator eligibility rule
+robumeta::oswald2013,included,105,1,"['Crit.ID', 'IAT.ID', 'Sample.ID', 'Study']","['Crit.ID', 'IAT.ID', 'N', 'R', 'Sample.ID']",included under declared clustering/moderator eligibility rule

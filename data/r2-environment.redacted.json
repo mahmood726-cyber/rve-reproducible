@@ -1,0 +1,9 @@
+{
+  "R": "R version 4.6.0 (2026-04-24 ucrt)",
+  "robumeta": "2.1",
+  "robumeta_path": "[host library path redacted]",
+  "clubSandwich": "0.7.0",
+  "clubSandwich_path": "[host library path redacted]",
+  "locale": "C",
+  "note": "Copy of the job r2-environment.json with the two absolute library paths redacted; all other fields verbatim."
+}

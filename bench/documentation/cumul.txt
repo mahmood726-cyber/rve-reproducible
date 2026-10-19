@@ -1,0 +1,200 @@
+_C_u_m_u_l_a_t_i_v_e _M_e_t_a-_A_n_a_l_y_s_i_s _f_o_r '_r_m_a' _O_b_j_e_c_t_s
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     Function to carry out a 'cumulative meta-analysis', by repeatedly
+     fitting the specified model adding one estimate at a time.
+
+_U_s_a_g_e:
+
+     cumul(x, ...)
+     
+     ## S3 method for class 'rma.uni'
+     cumul(x, order, digits, transf, targs, collapse=FALSE, progbar=FALSE, ...)
+     ## S3 method for class 'rma.mh'
+     cumul(x, order, digits, transf, targs, collapse=FALSE, progbar=FALSE, ...)
+     ## S3 method for class 'rma.peto'
+     cumul(x, order, digits, transf, targs, collapse=FALSE, progbar=FALSE, ...)
+     
+_A_r_g_u_m_e_n_t_s:
+
+       x: an object of class '"rma.uni"', '"rma.mh"', or '"rma.peto"'.
+
+   order: optional argument to specify a variable based on which the
+          estimates will be ordered for the cumulative meta-analysis.
+
+  digits: optional integer to specify the number of decimal places to
+          which the printed results should be rounded. If unspecified,
+          the default is to take the value from the object.
+
+  transf: optional argument to specify a function to transform the
+          model coefficients and interval bounds (e.g., 'transf=exp';
+          see also transf). If unspecified, no transformation is used.
+
+   targs: optional arguments needed by the function specified under
+          'transf'.
+
+collapse: logical to specify whether estimates with the same value of
+          the 'order' variable should be added simultaneously (the
+          default is 'FALSE').
+
+ progbar: logical to specify whether a progress bar should be shown
+          (the default is 'FALSE').
+
+     ...: other arguments.
+
+_D_e_t_a_i_l_s:
+
+     A cumulative meta-analysis describes the accumulation of evidence
+     (e.g., about the effectiveness of a particular treatment or
+     intervention) as the effect sizes estimates are added to the
+     analysis in (typically) chronological order (Chalmers & Lau, 1993;
+     Lau et al., 1995). Therefore, given k estimates, we conduct k
+     meta-analyses, first only including the first estimate, then
+     including the first and second estimate, then estimates 1 through
+     3, and so on, until all k estimates are included.
+
+     For '"rma.uni"' objects, the model specified via 'x' must be a
+     model without moderators (i.e., either an equal- or a
+     random-effects model).
+
+     If argument 'order' is not specified, the estimates are added
+     according to their order in the original dataset.
+
+     When a variable is specified for 'order', the variable is assumed
+     to be of the same length as the original dataset that was used in
+     the model fitting (and if the 'data' argument was used in the
+     original model fit, then the variable will be searched for within
+     this data frame first). Any subsetting and removal of rows with
+     missing values that was applied during the model fitting is also
+     automatically applied to the variable specified via the 'order'
+     argument.
+
+     By default, estimates are added one at a time. However, if a
+     variable is specified for the 'order' argument and
+     'collapse=TRUE', then estimates with the same value of the 'order'
+     variable are added simultaneously.
+
+_V_a_l_u_e:
+
+     An object of class 'c("list.rma","cumul.rma")'. The object is a
+     list containing the following components:
+
+       k: number of estimates included in the analysis.
+
+estimate: the pooled estimates.
+
+      se: corresponding standard errors.
+
+    zval: corresponding test statistics.
+
+    pval: corresponding p-values.
+
+   ci.lb: lower bounds of the confidence intervals.
+
+   ci.ub: upper bounds of the confidence intervals.
+
+       Q: test statistics for the test of heterogeneity.
+
+      Qp: corresponding p-values.
+
+    tau2: estimated amount of heterogeneity (only for random-effects
+          models).
+
+      I2: values of I^2.
+
+      H2: values of H^2.
+
+   order: values of the 'order' variable (if specified).
+
+     ...: other arguments.
+
+     When the model was fitted with 'test="t"', 'test="knha"',
+     'test="hksj"', or 'test="adhoc"', then 'zval' is called 'tval' in
+     the object that is returned by the function.
+
+     The object is formatted and printed with the 'print' function. To
+     format the results as a data frame, one can use the
+     'as.data.frame' function. A forest plot showing the results from
+     the cumulative meta-analysis can be obtained with 'forest'.
+     Alternatively, 'plot' can also be used to visualize the results.
+
+_N_o_t_e:
+
+     When using the 'transf' option, the transformation is applied to
+     the pooled estimates and the corresponding interval bounds. The
+     standard errors are then set equal to 'NA' and are omitted from
+     the printed output.
+
+_A_u_t_h_o_r(_s):
+
+     Wolfgang Viechtbauer (<mailto:wvb@metafor-project.org>,
+     <https://www.metafor-project.org>).
+
+_R_e_f_e_r_e_n_c_e_s:
+
+     Chalmers, T. C., & Lau, J. (1993). Meta-analytic stimulus for
+     changes in clinical trials. _Statistical Methods in Medical
+     Research_, *2*(2), 161-172.
+     https://doi.org/10.1177/096228029300200204
+
+     Lau, J., Schmid, C. H., & Chalmers, T. C. (1995). Cumulative
+     meta-analysis of clinical trials builds evidence for exemplary
+     medical care. _Journal of Clinical Epidemiology_, *48*(1), 45-57.
+     https://doi.org/10.1016/0895-4356(94)00106-z
+
+     Viechtbauer, W. (2010). Conducting meta-analyses in R with the
+     metafor package. _Journal of Statistical Software_, *36*(3), 1-48.
+     https://doi.org/10.18637/jss.v036.i03
+
+_S_e_e _A_l_s_o:
+
+     'forest' for a function to draw cumulative forest plots and 'plot'
+     for a different visualization of the cumulative results.
+
+_E_x_a_m_p_l_e_s:
+
+     ### calculate log risk ratios and corresponding sampling variances
+     dat <- escalc(measure="RR", ai=tpos, bi=tneg, ci=cpos, di=cneg,
+                   data=dat.bcg, slab=paste0(author, ", ", year))
+     
+     ### fit random-effects model
+     res <- rma(yi, vi, data=dat, digits=3)
+     
+     ### cumulative meta-analysis (in the order of publication year)
+     cumul(res, order=year)
+     cumul(res, order=year, transf=exp)
+     
+     ### add studies with the same publication year simultaneously
+     cumul(res, order=year, transf=exp, collapse=TRUE)
+     
+     ### meta-analysis of the (log) risk ratios using the Mantel-Haenszel method
+     res <- rma.mh(measure="RR", ai=tpos, bi=tneg, ci=cpos, di=cneg,
+                   data=dat.bcg, slab=paste0(author, ", ", year), digits=3)
+     
+     ### cumulative meta-analysis
+     cumul(res, order=year)
+     cumul(res, order=year, transf=exp)
+     
+     ### add studies with the same publication year simultaneously
+     cumul(res, order=year, transf=exp, collapse=TRUE)
+     
+     ### meta-analysis of the (log) odds ratios using Peto's method
+     res <- rma.peto(ai=tpos, bi=tneg, ci=cpos, di=cneg,
+                     data=dat.bcg, slab=paste0(author, ", ", year), digits=3)
+     
+     ### cumulative meta-analysis
+     cumul(res, order=year)
+     cumul(res, order=year, transf=exp)
+     
+     ### add studies with the same publication year simultaneously
+     cumul(res, order=year, transf=exp, collapse=TRUE)
+     
+     ### make the first log risk ratio missing and fit the model without study 2;
+     ### then the variable specified via 'order' should still be of the same length
+     ### as the original dataset; subsetting and removal of studies with missing
+     ### values is automatically done by the cumul() function
+     dat$yi[1] <- NA
+     res <- rma(yi, vi, data=dat, subset=-2, digits=3)
+     cumul(res, transf=exp, order=year)
+     

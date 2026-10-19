@@ -1,0 +1,53 @@
+{
+  "scope": "synthetic direct engine API contracts; not browser validation",
+  "checks": [
+    {
+      "name": "nonfinite predictor",
+      "pass": false
+    },
+    {
+      "name": "nonfinite effect",
+      "pass": false
+    },
+    {
+      "name": "nonpositive variance",
+      "pass": false
+    },
+    {
+      "name": "inconsistent predictor count",
+      "pass": false
+    },
+    {
+      "name": "empty cluster",
+      "pass": false
+    },
+    {
+      "name": "rho out of range",
+      "pass": false
+    },
+    {
+      "name": "rho nonfinite",
+      "pass": false
+    },
+    {
+      "name": "m<=p",
+      "pass": false
+    },
+    {
+      "name": "rank deficiency",
+      "pass": true
+    },
+    {
+      "name": "prototype cluster supported",
+      "pass": false
+    },
+    {
+      "name": "missing Student-t dependency refused",
+      "pass": false
+    },
+    {
+      "name": "NaN Student-t input stays undefined",
+      "pass": false
+    }
+  ]
+}

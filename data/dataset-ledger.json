@@ -1,0 +1,2441 @@
+[
+  {
+    "dataset": "dat.aloe2013",
+    "status": "included",
+    "configurations": 75,
+    "effect_definitions": 3,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "R2",
+      "n",
+      "preds",
+      "tval"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.anand1999",
+    "status": "included",
+    "configurations": 80,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "ai",
+      "asp.c",
+      "asp.t",
+      "ci",
+      "n1i",
+      "n2i",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.anker2025",
+    "status": "included",
+    "configurations": 420,
+    "effect_definitions": 4,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "baseline.age",
+      "baseline.ft",
+      "baseline.hgb",
+      "baseline.lvef",
+      "baseline.tsat",
+      "female.logrr",
+      "female.n",
+      "female.se",
+      "followup",
+      "intv.n",
+      "male.logrr",
+      "male.n",
+      "male.se",
+      "placebo.n",
+      "sex.logrrr",
+      "sex.se",
+      "total.logrr",
+      "total.n",
+      "total.se",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.assink2016",
+    "status": "included",
+    "configurations": 50,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "id",
+      "study"
+    ],
+    "moderator_columns": [
+      "esid",
+      "id",
+      "pubstatus",
+      "study",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.axfors2021",
+    "status": "included",
+    "configurations": 25,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "id"
+    ],
+    "moderator_columns": [
+      "control_arm_event",
+      "control_arm_total",
+      "hcq_arm_event",
+      "hcq_arm_total"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.bakdash2021",
+    "status": "included",
+    "configurations": 35,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "Author"
+    ],
+    "moderator_columns": [
+      "Outcome",
+      "Sample.size",
+      "Sample.size.stats",
+      "Year",
+      "es.z",
+      "vi.z"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.baker2009",
+    "status": "included",
+    "configurations": 220,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "id",
+      "studlab",
+      "study"
+    ],
+    "moderator_columns": [
+      "TE",
+      "event1",
+      "event2",
+      "exac1",
+      "exac2",
+      "id",
+      "incr1",
+      "incr2",
+      "n1",
+      "n2",
+      "seTE",
+      "total1",
+      "total2",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.bangertdrowns2004",
+    "status": "included",
+    "configurations": 125,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "author",
+      "id"
+    ],
+    "moderator_columns": [
+      "feedback",
+      "grade",
+      "id",
+      "imag",
+      "info",
+      "length",
+      "meta",
+      "minutes",
+      "ni",
+      "pers",
+      "wic",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.bartos2023",
+    "status": "included",
+    "configurations": 140,
+    "effect_definitions": 4,
+    "cluster_columns": [
+      "person"
+    ],
+    "moderator_columns": [
+      "flips",
+      "hdiff",
+      "hsame",
+      "same",
+      "tdiff",
+      "tsame"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.baskerville2012",
+    "status": "included",
+    "configurations": 80,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "author"
+    ],
+    "moderator_columns": [
+      "alloconc",
+      "blind",
+      "duration",
+      "fumonths",
+      "hours",
+      "itt",
+      "meetings",
+      "outcomes",
+      "pperf",
+      "retention",
+      "score",
+      "se",
+      "smd",
+      "tailor",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.bassler2004",
+    "status": "included",
+    "configurations": 50,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "Ec",
+      "Ee",
+      "Nc",
+      "Ne"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.bauer2002",
+    "status": "included",
+    "configurations": 100,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "lower",
+      "n.control",
+      "n.total",
+      "n.treat",
+      "stderr",
+      "threshold",
+      "upper",
+      "wmwstat",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.bcg",
+    "status": "included",
+    "configurations": 75,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "author",
+      "trial"
+    ],
+    "moderator_columns": [
+      "ablat",
+      "cneg",
+      "cpos",
+      "tneg",
+      "tpos",
+      "trial",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.begg1989",
+    "status": "included",
+    "configurations": 10,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "arms"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.berkey1998",
+    "status": "included",
+    "configurations": 55,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "author",
+      "trial"
+    ],
+    "moderator_columns": [
+      "ni",
+      "trial",
+      "v1i",
+      "v2i",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.berkey1998r",
+    "status": "included",
+    "configurations": 55,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "author",
+      "trial"
+    ],
+    "moderator_columns": [
+      "ni",
+      "trial",
+      "v1i",
+      "v2i",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.besson2016",
+    "status": "included",
+    "configurations": 940,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "animal_ID",
+      "authors_behaviour_classification",
+      "comp_ID",
+      "con_ID",
+      "dam_ID",
+      "study_ID",
+      "time_trial"
+    ],
+    "moderator_columns": [
+      "age_mating",
+      "bm_N_contr",
+      "bm_N_exp",
+      "bm_dPP",
+      "bodymass_SE_contr",
+      "bodymass_SE_exp",
+      "bodymass_mean_contr",
+      "bodymass_mean_exp",
+      "con_mean",
+      "con_n",
+      "con_se",
+      "dam_diet_end_dPC",
+      "dam_diet_start_dPC",
+      "exp_mean",
+      "exp_n",
+      "exp_se",
+      "litter_size",
+      "n_con_dam",
+      "n_exp_dam",
+      "offspring_diet_end_dPP",
+      "photoperiod",
+      "response_age_dPP",
+      "sd_c",
+      "sd_e",
+      "temperature",
+      "time_trial"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.bonett2010",
+    "status": "included",
+    "configurations": 60,
+    "effect_definitions": 3,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "ai",
+      "mi",
+      "ni"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.bornmann2007",
+    "status": "included",
+    "configurations": 35,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "maward",
+      "mtotal",
+      "obs",
+      "waward",
+      "wtotal",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.bourassa1996",
+    "status": "included",
+    "configurations": 85,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "author",
+      "study"
+    ],
+    "moderator_columns": [
+      "lh.le",
+      "lh.re",
+      "mage",
+      "rh.le",
+      "rh.re",
+      "sample",
+      "study",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.cannon2006",
+    "status": "included",
+    "configurations": 525,
+    "effect_definitions": 7,
+    "cluster_columns": [
+      "trial"
+    ],
+    "moderator_columns": [
+      "ep1c",
+      "ep1t",
+      "ep2c",
+      "ep2t",
+      "ep3c",
+      "ep3t",
+      "ep4c",
+      "ep4t",
+      "ep5c",
+      "ep5t",
+      "ep6c",
+      "ep6t",
+      "nc",
+      "nt"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.chiarito2020",
+    "status": "included",
+    "configurations": 505,
+    "effect_definitions": 6,
+    "cluster_columns": [
+      "studlab",
+      "study"
+    ],
+    "moderator_columns": [
+      "aspirin.daily.mg",
+      "aspirin.death",
+      "aspirin.mi",
+      "aspirin.stroke",
+      "aspirin.total",
+      "aspirin.vdeath",
+      "baseline.age",
+      "baseline.diabetes",
+      "baseline.dyslipidaemia",
+      "baseline.hypertension",
+      "baseline.males",
+      "duration.months",
+      "p2y12.daily.mg",
+      "p2y12.death",
+      "p2y12.mi",
+      "p2y12.stroke",
+      "p2y12.total",
+      "p2y12.vdeath",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.cohen1981",
+    "status": "included",
+    "configurations": 15,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "ni",
+      "ri"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.colditz1994",
+    "status": "included",
+    "configurations": 75,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "author",
+      "trial"
+    ],
+    "moderator_columns": [
+      "ablat",
+      "cneg",
+      "cpos",
+      "tneg",
+      "tpos",
+      "trial",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.collins1985a",
+    "status": "included",
+    "configurations": 690,
+    "effect_definitions": 6,
+    "cluster_columns": [
+      "id",
+      "trial"
+    ],
+    "moderator_columns": [
+      "b.xci",
+      "b.xti",
+      "d.xci",
+      "d.xti",
+      "id",
+      "nci",
+      "nti",
+      "o.xci",
+      "o.xti",
+      "ref",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.collins1985b",
+    "status": "included",
+    "configurations": 775,
+    "effect_definitions": 5,
+    "cluster_columns": [
+      "author",
+      "id"
+    ],
+    "moderator_columns": [
+      "fup.nci",
+      "fup.nti",
+      "id",
+      "ned.xci",
+      "ned.xti",
+      "oedema",
+      "ped.xci",
+      "ped.xti",
+      "pre.nci",
+      "pre.nti",
+      "pre.xci",
+      "pre.xti",
+      "stb.xci",
+      "stb.xti",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.craft2003",
+    "status": "included",
+    "configurations": 15,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "ni",
+      "ri"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.crede2010",
+    "status": "included",
+    "configurations": 25,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "studyid"
+    ],
+    "moderator_columns": [
+      "ni",
+      "ri",
+      "sampleid",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.crisafulli2020",
+    "status": "included",
+    "configurations": 30,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "cases",
+      "from",
+      "pubyear",
+      "to",
+      "total"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.curtin2002",
+    "status": "included",
+    "configurations": 25,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "author"
+    ],
+    "moderator_columns": [
+      "N",
+      "SE",
+      "corr",
+      "mean"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.curtis1998",
+    "status": "included",
+    "configurations": 110,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "id",
+      "paper"
+    ],
+    "moderator_columns": [
+      "co2.ambi",
+      "co2.elev",
+      "id",
+      "m1i",
+      "m2i",
+      "n1i",
+      "n2i",
+      "paper",
+      "sd1i",
+      "sd2i",
+      "time"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.dagostino1998",
+    "status": "included",
+    "configurations": 165,
+    "effect_definitions": 3,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "mc",
+      "mt",
+      "nc",
+      "nt",
+      "sdc",
+      "sdt",
+      "tnc",
+      "tnt",
+      "xc",
+      "xt"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.damico2009",
+    "status": "included",
+    "configurations": 80,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "blind",
+      "conceal",
+      "nc",
+      "nt",
+      "xc",
+      "xt",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.debruin2009",
+    "status": "included",
+    "configurations": 30,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "author"
+    ],
+    "moderator_columns": [
+      "mi",
+      "ni",
+      "scq",
+      "xi",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.demir2022",
+    "status": "included",
+    "configurations": 65,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "author",
+      "studyid"
+    ],
+    "moderator_columns": [
+      "alpha",
+      "esid",
+      "items",
+      "n",
+      "studyid",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.dogliotti2014",
+    "status": "included",
+    "configurations": 205,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "id",
+      "studlab",
+      "study"
+    ],
+    "moderator_columns": [
+      "TE",
+      "event1",
+      "event2",
+      "id",
+      "incr1",
+      "incr2",
+      "n1",
+      "n2",
+      "seTE",
+      "stroke1",
+      "stroke2",
+      "total1",
+      "total2"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.dong2013",
+    "status": "included",
+    "configurations": 140,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "id",
+      "studlab"
+    ],
+    "moderator_columns": [
+      "TE",
+      "death1",
+      "death2",
+      "event1",
+      "event2",
+      "id",
+      "incr1",
+      "incr2",
+      "n1",
+      "n2",
+      "randomized1",
+      "randomized2",
+      "seTE",
+      "studlab"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.dorn2007",
+    "status": "included",
+    "configurations": 95,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "id",
+      "study"
+    ],
+    "moderator_columns": [
+      "days",
+      "id",
+      "jadad",
+      "n.a",
+      "n.p",
+      "visits",
+      "x.a",
+      "x.p",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.dumouchel1994",
+    "status": "included",
+    "configurations": 20,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "lower",
+      "or",
+      "upper"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.egger2001",
+    "status": "included",
+    "configurations": 130,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "id",
+      "study"
+    ],
+    "moderator_columns": [
+      "ai",
+      "ci",
+      "id",
+      "n1i",
+      "n2i",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.feng2019",
+    "status": "included",
+    "configurations": 70,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "author"
+    ],
+    "moderator_columns": [
+      "age",
+      "depr",
+      "first",
+      "males",
+      "n",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.fine1993",
+    "status": "included",
+    "configurations": 285,
+    "effect_definitions": 5,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "c1i",
+      "c2i",
+      "c3i",
+      "c4i",
+      "e1i",
+      "e2i",
+      "e3i",
+      "e4i",
+      "nci",
+      "nei",
+      "v1i",
+      "y1i"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.franchini2012",
+    "status": "included",
+    "configurations": 180,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "Study",
+      "studlab"
+    ],
+    "moderator_columns": [
+      "TE",
+      "mean1",
+      "mean2",
+      "n1",
+      "n1.orig",
+      "n2",
+      "n2.orig",
+      "n3",
+      "sd1",
+      "sd1.orig",
+      "sd2",
+      "sd2.orig",
+      "sd3",
+      "seTE",
+      "y1",
+      "y2",
+      "y3"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.frank2008",
+    "status": "included",
+    "configurations": 140,
+    "effect_definitions": 4,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "bc.del.del",
+      "bc.ins.del",
+      "bc.ins.ins",
+      "ct.del.del",
+      "ct.ins.del",
+      "ct.ins.ins"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.furukawa2003",
+    "status": "included",
+    "configurations": 105,
+    "effect_definitions": 3,
+    "cluster_columns": [
+      "author"
+    ],
+    "moderator_columns": [
+      "Mc",
+      "Me",
+      "Nc",
+      "Ne",
+      "Sc",
+      "Se"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.gibson2002",
+    "status": "included",
+    "configurations": 260,
+    "effect_definitions": 4,
+    "cluster_columns": [
+      "author"
+    ],
+    "moderator_columns": [
+      "ai",
+      "bi",
+      "ci",
+      "di",
+      "m1i",
+      "m2i",
+      "n1i",
+      "n2i",
+      "sd1i",
+      "sd2i",
+      "type",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.graves2010",
+    "status": "included",
+    "configurations": 25,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "ai",
+      "ci",
+      "n1i",
+      "n2i"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.greb2008",
+    "status": "included",
+    "configurations": 50,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "Ec",
+      "Ee",
+      "Nc",
+      "Ne"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.greenland1992",
+    "status": "included",
+    "configurations": 20,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "author"
+    ],
+    "moderator_columns": [
+      "SE",
+      "b",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.gurusamy2011",
+    "status": "included",
+    "configurations": 130,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "studlab",
+      "study"
+    ],
+    "moderator_columns": [
+      "TE",
+      "death1",
+      "death2",
+      "event1",
+      "event2",
+      "incr1",
+      "incr2",
+      "n.orig1",
+      "n.orig2",
+      "n1",
+      "n2",
+      "seTE"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.hackshaw1998",
+    "status": "included",
+    "configurations": 65,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "author",
+      "study"
+    ],
+    "moderator_columns": [
+      "cases",
+      "or",
+      "or.lb",
+      "or.ub",
+      "study",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.hahn2001",
+    "status": "included",
+    "configurations": 50,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "ai",
+      "ci",
+      "n1i",
+      "n2i"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.hannum2020",
+    "status": "included",
+    "configurations": 60,
+    "effect_definitions": 3,
+    "cluster_columns": [
+      "authorName"
+    ],
+    "moderator_columns": [
+      "ni",
+      "percentOlfactoryLoss",
+      "xi"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.hart1999",
+    "status": "included",
+    "configurations": 170,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "study",
+      "trial"
+    ],
+    "moderator_columns": [
+      "n1i",
+      "n2i",
+      "t1i",
+      "t2i",
+      "trial",
+      "x1i",
+      "x2i",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.hartmannboyce2018",
+    "status": "included",
+    "configurations": 25,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "n.ctrl",
+      "n.nrt",
+      "x.ctrl",
+      "x.nrt"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.hasselblad1998",
+    "status": "included",
+    "configurations": 190,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "authors",
+      "id",
+      "study"
+    ],
+    "moderator_columns": [
+      "id",
+      "ni",
+      "ni.1",
+      "ni.2",
+      "study",
+      "xi",
+      "xi.1",
+      "xi.2",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.higgins2008",
+    "status": "included",
+    "configurations": 70,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "author"
+    ],
+    "moderator_columns": [
+      "fail.halo",
+      "fail.plac",
+      "miss.halo",
+      "miss.plac",
+      "resp.halo",
+      "resp.plac"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.hine1989",
+    "status": "included",
+    "configurations": 50,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "ai",
+      "ci",
+      "n1i",
+      "n2i"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.huber2000",
+    "status": "included",
+    "configurations": 5,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.ishak2007",
+    "status": "included",
+    "configurations": 220,
+    "effect_definitions": 4,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "mbase",
+      "mdur",
+      "v1i",
+      "v2i",
+      "v3i",
+      "v4i",
+      "y1i",
+      "y2i",
+      "y3i",
+      "y4i"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.kalaian1996",
+    "status": "included",
+    "configurations": 85,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "id",
+      "study"
+    ],
+    "moderator_columns": [
+      "ets",
+      "homework",
+      "hrs",
+      "id",
+      "n1i",
+      "n2i",
+      "type",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.karner2014",
+    "status": "included",
+    "configurations": 1000,
+    "effect_definitions": 8,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "baseline.age",
+      "baseline.fev1",
+      "baseline.fev1pp",
+      "baseline.males",
+      "baseline.pyr",
+      "fev1.md",
+      "fev1.se",
+      "placebo.deaths",
+      "placebo.dropout",
+      "placebo.exa",
+      "placebo.hospi",
+      "placebo.sae",
+      "placebo.sexa",
+      "placebo.total",
+      "sgrq.md",
+      "sgrq.se",
+      "tiotropium.deaths",
+      "tiotropium.dropout",
+      "tiotropium.exa",
+      "tiotropium.hospi",
+      "tiotropium.sae",
+      "tiotropium.sexa",
+      "tiotropium.total",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.kearon1998",
+    "status": "included",
+    "configurations": 170,
+    "effect_definitions": 4,
+    "cluster_columns": [
+      "id",
+      "study"
+    ],
+    "moderator_columns": [
+      "id",
+      "invessi",
+      "nn",
+      "np",
+      "out1",
+      "out2",
+      "tn",
+      "tp",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.knapp2017",
+    "status": "included",
+    "configurations": 85,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "authors",
+      "study"
+    ],
+    "moderator_columns": [
+      "comp",
+      "difficulty",
+      "n_hc",
+      "n_sz",
+      "study",
+      "vi_iq",
+      "year",
+      "yi_iq"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.konstantopoulos2011",
+    "status": "included",
+    "configurations": 40,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "district",
+      "study"
+    ],
+    "moderator_columns": [
+      "district",
+      "school",
+      "study",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.landenberger2005",
+    "status": "included",
+    "configurations": 65,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "age",
+      "hrs_total",
+      "hrs_week",
+      "interval",
+      "length",
+      "male",
+      "minority",
+      "n.cbt.non",
+      "n.cbt.rec",
+      "n.ctrl.non",
+      "n.ctrl.rec",
+      "sessions"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.laopaiboon2015",
+    "status": "included",
+    "configurations": 45,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "author"
+    ],
+    "moderator_columns": [
+      "ai",
+      "ci",
+      "diag.ab",
+      "diag.cb",
+      "diag.pn",
+      "n1i",
+      "n2i",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.lau1992",
+    "status": "included",
+    "configurations": 60,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "trial"
+    ],
+    "moderator_columns": [
+      "ai",
+      "ci",
+      "n1i",
+      "n2i",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.lee2004",
+    "status": "included",
+    "configurations": 65,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "id",
+      "study"
+    ],
+    "moderator_columns": [
+      "ai",
+      "ci",
+      "id",
+      "n1i",
+      "n2i",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.lehmann2018",
+    "status": "included",
+    "configurations": 270,
+    "effect_definitions": 3,
+    "cluster_columns": [
+      "PRPublication"
+    ],
+    "moderator_columns": [
+      "Control_Age",
+      "Control_Attractiveness",
+      "Control_M",
+      "Control_N",
+      "Control_SD",
+      "DV_Items",
+      "DV_ScaleBottom",
+      "DV_ScaleTop",
+      "RM_r",
+      "Red_Age",
+      "Red_M",
+      "Red_N",
+      "Red_SD",
+      "SD_diff",
+      "Total.SampleSize",
+      "Year",
+      "pooled"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.li2007",
+    "status": "included",
+    "configurations": 130,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "id",
+      "study"
+    ],
+    "moderator_columns": [
+      "ai",
+      "ci",
+      "id",
+      "n1i",
+      "n2i",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.lim2014",
+    "status": "included",
+    "configurations": 35,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "article",
+      "author"
+    ],
+    "moderator_columns": [
+      "article",
+      "ni",
+      "ri"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.linde2005",
+    "status": "included",
+    "configurations": 290,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "id",
+      "study"
+    ],
+    "moderator_columns": [
+      "ai",
+      "baseline",
+      "ci",
+      "dosage",
+      "duration",
+      "group",
+      "id",
+      "major",
+      "n1i",
+      "n2i",
+      "ni",
+      "response",
+      "version",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.linde2015",
+    "status": "included",
+    "configurations": 880,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "author",
+      "id",
+      "studlab"
+    ],
+    "moderator_columns": [
+      "TE",
+      "ae1",
+      "ae2",
+      "ae3",
+      "event1",
+      "event2",
+      "id",
+      "incr1",
+      "incr2",
+      "loss.ae1",
+      "loss.ae2",
+      "loss.ae3",
+      "loss1",
+      "loss2",
+      "loss3",
+      "n1",
+      "n1.orig",
+      "n2",
+      "n2.orig",
+      "n3",
+      "remi1",
+      "remi2",
+      "remi3",
+      "resp1",
+      "resp2",
+      "resp3",
+      "seTE",
+      "studlab",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.linde2016",
+    "status": "included",
+    "configurations": 220,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "author",
+      "id",
+      "studlab"
+    ],
+    "moderator_columns": [
+      "TE",
+      "event1",
+      "event2",
+      "id",
+      "incr1",
+      "incr2",
+      "n.orig1",
+      "n.orig2",
+      "n1",
+      "n2",
+      "resp1",
+      "resp2",
+      "seTE",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.lloyd2010",
+    "status": "included",
+    "configurations": 100,
+    "effect_definitions": 4,
+    "cluster_columns": [
+      "author",
+      "studlab"
+    ],
+    "moderator_columns": [
+      "lower.das",
+      "lower.haq",
+      "mean.das",
+      "mean.haq",
+      "n",
+      "upper.das",
+      "upper.haq",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.lopez2019",
+    "status": "included",
+    "configurations": 325,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "id",
+      "study"
+    ],
+    "moderator_columns": [
+      "CBT",
+      "F2F.CBT",
+      "Hybrid.CBT",
+      "Multimedia.CBT",
+      "No.treatment",
+      "Placebo",
+      "TAU",
+      "Wait.list",
+      "act",
+      "ba",
+      "cog",
+      "diff1",
+      "diff2",
+      "final",
+      "goal",
+      "group",
+      "home",
+      "id",
+      "intensity",
+      "length",
+      "mind",
+      "multi",
+      "n1",
+      "n2",
+      "prob",
+      "psed",
+      "relax",
+      "se1",
+      "se2",
+      "sessions",
+      "soc",
+      "tailored"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.maire2019",
+    "status": "included",
+    "configurations": 80,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "site",
+      "site_station"
+    ],
+    "moderator_columns": [
+      "const",
+      "s1",
+      "s2",
+      "s3",
+      "vars1",
+      "vars2",
+      "vars3"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.mccurdy2020",
+    "status": "included",
+    "configurations": 95,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "article",
+      "experiment",
+      "id"
+    ],
+    "moderator_columns": [
+      "article",
+      "id",
+      "ni",
+      "pairing",
+      "sample",
+      "stimuli"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.mcdaniel1994",
+    "status": "included",
+    "configurations": 30,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "ni",
+      "ri"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.meeker2017",
+    "status": "included",
+    "configurations": 20,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "team"
+    ],
+    "moderator_columns": [
+      "batters",
+      "mean",
+      "se"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.metap",
+    "status": "excluded",
+    "configurations": 0,
+    "effect_definitions": 0,
+    "cluster_columns": [],
+    "moderator_columns": [],
+    "reason": "no eligible effect/variance construction: p-value collections; no effect sizes with sampling variances or raw outcome summaries for escalc"
+  },
+  {
+    "dataset": "dat.michael2013",
+    "status": "included",
+    "configurations": 70,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "Study"
+    ],
+    "moderator_columns": [
+      "Brain_m",
+      "Brain_n",
+      "Brain_s",
+      "No_brain_m",
+      "No_brain_n",
+      "No_brain_s"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.molloy2014",
+    "status": "included",
+    "configurations": 30,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "authors"
+    ],
+    "moderator_columns": [
+      "meanage",
+      "ni",
+      "quality",
+      "ri",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.moore1998",
+    "status": "included",
+    "configurations": 210,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "author",
+      "id"
+    ],
+    "moderator_columns": [
+      "Ec",
+      "Ee",
+      "Nc",
+      "Ne",
+      "grey",
+      "id",
+      "medline",
+      "nonenglish",
+      "samecont",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.moura2021",
+    "status": "included",
+    "configurations": 90,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "effect.size.id",
+      "publication.year",
+      "species.id",
+      "study.id"
+    ],
+    "moderator_columns": [
+      "effect.size.id",
+      "ni",
+      "publication.year",
+      "ri"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.nakagawa2007",
+    "status": "included",
+    "configurations": 15,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "StudyID"
+    ],
+    "moderator_columns": [
+      "Correlation",
+      "SampleSize"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.nielweise2007",
+    "status": "included",
+    "configurations": 130,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "author",
+      "study"
+    ],
+    "moderator_columns": [
+      "ai",
+      "ci",
+      "n1i",
+      "n2i",
+      "study",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.nielweise2008",
+    "status": "included",
+    "configurations": 65,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "authors",
+      "study"
+    ],
+    "moderator_columns": [
+      "study",
+      "t1i",
+      "t2i",
+      "x1i",
+      "x2i",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.nissen2007",
+    "status": "included",
+    "configurations": 240,
+    "effect_definitions": 6,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "cont.death",
+      "cont.infarction",
+      "cont.total",
+      "treat.death",
+      "treat.infarction",
+      "treat.total",
+      "weeks"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.normand1999",
+    "status": "included",
+    "configurations": 70,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "m1i",
+      "m2i",
+      "n1i",
+      "n2i",
+      "sd1i",
+      "sd2i"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.obrien2003",
+    "status": "included",
+    "configurations": 240,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "author",
+      "study"
+    ],
+    "moderator_columns": [
+      "bmi",
+      "bmi.lb",
+      "bmi.ub",
+      "bmi1",
+      "bmi2",
+      "bmicent",
+      "cases",
+      "cases1",
+      "cases2",
+      "grp",
+      "grp1",
+      "grp2",
+      "ref",
+      "study",
+      "total",
+      "total1",
+      "total2",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.pagliaro1992",
+    "status": "included",
+    "configurations": 75,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "id",
+      "study"
+    ],
+    "moderator_columns": [
+      "id",
+      "ni",
+      "ni.1",
+      "ni.2",
+      "study",
+      "xi",
+      "xi.1",
+      "xi.2"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.pignon2000",
+    "status": "included",
+    "configurations": 45,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "id",
+      "trial"
+    ],
+    "moderator_columns": [
+      "OmE",
+      "V",
+      "grp",
+      "id"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.poole2003",
+    "status": "included",
+    "configurations": 80,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "author"
+    ],
+    "moderator_columns": [
+      "Mc",
+      "Me",
+      "Nc",
+      "Ne",
+      "Sc",
+      "Se",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.pritz1997",
+    "status": "included",
+    "configurations": 140,
+    "effect_definitions": 4,
+    "cluster_columns": [
+      "authors",
+      "study"
+    ],
+    "moderator_columns": [
+      "ni",
+      "study",
+      "xi"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.quan2000",
+    "status": "included",
+    "configurations": 50,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "Ec",
+      "Ee",
+      "Nc",
+      "Ne"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.raudenbush1985",
+    "status": "included",
+    "configurations": 55,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "author",
+      "study"
+    ],
+    "moderator_columns": [
+      "n1i",
+      "n2i",
+      "study",
+      "weeks",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.riley2003",
+    "status": "included",
+    "configurations": 5,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.rivera2025",
+    "status": "included",
+    "configurations": 395,
+    "effect_definitions": 5,
+    "cluster_columns": [
+      "Author"
+    ],
+    "moderator_columns": [
+      "AUC",
+      "FN",
+      "FP",
+      "NPV",
+      "PPV",
+      "Prevalence",
+      "Sample.size",
+      "Sensitivity",
+      "Specificity",
+      "TN",
+      "TP",
+      "Year",
+      "n1",
+      "n2",
+      "ncase",
+      "ncontrol"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.roever2022",
+    "status": "included",
+    "configurations": 25,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "dose",
+      "events",
+      "total",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.senn2013",
+    "status": "included",
+    "configurations": 95,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "id",
+      "study"
+    ],
+    "moderator_columns": [
+      "id",
+      "mi",
+      "mi.1",
+      "mi.2",
+      "ni",
+      "ni.1",
+      "ni.2",
+      "sdi",
+      "sdi.1",
+      "sdi.2"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.spooner2002",
+    "status": "included",
+    "configurations": 80,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "author"
+    ],
+    "moderator_columns": [
+      "Mc",
+      "Me",
+      "Nc",
+      "Ne",
+      "Sc",
+      "Se",
+      "order"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.steurer2006",
+    "status": "included",
+    "configurations": 90,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "author"
+    ],
+    "moderator_columns": [
+      "HR",
+      "Nc",
+      "Ne",
+      "lnHR",
+      "lowHR",
+      "selnHR",
+      "uppHR",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.stowe2010",
+    "status": "included",
+    "configurations": 280,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "id",
+      "studlab",
+      "study"
+    ],
+    "moderator_columns": [
+      "TE",
+      "id",
+      "mean1",
+      "mean2",
+      "n1",
+      "n1.orig",
+      "n2",
+      "n2.orig",
+      "n3",
+      "sd1",
+      "sd1.orig",
+      "sd2",
+      "sd2.orig",
+      "sd3",
+      "seTE",
+      "y1",
+      "y2",
+      "y3"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.tannersmith2016",
+    "status": "included",
+    "configurations": 20,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "studyid"
+    ],
+    "moderator_columns": [
+      "aget1",
+      "aget2",
+      "propmale"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.thompson1999",
+    "status": "included",
+    "configurations": 90,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "studyid"
+    ],
+    "moderator_columns": [
+      "OR",
+      "cholr",
+      "ihd.cont",
+      "ihd.exp",
+      "logOR",
+      "noihd.cont",
+      "noihd.exp",
+      "varlogOR"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.tian2009",
+    "status": "included",
+    "configurations": 100,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "age",
+      "deaths",
+      "duration",
+      "hemoglobin",
+      "infarcts",
+      "male",
+      "n",
+      "n.all",
+      "phase"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.ursino2021",
+    "status": "included",
+    "configurations": 25,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "dose",
+      "events",
+      "total",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.vanhowe1999",
+    "status": "included",
+    "configurations": 25,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "study"
+    ],
+    "moderator_columns": [
+      "cir.neg",
+      "cir.pos",
+      "non.neg",
+      "non.pos"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.viechtbauer2021",
+    "status": "included",
+    "configurations": 30,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "trial"
+    ],
+    "moderator_columns": [
+      "dose",
+      "nCi",
+      "nTi",
+      "xCi",
+      "xTi"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.white2020",
+    "status": "included",
+    "configurations": 25,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "study_id"
+    ],
+    "moderator_columns": [
+      "control",
+      "iridescent",
+      "n",
+      "r"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.woods2010",
+    "status": "included",
+    "configurations": 130,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "author",
+      "studlab"
+    ],
+    "moderator_columns": [
+      "N1",
+      "N2",
+      "TE",
+      "event1",
+      "event2",
+      "incr1",
+      "incr2",
+      "n1",
+      "n2",
+      "r1",
+      "r2",
+      "seTE"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "dat.yusuf1985",
+    "status": "included",
+    "configurations": 110,
+    "effect_definitions": 2,
+    "cluster_columns": [
+      "id",
+      "trial"
+    ],
+    "moderator_columns": [
+      "ai",
+      "ci",
+      "id",
+      "n1i",
+      "n2i"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "robumeta::corrdat",
+    "status": "included",
+    "configurations": 30,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "studyid"
+    ],
+    "moderator_columns": [
+      "binge",
+      "college",
+      "esid",
+      "followup",
+      "males"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "robumeta::hierdat",
+    "status": "included",
+    "configurations": 35,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "studyid"
+    ],
+    "moderator_columns": [
+      "age",
+      "binge",
+      "esid",
+      "followup",
+      "males",
+      "sreport"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "clubSandwich::dropoutPrevention",
+    "status": "included",
+    "configurations": 205,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "big_study",
+      "studyID",
+      "studySample",
+      "study_design"
+    ],
+    "moderator_columns": [
+      "attrition",
+      "average_age",
+      "big_study",
+      "duration",
+      "group_equivalence",
+      "male_pct",
+      "service_hrs",
+      "studyID",
+      "studySample",
+      "white_pct"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "clubSandwich::SATcoaching",
+    "status": "included",
+    "configurations": 70,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "study",
+      "study_type"
+    ],
+    "moderator_columns": [
+      "ETS",
+      "homework",
+      "hrs",
+      "nC",
+      "nT",
+      "year"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  },
+  {
+    "dataset": "robumeta::oswald2013",
+    "status": "included",
+    "configurations": 105,
+    "effect_definitions": 1,
+    "cluster_columns": [
+      "Crit.ID",
+      "IAT.ID",
+      "Sample.ID",
+      "Study"
+    ],
+    "moderator_columns": [
+      "Crit.ID",
+      "IAT.ID",
+      "N",
+      "R",
+      "Sample.ID"
+    ],
+    "reason": "included under declared clustering/moderator eligibility rule"
+  }
+]

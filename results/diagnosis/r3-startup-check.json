@@ -1,0 +1,32 @@
+{
+  "time": "2026-10-19T10:22:54.879496+00:00",
+  "checks": [
+    {
+      "command": [
+        "C:\\Program Files\\R\\R-4.6.0\\bin\\Rscript.exe",
+        "--version"
+      ],
+      "exit_code": 3221225794,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Program Files\\R\\R-4.6.0\\bin\\x64\\Rscript.exe",
+        "--version"
+      ],
+      "exit_code": 3221225794,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Program Files\\nodejs\\node.exe",
+        "--version"
+      ],
+      "exit_code": 3221225794,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

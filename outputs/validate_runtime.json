@@ -1,0 +1,55 @@
+{
+  "seconds": 2203.65639710426,
+  "fit_seconds": 1992.28212785721,
+  "workers": 2,
+  "configurations": 16270,
+  "fresh_references_byte_identical_to_archive": 16270,
+  "versions": {
+    "R": "4.6.0",
+    "robumeta": "2.1",
+    "clubSandwich": "0.7.0",
+    "metadat": "1.6.0",
+    "jsonlite": "2.0.0",
+    "digest": "0.6.39"
+  },
+  "totals": {
+    "engine original": {
+      "checks": 546655,
+      "passes": 511964,
+      "failures": 34691,
+      "failed_configurations": 11921,
+      "failing_pairs_sha256": "8a7c182baa332dbea653fbf125c7573f3fadf9d018e181d7efa84b4953d5ab3f"
+    },
+    "engine patched": {
+      "checks": 546941,
+      "passes": 544324,
+      "failures": 2617,
+      "failed_configurations": 785,
+      "failing_pairs_sha256": "692f9fceffa654d4a6cdbaa8a99fe606753280bea686201f70f95647d5f03552"
+    },
+    "browser original": {
+      "checks": 876415,
+      "passes": 840829,
+      "failures": 35586,
+      "failed_configurations": 12206,
+      "failing_pairs_sha256": "94b09b4242d62c3948fb76b89f403401d462ee796628d592172f2f4703ca0414"
+    },
+    "browser-ui original": {
+      "checks": 17,
+      "passes": 6
+    },
+    "browser patched": {
+      "checks": 876415,
+      "passes": 873759,
+      "failures": 2656,
+      "failed_configurations": 790,
+      "failing_pairs_sha256": "90c199b49de6ea9bb36152536376752c4691214637e722d85c0d66bb8939eefa"
+    },
+    "browser-ui patched": {
+      "checks": 17,
+      "passes": 17
+    }
+  },
+  "mismatches": [],
+  "exit_code": 0
+}

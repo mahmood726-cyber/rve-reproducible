@@ -1,0 +1,41 @@
+{
+  "with a CR1": [
+    "rve-meta/index.html:58"
+  ],
+  "max=\"0.99\"": [
+    "rve-meta/index.html:85"
+  ],
+  "function parseInput": [
+    "rve-meta/index.html:119"
+  ],
+  "v = 0": [
+    "rve-meta/index.html:137"
+  ],
+  "function run()": [
+    "rve-meta/index.html:147"
+  ],
+  "window.__almLastRVE = function": [
+    "rve-meta/index.html:184"
+  ],
+  "function invert": [
+    "shared/rve.js:80"
+  ],
+  "< 1e-12": [
+    "shared/rve.js:87"
+  ],
+  "var clKj = {}": [
+    "shared/rve.js:187"
+  ],
+  "var crit = qt ?": [
+    "shared/rve.js:371"
+  ],
+  "function summary": [
+    "shared/rve.js:365"
+  ],
+  "EPS = 3e-7": [
+    "shared/stats-qt.js:58"
+  ],
+  "if (df < 1)": [
+    "shared/stats-qt.js:101"
+  ]
+}

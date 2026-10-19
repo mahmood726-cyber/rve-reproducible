@@ -1,0 +1,5 @@
+{
+  "rve-meta/index.html": true,
+  "shared/rve.js": true,
+  "shared/stats-qt.js": true
+}

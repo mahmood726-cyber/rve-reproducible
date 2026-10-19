@@ -1,0 +1,958 @@
+﻿[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:11] "GET / HTTP/1.1" 200 -
+
+
+Running 2 tests using 2 workers
+
+[1/2] audit.spec.cjs:5:46 ÔÇ║ original
+[2/2] audit.spec.cjs:5:46 ÔÇ║ patched
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:23] "GET /original/rve-meta/ HTTP/1.1" 200 -
+
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:23] "GET /original/hub/app-style.css HTTP/1.1" 200 -
+
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:23] "GET /original/shared/forced-colors.css HTTP/1.1" 200 -
+
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:23] "GET /original/shared/stats-qt.js HTTP/1.1" 200 -
+
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:23] "GET /original/shared/rve.js HTTP/1.1" 200 -
+
+
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:23] "GET /original/shared/app-flow.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:23] "GET /original/shared/autosave.js HTTP/1.1" 200 -
+
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:23] "GET /original/hub/shared/a11y-landmarks.js HTTP/1.1" 200 -
+
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:23] "GET /original/hub/shared/results-export.js HTTP/1.1" 200 -
+
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:23] code 404, message File not found
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:23] "GET /favicon.ico HTTP/1.1" 404 -
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 0 16270
+
+original 100 16270
+
+original 200 16270
+
+original 300 16270
+
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:28] "GET /patched/rve-meta/ HTTP/1.1" 200 -
+
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:28] "GET /patched/shared/forced-colors.css HTTP/1.1" 200 -
+
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:28] "GET /patched/hub/app-style.css HTTP/1.1" 200 -
+
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:28] "GET /patched/shared/stats-qt.js HTTP/1.1" 200 -
+
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:28] "GET /patched/shared/rve.js HTTP/1.1" 200 -
+
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:28] "GET /patched/shared/app-flow.js HTTP/1.1" 200 -
+
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:28] "GET /patched/shared/autosave.js HTTP/1.1" 200 -
+
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:28] "GET /patched/hub/shared/a11y-landmarks.js HTTP/1.1" 200 -
+
+original 400 16270
+
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:28] "GET /patched/hub/shared/results-export.js HTTP/1.1" 200 -
+
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:28] code 404, message File not found
+
+[WebServer] 127.0.0.1 - - [19/Oct/2026 11:18:28] "GET /favicon.ico HTTP/1.1" 404 -
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 0 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 200 16270
+
+patched 300 16270
+
+patched 400 16270
+
+patched 500 16270
+
+patched 600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 700 16270
+
+original 800 16270
+
+original 900 16270
+
+original 1000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 1100 16270
+
+original 1200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 800 16270
+
+patched 900 16270
+
+patched 1000 16270
+
+patched 1100 16270
+
+patched 1200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 1300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 1300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 1400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 1400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 1500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 1500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 1600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 1600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 1700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 1700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 1800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 1800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 1900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 1900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 2000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 2000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 2100 16270
+
+original 2200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 2100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 2300 16270
+
+original 2400 16270
+
+original 2500 16270
+
+original 2600 16270
+
+original 2700 16270
+
+original 2800 16270
+
+original 2900 16270
+
+original 3000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 2200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 3100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 2300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 3200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 2400 16270
+
+patched 2500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 3300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 2600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 3400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 2700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 3500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 2800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 3600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 2900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 3700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 3000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 3800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 3100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 3900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 3200 16270
+
+patched 3300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 4000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 3400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 4100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 3500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 4200 16270
+
+original 4300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 3600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 4400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 3700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 4500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 3800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 4600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 3900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 4700 16270
+
+original 4800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 4000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 4900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 4100 16270
+
+patched 4200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 5000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 4300 16270
+
+patched 4400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 5100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 4500 16270
+
+patched 4600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 5200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 4700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 5300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 4800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 5400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 4900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 5500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 5000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 5600 16270
+
+original 5700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 5100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 5800 16270
+
+original 5900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 5200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 6000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 5300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 6100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 5400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 6200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 5500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 6300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 5600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 6400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 5700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 6500 16270
+
+original 6600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 5800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 6700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 5900 16270
+
+patched 6000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 6800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 6100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 6900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 6200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 7000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 6300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 7100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 6400 16270
+
+patched 6500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 7200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 6600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 7300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 6700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 7400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 6800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 7500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 6900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 7600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 7000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 7700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 7100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 7800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 7200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 7900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 7300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 8000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 7400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 8100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 7500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 8200 16270
+
+original 8300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 7600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 8400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 7700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 8500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 7800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 8600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 7900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 8700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 8000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 8800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 8100 16270
+
+patched 8200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 8900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 8300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 9000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 8400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 9100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 8500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 9200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 8600 16270
+
+patched 8700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 9300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 8800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 9400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 8900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 9500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 9000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 9600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 9100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 9700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 9200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 9800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 9300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 9900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 9400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 10000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 9500 16270
+
+patched 9600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 10100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 9700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 10200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 9800 16270
+
+patched 9900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 10300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 10000 16270
+
+patched 10100 16270
+
+patched 10200 16270
+
+patched 10300 16270
+
+patched 10400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 10400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 10500 16270
+
+patched 10600 16270
+
+patched 10700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 10500 16270
+
+original 10600 16270
+
+original 10700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 10800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 10800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 10900 16270
+
+patched 11000 16270
+
+patched 11100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 10900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 11200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 11000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 11300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 11100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 11400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 11200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 11500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 11300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 11600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 11400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 11700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 11500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 11800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 11600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 11900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 11700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 12000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 11800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 12100 16270
+
+patched 12200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 11900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 12300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 12000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 12400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 12100 16270
+
+original 12200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 12500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 12300 16270
+
+original 12400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 12600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 12500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 12700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 12600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 12800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 12700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 12900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 12800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 13000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 12900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 13100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 13000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 13200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 13100 16270
+
+original 13200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 13300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 13300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 13400 16270
+
+patched 13500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 13400 16270
+
+original 13500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 13600 16270
+
+patched 13700 16270
+
+patched 13800 16270
+
+patched 13900 16270
+
+patched 14000 16270
+
+patched 14100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 13600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 14200 16270
+
+patched 14300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 13700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 14400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 13800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 14500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 13900 16270
+
+original 14000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 14600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 14100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 14700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 14200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 14800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 14300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 14900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 14400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 15000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 14500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 15100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 14600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 15200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 14700 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 15300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 14800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 15400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 14900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 15500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 15000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 15600 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 15100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 15700 16270
+
+patched 15800 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 15200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 15900 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 15300 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 16000 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 15400 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 16100 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 15500 16270
+
+audit.spec.cjs:5:46 ÔÇ║ patched
+patched 16200 16270
+
+audit.spec.cjs:5:46 ÔÇ║ original
+original 15600 16270
+
+original 15700 16270
+
+original 15800 16270
+
+original 15900 16270
+
+original 16000 16270
+
+original 16100 16270
+
+original 16200 16270
+
+  2 passed (57.5m)

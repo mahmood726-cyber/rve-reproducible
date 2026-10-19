@@ -1,0 +1,7 @@
+﻿{
+    "config":  "playwright.r3host.config.cjs",
+    "host":  "BASEIMAGE",
+    "started":  "2026-10-19T11:18:07.8463030+01:00",
+    "finished":  "2026-10-19T12:15:40.2677719+01:00",
+    "exit_code":  0
+}

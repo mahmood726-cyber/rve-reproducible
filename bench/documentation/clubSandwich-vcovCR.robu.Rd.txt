@@ -1,0 +1,79 @@
+_C_l_u_s_t_e_r-_r_o_b_u_s_t _v_a_r_i_a_n_c_e-_c_o_v_a_r_i_a_n_c_e _m_a_t_r_i_x _f_o_r _a _r_o_b_u _o_b_j_e_c_t.
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     'vcovCR' returns a sandwich estimate of the variance-covariance
+     matrix of a set of regression coefficient estimates from a 'robu'
+     object.
+
+_U_s_a_g_e:
+
+     ## S3 method for class 'robu'
+     vcovCR(obj, cluster, type, target, inverse_var, form = "sandwich", ...)
+     
+_A_r_g_u_m_e_n_t_s:
+
+     obj: Fitted model for which to calculate the variance-covariance
+          matrix
+
+ cluster: Optional expression or vector indicating which observations
+          belong to the same cluster. If not specified, will be set to
+          the 'studynum' used in fitting the 'robu' object.
+
+    type: Character string specifying which small-sample adjustment
+          should be used, with available options '"CR0"', '"CR1"',
+          '"CR1p"', '"CR1S"', '"CR2"', or '"CR3"'. See "Details"
+          section of 'vcovCR' for further information.
+
+  target: Optional matrix or vector describing the working
+          variance-covariance model used to calculate the 'CR2' and
+          'CR4' adjustment matrices. If not specified, the target is
+          taken to be the inverse of the estimated weights used in
+          fitting the 'robu' object.
+
+inverse_var: Optional logical indicating whether the weights used in
+          fitting the model are inverse-variance. If not specified,
+          'vcovCR' will attempt to infer a value.
+
+    form: Controls the form of the returned matrix. The default
+          '"sandwich"' will return the sandwich variance-covariance
+          matrix.  Alternately, setting 'form = "meat"' will return
+          only the meat of the sandwich and setting 'form = B', where
+          'B' is a matrix of appropriate dimension, will return the
+          sandwich variance-covariance matrix calculated using 'B' as
+          the bread. 'form = "estfun"' will return the (appropriately
+          scaled) estimating function, the transposed crossproduct of
+          which is equal to the sandwich variance-covariance matrix.
+
+     ...: Additional arguments available for some classes of objects.
+
+_V_a_l_u_e:
+
+     An object of class 'c("vcovCR","clubSandwich")', which consists of
+     a matrix of the estimated variance of and covariances between the
+     regression coefficient estimates.
+
+_S_e_e _A_l_s_o:
+
+     'vcovCR'
+
+_E_x_a_m_p_l_e_s:
+
+     if (requireNamespace("robumeta", quietly = TRUE)) withAutoprint({
+     library(robumeta)
+     data(hierdat)
+     
+     robu_fit <- robu(effectsize ~ binge + followup + sreport + age, 
+                      data = hierdat, studynum = studyid, 
+                      var.eff.size = var, modelweights = "HIER")
+     robu_fit
+     
+     robu_CR2 <- vcovCR(robu_fit, type = "CR2")
+     robu_CR2
+     coef_test(robu_fit, vcov = robu_CR2, test = c("Satterthwaite", "saddlepoint"))
+     
+     Wald_test(robu_fit, constraints = constrain_zero(c(2,4)), vcov = robu_CR2)
+     Wald_test(robu_fit, constraints = constrain_zero(2:5), vcov = robu_CR2)
+     
+     })
+     

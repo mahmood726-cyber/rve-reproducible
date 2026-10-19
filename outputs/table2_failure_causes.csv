@@ -1,0 +1,7 @@
+diagnosed_cause,configurations,failed_checks
+ill-conditioned design (kappa_2(XtWX) > 1e-9/u = 9.0e6),584,1470
+exact fit (near-zero reference SE),190,1120
+refusal disagreement: reason (app m<=p; R complex-eigenvalue error),5,5
+robumeta vs clubSandwich reference conflict (disjoint acceptance intervals),4,20
+"refusal disagreement: acceptance (R refuses, app fits); design ill-conditioned",2,2
+Total,785,2617

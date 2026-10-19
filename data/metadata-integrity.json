@@ -1,0 +1,894 @@
+[
+  {
+    "name": "same ordered effect definitions",
+    "passed": true
+  },
+  {
+    "name": "dat.aloe2013::001",
+    "passed": true
+  },
+  {
+    "name": "dat.aloe2013::002",
+    "passed": true
+  },
+  {
+    "name": "dat.aloe2013::003",
+    "passed": true
+  },
+  {
+    "name": "dat.anand1999::001",
+    "passed": true
+  },
+  {
+    "name": "dat.anand1999::002",
+    "passed": true
+  },
+  {
+    "name": "dat.anker2025::001",
+    "passed": true
+  },
+  {
+    "name": "dat.anker2025::002",
+    "passed": true
+  },
+  {
+    "name": "dat.anker2025::003",
+    "passed": true
+  },
+  {
+    "name": "dat.anker2025::004",
+    "passed": true
+  },
+  {
+    "name": "dat.assink2016::001",
+    "passed": true
+  },
+  {
+    "name": "dat.axfors2021::001",
+    "passed": true
+  },
+  {
+    "name": "dat.bakdash2021::001",
+    "passed": true
+  },
+  {
+    "name": "dat.baker2009::001",
+    "passed": true
+  },
+  {
+    "name": "dat.bangertdrowns2004::001",
+    "passed": true
+  },
+  {
+    "name": "dat.bartos2023::001",
+    "passed": true
+  },
+  {
+    "name": "dat.bartos2023::002",
+    "passed": true
+  },
+  {
+    "name": "dat.bartos2023::003",
+    "passed": true
+  },
+  {
+    "name": "dat.bartos2023::004",
+    "passed": true
+  },
+  {
+    "name": "dat.baskerville2012::001",
+    "passed": true
+  },
+  {
+    "name": "dat.bassler2004::001",
+    "passed": true
+  },
+  {
+    "name": "dat.bassler2004::002",
+    "passed": true
+  },
+  {
+    "name": "dat.bauer2002::001",
+    "passed": true
+  },
+  {
+    "name": "dat.bauer2002::002",
+    "passed": true
+  },
+  {
+    "name": "dat.bcg::001",
+    "passed": true
+  },
+  {
+    "name": "dat.begg1989::001",
+    "passed": true
+  },
+  {
+    "name": "dat.begg1989::002",
+    "passed": true
+  },
+  {
+    "name": "dat.berkey1998::001",
+    "passed": true
+  },
+  {
+    "name": "dat.berkey1998r::001",
+    "passed": true
+  },
+  {
+    "name": "dat.besson2016::001",
+    "passed": true
+  },
+  {
+    "name": "dat.bonett2010::001",
+    "passed": true
+  },
+  {
+    "name": "dat.bonett2010::002",
+    "passed": true
+  },
+  {
+    "name": "dat.bonett2010::003",
+    "passed": true
+  },
+  {
+    "name": "dat.bornmann2007::001",
+    "passed": true
+  },
+  {
+    "name": "dat.bourassa1996::001",
+    "passed": true
+  },
+  {
+    "name": "dat.cannon2006::001",
+    "passed": true
+  },
+  {
+    "name": "dat.cannon2006::002",
+    "passed": true
+  },
+  {
+    "name": "dat.cannon2006::003",
+    "passed": true
+  },
+  {
+    "name": "dat.cannon2006::004",
+    "passed": true
+  },
+  {
+    "name": "dat.cannon2006::005",
+    "passed": true
+  },
+  {
+    "name": "dat.cannon2006::006",
+    "passed": true
+  },
+  {
+    "name": "dat.cannon2006::007",
+    "passed": true
+  },
+  {
+    "name": "dat.chiarito2020::001",
+    "passed": true
+  },
+  {
+    "name": "dat.chiarito2020::002",
+    "passed": true
+  },
+  {
+    "name": "dat.chiarito2020::003",
+    "passed": true
+  },
+  {
+    "name": "dat.chiarito2020::004",
+    "passed": true
+  },
+  {
+    "name": "dat.chiarito2020::005",
+    "passed": true
+  },
+  {
+    "name": "dat.chiarito2020::006",
+    "passed": true
+  },
+  {
+    "name": "dat.cohen1981::001",
+    "passed": true
+  },
+  {
+    "name": "dat.colditz1994::001",
+    "passed": true
+  },
+  {
+    "name": "dat.collins1985a::001",
+    "passed": true
+  },
+  {
+    "name": "dat.collins1985a::002",
+    "passed": true
+  },
+  {
+    "name": "dat.collins1985a::003",
+    "passed": true
+  },
+  {
+    "name": "dat.collins1985a::004",
+    "passed": true
+  },
+  {
+    "name": "dat.collins1985a::005",
+    "passed": true
+  },
+  {
+    "name": "dat.collins1985a::006",
+    "passed": true
+  },
+  {
+    "name": "dat.collins1985b::001",
+    "passed": true
+  },
+  {
+    "name": "dat.collins1985b::002",
+    "passed": true
+  },
+  {
+    "name": "dat.collins1985b::003",
+    "passed": true
+  },
+  {
+    "name": "dat.collins1985b::004",
+    "passed": true
+  },
+  {
+    "name": "dat.collins1985b::005",
+    "passed": true
+  },
+  {
+    "name": "dat.craft2003::001",
+    "passed": true
+  },
+  {
+    "name": "dat.crede2010::001",
+    "passed": true
+  },
+  {
+    "name": "dat.crisafulli2020::001",
+    "passed": true
+  },
+  {
+    "name": "dat.curtin2002::001",
+    "passed": true
+  },
+  {
+    "name": "dat.curtis1998::001",
+    "passed": true
+  },
+  {
+    "name": "dat.dagostino1998::001",
+    "passed": true
+  },
+  {
+    "name": "dat.dagostino1998::002",
+    "passed": true
+  },
+  {
+    "name": "dat.dagostino1998::003",
+    "passed": true
+  },
+  {
+    "name": "dat.damico2009::001",
+    "passed": true
+  },
+  {
+    "name": "dat.damico2009::002",
+    "passed": true
+  },
+  {
+    "name": "dat.debruin2009::001",
+    "passed": true
+  },
+  {
+    "name": "dat.demir2022::001",
+    "passed": true
+  },
+  {
+    "name": "dat.dogliotti2014::001",
+    "passed": true
+  },
+  {
+    "name": "dat.dong2013::001",
+    "passed": true
+  },
+  {
+    "name": "dat.dorn2007::001",
+    "passed": true
+  },
+  {
+    "name": "dat.dumouchel1994::001",
+    "passed": true
+  },
+  {
+    "name": "dat.egger2001::001",
+    "passed": true
+  },
+  {
+    "name": "dat.egger2001::002",
+    "passed": true
+  },
+  {
+    "name": "dat.feng2019::001",
+    "passed": true
+  },
+  {
+    "name": "dat.feng2019::002",
+    "passed": true
+  },
+  {
+    "name": "dat.fine1993::001",
+    "passed": true
+  },
+  {
+    "name": "dat.fine1993::002",
+    "passed": true
+  },
+  {
+    "name": "dat.fine1993::003",
+    "passed": true
+  },
+  {
+    "name": "dat.fine1993::004",
+    "passed": true
+  },
+  {
+    "name": "dat.fine1993::005",
+    "passed": true
+  },
+  {
+    "name": "dat.franchini2012::001",
+    "passed": true
+  },
+  {
+    "name": "dat.frank2008::001",
+    "passed": true
+  },
+  {
+    "name": "dat.frank2008::002",
+    "passed": true
+  },
+  {
+    "name": "dat.frank2008::003",
+    "passed": true
+  },
+  {
+    "name": "dat.frank2008::004",
+    "passed": true
+  },
+  {
+    "name": "dat.furukawa2003::001",
+    "passed": true
+  },
+  {
+    "name": "dat.furukawa2003::002",
+    "passed": true
+  },
+  {
+    "name": "dat.furukawa2003::003",
+    "passed": true
+  },
+  {
+    "name": "dat.gibson2002::001",
+    "passed": true
+  },
+  {
+    "name": "dat.gibson2002::002",
+    "passed": true
+  },
+  {
+    "name": "dat.gibson2002::003",
+    "passed": true
+  },
+  {
+    "name": "dat.gibson2002::004",
+    "passed": true
+  },
+  {
+    "name": "dat.graves2010::001",
+    "passed": true
+  },
+  {
+    "name": "dat.greb2008::001",
+    "passed": true
+  },
+  {
+    "name": "dat.greb2008::002",
+    "passed": true
+  },
+  {
+    "name": "dat.greenland1992::001",
+    "passed": true
+  },
+  {
+    "name": "dat.gurusamy2011::001",
+    "passed": true
+  },
+  {
+    "name": "dat.hackshaw1998::001",
+    "passed": true
+  },
+  {
+    "name": "dat.hahn2001::001",
+    "passed": true
+  },
+  {
+    "name": "dat.hahn2001::002",
+    "passed": true
+  },
+  {
+    "name": "dat.hannum2020::001",
+    "passed": true
+  },
+  {
+    "name": "dat.hannum2020::002",
+    "passed": true
+  },
+  {
+    "name": "dat.hannum2020::003",
+    "passed": true
+  },
+  {
+    "name": "dat.hart1999::001",
+    "passed": true
+  },
+  {
+    "name": "dat.hart1999::002",
+    "passed": true
+  },
+  {
+    "name": "dat.hartmannboyce2018::001",
+    "passed": true
+  },
+  {
+    "name": "dat.hasselblad1998::001",
+    "passed": true
+  },
+  {
+    "name": "dat.hasselblad1998::002",
+    "passed": true
+  },
+  {
+    "name": "dat.higgins2008::001",
+    "passed": true
+  },
+  {
+    "name": "dat.higgins2008::002",
+    "passed": true
+  },
+  {
+    "name": "dat.hine1989::001",
+    "passed": true
+  },
+  {
+    "name": "dat.hine1989::002",
+    "passed": true
+  },
+  {
+    "name": "dat.huber2000::001",
+    "passed": true
+  },
+  {
+    "name": "dat.ishak2007::001",
+    "passed": true
+  },
+  {
+    "name": "dat.ishak2007::002",
+    "passed": true
+  },
+  {
+    "name": "dat.ishak2007::003",
+    "passed": true
+  },
+  {
+    "name": "dat.ishak2007::004",
+    "passed": true
+  },
+  {
+    "name": "dat.kalaian1996::001",
+    "passed": true
+  },
+  {
+    "name": "dat.karner2014::001",
+    "passed": true
+  },
+  {
+    "name": "dat.karner2014::002",
+    "passed": true
+  },
+  {
+    "name": "dat.karner2014::003",
+    "passed": true
+  },
+  {
+    "name": "dat.karner2014::004",
+    "passed": true
+  },
+  {
+    "name": "dat.karner2014::005",
+    "passed": true
+  },
+  {
+    "name": "dat.karner2014::006",
+    "passed": true
+  },
+  {
+    "name": "dat.karner2014::007",
+    "passed": true
+  },
+  {
+    "name": "dat.karner2014::008",
+    "passed": true
+  },
+  {
+    "name": "dat.kearon1998::001",
+    "passed": true
+  },
+  {
+    "name": "dat.kearon1998::002",
+    "passed": true
+  },
+  {
+    "name": "dat.kearon1998::003",
+    "passed": true
+  },
+  {
+    "name": "dat.kearon1998::004",
+    "passed": true
+  },
+  {
+    "name": "dat.knapp2017::001",
+    "passed": true
+  },
+  {
+    "name": "dat.konstantopoulos2011::001",
+    "passed": true
+  },
+  {
+    "name": "dat.landenberger2005::001",
+    "passed": true
+  },
+  {
+    "name": "dat.laopaiboon2015::001",
+    "passed": true
+  },
+  {
+    "name": "dat.lau1992::001",
+    "passed": true
+  },
+  {
+    "name": "dat.lau1992::002",
+    "passed": true
+  },
+  {
+    "name": "dat.lee2004::001",
+    "passed": true
+  },
+  {
+    "name": "dat.lehmann2018::001",
+    "passed": true
+  },
+  {
+    "name": "dat.lehmann2018::002",
+    "passed": true
+  },
+  {
+    "name": "dat.lehmann2018::003",
+    "passed": true
+  },
+  {
+    "name": "dat.li2007::001",
+    "passed": true
+  },
+  {
+    "name": "dat.li2007::002",
+    "passed": true
+  },
+  {
+    "name": "dat.lim2014::001",
+    "passed": true
+  },
+  {
+    "name": "dat.linde2005::001",
+    "passed": true
+  },
+  {
+    "name": "dat.linde2005::002",
+    "passed": true
+  },
+  {
+    "name": "dat.linde2015::001",
+    "passed": true
+  },
+  {
+    "name": "dat.linde2015::002",
+    "passed": true
+  },
+  {
+    "name": "dat.linde2016::001",
+    "passed": true
+  },
+  {
+    "name": "dat.lloyd2010::001",
+    "passed": true
+  },
+  {
+    "name": "dat.lloyd2010::002",
+    "passed": true
+  },
+  {
+    "name": "dat.lloyd2010::003",
+    "passed": true
+  },
+  {
+    "name": "dat.lloyd2010::004",
+    "passed": true
+  },
+  {
+    "name": "dat.lopez2019::001",
+    "passed": true
+  },
+  {
+    "name": "dat.maire2019::001",
+    "passed": true
+  },
+  {
+    "name": "dat.mccurdy2020::001",
+    "passed": true
+  },
+  {
+    "name": "dat.mcdaniel1994::001",
+    "passed": true
+  },
+  {
+    "name": "dat.mcdaniel1994::002",
+    "passed": true
+  },
+  {
+    "name": "dat.meeker2017::001",
+    "passed": true
+  },
+  {
+    "name": "dat.michael2013::001",
+    "passed": true
+  },
+  {
+    "name": "dat.michael2013::002",
+    "passed": true
+  },
+  {
+    "name": "dat.molloy2014::001",
+    "passed": true
+  },
+  {
+    "name": "dat.moore1998::001",
+    "passed": true
+  },
+  {
+    "name": "dat.moore1998::002",
+    "passed": true
+  },
+  {
+    "name": "dat.moura2021::001",
+    "passed": true
+  },
+  {
+    "name": "dat.nakagawa2007::001",
+    "passed": true
+  },
+  {
+    "name": "dat.nielweise2007::001",
+    "passed": true
+  },
+  {
+    "name": "dat.nielweise2007::002",
+    "passed": true
+  },
+  {
+    "name": "dat.nielweise2008::001",
+    "passed": true
+  },
+  {
+    "name": "dat.nissen2007::001",
+    "passed": true
+  },
+  {
+    "name": "dat.nissen2007::002",
+    "passed": true
+  },
+  {
+    "name": "dat.nissen2007::003",
+    "passed": true
+  },
+  {
+    "name": "dat.nissen2007::004",
+    "passed": true
+  },
+  {
+    "name": "dat.nissen2007::005",
+    "passed": true
+  },
+  {
+    "name": "dat.nissen2007::006",
+    "passed": true
+  },
+  {
+    "name": "dat.normand1999::001",
+    "passed": true
+  },
+  {
+    "name": "dat.normand1999::002",
+    "passed": true
+  },
+  {
+    "name": "dat.obrien2003::001",
+    "passed": true
+  },
+  {
+    "name": "dat.obrien2003::002",
+    "passed": true
+  },
+  {
+    "name": "dat.pagliaro1992::001",
+    "passed": true
+  },
+  {
+    "name": "dat.pagliaro1992::002",
+    "passed": true
+  },
+  {
+    "name": "dat.pignon2000::001",
+    "passed": true
+  },
+  {
+    "name": "dat.poole2003::001",
+    "passed": true
+  },
+  {
+    "name": "dat.poole2003::002",
+    "passed": true
+  },
+  {
+    "name": "dat.pritz1997::001",
+    "passed": true
+  },
+  {
+    "name": "dat.pritz1997::002",
+    "passed": true
+  },
+  {
+    "name": "dat.pritz1997::003",
+    "passed": true
+  },
+  {
+    "name": "dat.pritz1997::004",
+    "passed": true
+  },
+  {
+    "name": "dat.quan2000::001",
+    "passed": true
+  },
+  {
+    "name": "dat.quan2000::002",
+    "passed": true
+  },
+  {
+    "name": "dat.raudenbush1985::001",
+    "passed": true
+  },
+  {
+    "name": "dat.riley2003::001",
+    "passed": true
+  },
+  {
+    "name": "dat.rivera2025::001",
+    "passed": true
+  },
+  {
+    "name": "dat.rivera2025::002",
+    "passed": true
+  },
+  {
+    "name": "dat.rivera2025::003",
+    "passed": true
+  },
+  {
+    "name": "dat.rivera2025::004",
+    "passed": true
+  },
+  {
+    "name": "dat.rivera2025::005",
+    "passed": true
+  },
+  {
+    "name": "dat.roever2022::001",
+    "passed": true
+  },
+  {
+    "name": "dat.senn2013::001",
+    "passed": true
+  },
+  {
+    "name": "dat.senn2013::002",
+    "passed": true
+  },
+  {
+    "name": "dat.spooner2002::001",
+    "passed": true
+  },
+  {
+    "name": "dat.spooner2002::002",
+    "passed": true
+  },
+  {
+    "name": "dat.steurer2006::001",
+    "passed": true
+  },
+  {
+    "name": "dat.steurer2006::002",
+    "passed": true
+  },
+  {
+    "name": "dat.stowe2010::001",
+    "passed": true
+  },
+  {
+    "name": "dat.tannersmith2016::001",
+    "passed": true
+  },
+  {
+    "name": "dat.thompson1999::001",
+    "passed": true
+  },
+  {
+    "name": "dat.thompson1999::002",
+    "passed": true
+  },
+  {
+    "name": "dat.tian2009::001",
+    "passed": true
+  },
+  {
+    "name": "dat.tian2009::002",
+    "passed": true
+  },
+  {
+    "name": "dat.tian2009::003",
+    "passed": true
+  },
+  {
+    "name": "dat.ursino2021::001",
+    "passed": true
+  },
+  {
+    "name": "dat.vanhowe1999::001",
+    "passed": true
+  },
+  {
+    "name": "dat.viechtbauer2021::001",
+    "passed": true
+  },
+  {
+    "name": "dat.white2020::001",
+    "passed": true
+  },
+  {
+    "name": "dat.woods2010::001",
+    "passed": true
+  },
+  {
+    "name": "dat.yusuf1985::001",
+    "passed": true
+  },
+  {
+    "name": "dat.yusuf1985::002",
+    "passed": true
+  }
+]

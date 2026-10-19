@@ -1,0 +1,180 @@
+{
+  "threshold": 9007199.254740993,
+  "n_configurations": 16270,
+  "n_failed_configurations": 785,
+  "n_failed_checks": 2617,
+  "tier_counts": {
+    "A": 13985,
+    "B": 1705,
+    "no fit (refused by app)": 580
+  },
+  "tier_by_fail": {
+    "A": {
+      "total": 13985,
+      "failing": 194
+    },
+    "B": {
+      "total": 1705,
+      "failing": 586
+    },
+    "no fit (refused by app)": {
+      "total": 580,
+      "failing": 5
+    }
+  },
+  "category_by_tier": {
+    "acceptance/refusal disagreement | B": 2,
+    "fit/variance/df numerical mismatch; unresolved | A": 4,
+    "fit/variance/df numerical mismatch; unresolved | B": 92,
+    "inference mismatch despite fit quantities meeting tolerance | B": 492,
+    "near-zero reference SE; t/p sensitive to residual rounding | A": 190,
+    "refusal reason disagreement | no fit (refused by app)": 5
+  },
+  "sensitivity_kappa_XtW0X": {
+    "all_configs_same_tier": 15475,
+    "failing_configs_same_tier": 780
+  },
+  "sensitivity_kappa_XtX": {
+    "all_configs_same_tier": 15455,
+    "failing_configs_same_tier": 780
+  },
+  "configs_with_kappa_in_1e6_1e10": 2100,
+  "failing_configs_with_kappa_in_1e6_1e10": 0,
+  "max_kappa_failing_tierA": 497674.5446171089,
+  "min_kappa_failing_tierB": 78103834234.00262,
+  "tierB_numeric_failing": 584,
+  "tierB_numeric_pass_under_kappa_u": 584,
+  "tierB_ratio_diff_over_kappa_u": {
+    "min": 6.047088254731834e-07,
+    "median": 0.00015969261487602313,
+    "max": 0.013849601070241744
+  },
+  "tierB_status_disagreements": [
+    "dat.moura2021::001::species.id::publication.year::rho=0.8",
+    "dat.moura2021::001::species.id::publication.year::rho=1"
+  ],
+  "tierB_moderator_counts_all": {
+    "year": 750,
+    "n1i": 55,
+    "n2i": 55,
+    "baseline.age": 40,
+    "nt": 35,
+    "nc": 35
+  },
+  "tierB_failing_year_share": [
+    550,
+    586
+  ],
+  "tierA_failing_by_category": {
+    "near-zero reference SE; t/p sensitive to residual rounding": 190,
+    "fit/variance/df numerical mismatch; unresolved": 4
+  },
+  "tierA_failing_kappa_max": 497674.5446171089,
+  "nearzero_moderator_top": {
+    "TE": 110,
+    "percentOlfactoryLoss": 15,
+    "mean": 10,
+    "s1": 10,
+    "total.logrr": 5
+  },
+  "nearzero_max_ref_SE": 5.808660989920919e-13,
+  "configs_failing_only_on_both_nonfinite": 35,
+  "configs_with_any_nonfinite_check": 110,
+  "checks_both_nonfinite": 210,
+  "disjoint_reference_configs": {
+    "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0": "A",
+    "dat.besson2016::001::dam_ID::photoperiod::rho=0.2": "A",
+    "dat.besson2016::001::dam_ID::photoperiod::rho=0.5": "A",
+    "dat.besson2016::001::dam_ID::photoperiod::rho=0.8": "A",
+    "dat.gibson2002::002::author::year::rho=0": "B",
+    "dat.gibson2002::002::author::year::rho=0.2": "B",
+    "dat.gibson2002::002::author::year::rho=0.5": "B",
+    "dat.gibson2002::002::author::year::rho=0.8": "B",
+    "dat.gibson2002::002::author::year::rho=1": "B",
+    "dat.obrien2003::002::author::year::rho=0.5": "B",
+    "dat.obrien2003::002::author::year::rho=0.8": "B"
+  },
+  "disjoint_reference_checks": 30,
+  "inference_category_ci_only": 487,
+  "inference_category_ci_only_pass_if_ci_relative": 454,
+  "per_quantity_max_failing": {
+    "A": {
+      "estimate": 6.310292970752893e-12,
+      "se": 4.501965467085256e-11,
+      "t": 6.14460577687591,
+      "df": 5.411738623159259e-13,
+      "p": 0.9999884078887372,
+      "ci_lo": 1.6500045774137106e-10,
+      "ci_hi": 1.2884848743510702e-10,
+      "tau2": 8.526512829121202e-14,
+      "club_estimate": 6.310292970752893e-12,
+      "club_se": 2.581576961424581e-06,
+      "club_t": 6.144605776875912,
+      "club_df": 60.63081998345838,
+      "club_p": 0.9999884078887372
+    },
+    "B": {
+      "estimate": 4.086390891746522e-09,
+      "se": 4.5933382229495235e-09,
+      "t": 5.956846743622931e-09,
+      "df": 2.573747988238752e-09,
+      "p": 1.915273717401078e-09,
+      "ci_lo": 2.3727134248474613e-06,
+      "ci_hi": 4.0118393371813e-06,
+      "tau2": 1.3385147712430268e-09,
+      "club_estimate": 4.086390891746522e-09,
+      "club_se": 4.458353086576318e-09,
+      "club_t": 5.948374353809921e-09,
+      "club_df": 2.5435085132373246e-09,
+      "club_p": 1.929141291157066e-09
+    }
+  },
+  "per_quantity_n_nonfinite_failing": {
+    "A": {
+      "estimate": 0,
+      "se": 0,
+      "t": 110,
+      "df": 0,
+      "p": 110,
+      "ci_lo": 0,
+      "ci_hi": 0,
+      "tau2": 0,
+      "club_estimate": 0,
+      "club_se": 0,
+      "club_t": 110,
+      "club_df": 0,
+      "club_p": 110
+    },
+    "B": {
+      "estimate": 0,
+      "se": 0,
+      "t": 0,
+      "df": 0,
+      "p": 0,
+      "ci_lo": 0,
+      "ci_hi": 0,
+      "tau2": 0,
+      "club_estimate": 0,
+      "club_se": 0,
+      "club_t": 0,
+      "club_df": 0,
+      "club_p": 0
+    }
+  },
+  "year_designs": {
+    "n_fitted": 760,
+    "tierB_uncentred": 750,
+    "tierB_after_centring": 0,
+    "max_kappa_centred": 529.0911774963324,
+    "median_kappa_centred": 14.37090858911808
+  },
+  "tiered_totals": {
+    "total_checks": 546941,
+    "strict_failed_checks": 2617,
+    "strict_failed_configs": 785,
+    "tiered_failed_checks": 1147,
+    "tiered_failed_configs": 201,
+    "tiered_passed_checks": 545794,
+    "tierB_checks_reclassified": 1470
+  }
+}

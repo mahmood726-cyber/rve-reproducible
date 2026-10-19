@@ -1,0 +1,10 @@
+{
+  "variant": "original",
+  "node": "v24.15.0",
+  "host": "local Windows host",
+  "hashes": {
+    "shared/rve.js": "9b3f4f8e82b7f38afcbc9a229fc95b2ee5487bdb9e1681c55e0aff6c8ed48b57",
+    "shared/stats-qt.js": "a3ffd4441e4b4a884a10bbfeb034091dbb4d8b9902724b8a228bba1e78c1de79"
+  },
+  "configurations": 16270
+}
