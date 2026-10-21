@@ -1,5 +1,8 @@
 """Verify the archive without R: inventory, sizes, compression, app bytes, reference bundle, expected values,
-private-path scan and release placeholders. With --full, also replays the UNMODIFIED archived comparators
+private-path scan and release placeholders. It also verifies the version 1.1 layer (merged engine, allmeta 575cb29):
+the snapshot and evidence by SHA-256, then both comparator modes (finite-only, Option A) re-run on the archived captures
+with every count asserted exactly against expected/v1.1_values.json, the rho recheck and the planted Option A checks.
+With --full, also replays the UNMODIFIED archived comparators
 (bench/compare_engine.py, bench/browser/compare.py) on the ARCHIVED references and captures and requires the
 archived comparison outputs to be reproduced exactly. Exit status is non-zero on any failure.
 Usage: python analysis/verify_archive.py [--full]
@@ -96,6 +99,89 @@ check('.zenodo.json metadata', z['upload_type'] == 'software' and z['license'] =
       and any(r['relation'] == 'isDerivedFrom' and r['identifier'] == 'https://github.com/mahmood726-cyber/allmeta' for r in z['related_identifiers']))
 hits = private_hits(files=files)
 check('privacy: no host paths, addresses or key names in text files', not hits, '; '.join(hits[:8]))
+
+
+# 9. version 1.1 layer: merged engine (allmeta 575cb29) by hashes, then both comparator modes re-run on the archived captures
+def verify_v11():
+    import posixpath, re
+    from compare_modes import archived_references, compare, ledger_keys, read_lines
+    from compare_rho import compare as compare_rho, rho_inputs
+    x = read('expected/v1.1_values.json'); a11 = read('app-v1.1/app-sha256.json'); C = '575cb29468f814ad09401d78f1a75fbda16b8abc'
+    check('v1.1 app: every file matches app-v1.1/app-sha256.json at allmeta 575cb29',
+          a11['commit'] == x['allmeta_commit'] == C and all(sha256(ROOT / 'app-v1.1' / f) == h for f, h in a11['files'].items())
+          and {p.relative_to(ROOT / 'app-v1.1').as_posix() for p in (ROOT / 'app-v1.1').rglob('*') if p.is_file()} == set(a11['files']) | {'app-sha256.json'},
+          f"{len(a11['files'])} files")
+    html = (ROOT / 'app-v1.1/rve-meta/index.html').read_text(encoding='utf-8')
+    loads = {posixpath.normpath('rve-meta/' + m) for m in re.findall(r'<(?:script|link)[^>]*(?:src|href)="([^":]+\.(?:js|css))"', html)}
+    check('v1.1 app: the snapshot holds the page and every script and stylesheet it loads',
+          set(a11['page_files']) == loads | {'rve-meta/index.html'} and set(a11['page_files']) <= set(a11['files']), f'{len(loads)} loaded files')
+    lic = (ROOT / 'app-v1.1/shared/numerics/LICENSES-rve-eigen.md').read_text(encoding='utf-8')
+    eig = (ROOT / 'app-v1.1/shared/rve-eigen.js').read_text(encoding='utf-8')[:400]
+    check('v1.1 app: rve-eigen.js labelled GPL-3.0 as distributed by webR, with LICENSES-rve-eigen.md',
+          'GPL-3.0, as distributed by webR' in eig and 'GPL-3.0, as distributed by webR' in lic and 'shared/numerics/LICENSES-rve-eigen.md' in a11['files'])
+    meta = read('results/v1.1/engine/engine-full-final-k-commit-meta.json')
+    check('v1.1 capture: final-k-commit source hashes equal the 575cb29 engine bytes',
+          meta['configurations'] == 16270 and all(sha256(ROOT / 'app-v1.1' / f) == h for f, h in meta['hashes'].items()), ', '.join(meta['hashes']))
+    man = read('results/v1.1/MANIFEST.json')['files']; prf = {p['stored']: p for p in proof}
+    layer = {p.relative_to(ROOT).as_posix() for d in ('results/v1.1', 'bench/v1.1') for p in (ROOT / d).rglob('*') if p.is_file()}
+    check('v1.1 evidence: MANIFEST covers every layer file once, stored SHA-256 matches',
+          layer == {m['archived'] for m in man} | {'results/v1.1/MANIFEST.json'} and len(man) == len({m['archived'] for m in man})
+          and all(sha256(ROOT / m['archived']) == m['stored_sha256'] for m in man), f'{len(man)} files')
+    check('v1.1 evidence: verbatim files equal their source bytes (xz: decompressed bytes, per compression_proof.json)',
+          all((m['stored_sha256'] == m['source_sha256']) if m['treatment'] == 'verbatim' else
+              (prf[m['archived']]['original_sha256'] == m['source_sha256']) if m['treatment'] == 'verbatim; xz' else
+              ('redacted' in m['archived'] and 'host paths' in m['treatment']) for m in man))
+    for rel, h in x['capture_uncompressed_sha256'].items():
+        check(f'v1.1 capture: {rel} decompresses to SHA-256 {h[:12]}', prf[rel]['original_sha256'] == h)
+    tsv = (ROOT / 'results/v1.1/exposure/exposure.sha256').read_text(encoding='utf-8').split()[0]
+    check('v1.1 exposure: exposure.tsv.xz decompresses to the recorded exposure.sha256', prf['results/v1.1/exposure/exposure.tsv.xz']['original_sha256'] == tsv)
+    # both comparator modes, re-run on the archived captures and the archived R references; counts asserted exactly
+    refs, keys, ev = archived_references(), ledger_keys(), 'results/v1.1/engine/'
+    fails = {}
+    for var, spec in x['engine'].items():
+        lines = read_lines(spec['capture'])
+        for rule, suffix in [('finite-only', 'finite'), ('option-a', 'option-a')]:
+            res, fl, und = compare(lines, refs, keys, rule, f'{var}-{suffix}')
+            fails[var, rule] = {f['id'] for f in fl}
+            got = {k: res[k] for k in spec[rule]}
+            check(f'v1.1 comparator {var} {rule}: counts equal expected exactly', got == spec[rule],
+                  f"{res['passing_configurations']}/{res['configurations']} configurations, {res['passes']}/{res['checks']} checks")
+            check(f'v1.1 comparator {var} {rule}: results, failures and undefined audit equal the archived integration outputs',
+                  res == read(ev + f'engine-results-{var}-{suffix}.json') and fl == read(ev + f'engine-failures-full-{var}-{suffix}.json')
+                  and und == read(ev + f'undefined-{var}-{suffix}.json'))
+            if (var, rule) == ('final-j', 'option-a'):
+                same = [u for u in und if u['passed']]
+                check('v1.1 Option A: the both-undefined agreements are exactly the expected configurations and checks, same reason on both sides',
+                      len({u['id'] for u in same}) == x['both_undefined_same_reason_configurations'] and len(same) == x['both_undefined_same_reason_checks']
+                      and all(u['reason_app'] == u['reason_R'] is not None for u in same)
+                      and fails['final-j', 'finite-only'] - fails['final-j', 'option-a'] == {u['id'] for u in same},
+                      f"{len({u['id'] for u in same})} configurations, {len(same)} checks")
+    check('v1.1 comparator: configurations failing in both modes', len(fails['final-j', 'option-a']) == x['failing_in_both_modes']
+          and fails['final-j', 'option-a'] <= fails['final-j', 'finite-only'])
+    for rule in ['finite-only', 'option-a']:
+        new = fails['final-j', rule] - fails['baseline', rule]
+        check(f'v1.1 comparator {rule}: newly failing configurations versus the e042af5 baseline', len(new) == x['newly_failing'][rule], f'{len(new)}')
+    fv = read(ev + 'final-verification.json')
+    check('v1.1 expected: equals the archived final-verification.json',
+          [fv[k][f] for k in ('finite', 'option-a') for f in ('before', 'after', 'newly_failing')] ==
+          [x['engine'][v][r]['passing_configurations'] if v else x['newly_failing'][r] for r in ('finite-only', 'option-a') for v in ('baseline', 'final-j', None)]
+          and fv['residuals']['undefined_finite_only'] == x['both_undefined_same_reason_configurations'])
+    samples, rrefs, ok = rho_inputs()
+    check('v1.1 rho: 448 references match rho-reference-sha256.json', ok)
+    for label in ['final-j', 'baseline']:
+        got = compare_rho(label, samples, rrefs)
+        arch = read(f'results/v1.1/rho/rho-{label}-results.json')
+        check(f'v1.1 rho {label}: both modes equal expected and the archived results exactly',
+              got == x['rho'][label] == {k: arch[k] for k in got}, ', '.join(f"{r} {got[r]['passing_designs']}/448" for r in got))
+    r = subprocess.run([sys.executable, str(ROOT / 'analysis/test_option_a.py')], capture_output=True, text=True)
+    check('v1.1 Option A planted must-fail checks (analysis/test_option_a.py)', r.returncode == 0, r.stdout.strip().splitlines()[-1] if r.stdout else r.stderr[-200:])
+    # release tokens stay unfilled for the v1.1 layer until allmeta v1.9.0 exists
+    T = ('<ALLMETA_RELEASE>', '<ALLMETA_RELEASE_DOI>')
+    check('v1.1 release tokens present and unfilled',
+          (a11['release'], a11['doi']) == T == (x['allmeta_release'], x['allmeta_release_doi'])
+          and all(t in (ROOT / f).read_text(encoding='utf-8') for t in T for f in ['README.md', 'CHANGELOG.md', 'CITATION.cff']))
+
+verify_v11()
 
 
 # 8. optional full replay of the unmodified comparators on archived evidence

@@ -7,7 +7,7 @@ authors:
     given-names: Mahmood
     orcid: "https://orcid.org/0000-0001-9107-3704"
     affiliation: "Tahir Heart Institute"
-version: 1.0.0
+version: 1.1.0
 license: MIT
 references:
   - type: software
@@ -16,4 +16,4 @@ references:
       - family-names: Ahmad
         given-names: Mahmood
     url: https://github.com/mahmood726-cyber/allmeta
-    notes: "isDerivedFrom; branch fix/rve-meta-cr2-parity-p15-v2, commit e042af5736887b2d5ead82ac569163d586548bf1 (draft PR #146); pre-fix source 387660898b5b7a2571736da3149371c20f079bba. Release: [ALLMETA RELEASE PENDING]; release DOI: [ALLMETA RELEASE PENDING]."
+    notes: "isDerivedFrom; branch fix/rve-meta-cr2-parity-p15-v2, commit e042af5736887b2d5ead82ac569163d586548bf1 (draft PR #146); pre-fix source 387660898b5b7a2571736da3149371c20f079bba. Release: [ALLMETA RELEASE PENDING]; release DOI: [ALLMETA RELEASE PENDING]. Version 1.1 layer: merged engine at main commit 575cb29468f814ad09401d78f1a75fbda16b8abc (PR #210); release <ALLMETA_RELEASE>; release DOI <ALLMETA_RELEASE_DOI>."

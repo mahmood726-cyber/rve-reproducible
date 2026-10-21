@@ -99,7 +99,11 @@ run.
 
 Other checks do not need the R packages:
 - `python analysis/verify_archive.py [--full]` checks the inventory, sizes, xz proofs, page bytes, the reference
-  bundle, the expected values against archived evidence, the release placeholders and a private-path scan. `--full`
+  bundle, the expected values against archived evidence, the release placeholders and a private-path scan. It also
+  verifies the version 1.1 layer by SHA-256. It then re-runs both comparator modes (finite-only and Option A) on the
+  archived 1.0.0 and v1.1 captures, plus the rho recheck. Every count must equal `expected/v1.1_values.json` exactly,
+  and every output must equal the archived integration output. It also requires the v1.1 release tokens to stay
+  unfilled (about 1 min). `--full`
   also replays both unmodified comparators on the archived references and requires byte-identical engine results.
 - `python analysis/test_safeguards.py` plants a defect for every gate and checks that the gate fails (it runs
   `analysis/test_gate.R` with Rscript).

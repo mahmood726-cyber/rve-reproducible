@@ -1,0 +1,36 @@
+{
+  "description": "Pinned counts for the v1.1 layer (merged engine, allmeta 575cb29, PR #210). Engine counts are from results/v1.1/engine/engine-results-{final-j,baseline}-{finite,option-a}.json and final-verification.json; rho counts from results/v1.1/rho/rho-{final-j,baseline}-results.json. analysis/verify_archive.py re-runs both comparator modes on the archived captures and requires these values exactly.",
+  "allmeta_commit": "575cb29468f814ad09401d78f1a75fbda16b8abc",
+  "allmeta_release": "<ALLMETA_RELEASE>",
+  "allmeta_release_doi": "<ALLMETA_RELEASE_DOI>",
+  "capture_uncompressed_sha256": {
+    "results/v1.1/engine/engine-full-final-j.jsonl.xz": "5d9dae530490ec54ac56bf15872096b250de93491d73e7bb65cc6c93cb8aed41",
+    "results/engine/engine-full-patched.jsonl.xz": "805639c7dfdc5c5b9e9e5d87f71b5bd8e21c8dd29c4c6f8ce29e10837606fc75"
+  },
+  "engine": {
+    "final-j": {
+      "capture": "results/v1.1/engine/engine-full-final-j.jsonl.xz",
+      "finite-only": {"configurations": 16270, "checks": 546943, "passes": 546317, "passing_configurations": 16136},
+      "option-a": {"configurations": 16270, "checks": 546943, "passes": 546827, "passing_configurations": 16221}
+    },
+    "baseline": {
+      "capture": "results/engine/engine-full-patched.jsonl.xz",
+      "finite-only": {"configurations": 16270, "checks": 546941, "passes": 544324, "passing_configurations": 15485},
+      "option-a": {"configurations": 16270, "checks": 546941, "passes": 544534, "passing_configurations": 15520}
+    }
+  },
+  "both_undefined_same_reason_configurations": 85,
+  "both_undefined_same_reason_checks": 510,
+  "failing_in_both_modes": 49,
+  "newly_failing": {"finite-only": 0, "option-a": 0},
+  "rho": {
+    "final-j": {
+      "finite-only": {"checks": 24086, "passes": 24061, "designs": 448, "passing_designs": 442, "fits": 896, "passing_fits": 886},
+      "option-a": {"checks": 24086, "passes": 24073, "designs": 448, "passing_designs": 443, "fits": 896, "passing_fits": 888}
+    },
+    "baseline": {
+      "finite-only": {"checks": 24086, "passes": 23932, "designs": 448, "passing_designs": 421, "fits": 896, "passing_fits": 845},
+      "option-a": {"checks": 24086, "passes": 23944, "designs": 448, "passing_designs": 422, "fits": 896, "passing_fits": 847}
+    }
+  }
+}
