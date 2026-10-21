@@ -159,6 +159,17 @@ file.
 | Option A | 15,520 / 16,270 | **16,221 / 16,270** |
 | Supplementary rho recheck, finite-only / Option A (designs) | 421 / 422 of 448 | 442 / 443 of 448 |
 
+**Option A comparator rule** (`analysis/option_a.py`, `analysis/compare_modes.py`). Both-undefined counts as agreement
+ONLY when the app and R are undefined for the SAME reason. Each side records its own reason code (`REFUSED:<category>`,
+`DF_NONPOSITIVE`, `SE_ZERO` or `OTHER_NONFINITE`) from its own SE and df, never from the other side's. The 1e-9
+tolerance is unchanged, and a finite value against an undefined one always fails. The finite-only mode is the 1.0.0
+predicate, and it is still reported. On the merged engine, **85 configurations** differ between the two modes. In
+each of them the app and R are both undefined (t and p against robumeta and clubSandwich, with SE exactly 0 on both sides), giving 510 checks, all
+`SE_ZERO` on both sides. They fail under finite-only and pass under Option A: 16,136 + 85 = 16,221. The remaining
+49 configurations fail in both modes, on clubSandwich checks only (`results/v1.1/residuals/`).
+`analysis/test_option_a.py` plants three defects that must fail in both modes: app null where R has a number, R null
+where the app has a number, and both null with different reasons. It also plants a 2e-9 estimate change.
+
 ## Layout
 
 | Path | Contents |
