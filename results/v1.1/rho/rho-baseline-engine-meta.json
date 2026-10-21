@@ -1,0 +1,9 @@
+{
+  "node": "v24.13.0",
+  "hashes": {
+    "shared/rve.js": "ee2e2eb93663a65dcd6b525735481da4584ca9802a7c678706d3b4185150eb61",
+    "shared/stats-qt.js": "67a1094959b4a2227f947c228068753be7d6cc825b1191047226bd2e6d1a2c65",
+    "shared/rve-extras.js": "7554e7abab4927165a4c19e83f3c763103515834eb6654e4dba69bc9fa45b18d"
+  },
+  "input_sha256": "99fafaa9ee10ad528f286161cdd3696b88621cf413dc24e389e04dbb738035e7"
+}

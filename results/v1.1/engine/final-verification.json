@@ -1,0 +1,181 @@
+{
+  "finite": {
+    "before": 15485,
+    "after": 16136,
+    "fixed": 651,
+    "newly_failing": 0,
+    "failed_checks": 626
+  },
+  "option-a": {
+    "before": 15520,
+    "after": 16221,
+    "fixed": 701,
+    "newly_failing": 0,
+    "failed_checks": 116
+  },
+  "residuals": {
+    "undefined_finite_only": 85,
+    "disjoint_single_quantity": 11,
+    "disjoint_joint_inference": 19,
+    "measured_sensitivity_not_proven_impossible": 19
+  },
+  "rho": {
+    "finite-only": {
+      "checks": 24086,
+      "passes": 24061,
+      "designs": 448,
+      "passing_designs": 442,
+      "fits": 896,
+      "passing_fits": 886
+    },
+    "option-a": {
+      "checks": 24086,
+      "passes": 24073,
+      "designs": 448,
+      "passing_designs": 443,
+      "fits": 896,
+      "passing_fits": 888
+    },
+    "coverage": {
+      "references": 448,
+      "expected": 448,
+      "captures": 448,
+      "successful_R_fits": 896,
+      "sensitivity_errors": [
+        "dat.besson2016::001::dam_ID::photoperiod",
+        "dat.mccurdy2020::001::id::ni",
+        "dat.moura2021::001::study.id::(intercept)",
+        "dat.moura2021::001::species.id::(intercept)",
+        "dat.moura2021::001::study.id::ni"
+      ]
+    }
+  },
+  "rho_baseline": {
+    "finite-only": {
+      "checks": 24086,
+      "passes": 23932,
+      "designs": 448,
+      "passing_designs": 421,
+      "fits": 896,
+      "passing_fits": 845
+    },
+    "option-a": {
+      "checks": 24086,
+      "passes": 23944,
+      "designs": 448,
+      "passing_designs": 422,
+      "fits": 896,
+      "passing_fits": 847
+    },
+    "coverage": {
+      "references": 448,
+      "expected": 448,
+      "captures": 448,
+      "successful_R_fits": 896,
+      "sensitivity_errors": [
+        "dat.besson2016::001::dam_ID::photoperiod",
+        "dat.mccurdy2020::001::id::ni",
+        "dat.moura2021::001::study.id::(intercept)",
+        "dat.moura2021::001::species.id::(intercept)",
+        "dat.moura2021::001::study.id::ni"
+      ]
+    }
+  },
+  "supplementary_newly_failing": [
+    [
+      "dat.linde2016::001::author::year",
+      0.4
+    ]
+  ],
+  "planted": {
+    "id": "dat.bauer2002::001::study::year::rho=0",
+    "coefficient": 0,
+    "quantity": "estimate",
+    "before": -13.125052467628848,
+    "after": -13.125052441378743,
+    "delta": 2.6250104935257696e-08,
+    "reference": -13.125052467628848,
+    "rules": {
+      "control-finite-only": {
+        "passing": 1,
+        "failures": []
+      },
+      "control-option-a": {
+        "passing": 1,
+        "failures": []
+      },
+      "planted-finite-only": {
+        "passing": 0,
+        "failures": [
+          {
+            "id": "dat.bauer2002::001::study::year::rho=0",
+            "quantity": "estimate",
+            "app": -13.125052441378743,
+            "reference": -13.125052467628848,
+            "difference": 1.9999999525484038e-09,
+            "coefficient": 0,
+            "reason_app": null,
+            "reason_R": null
+          },
+          {
+            "id": "dat.bauer2002::001::study::year::rho=0",
+            "quantity": "club_estimate",
+            "app": -13.125052441378743,
+            "reference": -13.125052467628848,
+            "difference": 1.9999999525484038e-09,
+            "coefficient": 0,
+            "reason_app": null,
+            "reason_R": null
+          }
+        ]
+      },
+      "planted-option-a": {
+        "passing": 0,
+        "failures": [
+          {
+            "id": "dat.bauer2002::001::study::year::rho=0",
+            "quantity": "estimate",
+            "app": -13.125052441378743,
+            "reference": -13.125052467628848,
+            "difference": 1.9999999525484038e-09,
+            "coefficient": 0,
+            "reason_app": null,
+            "reason_R": null
+          },
+          {
+            "id": "dat.bauer2002::001::study::year::rho=0",
+            "quantity": "club_estimate",
+            "app": -13.125052441378743,
+            "reference": -13.125052467628848,
+            "difference": 1.9999999525484038e-09,
+            "coefficient": 0,
+            "reason_app": null,
+            "reason_R": null
+          }
+        ]
+      }
+    }
+  },
+  "tests": {
+    "node_before": {
+      "tests": 9,
+      "passed": 0,
+      "failed": 7,
+      "skipped": 2
+    },
+    "page_before": {
+      "tests": 1,
+      "failed": 1
+    },
+    "node_after": {
+      "tests": 16,
+      "passed": 16,
+      "failed": 0,
+      "skipped": 0
+    },
+    "option_a_unit_tests": 4,
+    "python_existing_tests": 19,
+    "lane_c_diagnostic_tests": 12,
+    "rendered_browser": "blocked: Windows denies Chromium process-channel access"
+  }
+}

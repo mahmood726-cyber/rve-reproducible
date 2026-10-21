@@ -118,6 +118,47 @@ The raw captures are `results/browser/app-{original,patched}.jsonl.xz`. The othe
 `compare-results-*.json` and `compare-failures-*.json.xz`. validate.R does not launch a browser. It replays the
 comparison on these archived observations against fresh R references.
 
+## Version 1.1 layer: the merged exact-R engine
+
+Version 1.1 adds a layer for the engine that replaced the e042af5 page. It was merged into allmeta main by pull request
+#210 at commit `575cb29468f814ad09401d78f1a75fbda16b8abc`. The engine combines a stable C-locale factor ordering, a
+64-significand-bit extended sum and corrected mean with a WebAssembly DSYEVR/DGEEV eigen backend
+(`shared/rve-eigen.js`). allmeta release: **`<ALLMETA_RELEASE>`**. allmeta release DOI: **`<ALLMETA_RELEASE_DOI>`**.
+Both are left unfilled until the release exists. Nothing in the 1.0.0 layer above is changed.
+
+- `app-v1.1/` holds the rve-meta page and every file it loads (two stylesheets, eight scripts) at the 575cb29 Git LF
+  bytes. It also holds `shared/numerics/`: the backend build script, runtime, notes and `LICENSES-rve-eigen.md`.
+  **`shared/rve-eigen.js` is GPL-3.0, as distributed by webR.** It embeds the webR builds of R's BLAS/LAPACK. The rest
+  of the page is MIT. `app-v1.1/app-sha256.json` lists the hashes.
+- `results/v1.1/engine/` holds the full-corpus capture of the merged engine, `engine-full-final-j.jsonl.xz`. It is 35 MB
+  uncompressed and 3.3 MB as xz, so it is included. Its uncompressed SHA-256 is
+  `5d9dae530490ec54ac56bf15872096b250de93491d73e7bb65cc6c93cb8aed41`. The final-j, final-k, final-k-commit and combined
+  captures on the integration host were byte-identical. The final-k-commit capture metadata records source hashes equal
+  to the 575cb29 bytes of `shared/rve.js`, `shared/rve-eigen.js` and `shared/stats-qt.js`. The comparison outputs
+  for both comparator modes are here, for the merged engine (`final-j-*`) and for the e042af5 baseline
+  (`baseline-*`). The baseline capture is the archived `results/engine/engine-full-patched.jsonl.xz`.
+- `results/v1.1/changed-status/` lists every configuration whose status changed, in both modes. Both `newly_failing`
+  lists are empty.
+- `results/v1.1/residuals/` holds the residual evidence for the 49 configurations that fail in both modes.
+- `results/v1.1/rho/` holds the 448-design supplementary rho recheck: the captures, references, results and the
+  fresh-R locale proof.
+- `results/v1.1/planted/` holds the planted-defect result (a 2e-9 relative change to one estimate is rejected in
+  both modes) and the planted-engine defects.
+- `results/v1.1/exposure/` holds the lane-K exposure scan of numeric cluster IDs (670,000 values, 0 conflicts with the
+  fixed rule), with the scan scripts and the `as-character` fixtures from 575cb29.
+- `bench/v1.1/` holds the integration scripts, the Option A rule text, the integration reports and the upstream licence
+  texts.
+
+`results/v1.1/MANIFEST.json` records every evidence file's source and SHA-256. Files that held host paths are stored as
+`*.redacted.*` copies, with the path prefix replaced by `<HOST>/`. The manifest keeps the SHA-256 of the unredacted
+file.
+
+| Comparator mode, unchanged 1e-9 tolerance | e042af5 page | Merged engine (575cb29) |
+|---|---:|---:|
+| Finite-only (the 1.0.0 rule) | 15,485 / 16,270 | **16,136 / 16,270** |
+| Option A | 15,520 / 16,270 | **16,221 / 16,270** |
+| Supplementary rho recheck, finite-only / Option A (designs) | 421 / 422 of 448 | 442 / 443 of 448 |
+
 ## Layout
 
 | Path | Contents |
@@ -133,6 +174,7 @@ comparison on these archived observations against fresh R references.
 | `results/browser/` | The browser audit captures, downloads, UI checks and comparator outputs. |
 | `expected/paper_values.json` | Pinned counts, read from archived evidence by `analysis/build_archive.py`. |
 | `analysis/` | validate.R helpers, the build, verification, safeguard and output scripts, and the compression proof. |
+| `app-v1.1/`, `results/v1.1/`, `bench/v1.1/` | The version 1.1 layer: the merged engine at allmeta 575cb29, its evidence and the integration scripts (see above). |
 | `outputs/` | Derived artefacts (tables, numbers, logs, fresh validate outputs). These are not source evidence and are not pinned. |
 
 `SOURCE_SHA256.json` pins every file except `outputs/`, `results/validate-run.json`, scratch directories and itself.

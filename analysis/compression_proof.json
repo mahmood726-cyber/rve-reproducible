@@ -78,5 +78,37 @@
     "original_sha256": "e951ad151c95cc1cc130815fa3673591242f0f63a364c1b9d513bf11dae9e70f",
     "stored_sha256": "7895302b098bd1f71c1db01d90debd5631dbc155a166105a7bd61acc83bb8279",
     "method": "Python lzma FORMAT_XZ, CHECK_CRC64, preset 6 (deterministic)"
+  },
+  {
+    "stored": "results/v1.1/engine/engine-full-final-j.jsonl.xz",
+    "original_name": "engine-full-final-j.jsonl",
+    "original_bytes": 35294212,
+    "original_sha256": "5d9dae530490ec54ac56bf15872096b250de93491d73e7bb65cc6c93cb8aed41",
+    "stored_sha256": "2f126756de82650e5b97201e6437bb53749eb87679ef5c868336eb33e17a1be5",
+    "method": "Python lzma FORMAT_XZ, CHECK_CRC64, preset 6 (deterministic)"
+  },
+  {
+    "stored": "results/v1.1/rho/rho_sample.json.xz",
+    "original_name": "rho_sample.json",
+    "original_bytes": 3297335,
+    "original_sha256": "99fafaa9ee10ad528f286161cdd3696b88621cf413dc24e389e04dbb738035e7",
+    "stored_sha256": "1f7e34bef04d44ae0ddd97405e65f391c2452d490359185e8716b135a8bc1332",
+    "method": "Python lzma FORMAT_XZ, CHECK_CRC64, preset 6 (deterministic)"
+  },
+  {
+    "stored": "results/v1.1/rho/rho-reference-bundle.json.xz",
+    "original_name": "rho-reference-bundle.json",
+    "original_bytes": 1219903,
+    "original_sha256": "ad63fb4a71675115b62e080cf6af4a537463280d886e118fe157d8e5dd561a2d",
+    "stored_sha256": "8dfe1ef84b6c3ad853368a14c86ce511cbf9f310d2cc48eefd7d7715957fdee5",
+    "method": "Python lzma FORMAT_XZ, CHECK_CRC64, preset 6 (deterministic)"
+  },
+  {
+    "stored": "results/v1.1/exposure/exposure.tsv.xz",
+    "original_name": "exposure.tsv",
+    "original_bytes": 34879747,
+    "original_sha256": "caa525e39d9ab33adf8c2219324257a20defef17294720d56b6e3fcc40e828fb",
+    "stored_sha256": "ee74407719a5146927e0bc6f0bfb205f6e63990013b694f84cb808e4bc9a61c3",
+    "method": "Python lzma FORMAT_XZ, CHECK_CRC64, preset 6 (deterministic)"
   }
 ]

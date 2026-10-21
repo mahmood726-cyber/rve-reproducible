@@ -1,0 +1,1162 @@
+[
+  {
+    "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.2",
+    "quantity": "club_df",
+    "app": 61.61264930150107,
+    "reference": 1.0017747750229908,
+    "difference": 60.50349443574985,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.2",
+    "quantity": "club_p",
+    "app": 1.1950215381716423e-09,
+    "reference": 0.08812339794129367,
+    "difference": 0.08812339674627213,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.2",
+    "quantity": "club_df",
+    "app": 61.61264930150097,
+    "reference": 1.001303603584448,
+    "difference": 60.532435398156125,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.2",
+    "quantity": "club_p",
+    "app": 6.445062806568951e-11,
+    "reference": 0.08008473836986284,
+    "difference": 0.08008473830541221,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.5",
+    "quantity": "club_df",
+    "app": 61.62045550756493,
+    "reference": 1.0078381794081632,
+    "difference": 60.14121965864654,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.5",
+    "quantity": "club_p",
+    "app": 1.2000804830493696e-09,
+    "reference": 0.08718929370724264,
+    "difference": 0.08718929250716216,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.5",
+    "quantity": "club_df",
+    "app": 61.620455507564785,
+    "reference": 1.0057574702742242,
+    "difference": 60.26770849712276,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.5",
+    "quantity": "club_p",
+    "app": 6.475855795940262e-11,
+    "reference": 0.0794304883749387,
+    "difference": 0.07943048831018014,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.8",
+    "quantity": "club_df",
+    "app": 61.628221182630305,
+    "reference": 0.9974011991718394,
+    "difference": 60.630819983458466,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.8",
+    "quantity": "club_p",
+    "app": 1.2051488534743587e-09,
+    "reference": 0.08884526567667485,
+    "difference": 0.08884526447152599,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.8",
+    "quantity": "club_df",
+    "app": 61.62822118263044,
+    "reference": 0.9980904611168847,
+    "difference": 60.63013072151355,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.besson2016::001::dam_ID::photoperiod::rho=0.8",
+    "quantity": "club_p",
+    "app": 6.506725347652665e-11,
+    "reference": 0.08059909846291881,
+    "difference": 0.08059909839785155,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+    "quantity": "club_se",
+    "app": 0.7790463244277611,
+    "reference": 0.7790489059597029,
+    "difference": 2.58153194176991e-06,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+    "quantity": "club_t",
+    "app": -3.6770074092678695,
+    "reference": -3.6769952247798297,
+    "difference": 3.3137078769490444e-06,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+    "quantity": "club_df",
+    "app": 2.8975512477085523,
+    "reference": 0.9958087725939346,
+    "difference": 1.9017424751146177,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+    "quantity": "club_p",
+    "app": 0.03691107948941598,
+    "reference": 0.16987205766659064,
+    "difference": 0.13296097817717467,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+    "quantity": "club_se",
+    "app": 0.0556461660310343,
+    "reference": 0.05564638115764427,
+    "difference": 2.1512660997036193e-07,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+    "quantity": "club_t",
+    "app": 4.116439409661844,
+    "reference": 4.116423495677197,
+    "difference": 3.86597362084376e-06,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+    "quantity": "club_df",
+    "app": 2.8975512477083702,
+    "reference": 0.9969043835105112,
+    "difference": 1.900646864197859,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.besson2016::001::authors_behaviour_classification::photoperiod::rho=0",
+    "quantity": "club_p",
+    "app": 0.02776354019113167,
+    "reference": 0.1523094621564526,
+    "difference": 0.12454592196532094,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.collins1985a::001::trial::year::rho=0.8",
+    "quantity": "club_se",
+    "app": 131.55721155045757,
+    "reference": 131.55721169514624,
+    "difference": 1.0998155712618402e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.gibson2002::002::author::year::rho=0",
+    "quantity": "club_se",
+    "app": 180.82029870686918,
+    "reference": 180.82029831253485,
+    "difference": 2.1808079044857866e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.gibson2002::002::author::year::rho=0.2",
+    "quantity": "club_se",
+    "app": 180.82029870686918,
+    "reference": 180.82029831253485,
+    "difference": 2.1808079044857866e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.gibson2002::002::author::year::rho=0.5",
+    "quantity": "club_se",
+    "app": 180.82029870686918,
+    "reference": 180.82029831253485,
+    "difference": 2.1808079044857866e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.gibson2002::002::author::year::rho=0.8",
+    "quantity": "club_se",
+    "app": 180.82029870686918,
+    "reference": 180.82029831253485,
+    "difference": 2.1808079044857866e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.gibson2002::002::author::year::rho=1",
+    "quantity": "club_se",
+    "app": 180.82029870686918,
+    "reference": 180.82029831253485,
+    "difference": 2.1808079044857866e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=0",
+    "quantity": "club_se",
+    "app": 80.35426417643488,
+    "reference": 80.3542643032472,
+    "difference": 1.578165456390908e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=0",
+    "quantity": "club_t",
+    "app": 1.8622306899873307,
+    "reference": 1.8622306870484224,
+    "difference": 1.5781655024425288e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=0",
+    "quantity": "club_df",
+    "app": 1.635356286230324,
+    "reference": 1.635356283348648,
+    "difference": 1.7621089901125124e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=0",
+    "quantity": "club_t",
+    "app": -1.8763136185092821,
+    "reference": -1.8763136158634472,
+    "difference": 1.4101240123979097e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=0",
+    "quantity": "club_df",
+    "app": 1.6350867222004946,
+    "reference": 1.6350867193177718,
+    "difference": 1.7630396560226785e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=0.2",
+    "quantity": "club_se",
+    "app": 80.35426417643488,
+    "reference": 80.3542643032472,
+    "difference": 1.578165456390908e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=0.2",
+    "quantity": "club_t",
+    "app": 1.8622306899873307,
+    "reference": 1.8622306870484224,
+    "difference": 1.5781655024425288e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=0.2",
+    "quantity": "club_df",
+    "app": 1.635356286230324,
+    "reference": 1.635356283348648,
+    "difference": 1.7621089901125124e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=0.2",
+    "quantity": "club_t",
+    "app": -1.8763136185092821,
+    "reference": -1.8763136158634472,
+    "difference": 1.4101240123979097e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=0.2",
+    "quantity": "club_df",
+    "app": 1.6350867222004946,
+    "reference": 1.6350867193177718,
+    "difference": 1.7630396560226785e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=0.5",
+    "quantity": "club_se",
+    "app": 80.35426417643488,
+    "reference": 80.3542643032472,
+    "difference": 1.578165456390908e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=0.5",
+    "quantity": "club_t",
+    "app": 1.8622306899873307,
+    "reference": 1.8622306870484224,
+    "difference": 1.5781655024425288e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=0.5",
+    "quantity": "club_df",
+    "app": 1.635356286230324,
+    "reference": 1.635356283348648,
+    "difference": 1.7621089901125124e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=0.5",
+    "quantity": "club_t",
+    "app": -1.8763136185092821,
+    "reference": -1.8763136158634472,
+    "difference": 1.4101240123979097e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=0.5",
+    "quantity": "club_df",
+    "app": 1.6350867222004946,
+    "reference": 1.6350867193177718,
+    "difference": 1.7630396560226785e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=0.8",
+    "quantity": "club_se",
+    "app": 80.35426417643488,
+    "reference": 80.3542643032472,
+    "difference": 1.578165456390908e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=0.8",
+    "quantity": "club_t",
+    "app": 1.8622306899873307,
+    "reference": 1.8622306870484224,
+    "difference": 1.5781655024425288e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=0.8",
+    "quantity": "club_df",
+    "app": 1.635356286230324,
+    "reference": 1.635356283348648,
+    "difference": 1.7621089901125124e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=0.8",
+    "quantity": "club_t",
+    "app": -1.8763136185092821,
+    "reference": -1.8763136158634472,
+    "difference": 1.4101240123979097e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=0.8",
+    "quantity": "club_df",
+    "app": 1.6350867222004946,
+    "reference": 1.6350867193177718,
+    "difference": 1.7630396560226785e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=1",
+    "quantity": "club_se",
+    "app": 80.35426417643488,
+    "reference": 80.3542643032472,
+    "difference": 1.578165456390908e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=1",
+    "quantity": "club_t",
+    "app": 1.8622306899873307,
+    "reference": 1.8622306870484224,
+    "difference": 1.5781655024425288e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=1",
+    "quantity": "club_df",
+    "app": 1.635356286230324,
+    "reference": 1.635356283348648,
+    "difference": 1.7621089901125124e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=1",
+    "quantity": "club_t",
+    "app": -1.8763136185092821,
+    "reference": -1.8763136158634472,
+    "difference": 1.4101240123979097e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.hart1999::001::study::year::rho=1",
+    "quantity": "club_df",
+    "app": 1.6350867222004946,
+    "reference": 1.6350867193177718,
+    "difference": 1.7630396560226785e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::001::study::year::rho=0.5",
+    "quantity": "club_se",
+    "app": 90.40967981574433,
+    "reference": 90.4096799412847,
+    "difference": 1.3885721917883278e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::001::study::year::rho=0.5",
+    "quantity": "club_t",
+    "app": 0.79985534174863,
+    "reference": 0.7998553406379731,
+    "difference": 1.11065689978318e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::001::study::year::rho=0.5",
+    "quantity": "club_t",
+    "app": -0.7921865199577992,
+    "reference": -0.7921865188891835,
+    "difference": 1.0686157514427919e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::001::author::year::rho=0",
+    "quantity": "club_se",
+    "app": 90.41298562045094,
+    "reference": 90.4129854836069,
+    "difference": 1.5135440535983864e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::001::author::year::rho=0",
+    "quantity": "club_t",
+    "app": 0.8001284401815534,
+    "reference": 0.800128441392583,
+    "difference": 1.2110296099265838e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::001::author::year::rho=0",
+    "quantity": "club_t",
+    "app": -0.7924593202019822,
+    "reference": -0.7924593214494576,
+    "difference": 1.2474754562674661e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::001::author::year::rho=0.2",
+    "quantity": "club_se",
+    "app": 90.41165888126427,
+    "reference": 90.41165899497288,
+    "difference": 1.2576763883667062e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::001::author::year::rho=0.2",
+    "quantity": "club_t",
+    "app": 0.8000191567078988,
+    "reference": 0.8000191557017337,
+    "difference": 1.0061651511961145e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::001::author::year::rho=0.2",
+    "quantity": "club_t",
+    "app": -0.7923501557824193,
+    "reference": -0.7923501547225937,
+    "difference": 1.0598255606453222e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::001::author::year::rho=0.8",
+    "quantity": "club_se",
+    "app": 90.40771398893784,
+    "reference": 90.40771408525914,
+    "difference": 1.0654102045594876e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::001::author::year::rho=1",
+    "quantity": "club_se",
+    "app": 90.40641088993483,
+    "reference": 90.40641098161669,
+    "difference": 1.0141078934699979e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::study::year::rho=0",
+    "quantity": "club_se",
+    "app": 10.865039794466353,
+    "reference": 10.86503978201758,
+    "difference": 1.1457641139949423e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::study::year::rho=0",
+    "quantity": "club_t",
+    "app": 1.2895332005365414,
+    "reference": 1.2895332020140422,
+    "difference": 1.1457640532830762e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::study::year::rho=0",
+    "quantity": "club_t",
+    "app": -1.284240118123393,
+    "reference": -1.2842401195454274,
+    "difference": 1.1072964226230502e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::study::year::rho=0.5",
+    "quantity": "club_se",
+    "app": 10.865002567856177,
+    "reference": 10.865002579022471,
+    "difference": 1.0277305020823264e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::study::year::rho=0.5",
+    "quantity": "club_t",
+    "app": 1.2895440225060892,
+    "reference": 1.2895440211807856,
+    "difference": 1.0277304402469292e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::study::year::rho=0.5",
+    "quantity": "club_t",
+    "app": -1.2842509058576457,
+    "reference": -1.2842509043562538,
+    "difference": 1.1690798850920938e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::study::year::rho=0.8",
+    "quantity": "club_se",
+    "app": 10.86498022624252,
+    "reference": 10.86498021388813,
+    "difference": 1.1370836434639977e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::study::year::rho=0.8",
+    "quantity": "club_t",
+    "app": 1.2895505140557606,
+    "reference": 1.2895505155220874,
+    "difference": 1.1370836737911067e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::study::year::rho=1",
+    "quantity": "club_se",
+    "app": 10.864965338709975,
+    "reference": 10.864965352471776,
+    "difference": 1.2666216726457404e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::study::year::rho=1",
+    "quantity": "club_t",
+    "app": 1.2895548423422052,
+    "reference": 1.289554840708827,
+    "difference": 1.2666216649954286e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::author::year::rho=0",
+    "quantity": "club_se",
+    "app": 10.86503979170766,
+    "reference": 10.86503980982586,
+    "difference": 1.6675685330373329e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::author::year::rho=0",
+    "quantity": "club_t",
+    "app": 1.2895331998353525,
+    "reference": 1.2895331976849675,
+    "difference": 1.6675685318164805e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::author::year::rho=0",
+    "quantity": "club_t",
+    "app": -1.2842401174125078,
+    "reference": -1.2842401153481278,
+    "difference": 1.6074719794262966e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::author::year::rho=0.5",
+    "quantity": "club_se",
+    "app": 10.86500256433807,
+    "reference": 10.865002608755784,
+    "difference": 4.088145723551541e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::author::year::rho=0.5",
+    "quantity": "club_t",
+    "app": 1.2895440226182768,
+    "reference": 1.2895440173464328,
+    "difference": 4.088145888377365e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::author::year::rho=0.5",
+    "quantity": "club_df",
+    "app": 4.869403243800284,
+    "reference": 4.86940323775079,
+    "difference": 1.2423481776946281e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::author::year::rho=0.5",
+    "quantity": "club_p",
+    "app": 0.25505831232814813,
+    "reference": 0.2550583140834627,
+    "difference": 1.755314560369925e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::author::year::rho=0.5",
+    "quantity": "club_t",
+    "app": -1.2842509053983673,
+    "reference": -1.2842509004558564,
+    "difference": 3.848555483423315e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::author::year::rho=0.5",
+    "quantity": "club_df",
+    "app": 4.870598837715381,
+    "reference": 4.870598831655184,
+    "difference": 1.2442405951093195e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::author::year::rho=0.5",
+    "quantity": "club_p",
+    "app": 0.2567447637548207,
+    "reference": 0.25674476541437036,
+    "difference": 1.6595496643567742e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::author::year::rho=0.8",
+    "quantity": "club_se",
+    "app": 10.864980232162074,
+    "reference": 10.864980209603885,
+    "difference": 2.0762291114299384e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::author::year::rho=0.8",
+    "quantity": "club_t",
+    "app": 1.2895505141420485,
+    "reference": 1.2895505168194508,
+    "difference": 2.0762290929634306e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.obrien2003::002::author::year::rho=0.8",
+    "quantity": "club_t",
+    "app": -1.2842573767833574,
+    "reference": -1.2842573792552003,
+    "difference": 1.9247255203458704e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.raudenbush1985::001::author::year::rho=1",
+    "quantity": "club_se",
+    "app": 36.73305263996069,
+    "reference": 36.73305268078348,
+    "difference": 1.1113367254309084e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.raudenbush1985::001::author::year::rho=1",
+    "quantity": "club_t",
+    "app": 1.3729095341383046,
+    "reference": 1.37290953261254,
+    "difference": 1.1113366099588596e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.raudenbush1985::001::author::year::rho=1",
+    "quantity": "club_t",
+    "app": -1.3710032869046895,
+    "reference": -1.3710032850545735,
+    "difference": 1.349461434937271e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.rivera2025::002::Author::Year::rho=0",
+    "quantity": "club_se",
+    "app": 293.0296841659197,
+    "reference": 293.02968453405043,
+    "difference": 1.2562915393837524e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.rivera2025::002::Author::Year::rho=0",
+    "quantity": "club_t",
+    "app": 0.9974524550619029,
+    "reference": 0.9974524538088119,
+    "difference": 1.2530910753483226e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.rivera2025::002::Author::Year::rho=0",
+    "quantity": "club_t",
+    "app": -0.9923461073936222,
+    "reference": -0.9923461061404458,
+    "difference": 1.2531763404766139e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.roever2022::001::study::year::rho=0",
+    "quantity": "club_se",
+    "app": 108.7732439352376,
+    "reference": 108.77324404503166,
+    "difference": 1.0093847917602465e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.roever2022::001::study::year::rho=0.2",
+    "quantity": "club_se",
+    "app": 108.7732439352376,
+    "reference": 108.77324404503166,
+    "difference": 1.0093847917602465e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.roever2022::001::study::year::rho=0.5",
+    "quantity": "club_se",
+    "app": 108.7732439352376,
+    "reference": 108.77324404503166,
+    "difference": 1.0093847917602465e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.roever2022::001::study::year::rho=0.8",
+    "quantity": "club_se",
+    "app": 108.7732439352376,
+    "reference": 108.77324404503166,
+    "difference": 1.0093847917602465e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.roever2022::001::study::year::rho=1",
+    "quantity": "club_se",
+    "app": 108.7732439352376,
+    "reference": 108.77324404503166,
+    "difference": 1.0093847917602465e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.steurer2006::001::author::year::rho=0",
+    "quantity": "club_df",
+    "app": 1.058439510938262,
+    "reference": 1.058439509678184,
+    "difference": 1.1905054850912735e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.steurer2006::001::author::year::rho=0",
+    "quantity": "club_df",
+    "app": 1.0583367930542078,
+    "reference": 1.058336791792225,
+    "difference": 1.1924207400870536e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.steurer2006::001::author::year::rho=0.2",
+    "quantity": "club_df",
+    "app": 1.058439510938262,
+    "reference": 1.058439509678184,
+    "difference": 1.1905054850912735e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.steurer2006::001::author::year::rho=0.2",
+    "quantity": "club_df",
+    "app": 1.0583367930542078,
+    "reference": 1.058336791792225,
+    "difference": 1.1924207400870536e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.steurer2006::001::author::year::rho=0.5",
+    "quantity": "club_df",
+    "app": 1.058439510938262,
+    "reference": 1.058439509678184,
+    "difference": 1.1905054850912735e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.steurer2006::001::author::year::rho=0.5",
+    "quantity": "club_df",
+    "app": 1.0583367930542078,
+    "reference": 1.058336791792225,
+    "difference": 1.1924207400870536e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.steurer2006::001::author::year::rho=0.8",
+    "quantity": "club_df",
+    "app": 1.058439510938262,
+    "reference": 1.058439509678184,
+    "difference": 1.1905054850912735e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.steurer2006::001::author::year::rho=0.8",
+    "quantity": "club_df",
+    "app": 1.0583367930542078,
+    "reference": 1.058336791792225,
+    "difference": 1.1924207400870536e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.steurer2006::001::author::year::rho=1",
+    "quantity": "club_df",
+    "app": 1.058439510938262,
+    "reference": 1.058439509678184,
+    "difference": 1.1905054850912735e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.steurer2006::001::author::year::rho=1",
+    "quantity": "club_df",
+    "app": 1.0583367930542078,
+    "reference": 1.058336791792225,
+    "difference": 1.1924207400870536e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.steurer2006::002::author::year::rho=0",
+    "quantity": "club_t",
+    "app": 7.294438865431318,
+    "reference": 7.294438873420561,
+    "difference": 1.0952512158289136e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.steurer2006::002::author::year::rho=0.2",
+    "quantity": "club_t",
+    "app": 7.294438865431318,
+    "reference": 7.294438873420561,
+    "difference": 1.0952512158289136e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.steurer2006::002::author::year::rho=0.5",
+    "quantity": "club_t",
+    "app": 7.294438865431318,
+    "reference": 7.294438873420561,
+    "difference": 1.0952512158289136e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.steurer2006::002::author::year::rho=0.8",
+    "quantity": "club_t",
+    "app": 7.294438865431318,
+    "reference": 7.294438873420561,
+    "difference": 1.0952512158289136e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.steurer2006::002::author::year::rho=1",
+    "quantity": "club_t",
+    "app": 7.294438865431318,
+    "reference": 7.294438873420561,
+    "difference": 1.0952512158289136e-09,
+    "coefficient": 1,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.ursino2021::001::study::year::rho=0",
+    "quantity": "club_se",
+    "app": 105.91810105890757,
+    "reference": 105.91810121116872,
+    "difference": 1.4375366391738855e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.ursino2021::001::study::year::rho=0.2",
+    "quantity": "club_se",
+    "app": 105.91810105890757,
+    "reference": 105.91810121116872,
+    "difference": 1.4375366391738855e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.ursino2021::001::study::year::rho=0.5",
+    "quantity": "club_se",
+    "app": 105.91810105890757,
+    "reference": 105.91810121116872,
+    "difference": 1.4375366391738855e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.ursino2021::001::study::year::rho=0.8",
+    "quantity": "club_se",
+    "app": 105.91810105890757,
+    "reference": 105.91810121116872,
+    "difference": 1.4375366391738855e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  },
+  {
+    "id": "dat.ursino2021::001::study::year::rho=1",
+    "quantity": "club_se",
+    "app": 105.91810105890757,
+    "reference": 105.91810121116872,
+    "difference": 1.4375366391738855e-09,
+    "coefficient": 0,
+    "reason_app": null,
+    "reason_R": null
+  }
+]

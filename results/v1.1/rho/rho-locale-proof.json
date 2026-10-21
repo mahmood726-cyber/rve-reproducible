@@ -1,0 +1,162 @@
+[
+  {
+    "id": "dat.debruin2009::001::author::year::rho=0.4",
+    "coefficient": 0,
+    "quantity": "ci_lo",
+    "R_C": -52.385424061799824,
+    "R_English": -52.3854240638334,
+    "R_vs_R_absolute": 2.0335733097454067e-09,
+    "app_vs_R_C_absolute": 2.0179413695586845e-12,
+    "English_reproduces_archive": true
+  },
+  {
+    "id": "dat.debruin2009::001::author::year::rho=0.4",
+    "coefficient": 0,
+    "quantity": "ci_hi",
+    "R_C": 141.68619224720675,
+    "R_English": 141.6861922642579,
+    "R_vs_R_absolute": 1.7051149825419998e-08,
+    "app_vs_R_C_absolute": 2.0179413695586845e-12,
+    "English_reproduces_archive": true
+  },
+  {
+    "id": "dat.debruin2009::001::author::year::rho=0.4",
+    "coefficient": 1,
+    "quantity": "ci_lo",
+    "R_C": -0.07047825580598396,
+    "R_English": -0.07047825581585763,
+    "R_vs_R_absolute": 9.873671324989175e-12,
+    "app_vs_R_C_absolute": 1.304512053934559e-15,
+    "English_reproduces_archive": true
+  },
+  {
+    "id": "dat.debruin2009::001::author::year::rho=0.4",
+    "coefficient": 1,
+    "quantity": "ci_hi",
+    "R_C": 0.026384755976312825,
+    "R_English": 0.026384755978626315,
+    "R_vs_R_absolute": 2.313489677607805e-12,
+    "app_vs_R_C_absolute": 1.2906342661267445e-15,
+    "English_reproduces_archive": true
+  },
+  {
+    "id": "dat.debruin2009::001::author::year::rho=0.6",
+    "coefficient": 0,
+    "quantity": "ci_lo",
+    "R_C": -52.385424061799824,
+    "R_English": -52.3854240638334,
+    "R_vs_R_absolute": 2.0335733097454067e-09,
+    "app_vs_R_C_absolute": 2.0179413695586845e-12,
+    "English_reproduces_archive": true
+  },
+  {
+    "id": "dat.debruin2009::001::author::year::rho=0.6",
+    "coefficient": 0,
+    "quantity": "ci_hi",
+    "R_C": 141.68619224720675,
+    "R_English": 141.6861922642579,
+    "R_vs_R_absolute": 1.7051149825419998e-08,
+    "app_vs_R_C_absolute": 2.0179413695586845e-12,
+    "English_reproduces_archive": true
+  },
+  {
+    "id": "dat.debruin2009::001::author::year::rho=0.6",
+    "coefficient": 1,
+    "quantity": "ci_lo",
+    "R_C": -0.07047825580598396,
+    "R_English": -0.07047825581585763,
+    "R_vs_R_absolute": 9.873671324989175e-12,
+    "app_vs_R_C_absolute": 1.304512053934559e-15,
+    "English_reproduces_archive": true
+  },
+  {
+    "id": "dat.debruin2009::001::author::year::rho=0.6",
+    "coefficient": 1,
+    "quantity": "ci_hi",
+    "R_C": 0.026384755976312825,
+    "R_English": 0.026384755978626315,
+    "R_vs_R_absolute": 2.313489677607805e-12,
+    "app_vs_R_C_absolute": 1.2906342661267445e-15,
+    "English_reproduces_archive": true
+  },
+  {
+    "id": "dat.linde2016::001::author::year::rho=0.4",
+    "coefficient": 0,
+    "quantity": "ci_lo",
+    "R_C": -11.509558816342018,
+    "R_English": -11.509558816800489,
+    "R_vs_R_absolute": 4.5847059482184704e-10,
+    "app_vs_R_C_absolute": 2.7107205369247822e-12,
+    "English_reproduces_archive": true
+  },
+  {
+    "id": "dat.linde2016::001::author::year::rho=0.4",
+    "coefficient": 0,
+    "quantity": "ci_hi",
+    "R_C": 38.60824466095785,
+    "R_English": 38.608244662580475,
+    "R_vs_R_absolute": 1.6226238130911952e-09,
+    "app_vs_R_C_absolute": 2.7071678232459817e-12,
+    "English_reproduces_archive": true
+  },
+  {
+    "id": "dat.linde2016::001::author::year::rho=0.4",
+    "coefficient": 1,
+    "quantity": "ci_lo",
+    "R_C": -0.019190726728113894,
+    "R_English": -0.01919072672880679,
+    "R_vs_R_absolute": 6.928971285624641e-13,
+    "app_vs_R_C_absolute": 1.366962099069724e-15,
+    "English_reproduces_archive": true
+  },
+  {
+    "id": "dat.linde2016::001::author::year::rho=0.4",
+    "coefficient": 1,
+    "quantity": "ci_hi",
+    "R_C": 0.005858868343194325,
+    "R_English": 0.005858868343304577,
+    "R_vs_R_absolute": 1.1025208523918195e-13,
+    "app_vs_R_C_absolute": 1.3634926521177704e-15,
+    "English_reproduces_archive": true
+  },
+  {
+    "id": "dat.linde2016::001::author::year::rho=0.6",
+    "coefficient": 0,
+    "quantity": "ci_lo",
+    "R_C": -11.50884851118402,
+    "R_English": -11.508848511400885,
+    "R_vs_R_absolute": 2.1686474838134018e-10,
+    "app_vs_R_C_absolute": 2.8528290840768022e-12,
+    "English_reproduces_archive": true
+  },
+  {
+    "id": "dat.linde2016::001::author::year::rho=0.6",
+    "coefficient": 0,
+    "quantity": "ci_hi",
+    "R_C": 38.60943489448558,
+    "R_English": 38.60943489469881,
+    "R_vs_R_absolute": 2.1322676957424846e-10,
+    "app_vs_R_C_absolute": 2.8492763703980017e-12,
+    "English_reproduces_archive": true
+  },
+  {
+    "id": "dat.linde2016::001::author::year::rho=0.6",
+    "coefficient": 1,
+    "quantity": "ci_lo",
+    "R_C": -0.019191318451047108,
+    "R_English": -0.019191318451150373,
+    "R_vs_R_absolute": 1.0326461907794737e-13,
+    "app_vs_R_C_absolute": 2.609024107869118e-15,
+    "English_reproduces_archive": true
+  },
+  {
+    "id": "dat.linde2016::001::author::year::rho=0.6",
+    "coefficient": 1,
+    "quantity": "ci_hi",
+    "R_C": 0.005858517872806843,
+    "R_English": 0.00585851787291366,
+    "R_vs_R_absolute": 1.0681733275674787e-13,
+    "app_vs_R_C_absolute": 2.609024107869118e-15,
+    "English_reproduces_archive": true
+  }
+]

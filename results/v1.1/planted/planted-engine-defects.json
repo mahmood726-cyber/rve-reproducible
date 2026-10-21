@@ -1,0 +1,263 @@
+{
+  "engine_sha256": "5681f616450b59e9a3c1317d9261ca639ae0a9091af7172f8c0ac51d826f9b01",
+  "suites": [
+    "rve-meta/tests/r-reductions.node.cjs",
+    "rve-meta/tests/p15-eigen.node.cjs"
+  ],
+  "variants": {
+    "naive-mean": {
+      "replaced": "function rMean(xs) {",
+      "with": "function rMean(xs) { return xs.reduce(function(a, b) { return a + b; }, 0) / xs.length;",
+      "exit": 1,
+      "results": [
+        {
+          "test": "smallest CR2 eigen fixture agrees with R at the unchanged 1e-9 gate",
+          "passed": true
+        },
+        {
+          "test": "minimal-complex: R complex-eigen refusal takes precedence over m<=p",
+          "passed": false
+        },
+        {
+          "test": "complex: R complex-eigen refusal takes precedence over m<=p",
+          "passed": false
+        },
+        {
+          "test": "R 4.6 sum/mean controls: cancellation, double rounding, subnormals and overflow",
+          "passed": false
+        },
+        {
+          "test": "C-locale factor ordering uses native Unicode escapes",
+          "passed": true
+        },
+        {
+          "test": "factor levels follow the cluster column type, as as.factor() does",
+          "passed": true
+        },
+        {
+          "test": "sorting is internal: input is untouched and weights retain input-row alignment",
+          "passed": true
+        },
+        {
+          "test": "multi-row clusters: weights are R's r.weights in caller order",
+          "passed": true
+        },
+        {
+          "test": "numeric cluster IDs 1..K: factor order agrees with R at 1e-9",
+          "passed": false
+        },
+        {
+          "test": "character cluster IDs 1..K: factor order agrees with R at 1e-9",
+          "passed": false
+        },
+        {
+          "test": "order: smallest archived reproducer agrees with both R references at 1e-9",
+          "passed": true
+        },
+        {
+          "test": "sumw: smallest archived reproducer agrees with both R references at 1e-9",
+          "passed": true
+        },
+        {
+          "test": "mean: smallest archived reproducer agrees with both R references at 1e-9",
+          "passed": false
+        }
+      ],
+      "failed": [
+        "minimal-complex: R complex-eigen refusal takes precedence over m<=p",
+        "complex: R complex-eigen refusal takes precedence over m<=p",
+        "R 4.6 sum/mean controls: cancellation, double rounding, subnormals and overflow",
+        "numeric cluster IDs 1..K: factor order agrees with R at 1e-9",
+        "character cluster IDs 1..K: factor order agrees with R at 1e-9",
+        "mean: smallest archived reproducer agrees with both R references at 1e-9"
+      ]
+    },
+    "string-sort-numeric-ids": {
+      "replaced": "var numeric = clusters.every(function(c) { return typeof c === \"number\"; });",
+      "with": "var numeric = false; clusters = clusters.map(String);",
+      "exit": 1,
+      "results": [
+        {
+          "test": "smallest CR2 eigen fixture agrees with R at the unchanged 1e-9 gate",
+          "passed": true
+        },
+        {
+          "test": "minimal-complex: R complex-eigen refusal takes precedence over m<=p",
+          "passed": true
+        },
+        {
+          "test": "complex: R complex-eigen refusal takes precedence over m<=p",
+          "passed": true
+        },
+        {
+          "test": "R 4.6 sum/mean controls: cancellation, double rounding, subnormals and overflow",
+          "passed": true
+        },
+        {
+          "test": "C-locale factor ordering uses native Unicode escapes",
+          "passed": true
+        },
+        {
+          "test": "factor levels follow the cluster column type, as as.factor() does",
+          "passed": false
+        },
+        {
+          "test": "sorting is internal: input is untouched and weights retain input-row alignment",
+          "passed": true
+        },
+        {
+          "test": "multi-row clusters: weights are R's r.weights in caller order",
+          "passed": true
+        },
+        {
+          "test": "numeric cluster IDs 1..K: factor order agrees with R at 1e-9",
+          "passed": false
+        },
+        {
+          "test": "character cluster IDs 1..K: factor order agrees with R at 1e-9",
+          "passed": true
+        },
+        {
+          "test": "order: smallest archived reproducer agrees with both R references at 1e-9",
+          "passed": true
+        },
+        {
+          "test": "sumw: smallest archived reproducer agrees with both R references at 1e-9",
+          "passed": true
+        },
+        {
+          "test": "mean: smallest archived reproducer agrees with both R references at 1e-9",
+          "passed": true
+        }
+      ],
+      "failed": [
+        "factor levels follow the cluster column type, as as.factor() does",
+        "numeric cluster IDs 1..K: factor order agrees with R at 1e-9"
+      ]
+    },
+    "first-seen-order": {
+      "replaced": "inputOrder.sort(function(a, b) { return a.key < b.key ? -1 : a.key > b.key ? 1 : a.index - b.index; });",
+      "with": "/* planted: no sort, clusters in first-seen order */",
+      "exit": 1,
+      "results": [
+        {
+          "test": "smallest CR2 eigen fixture agrees with R at the unchanged 1e-9 gate",
+          "passed": true
+        },
+        {
+          "test": "minimal-complex: R complex-eigen refusal takes precedence over m<=p",
+          "passed": true
+        },
+        {
+          "test": "complex: R complex-eigen refusal takes precedence over m<=p",
+          "passed": true
+        },
+        {
+          "test": "R 4.6 sum/mean controls: cancellation, double rounding, subnormals and overflow",
+          "passed": true
+        },
+        {
+          "test": "C-locale factor ordering uses native Unicode escapes",
+          "passed": true
+        },
+        {
+          "test": "factor levels follow the cluster column type, as as.factor() does",
+          "passed": true
+        },
+        {
+          "test": "sorting is internal: input is untouched and weights retain input-row alignment",
+          "passed": false
+        },
+        {
+          "test": "multi-row clusters: weights are R's r.weights in caller order",
+          "passed": true
+        },
+        {
+          "test": "numeric cluster IDs 1..K: factor order agrees with R at 1e-9",
+          "passed": false
+        },
+        {
+          "test": "character cluster IDs 1..K: factor order agrees with R at 1e-9",
+          "passed": false
+        },
+        {
+          "test": "order: smallest archived reproducer agrees with both R references at 1e-9",
+          "passed": false
+        },
+        {
+          "test": "sumw: smallest archived reproducer agrees with both R references at 1e-9",
+          "passed": false
+        },
+        {
+          "test": "mean: smallest archived reproducer agrees with both R references at 1e-9",
+          "passed": true
+        }
+      ],
+      "failed": [
+        "sorting is internal: input is untouched and weights retain input-row alignment",
+        "numeric cluster IDs 1..K: factor order agrees with R at 1e-9",
+        "character cluster IDs 1..K: factor order agrees with R at 1e-9",
+        "order: smallest archived reproducer agrees with both R references at 1e-9",
+        "sumw: smallest archived reproducer agrees with both R references at 1e-9"
+      ]
+    }
+  },
+  "control": {
+    "exit": 0,
+    "results": [
+      {
+        "test": "smallest CR2 eigen fixture agrees with R at the unchanged 1e-9 gate",
+        "passed": true
+      },
+      {
+        "test": "minimal-complex: R complex-eigen refusal takes precedence over m<=p",
+        "passed": true
+      },
+      {
+        "test": "complex: R complex-eigen refusal takes precedence over m<=p",
+        "passed": true
+      },
+      {
+        "test": "R 4.6 sum/mean controls: cancellation, double rounding, subnormals and overflow",
+        "passed": true
+      },
+      {
+        "test": "C-locale factor ordering uses native Unicode escapes",
+        "passed": true
+      },
+      {
+        "test": "factor levels follow the cluster column type, as as.factor() does",
+        "passed": true
+      },
+      {
+        "test": "sorting is internal: input is untouched and weights retain input-row alignment",
+        "passed": true
+      },
+      {
+        "test": "multi-row clusters: weights are R's r.weights in caller order",
+        "passed": true
+      },
+      {
+        "test": "numeric cluster IDs 1..K: factor order agrees with R at 1e-9",
+        "passed": true
+      },
+      {
+        "test": "character cluster IDs 1..K: factor order agrees with R at 1e-9",
+        "passed": true
+      },
+      {
+        "test": "order: smallest archived reproducer agrees with both R references at 1e-9",
+        "passed": true
+      },
+      {
+        "test": "sumw: smallest archived reproducer agrees with both R references at 1e-9",
+        "passed": true
+      },
+      {
+        "test": "mean: smallest archived reproducer agrees with both R references at 1e-9",
+        "passed": true
+      }
+    ],
+    "failed": []
+  }
+}

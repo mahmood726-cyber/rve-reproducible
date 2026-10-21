@@ -1,0 +1,20 @@
+✔ all 135 configurations have exactly one disposition (1.0521ms)
+✔ fresh R 4.6.0/robumeta 2.1/clubSandwich 0.7.0 references reproduce the archive (1.204ms)
+✔ 89 eigen handoffs have identical weights, bread, residuals, tau2 and every leverage input (2.4022ms)
+✔ extended-significand sum matches R on all 135 inputs (1.3794ms)
+✔ smallest reproducer really fails the fixed gate: lane_A_locale_and_reductions (1.157ms)
+✔ smallest reproducer really fails the fixed gate: lane_A_extended_sum (0.1453ms)
+✔ smallest reproducer really fails the fixed gate: lane_B_eigen_after_reductions (0.1447ms)
+✔ smallest reproducer really fails the fixed gate: infeasible_reference_intervals (0.1429ms)
+✔ smallest reproducer really fails the fixed gate: R_vs_R_sensitivity (0.1508ms)
+✔ 19 joint reference contradictions have positive separated intervals (1.3703ms)
+✔ R order interventions are quantified for every reference-noise disposition (4.3035ms)
+✔ R-versus-R CI differences use the absolute endpoint gate (4.814ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 54.9936

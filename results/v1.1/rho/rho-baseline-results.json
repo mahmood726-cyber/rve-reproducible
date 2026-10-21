@@ -1,0 +1,31 @@
+{
+  "finite-only": {
+    "checks": 24086,
+    "passes": 23932,
+    "designs": 448,
+    "passing_designs": 421,
+    "fits": 896,
+    "passing_fits": 845
+  },
+  "option-a": {
+    "checks": 24086,
+    "passes": 23944,
+    "designs": 448,
+    "passing_designs": 422,
+    "fits": 896,
+    "passing_fits": 847
+  },
+  "coverage": {
+    "references": 448,
+    "expected": 448,
+    "captures": 448,
+    "successful_R_fits": 896,
+    "sensitivity_errors": [
+      "dat.besson2016::001::dam_ID::photoperiod",
+      "dat.mccurdy2020::001::id::ni",
+      "dat.moura2021::001::study.id::(intercept)",
+      "dat.moura2021::001::species.id::(intercept)",
+      "dat.moura2021::001::study.id::ni"
+    ]
+  }
+}

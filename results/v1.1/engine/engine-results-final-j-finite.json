@@ -1,0 +1,133 @@
+{
+  "variant": "final-j-finite",
+  "rule": "finite-only",
+  "scope": "direct shipped engine; not browser/display/export validation",
+  "configurations": 16270,
+  "captured": 16270,
+  "checks": 546943,
+  "passes": 546317,
+  "quantities": {
+    "key": {
+      "checks": 16270,
+      "passes": 16270,
+      "max_difference": 0
+    },
+    "reference_present": {
+      "checks": 16270,
+      "passes": 16270,
+      "max_difference": 0
+    },
+    "reference_key": {
+      "checks": 16270,
+      "passes": 16270,
+      "max_difference": 0
+    },
+    "status": {
+      "checks": 16270,
+      "passes": 16270,
+      "max_difference": 0
+    },
+    "tau2": {
+      "checks": 15688,
+      "passes": 15688,
+      "max_difference": 0
+    },
+    "method": {
+      "checks": 15688,
+      "passes": 15688,
+      "max_difference": 0
+    },
+    "n": {
+      "checks": 15688,
+      "passes": 15688,
+      "max_difference": 0
+    },
+    "m": {
+      "checks": 15688,
+      "passes": 15688,
+      "max_difference": 0
+    },
+    "design_columns": {
+      "checks": 15688,
+      "passes": 15688,
+      "max_difference": 0
+    },
+    "coefficient_count": {
+      "checks": 15688,
+      "passes": 15688,
+      "max_difference": 0
+    },
+    "estimate": {
+      "checks": 29781,
+      "passes": 29781,
+      "max_difference": 0
+    },
+    "se": {
+      "checks": 29781,
+      "passes": 29781,
+      "max_difference": 0
+    },
+    "t": {
+      "checks": 29781,
+      "passes": 29611,
+      "max_difference": 9.32792191216813e-17
+    },
+    "df": {
+      "checks": 29781,
+      "passes": 29781,
+      "max_difference": 6.004650963594242e-12
+    },
+    "p": {
+      "checks": 29781,
+      "passes": 29696,
+      "max_difference": 7.582823258189819e-13
+    },
+    "ci_lo": {
+      "checks": 29781,
+      "passes": 29781,
+      "max_difference": 3.2014213502407074e-10
+    },
+    "ci_hi": {
+      "checks": 29781,
+      "passes": 29781,
+      "max_difference": 3.2014213502407074e-10
+    },
+    "club_reference_success": {
+      "checks": 29781,
+      "passes": 29781,
+      "max_difference": 0
+    },
+    "club_estimate": {
+      "checks": 29781,
+      "passes": 29781,
+      "max_difference": 0
+    },
+    "club_se": {
+      "checks": 29781,
+      "passes": 29744,
+      "max_difference": 2.58153194176991e-06
+    },
+    "club_t": {
+      "checks": 29781,
+      "passes": 29572,
+      "max_difference": 3.86597362084376e-06
+    },
+    "club_df": {
+      "checks": 29781,
+      "passes": 29751,
+      "max_difference": 60.630819983458466
+    },
+    "club_p": {
+      "checks": 29781,
+      "passes": 29686,
+      "max_difference": 0.13296097817717467
+    },
+    "refusal_category": {
+      "checks": 582,
+      "passes": 582,
+      "max_difference": 0
+    }
+  },
+  "failures": 626,
+  "passing_configurations": 16136
+}

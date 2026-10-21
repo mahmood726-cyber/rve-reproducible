@@ -1,0 +1,781 @@
+{
+ "description": "Integration evidence for the merged exact-R engine (allmeta PR #210, merge commit 575cb29468f814ad09401d78f1a75fbda16b8abc). source_sha256 is the SHA-256 of the file as found on the integration host; stored_sha256 is the archived file. Redacted copies replace host path prefixes by <HOST>/ and change nothing else.",
+ "files": [
+  {
+   "archived": "results/v1.1/engine/engine-full-final-j-meta.json",
+   "source": "allmeta audit/p15-integration/engine-full-final-j-meta.json (working tree after PR #210)",
+   "source_sha256": "e058c47e61d0220d8b55f31ff42f62031a61fcd1c0d45ed6852961d63fcf6488",
+   "source_bytes": 403,
+   "stored_sha256": "e058c47e61d0220d8b55f31ff42f62031a61fcd1c0d45ed6852961d63fcf6488",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/engine-full-final-k-meta.json",
+   "source": "allmeta audit/p15-integration/engine-full-final-k-meta.json (working tree after PR #210)",
+   "source_sha256": "114b3128114b89c161d0b6352df2c349ea89220fe6c8857ec5ac8e78b94e07bc",
+   "source_bytes": 403,
+   "stored_sha256": "114b3128114b89c161d0b6352df2c349ea89220fe6c8857ec5ac8e78b94e07bc",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/engine-full-final-k-commit-meta.json",
+   "source": "allmeta audit/p15-integration/engine-full-final-k-commit-meta.json (working tree after PR #210)",
+   "source_sha256": "067cecba1af0d4287a1178c3a1f7dc83e4acd8a40c738377792df069f36a89ad",
+   "source_bytes": 410,
+   "stored_sha256": "067cecba1af0d4287a1178c3a1f7dc83e4acd8a40c738377792df069f36a89ad",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/final-j-source-hashes.txt",
+   "source": "allmeta audit/p15-integration/final-j-source-hashes.txt (working tree after PR #210)",
+   "source_sha256": "ea88e6851a6f26502514c0a72f99ca91dc930ff29d3b7cc5052f8b3d812af335",
+   "source_bytes": 269,
+   "stored_sha256": "ea88e6851a6f26502514c0a72f99ca91dc930ff29d3b7cc5052f8b3d812af335",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/engine-results-final-j-finite.json",
+   "source": "allmeta audit/p15-integration/engine-results-final-j-finite.json (working tree after PR #210)",
+   "source_sha256": "1c0b5eaaea445e926e83d4673cb8dd02d95ecac226b83b09315ab087aaf2d5e4",
+   "source_bytes": 2918,
+   "stored_sha256": "1c0b5eaaea445e926e83d4673cb8dd02d95ecac226b83b09315ab087aaf2d5e4",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/engine-results-final-j-option-a.json",
+   "source": "allmeta audit/p15-integration/engine-results-final-j-option-a.json (working tree after PR #210)",
+   "source_sha256": "b14b85ca90bab8b3f123aea142dcc9f41fadcd92e0aa8a936df630d0e63ea300",
+   "source_bytes": 2917,
+   "stored_sha256": "b14b85ca90bab8b3f123aea142dcc9f41fadcd92e0aa8a936df630d0e63ea300",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/engine-failures-full-final-j-finite.json",
+   "source": "allmeta audit/p15-integration/engine-failures-full-final-j-finite.json (working tree after PR #210)",
+   "source_sha256": "5896ccf2be19c4c0ca0663a224895acb3721c7ac35b530266c328bb901e6d787",
+   "source_bytes": 153469,
+   "stored_sha256": "5896ccf2be19c4c0ca0663a224895acb3721c7ac35b530266c328bb901e6d787",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/engine-failures-full-final-j-option-a.json",
+   "source": "allmeta audit/p15-integration/engine-failures-full-final-j-option-a.json (working tree after PR #210)",
+   "source_sha256": "7d08eab5f5cf57f0b2a421004c08d4bb75fe85ca3970ca394002886360cd6009",
+   "source_bytes": 32392,
+   "stored_sha256": "7d08eab5f5cf57f0b2a421004c08d4bb75fe85ca3970ca394002886360cd6009",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/undefined-final-j-finite.json",
+   "source": "allmeta audit/p15-integration/undefined-final-j-finite.json (working tree after PR #210)",
+   "source_sha256": "e29da0ebf6e6a6451cbd2a93d362d4d9bb8388f50e392e3c5077bae51bb3592c",
+   "source_bytes": 119550,
+   "stored_sha256": "e29da0ebf6e6a6451cbd2a93d362d4d9bb8388f50e392e3c5077bae51bb3592c",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/undefined-final-j-option-a.json",
+   "source": "allmeta audit/p15-integration/undefined-final-j-option-a.json (working tree after PR #210)",
+   "source_sha256": "47e6f61c06ae045358f0b9d455aac50e63aae4281221868b0e1a9025bacd1739",
+   "source_bytes": 119040,
+   "stored_sha256": "47e6f61c06ae045358f0b9d455aac50e63aae4281221868b0e1a9025bacd1739",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/compare-final-j-finite.log",
+   "source": "allmeta audit/p15-integration/compare-final-j-finite.log (working tree after PR #210)",
+   "source_sha256": "3f835916378b2606bcebd43c747a15865bfa9bd46627c9ce21017af79932e8f0",
+   "source_bytes": 114,
+   "stored_sha256": "3f835916378b2606bcebd43c747a15865bfa9bd46627c9ce21017af79932e8f0",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/compare-final-j-option-a.log",
+   "source": "allmeta audit/p15-integration/compare-final-j-option-a.log (working tree after PR #210)",
+   "source_sha256": "204b229df6e5e58fcfda39bb6fa1d374fa4229a585abf8fb34458e05ffbcefc2",
+   "source_bytes": 113,
+   "stored_sha256": "204b229df6e5e58fcfda39bb6fa1d374fa4229a585abf8fb34458e05ffbcefc2",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/engine-results-baseline-finite.json",
+   "source": "allmeta audit/p15-integration/engine-results-baseline-finite.json (working tree after PR #210)",
+   "source_sha256": "2385ba473d2508495d0cfee792d468393ad1e40af87c943c45dbf25050addd09",
+   "source_bytes": 2989,
+   "stored_sha256": "2385ba473d2508495d0cfee792d468393ad1e40af87c943c45dbf25050addd09",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/engine-results-baseline-option-a.json",
+   "source": "allmeta audit/p15-integration/engine-results-baseline-option-a.json (working tree after PR #210)",
+   "source_sha256": "76487807a74c261b6205a934e09b0446a0ac1726fc02976b3cf78c0666b94b7e",
+   "source_bytes": 2988,
+   "stored_sha256": "76487807a74c261b6205a934e09b0446a0ac1726fc02976b3cf78c0666b94b7e",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/engine-failures-full-baseline-finite.json",
+   "source": "allmeta audit/p15-integration/engine-failures-full-baseline-finite.json (working tree after PR #210)",
+   "source_sha256": "2b500eec83e8b8884145bee46a34a165c74c9b3308eb882461ed6fe0100289b0",
+   "source_bytes": 696061,
+   "stored_sha256": "2b500eec83e8b8884145bee46a34a165c74c9b3308eb882461ed6fe0100289b0",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/engine-failures-full-baseline-option-a.json",
+   "source": "allmeta audit/p15-integration/engine-failures-full-baseline-option-a.json (working tree after PR #210)",
+   "source_sha256": "a257680ddc57214fa345f8a42bf9950e3006ca401b671b11032cb1f591c30aeb",
+   "source_bytes": 646054,
+   "stored_sha256": "a257680ddc57214fa345f8a42bf9950e3006ca401b671b11032cb1f591c30aeb",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/undefined-baseline-finite.json",
+   "source": "allmeta audit/p15-integration/undefined-baseline-finite.json (working tree after PR #210)",
+   "source_sha256": "ebe16b04bc9c7caae17d6596086a14bbbf88234fd2d0437e7152b2672fa9d38b",
+   "source_bytes": 158595,
+   "stored_sha256": "ebe16b04bc9c7caae17d6596086a14bbbf88234fd2d0437e7152b2672fa9d38b",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/undefined-baseline-option-a.json",
+   "source": "allmeta audit/p15-integration/undefined-baseline-option-a.json (working tree after PR #210)",
+   "source_sha256": "5fb46a5df1312be0e760163c06359090c6fb85dcbe0a2da65850b179c59ac4fb",
+   "source_bytes": 158385,
+   "stored_sha256": "5fb46a5df1312be0e760163c06359090c6fb85dcbe0a2da65850b179c59ac4fb",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/baseline-finite.log",
+   "source": "allmeta audit/p15-integration/baseline-finite.log (working tree after PR #210)",
+   "source_sha256": "3173cee8c95a09d17a7c9548abe9f657b59a1ebdd985895fc8c4aa082870f6b1",
+   "source_bytes": 115,
+   "stored_sha256": "3173cee8c95a09d17a7c9548abe9f657b59a1ebdd985895fc8c4aa082870f6b1",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/baseline-option-a.log",
+   "source": "allmeta audit/p15-integration/baseline-option-a.log (working tree after PR #210)",
+   "source_sha256": "2c6397550b9bc378683ee5c7a02640d88bde3fd8b992937587fde8b81373364e",
+   "source_bytes": 114,
+   "stored_sha256": "2c6397550b9bc378683ee5c7a02640d88bde3fd8b992937587fde8b81373364e",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/final-verification.json",
+   "source": "allmeta audit/p15-integration/final-verification.json (working tree after PR #210)",
+   "source_sha256": "808473fc6d165adcb66eef95ff07f013fb5ca65c37f72e2ed797acc3dcb0e84c",
+   "source_bytes": 4764,
+   "stored_sha256": "808473fc6d165adcb66eef95ff07f013fb5ca65c37f72e2ed797acc3dcb0e84c",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/provenance.redacted.json",
+   "source": "allmeta audit/p15-integration/provenance.json (working tree after PR #210)",
+   "source_sha256": "3e04667a4ce9f5da847c13cbf0e56d65f7a267f1d467476625eeeb6b06fef757",
+   "source_bytes": 2916,
+   "stored_sha256": "043a9f820adf8a95cec1c91753a664e9fb6cba951e3e165eaf1c817ee9852326",
+   "treatment": "host paths replaced by <HOST>/"
+  },
+  {
+   "archived": "results/v1.1/engine/comparator-equivalence.json",
+   "source": "allmeta audit/p15-integration/comparator-equivalence.json (working tree after PR #210)",
+   "source_sha256": "4b9e9a9817cd093a4a5d1bfd3555162e6942b44f3123393adfff557ac911c2e3",
+   "source_bytes": 398,
+   "stored_sha256": "4b9e9a9817cd093a4a5d1bfd3555162e6942b44f3123393adfff557ac911c2e3",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/newly-refused-final-j.redacted.json",
+   "source": "allmeta audit/p15-integration/newly-refused-final-j.json (working tree after PR #210)",
+   "source_sha256": "f6c29e85c87897fdba9fd7a2facf14c5b3f872fe0a530ea7514d08e334876986",
+   "source_bytes": 1798,
+   "stored_sha256": "017615ce71311827795d6bbb2aba053569c5c375bcac3861ad5d001040192292",
+   "treatment": "host paths replaced by <HOST>/"
+  },
+  {
+   "archived": "results/v1.1/engine/lanej-status.json",
+   "source": "allmeta audit/p15-integration/lanej-status.json (working tree after PR #210)",
+   "source_sha256": "3cc4d4050f36362dfb77eb6b1b8fbb357c0507207cc0015a072fabb9efeec08e",
+   "source_bytes": 1795,
+   "stored_sha256": "3cc4d4050f36362dfb77eb6b1b8fbb357c0507207cc0015a072fabb9efeec08e",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/engine-full-final-j.jsonl.xz",
+   "source": "allmeta audit/p15-integration/engine-full-final-j.jsonl (working tree after PR #210); byte-identical to engine-full-final-k-commit.jsonl, engine-full-final-k.jsonl and engine-full-combined.jsonl",
+   "source_sha256": "5d9dae530490ec54ac56bf15872096b250de93491d73e7bb65cc6c93cb8aed41",
+   "source_bytes": 35294212,
+   "stored_sha256": "2f126756de82650e5b97201e6437bb53749eb87679ef5c868336eb33e17a1be5",
+   "treatment": "verbatim; xz"
+  },
+  {
+   "archived": "results/v1.1/engine/capture-identity-final-k.txt",
+   "source": "allmeta audit/p15-integration/lane-k/capture-identity.txt (working tree after PR #210)",
+   "source_sha256": "42ca1f4b7c132fec86f8d0e81c3f95a0dfb4b89a0bd5586326e1634225e77dcf",
+   "source_bytes": 677,
+   "stored_sha256": "42ca1f4b7c132fec86f8d0e81c3f95a0dfb4b89a0bd5586326e1634225e77dcf",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/engine/capture-final-k-commit.log",
+   "source": "allmeta audit/p15-integration/lane-k/capture-final-k-commit.log (working tree after PR #210)",
+   "source_sha256": "81265956c5fc943220a442590eb662867984433e3859b79cd08dfc0d857634ad",
+   "source_bytes": 4341,
+   "stored_sha256": "81265956c5fc943220a442590eb662867984433e3859b79cd08dfc0d857634ad",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/changed-status/changed-status-finite.csv",
+   "source": "allmeta audit/p15-integration/changed-status-finite.csv (working tree after PR #210)",
+   "source_sha256": "3e574787b9dc12ed9a9be67f538a1c1a0cead6067a80665f6b1b28713f387b15",
+   "source_bytes": 31837,
+   "stored_sha256": "3e574787b9dc12ed9a9be67f538a1c1a0cead6067a80665f6b1b28713f387b15",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/changed-status/changed-status-finite.json",
+   "source": "allmeta audit/p15-integration/changed-status-finite.json (working tree after PR #210)",
+   "source_sha256": "d5801bf9e67f73a38f15e05564241969fae31c606a771d805cf7cda65280bcfc",
+   "source_bytes": 32523,
+   "stored_sha256": "d5801bf9e67f73a38f15e05564241969fae31c606a771d805cf7cda65280bcfc",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/changed-status/changed-status-option-a.csv",
+   "source": "allmeta audit/p15-integration/changed-status-option-a.csv (working tree after PR #210)",
+   "source_sha256": "5adc5c656ad637695f8203f0117eb038907ff3c0df3c51c17827762bc7d328cb",
+   "source_bytes": 34207,
+   "stored_sha256": "5adc5c656ad637695f8203f0117eb038907ff3c0df3c51c17827762bc7d328cb",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/changed-status/changed-status-option-a.json",
+   "source": "allmeta audit/p15-integration/changed-status-option-a.json (working tree after PR #210)",
+   "source_sha256": "5d2fee52fef649058c9e098b3f6984d7a485d4a215ec5c99ad34f907b01315a9",
+   "source_bytes": 34943,
+   "stored_sha256": "5d2fee52fef649058c9e098b3f6984d7a485d4a215ec5c99ad34f907b01315a9",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/residuals/residual-evidence.json",
+   "source": "allmeta audit/p15-integration/residual-evidence.json (working tree after PR #210)",
+   "source_sha256": "475116b62bc8cd6e9c27ba69ec796d0abd6f66f30a3dc91f9e9370cc63fd600f",
+   "source_bytes": 280887,
+   "stored_sha256": "475116b62bc8cd6e9c27ba69ec796d0abd6f66f30a3dc91f9e9370cc63fd600f",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/residuals/lane-c-diagnosis.txt",
+   "source": "allmeta audit/p15-integration/lane-c-diagnosis.txt (working tree after PR #210)",
+   "source_sha256": "683e4de54c0db348519e54ad6c553234eb3c364536e89b15796c259193d28a15",
+   "source_bytes": 1159,
+   "stored_sha256": "683e4de54c0db348519e54ad6c553234eb3c364536e89b15796c259193d28a15",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-final-j-engine.jsonl",
+   "source": "allmeta audit/p15-integration/rho-final-j-engine.jsonl (working tree after PR #210)",
+   "source_sha256": "3056223be024d2f3f7c8a610d21bb7f54b78615bd13ba6a74b64150bb07544fc",
+   "source_bytes": 466168,
+   "stored_sha256": "3056223be024d2f3f7c8a610d21bb7f54b78615bd13ba6a74b64150bb07544fc",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-final-j-engine-meta.json",
+   "source": "allmeta audit/p15-integration/rho-final-j-engine-meta.json (working tree after PR #210)",
+   "source_sha256": "438c140d5d147096f4ed2f998b6c49f7545759b783b31d565e4ee3bced974390",
+   "source_bytes": 502,
+   "stored_sha256": "438c140d5d147096f4ed2f998b6c49f7545759b783b31d565e4ee3bced974390",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-final-j-results.json",
+   "source": "allmeta audit/p15-integration/rho-final-j-results.json (working tree after PR #210)",
+   "source_sha256": "b88a445cbab0e34ee2056f50cbec76aee9dcdaec754d4493126ecde4254f8a8c",
+   "source_bytes": 722,
+   "stored_sha256": "b88a445cbab0e34ee2056f50cbec76aee9dcdaec754d4493126ecde4254f8a8c",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-final-j-failures-finite-only.json",
+   "source": "allmeta audit/p15-integration/rho-final-j-failures-finite-only.json (working tree after PR #210)",
+   "source_sha256": "4ac6816caf7500446286d2c62364a60a5f73c334cf1d90a8096b5114661641fc",
+   "source_bytes": 7389,
+   "stored_sha256": "4ac6816caf7500446286d2c62364a60a5f73c334cf1d90a8096b5114661641fc",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-final-j-failures-option-a.json",
+   "source": "allmeta audit/p15-integration/rho-final-j-failures-option-a.json (working tree after PR #210)",
+   "source_sha256": "77f015059fd4c63d6695b45fc6fdad18c6faad87a8b598f3014125f35ecb659a",
+   "source_bytes": 4071,
+   "stored_sha256": "77f015059fd4c63d6695b45fc6fdad18c6faad87a8b598f3014125f35ecb659a",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-final-j-undefined-finite-only.json",
+   "source": "allmeta audit/p15-integration/rho-final-j-undefined-finite-only.json (working tree after PR #210)",
+   "source_sha256": "922468ca7bf2f5e8bf6d6655df6d6dd7498762edd8e1ebc253efd432728785b2",
+   "source_bytes": 3321,
+   "stored_sha256": "922468ca7bf2f5e8bf6d6655df6d6dd7498762edd8e1ebc253efd432728785b2",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-final-j-undefined-option-a.json",
+   "source": "allmeta audit/p15-integration/rho-final-j-undefined-option-a.json (working tree after PR #210)",
+   "source_sha256": "94810adc1d931e16a877150034578488dbf5e4e472c1eeab09a7f7994aa85905",
+   "source_bytes": 3309,
+   "stored_sha256": "94810adc1d931e16a877150034578488dbf5e4e472c1eeab09a7f7994aa85905",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-verify-final-j.log",
+   "source": "allmeta audit/p15-integration/rho-verify-final-j.log (working tree after PR #210)",
+   "source_sha256": "422d3986f8fd9702d730c9336760b188b92da634afff832785eeea2c75ff3453",
+   "source_bytes": 724,
+   "stored_sha256": "422d3986f8fd9702d730c9336760b188b92da634afff832785eeea2c75ff3453",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-capture-final-j.log",
+   "source": "allmeta audit/p15-integration/rho-capture-final-j.log (working tree after PR #210)",
+   "source_sha256": "70693681a3bda482b2659affd015aea33c73d67db6bec65804abac3037625dbb",
+   "source_bytes": 184,
+   "stored_sha256": "70693681a3bda482b2659affd015aea33c73d67db6bec65804abac3037625dbb",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-baseline-engine.jsonl",
+   "source": "allmeta audit/p15-integration/rho-baseline-engine.jsonl (working tree after PR #210)",
+   "source_sha256": "8332553f9fa0fb3bb346610dd1d7a4d4432cf466135dfa99ef4ff677dc684616",
+   "source_bytes": 466177,
+   "stored_sha256": "8332553f9fa0fb3bb346610dd1d7a4d4432cf466135dfa99ef4ff677dc684616",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-baseline-engine-meta.json",
+   "source": "allmeta audit/p15-integration/rho-baseline-engine-meta.json (working tree after PR #210)",
+   "source_sha256": "bd1e42c7e2512d250ddaa6f28cecfa8d3743af0e11fd1c0803e99058295579e4",
+   "source_bytes": 407,
+   "stored_sha256": "bd1e42c7e2512d250ddaa6f28cecfa8d3743af0e11fd1c0803e99058295579e4",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-baseline-results.json",
+   "source": "allmeta audit/p15-integration/rho-baseline-results.json (working tree after PR #210)",
+   "source_sha256": "af908bc71aaa55a74b3affc8749623a3ac678e1ef50af8bf639c538302dcbb13",
+   "source_bytes": 722,
+   "stored_sha256": "af908bc71aaa55a74b3affc8749623a3ac678e1ef50af8bf639c538302dcbb13",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-baseline-failures-finite-only.json",
+   "source": "allmeta audit/p15-integration/rho-baseline-failures-finite-only.json (working tree after PR #210)",
+   "source_sha256": "7d585a50877379a15fee016a5d31d691de0978198b0726d7b613714c8f07c353",
+   "source_bytes": 47079,
+   "stored_sha256": "7d585a50877379a15fee016a5d31d691de0978198b0726d7b613714c8f07c353",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-baseline-failures-option-a.json",
+   "source": "allmeta audit/p15-integration/rho-baseline-failures-option-a.json (working tree after PR #210)",
+   "source_sha256": "296cf54eb84986c5d188712fca4dccab01a354beef9155e63dfda4c7d46bbd2f",
+   "source_bytes": 43761,
+   "stored_sha256": "296cf54eb84986c5d188712fca4dccab01a354beef9155e63dfda4c7d46bbd2f",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-baseline-verify.log",
+   "source": "allmeta audit/p15-integration/rho-baseline-verify.log (working tree after PR #210)",
+   "source_sha256": "19da544ac289d17d5c516e7957629674cd2e2dd7b9b7187b9de065dad68874e5",
+   "source_bytes": 724,
+   "stored_sha256": "19da544ac289d17d5c516e7957629674cd2e2dd7b9b7187b9de065dad68874e5",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-changed-status.json",
+   "source": "allmeta audit/p15-integration/rho-changed-status.json (working tree after PR #210)",
+   "source_sha256": "62b1f1253bee159c7ed9a868cd1330372d01566b055b47d8789ff0db6f2acde3",
+   "source_bytes": 6822,
+   "stored_sha256": "62b1f1253bee159c7ed9a868cd1330372d01566b055b47d8789ff0db6f2acde3",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-reference-sha256.json",
+   "source": "allmeta audit/p15-integration/rho-reference-sha256.json (working tree after PR #210)",
+   "source_sha256": "68fa5af7095dc564b74ed971fd9dc80facc5224b1285b8dda5cac33a6021311e",
+   "source_bytes": 37635,
+   "stored_sha256": "68fa5af7095dc564b74ed971fd9dc80facc5224b1285b8dda5cac33a6021311e",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-locale-proof.json",
+   "source": "allmeta audit/p15-integration/rho-locale-proof.json (working tree after PR #210)",
+   "source_sha256": "aef8979fef1d2cf1ecca693c982b62260f1ae4e238c5ada62d8bc9394401b87f",
+   "source_bytes": 5257,
+   "stored_sha256": "aef8979fef1d2cf1ecca693c982b62260f1ae4e238c5ada62d8bc9394401b87f",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-locale-diagnostics.json",
+   "source": "allmeta audit/p15-integration/rho-locale-diagnostics.json (working tree after PR #210)",
+   "source_sha256": "077c7ba0e639eb73beaa39fa5d7552205c8bd8149eb32afd51741ff41d911098",
+   "source_bytes": 8618,
+   "stored_sha256": "077c7ba0e639eb73beaa39fa5d7552205c8bd8149eb32afd51741ff41d911098",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-locale.log",
+   "source": "allmeta audit/p15-integration/rho-locale.log (working tree after PR #210)",
+   "source_sha256": "b48b213cc8e5d0e432e5527d36112c132b939cc93cdbfa466a558d9b1c281217",
+   "source_bytes": 774,
+   "stored_sha256": "b48b213cc8e5d0e432e5527d36112c132b939cc93cdbfa466a558d9b1c281217",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/rho/rho_locale.redacted.R",
+   "source": "allmeta audit/p15-integration/rho_locale.R (working tree after PR #210)",
+   "source_sha256": "97790fb7acc276e9de46d7d52383cc7850b786097a77a688a1a1a8a7dc3ce23d",
+   "source_bytes": 976,
+   "stored_sha256": "b901d06a4b17e02c0e40b339944b268a20cc9479d2bfcb3500fe5d1f0cf44dde",
+   "treatment": "host paths replaced by <HOST>/"
+  },
+  {
+   "archived": "results/v1.1/rho/rho_sample.json.xz",
+   "source": "p15diag rho_work/rho_sample.json (the 448 designs)",
+   "source_sha256": "99fafaa9ee10ad528f286161cdd3696b88621cf413dc24e389e04dbb738035e7",
+   "source_bytes": 3297335,
+   "stored_sha256": "1f7e34bef04d44ae0ddd97405e65f391c2452d490359185e8716b135a8bc1332",
+   "treatment": "verbatim; xz"
+  },
+  {
+   "archived": "results/v1.1/rho/rho-reference-bundle.json.xz",
+   "source": "p15diag rho_work/rho_ref_v3/*.json: the 448 English-locale references, exact file text keyed by file name (hashes in rho-reference-sha256.json)",
+   "source_sha256": "ad63fb4a71675115b62e080cf6af4a537463280d886e118fe157d8e5dd561a2d",
+   "source_bytes": 1219903,
+   "stored_sha256": "8dfe1ef84b6c3ad853368a14c86ce511cbf9f310d2cc48eefd7d7715957fdee5",
+   "treatment": "verbatim; xz"
+  },
+  {
+   "archived": "results/v1.1/planted/planted-result.json",
+   "source": "allmeta audit/p15-integration/planted-result.json (working tree after PR #210)",
+   "source_sha256": "51f19e201b87996c364d3a0cfff40e0bc004c9d77cacb8933e47ba70aae61e18",
+   "source_bytes": 1955,
+   "stored_sha256": "51f19e201b87996c364d3a0cfff40e0bc004c9d77cacb8933e47ba70aae61e18",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/planted/planted-one.jsonl",
+   "source": "allmeta audit/p15-integration/planted-one.jsonl (working tree after PR #210)",
+   "source_sha256": "b46995b3b31e7a8c129ef1de0f5e71563d02a194597cc972fccc03a033b59ea4",
+   "source_bytes": 948,
+   "stored_sha256": "b46995b3b31e7a8c129ef1de0f5e71563d02a194597cc972fccc03a033b59ea4",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/planted/control-one.jsonl",
+   "source": "allmeta audit/p15-integration/control-one.jsonl (working tree after PR #210)",
+   "source_sha256": "ccf1a7b3e463f28869f4010eeaf7d0d313b03658b3ba52bbd1dbde3f4ad1f7c6",
+   "source_bytes": 948,
+   "stored_sha256": "ccf1a7b3e463f28869f4010eeaf7d0d313b03658b3ba52bbd1dbde3f4ad1f7c6",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/planted/planted.log",
+   "source": "allmeta audit/p15-integration/planted.log (working tree after PR #210)",
+   "source_sha256": "3275ed8b8e88ce297e25d4b59ac598079d42910253236d2af1ea5f96f785f911",
+   "source_bytes": 81,
+   "stored_sha256": "3275ed8b8e88ce297e25d4b59ac598079d42910253236d2af1ea5f96f785f911",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/planted/engine-results-planted-finite-only.json",
+   "source": "allmeta audit/p15-integration/engine-results-planted-finite-only.json (working tree after PR #210)",
+   "source_sha256": "f906ca992bdc7d716277236702f118f52a1ba7dab2702a15427cfc954b62827c",
+   "source_bytes": 2644,
+   "stored_sha256": "f906ca992bdc7d716277236702f118f52a1ba7dab2702a15427cfc954b62827c",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/planted/engine-results-planted-option-a.json",
+   "source": "allmeta audit/p15-integration/engine-results-planted-option-a.json (working tree after PR #210)",
+   "source_sha256": "7098b1f5aa717cd445d5b5064da9cbd167720adc7caca1ca945a3b7da9851736",
+   "source_bytes": 2638,
+   "stored_sha256": "7098b1f5aa717cd445d5b5064da9cbd167720adc7caca1ca945a3b7da9851736",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/planted/engine-results-control-finite-only.json",
+   "source": "allmeta audit/p15-integration/engine-results-control-finite-only.json (working tree after PR #210)",
+   "source_sha256": "f6db9f4951ce24892b3ecb197f74c61b637255882b3760bd6f84f76169d1420d",
+   "source_bytes": 2602,
+   "stored_sha256": "f6db9f4951ce24892b3ecb197f74c61b637255882b3760bd6f84f76169d1420d",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/planted/engine-results-control-option-a.json",
+   "source": "allmeta audit/p15-integration/engine-results-control-option-a.json (working tree after PR #210)",
+   "source_sha256": "2e8431f4a23773dce55ca63703ef37cec2acdf943e6fb1c666048a021f31dfa6",
+   "source_bytes": 2596,
+   "stored_sha256": "2e8431f4a23773dce55ca63703ef37cec2acdf943e6fb1c666048a021f31dfa6",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/planted/engine-failures-full-planted-finite-only.json",
+   "source": "allmeta audit/p15-integration/engine-failures-full-planted-finite-only.json (working tree after PR #210)",
+   "source_sha256": "5a05bfda946b68162d39e326f65f631f9bab3c7128a1a27bc3dc4dcc7f987f57",
+   "source_bytes": 564,
+   "stored_sha256": "5a05bfda946b68162d39e326f65f631f9bab3c7128a1a27bc3dc4dcc7f987f57",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/planted/engine-failures-full-planted-option-a.json",
+   "source": "allmeta audit/p15-integration/engine-failures-full-planted-option-a.json (working tree after PR #210)",
+   "source_sha256": "5a05bfda946b68162d39e326f65f631f9bab3c7128a1a27bc3dc4dcc7f987f57",
+   "source_bytes": 564,
+   "stored_sha256": "5a05bfda946b68162d39e326f65f631f9bab3c7128a1a27bc3dc4dcc7f987f57",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/planted/planted-engine-defects.json",
+   "source": "allmeta audit/p15-integration/planted-engine-defects.json (working tree after PR #210)",
+   "source_sha256": "3ef6ae88211e329e75773c60fe400c5b955aa1f1f94bdbfce16f04878c64c0f7",
+   "source_bytes": 9046,
+   "stored_sha256": "3ef6ae88211e329e75773c60fe400c5b955aa1f1f94bdbfce16f04878c64c0f7",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/planted/planted-engine-defects.log",
+   "source": "allmeta audit/p15-integration/planted-engine-defects.log (working tree after PR #210)",
+   "source_sha256": "88f40bdd8ace09662419a5c4448b7b0aaf13f8fb791c8cb287902010cf5b9c66",
+   "source_bytes": 1045,
+   "stored_sha256": "88f40bdd8ace09662419a5c4448b7b0aaf13f8fb791c8cb287902010cf5b9c66",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/exposure/exposure.tsv.xz",
+   "source": "allmeta audit/p15-integration/lane-k/exposure.tsv (working tree after PR #210)",
+   "source_sha256": "caa525e39d9ab33adf8c2219324257a20defef17294720d56b6e3fcc40e828fb",
+   "source_bytes": 34879747,
+   "stored_sha256": "ee74407719a5146927e0bc6f0bfb205f6e63990013b694f84cb808e4bc9a61c3",
+   "treatment": "verbatim; xz"
+  },
+  {
+   "archived": "results/v1.1/exposure/exposure.sha256",
+   "source": "allmeta audit/p15-integration/lane-k/exposure.sha256 (working tree after PR #210)",
+   "source_sha256": "a28f4b0dc58a4aa17d3543e68849b0c4f8ce16bd7e7ec53825ea2da0e34b2c70",
+   "source_bytes": 79,
+   "stored_sha256": "a28f4b0dc58a4aa17d3543e68849b0c4f8ce16bd7e7ec53825ea2da0e34b2c70",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/exposure/exposure-table.md",
+   "source": "allmeta audit/p15-integration/lane-k/exposure-table.md (working tree after PR #210)",
+   "source_sha256": "0d660d1cfa4f031281ae6fcf0b4d23b0f2e0962a39f5c29a331da9477ed49362",
+   "source_bytes": 1910,
+   "stored_sha256": "0d660d1cfa4f031281ae6fcf0b4d23b0f2e0962a39f5c29a331da9477ed49362",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/exposure/e2e-fits.md",
+   "source": "allmeta audit/p15-integration/lane-k/e2e-fits.md (working tree after PR #210)",
+   "source_sha256": "2f85d222c33dd97142cc85bd83fbbb93449f1eb85ea9ff17af4e0344ee01baf9",
+   "source_bytes": 407,
+   "stored_sha256": "2f85d222c33dd97142cc85bd83fbbb93449f1eb85ea9ff17af4e0344ee01baf9",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/exposure/exposure_scan.R",
+   "source": "allmeta audit/p15-integration/lane-k/exposure_scan.R (working tree after PR #210)",
+   "source_sha256": "b4a9d6d0fb1deb74c3dff442c07230403e1c7192aa3013cecb84ab0f79d05bb1",
+   "source_bytes": 2206,
+   "stored_sha256": "b4a9d6d0fb1deb74c3dff442c07230403e1c7192aa3013cecb84ab0f79d05bb1",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/exposure/exposure_scan.cjs",
+   "source": "allmeta audit/p15-integration/lane-k/exposure_scan.cjs (working tree after PR #210)",
+   "source_sha256": "e6f1a66a97ba91f8be6b7e25b7e7caab65d9c43122caa2dca6ef69b6a64ba72e",
+   "source_bytes": 2534,
+   "stored_sha256": "e6f1a66a97ba91f8be6b7e25b7e7caab65d9c43122caa2dca6ef69b6a64ba72e",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/exposure/fixtures/as-character.R",
+   "source": "allmeta 575cb29:rve-meta/tests/fixtures/p15/as-character.R (git blob)",
+   "source_sha256": "7db9ab694e457ac03cfb228ca7dc6f3b82dc00ac5be60cd73e530761d094b09d",
+   "source_bytes": 6511,
+   "stored_sha256": "7db9ab694e457ac03cfb228ca7dc6f3b82dc00ac5be60cd73e530761d094b09d",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/exposure/fixtures/as-character.json",
+   "source": "allmeta 575cb29:rve-meta/tests/fixtures/p15/as-character.json (git blob)",
+   "source_sha256": "0819c32ef0c04fc2828ebe94d5d815ca325d8fa0b1d2474fe112835604574833",
+   "source_bytes": 183232,
+   "stored_sha256": "0819c32ef0c04fc2828ebe94d5d815ca325d8fa0b1d2474fe112835604574833",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "bench/v1.1/README.redacted.md",
+   "source": "allmeta audit/p15-integration/README.md (working tree after PR #210)",
+   "source_sha256": "ca50794630b3e5e87875f2888b19183377815d2783b8422a8e232cd1b1f49d8b",
+   "source_bytes": 2984,
+   "stored_sha256": "01ff1fbdda502be3a6853f2bf87fee5edde3fcc3ee0ffa4e19d733b7370f5053",
+   "treatment": "host paths replaced by <HOST>/"
+  },
+  {
+   "archived": "bench/v1.1/RULE_OPTION_A.md",
+   "source": "allmeta audit/p15-integration/RULE_OPTION_A.md (working tree after PR #210)",
+   "source_sha256": "2d8623a0eb479fdc45c1ddf2d44a008a63c0a505936249e3d339160ce1d608d0",
+   "source_bytes": 3020,
+   "stored_sha256": "2d8623a0eb479fdc45c1ddf2d44a008a63c0a505936249e3d339160ce1d608d0",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "bench/v1.1/option_a.py",
+   "source": "allmeta audit/p15-integration/option_a.py (working tree after PR #210)",
+   "source_sha256": "d5cb831a1cc5a65c4ce30a182123b8cae1d4527c7f36f05eff450341065dad6b",
+   "source_bytes": 1887,
+   "stored_sha256": "d5cb831a1cc5a65c4ce30a182123b8cae1d4527c7f36f05eff450341065dad6b",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "bench/v1.1/compare_engine.redacted.py",
+   "source": "allmeta audit/p15-integration/compare_engine.py (working tree after PR #210)",
+   "source_sha256": "d4498972e484c5f6be4388f86f112b17a985b5687497e0e9818219bf94890314",
+   "source_bytes": 4423,
+   "stored_sha256": "8c0c938517d81593f8f412546fa98068d2ad354de8d4d6f4edd78ee6e49efd1e",
+   "treatment": "host paths replaced by <HOST>/"
+  },
+  {
+   "archived": "bench/v1.1/test_option_a.py",
+   "source": "allmeta audit/p15-integration/test_option_a.py (working tree after PR #210)",
+   "source_sha256": "92eb9db20c4fecb14535d2c3defc589e43de05e435261a0f3473836a932ae552",
+   "source_bytes": 2758,
+   "stored_sha256": "92eb9db20c4fecb14535d2c3defc589e43de05e435261a0f3473836a932ae552",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "bench/v1.1/verify_planted.redacted.py",
+   "source": "allmeta audit/p15-integration/verify_planted.py (working tree after PR #210)",
+   "source_sha256": "533ae2c063883a6be48e507202294464fd78c56344bbc64964d3f6ddfcc185e2",
+   "source_bytes": 2351,
+   "stored_sha256": "62f9d25d011357c147c2710eee23d3b5d87fcdc0c255265f91e25fa01215b0ba",
+   "treatment": "host paths replaced by <HOST>/"
+  },
+  {
+   "archived": "bench/v1.1/verify_rho.redacted.py",
+   "source": "allmeta audit/p15-integration/verify_rho.py (working tree after PR #210)",
+   "source_sha256": "0897d9ab58a406566d08190fc133ca636a291e5c071e2bc3053f6bdb06997cba",
+   "source_bytes": 4279,
+   "stored_sha256": "b09057fca33ed2ad870e49c66dfc918c6c43cdb31676fe5a588413a6822c3bd4",
+   "treatment": "host paths replaced by <HOST>/"
+  },
+  {
+   "archived": "bench/v1.1/verify_comparator.redacted.py",
+   "source": "allmeta audit/p15-integration/verify_comparator.py (working tree after PR #210)",
+   "source_sha256": "a3cd0dae23a50a20faab2f833511578a92542fc0520419c8c8b08273e9fd4f00",
+   "source_bytes": 2204,
+   "stored_sha256": "5b3788f18b520eeb44412160fd6468c313e0676b4aa086294bf869d69852048f",
+   "treatment": "host paths replaced by <HOST>/"
+  },
+  {
+   "archived": "bench/v1.1/engine_full.redacted.cjs",
+   "source": "allmeta audit/p15-integration/engine_full.cjs (working tree after PR #210)",
+   "source_sha256": "2b82dcedc56eda1fd563e7fe7ee5c4c56618309c91407e7352f5796b8a6ab878",
+   "source_bytes": 2814,
+   "stored_sha256": "6df48b37bf9d71080d12cc61763934a0d49d22977a0f4c719c44cac2d6afa7d6",
+   "treatment": "host paths replaced by <HOST>/"
+  },
+  {
+   "archived": "bench/v1.1/rho_capture.redacted.cjs",
+   "source": "allmeta audit/p15-integration/rho_capture.cjs (working tree after PR #210)",
+   "source_sha256": "8e55d27e682a824e2f8f4a47f1555ec3442fb6f64ef5bf646701d9d691eb7b99",
+   "source_bytes": 2505,
+   "stored_sha256": "95e9c05b2dfd1a3b59298803387f2bb5de6b569adb3fef3ebd8c6f0290a82f80",
+   "treatment": "host paths replaced by <HOST>/"
+  },
+  {
+   "archived": "bench/v1.1/r2-capture-worker.cjs",
+   "source": "allmeta audit/p15-integration/r2-capture-worker.cjs (working tree after PR #210)",
+   "source_sha256": "5863dee45cc6186b3df525405eea35851a920ff8d0db915606fa4197e7d608c8",
+   "source_bytes": 470,
+   "stored_sha256": "5863dee45cc6186b3df525405eea35851a920ff8d0db915606fa4197e7d608c8",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "bench/v1.1/finalize.redacted.py",
+   "source": "allmeta audit/p15-integration/finalize.py (working tree after PR #210)",
+   "source_sha256": "a74c81905a0cbf1d68955732d4887bb6ce75f365595c3b506bf3bdcc8681d2a2",
+   "source_bytes": 6528,
+   "stored_sha256": "74986705d3fb4fb1dd755389afc8ae0a9180faeed23e1928249fc87c419053bd",
+   "treatment": "host paths replaced by <HOST>/"
+  },
+  {
+   "archived": "bench/v1.1/plant_engine_defects.cjs",
+   "source": "allmeta audit/p15-integration/plant_engine_defects.cjs (working tree after PR #210)",
+   "source_sha256": "89e5bf1f17de25770290d991f32b7bd8947ffa17b753568dd694c5c98246a2be",
+   "source_bytes": 2908,
+   "stored_sha256": "89e5bf1f17de25770290d991f32b7bd8947ffa17b753568dd694c5c98246a2be",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "bench/v1.1/newly_refused.py",
+   "source": "allmeta audit/p15-integration/newly_refused.py (working tree after PR #210)",
+   "source_sha256": "1c31d795b442087eda69fd15ea0de575c19b930b0506f89a20f8fa8dd85cc3e4",
+   "source_bytes": 1802,
+   "stored_sha256": "1c31d795b442087eda69fd15ea0de575c19b930b0506f89a20f8fa8dd85cc3e4",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "bench/v1.1/lanej_status.py",
+   "source": "allmeta audit/p15-integration/lanej_status.py (working tree after PR #210)",
+   "source_sha256": "6f27de26569da6521c437bb6d098bb82da074983a309721b55da2a151e34622b",
+   "source_bytes": 2515,
+   "stored_sha256": "6f27de26569da6521c437bb6d098bb82da074983a309721b55da2a151e34622b",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "bench/v1.1/INTEGRATION_RESULT.md",
+   "source": "allmeta RESULT.md (integration lane report, untracked)",
+   "source_sha256": "b7b9d4f42773527437abb850d4efdc5fc6796443ae221e7ac2db133db3ed8b95",
+   "source_bytes": 8387,
+   "stored_sha256": "b7b9d4f42773527437abb850d4efdc5fc6796443ae221e7ac2db133db3ed8b95",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "bench/v1.1/licence-sources/flang-rt-LICENSE.TXT",
+   "source": "allmeta audit/p15-integration/lane-j/licence-sources/flang-rt-LICENSE.TXT (working tree after PR #210)",
+   "source_sha256": "94b301bb652ae351f5941655bf533f1a136300ad1396be7452c8a04ff2c91374",
+   "source_bytes": 13151,
+   "stored_sha256": "94b301bb652ae351f5941655bf533f1a136300ad1396be7452c8a04ff2c91374",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "bench/v1.1/licence-sources/lapack-LICENSE",
+   "source": "allmeta audit/p15-integration/lane-j/licence-sources/lapack-LICENSE (working tree after PR #210)",
+   "source_sha256": "a1e742e31b6793e83cd36a98ed2db993ec291d0e4be79e9c0520c4d8aef7aa3a",
+   "source_bytes": 2266,
+   "stored_sha256": "a1e742e31b6793e83cd36a98ed2db993ec291d0e4be79e9c0520c4d8aef7aa3a",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "bench/v1.1/licence-sources/llvm-LICENSE.TXT",
+   "source": "allmeta audit/p15-integration/lane-j/licence-sources/llvm-LICENSE.TXT (working tree after PR #210)",
+   "source_sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee",
+   "source_bytes": 15141,
+   "stored_sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "bench/v1.1/licence-sources/webr-LICENSE.md",
+   "source": "allmeta audit/p15-integration/lane-j/licence-sources/webr-LICENSE.md (working tree after PR #210)",
+   "source_sha256": "0ac1bff20e1329e244669e318269e6b40f327aecc78c3f18376ac59e923dde23",
+   "source_bytes": 37609,
+   "stored_sha256": "0ac1bff20e1329e244669e318269e6b40f327aecc78c3f18376ac59e923dde23",
+   "treatment": "verbatim"
+  }
+ ]
+}

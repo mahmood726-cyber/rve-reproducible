@@ -1,0 +1,66 @@
+{
+  "head": "1cb3f8409c7af75ed41f7e1811f9c502f900fc79",
+  "baseline": {
+    "variant": "allmeta",
+    "node": "v24.13.0",
+    "host": "local Windows host",
+    "hashes": {
+      "shared/rve.js": "ee2e2eb93663a65dcd6b525735481da4584ca9802a7c678706d3b4185150eb61",
+      "shared/stats-qt.js": "67a1094959b4a2227f947c228068753be7d6cc825b1191047226bd2e6d1a2c65"
+    },
+    "configurations": 16270
+  },
+  "final": {
+    "variant": "combined",
+    "node": "v24.13.0",
+    "host": "local Windows host",
+    "hashes": {
+      "shared/rve.js": "8823f09fe77b2e936c138bec4224fe9f041e346fb4a64518b7ecc438ae54d460",
+      "shared/stats-qt.js": "67a1094959b4a2227f947c228068753be7d6cc825b1191047226bd2e6d1a2c65",
+      "shared/rve-eigen.js": "b4c7df8b6ec7c9f5ceef0852807817e43f5d524ab60d27503a9e5255cacbc41d"
+    },
+    "configurations": 16270
+  },
+  "inputs": {
+    "<HOST>/p15diag\\configurations.json": "91b6f6fe0935e36650a0bcb13126937f7ed978ad2d9535b9ebdbded8db0f3b73",
+    "<HOST>/p15diag\\configuration-ledger.csv": "70f5bc41bd57bc80e28c59f60763450ff97f24a6aa0ef247980e8143c088b901",
+    "<HOST>/p15diag\\compare_engine.py": "6b8dd7922188ff9af2b1e55f3aa78cdb5c72d52800e3c93c06f69d9d0f099d1a",
+    "<HOST>/p15diag\\reference-byte-cache.json": "89615b5fad2ed7df8beb5a8055b1315eb9a13dae9aa154fa298def4e4cdc5c58",
+    "<HOST>/p15fixI\\RULE_OPTION_A.md": "2d8623a0eb479fdc45c1ddf2d44a008a63c0a505936249e3d339160ce1d608d0",
+    "<HOST>/p15fixA\\allmeta\\rve-meta\\tests\\strict-a\\patched\\shared\\rve.js": "6adbda3175eac0e6cc1c211d9cb27a63ae0584957b68a72250e43648f8b83467",
+    "<HOST>/p15fixB\\allmeta\\shared\\rve-eigen.js": "b4c7df8b6ec7c9f5ceef0852807817e43f5d524ab60d27503a9e5255cacbc41d",
+    "<HOST>/p15invC\\allmeta\\rve-meta\\tests\\lane-c\\cause-groups.json": "f52180cc5ae7c9d1b958d6e1b668a6a7fa6e657bd16550fb08348c03a873e9ba"
+  },
+  "captures": {
+    "engine-full-combined.jsonl": {
+      "bytes": 35294212,
+      "sha256": "5d9dae530490ec54ac56bf15872096b250de93491d73e7bb65cc6c93cb8aed41"
+    },
+    "rho-engine.jsonl": {
+      "bytes": 466168,
+      "sha256": "3056223be024d2f3f7c8a610d21bb7f54b78615bd13ba6a74b64150bb07544fc"
+    },
+    "rho-baseline-engine.jsonl": {
+      "bytes": 466177,
+      "sha256": "8332553f9fa0fb3bb346610dd1d7a4d4432cf466135dfa99ef4ff677dc684616"
+    }
+  },
+  "comparator": {
+    "original_comparator_sha256": "6b8dd7922188ff9af2b1e55f3aa78cdb5c72d52800e3c93c06f69d9d0f099d1a",
+    "verified_reference_bytes": 16270,
+    "results": [
+      {
+        "variant": "baseline",
+        "checks": 546941,
+        "all_checks_and_failures_identical": true
+      },
+      {
+        "variant": "final",
+        "checks": 546943,
+        "all_checks_and_failures_identical": true
+      }
+    ]
+  },
+  "references_edited": false,
+  "git_writes": false
+}

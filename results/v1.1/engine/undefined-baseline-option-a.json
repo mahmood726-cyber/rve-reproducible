@@ -1,0 +1,6602 @@
+[
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.bakdash2021::001::Author::es.z::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -2.9704926259370024,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.0157668246253877,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -2.9704926259370037,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.015766824625387844,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 19552465136305140,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 19552465136305148,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -2.9704926259370024,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.0157668246253877,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -2.9704926259370037,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.015766824625387844,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 19552465136305140,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 19552465136305148,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -2.9704926259370024,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.0157668246253877,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -2.9704926259370037,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.015766824625387844,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 19552465136305140,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 19552465136305148,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -2.9704926259370024,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.0157668246253877,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -2.9704926259370037,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.015766824625387844,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 19552465136305140,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 19552465136305148,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -2.9704926259370024,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.0157668246253877,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -2.9704926259370037,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.015766824625387844,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 19552465136305140,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.curtin2002::001::author::mean::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 19552465136305148,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.karner2014::008::study::fev1.md::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::003::author::mean.das::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.lloyd2010::004::author::mean.haq::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": 2.0445268752724814,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.07929632711963015,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": 2.0445268752724814,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.07929632711963015,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 28596095353839748,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 28596095353839748,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": 2.0445268752724814,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.07929632711963015,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": 2.0445268752724814,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.07929632711963015,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 28596095353839748,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 28596095353839748,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": 2.0445268752724814,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.07929632711963015,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": 2.0445268752724814,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.07929632711963015,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 28596095353839748,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 28596095353839748,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": 2.0445268752724814,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.07929632711963015,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": 2.0445268752724814,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.07929632711963015,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 28596095353839748,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 28596095353839748,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": 2.0445268752724814,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.07929632711963015,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": 2.0445268752724814,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.07929632711963015,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 28596095353839748,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.thompson1999::002::studyid::logOR::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 28596095353839748,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::studlab::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::study::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -2.728097333033392,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.026695375124812012,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.baker2009::001::id::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 24134278944114280,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -1.5611466922405084,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.19723986322112314,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -1.5611466922405084,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.19723986322112314,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 5692800780400221,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 5692800780400221,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -1.5611466922405084,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.19723986322112314,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -1.5611466922405084,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.19723986322112314,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 5692800780400221,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 5692800780400221,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -1.5611466922405084,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.19723986322112314,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -1.5611466922405084,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.19723986322112314,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 5692800780400221,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 5692800780400221,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -1.5611466922405084,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.19723986322112314,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -1.5611466922405084,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.19723986322112314,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 5692800780400221,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 5692800780400221,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -1.5611466922405084,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.19723986322112314,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -1.5611466922405084,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.19723986322112314,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 5692800780400221,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::studlab::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 5692800780400221,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -1.5611466922405084,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.19723986322112314,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -1.5611466922405084,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.19723986322112314,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 5692800780400221,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 5692800780400221,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -1.5611466922405084,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.19723986322112314,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -1.5611466922405084,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.19723986322112314,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 5692800780400221,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 5692800780400221,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -1.5611466922405084,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.19723986322112314,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -1.5611466922405084,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.19723986322112314,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 5692800780400221,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 5692800780400221,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -1.5611466922405084,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.19723986322112314,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -1.5611466922405084,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.19723986322112314,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 5692800780400221,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 5692800780400221,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -1.5611466922405084,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.19723986322112314,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -1.5611466922405084,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.19723986322112314,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 5692800780400221,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.franchini2012::001::Study::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 5692800780400221,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": 1.7441306919807824,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.0946270319087426,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": 1.7441306919807824,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.0946270319087426,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 17175765106777266,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 17175765106777266,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": 1.7441306919807824,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.0946270319087426,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": 1.7441306919807824,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.0946270319087426,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 17175765106777266,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 17175765106777266,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": 1.7441306919807824,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.0946270319087426,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": 1.7441306919807824,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.0946270319087426,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 17175765106777266,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 17175765106777266,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": 1.7441306919807824,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.0946270319087426,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": 1.7441306919807824,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.0946270319087426,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 17175765106777266,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 17175765106777266,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": 1.7441306919807824,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.0946270319087426,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": 1.7441306919807824,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.0946270319087426,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 17175765106777266,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::studlab::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 17175765106777266,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": 1.7441306919807824,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.0946270319087426,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": 1.7441306919807824,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.0946270319087426,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 17175765106777266,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 17175765106777266,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": 1.7441306919807824,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.0946270319087426,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": 1.7441306919807824,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.0946270319087426,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 17175765106777266,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 17175765106777266,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": 1.7441306919807824,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.0946270319087426,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": 1.7441306919807824,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.0946270319087426,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 17175765106777266,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 17175765106777266,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": 1.7441306919807824,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.0946270319087426,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": 1.7441306919807824,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.0946270319087426,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 17175765106777266,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 17175765106777266,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": 1.7441306919807824,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.0946270319087426,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": 1.7441306919807824,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.0946270319087426,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 17175765106777266,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::id::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 17175765106777266,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2015::001::author::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.linde2016::001::author::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -1.4463352174571886,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.2504357276505397,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -1.4463352174571886,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.2504357276505397,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 6482650979184589,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 6482650979184589,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -1.4463352174571886,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.2504357276505397,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -1.4463352174571886,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.2504357276505397,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 6482650979184589,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 6482650979184589,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -1.4463352174571886,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.2504357276505397,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -1.4463352174571886,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.2504357276505397,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 6482650979184589,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 6482650979184589,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -1.4463352174571886,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.2504357276505397,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -1.4463352174571886,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.2504357276505397,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 6482650979184589,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 6482650979184589,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": -1.4463352174571886,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.2504357276505397,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": -1.4463352174571886,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.2504357276505397,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 6482650979184589,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site::s1::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 6482650979184589,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": 2.4780268465711663,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.036415116455474725,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": 2.4780268465711663,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.036415116455474725,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 5411886917803002,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 5411886917803002,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": 2.4780268465711663,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.036415116455474725,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": 2.4780268465711663,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.036415116455474725,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 5411886917803002,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 5411886917803002,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": 2.4780268465711663,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.036415116455474725,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": 2.4780268465711663,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.036415116455474725,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 5411886917803002,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 5411886917803002,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": 2.4780268465711663,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.036415116455474725,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": 2.4780268465711663,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.036415116455474725,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 5411886917803002,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 5411886917803002,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": 2.4780268465711663,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": 0.036415116455474725,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": 2.4780268465711663,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": 0.036415116455474725,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": 5411886917803002,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.maire2019::001::site_station::s1::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": 5411886917803002,
+    "reference": null,
+    "reason_app": null,
+    "reason_R": "SE_ZERO",
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -1.5731419591544864,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.2046279222840932,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -1.5731419591544875,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.2046279222840929,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 5378074743024520,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 5378074743024525,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -1.5731419591544864,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.2046279222840932,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -1.5731419591544875,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.2046279222840929,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 5378074743024520,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 5378074743024525,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -1.5731419591544864,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.2046279222840932,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -1.5731419591544875,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.2046279222840929,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 5378074743024520,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 5378074743024525,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -1.5731419591544864,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.2046279222840932,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -1.5731419591544875,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.2046279222840929,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 5378074743024520,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 5378074743024525,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -1.5731419591544864,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.2046279222840932,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -1.5731419591544875,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.2046279222840929,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 5378074743024520,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::studlab::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 5378074743024525,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -1.5731419591544864,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.2046279222840932,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -1.5731419591544875,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.2046279222840929,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 5378074743024520,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 5378074743024525,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -1.5731419591544864,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.2046279222840932,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -1.5731419591544875,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.2046279222840929,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 5378074743024520,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 5378074743024525,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -1.5731419591544864,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.2046279222840932,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -1.5731419591544875,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.2046279222840929,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 5378074743024520,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 5378074743024525,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -1.5731419591544864,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.2046279222840932,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -1.5731419591544875,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.2046279222840929,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 5378074743024520,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 5378074743024525,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -1.5731419591544864,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.2046279222840932,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -1.5731419591544875,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.2046279222840929,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 5378074743024520,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::study::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 5378074743024525,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.stowe2010::001::id::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": null,
+    "reason_app": "SE_ZERO",
+    "reason_R": "SE_ZERO",
+    "passed": true
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -0.6260898319016179,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.6424063608867423,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -0.6260898319016174,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.6424063608867425,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 4644811154132730,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 4644811154132725,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -0.6260898319016179,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.6424063608867423,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -0.6260898319016174,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.6424063608867425,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 4644811154132730,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 4644811154132725,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -0.6260898319016179,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.6424063608867423,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -0.6260898319016174,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.6424063608867425,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 4644811154132730,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 4644811154132725,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -0.6260898319016179,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.6424063608867423,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -0.6260898319016174,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.6424063608867425,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 4644811154132730,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 4644811154132725,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -0.6260898319016179,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.6424063608867423,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -0.6260898319016174,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.6424063608867425,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 4644811154132730,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::studlab::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 4644811154132725,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -0.6260898319016179,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.6424063608867423,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -0.6260898319016174,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.6424063608867425,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 4644811154132730,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 4644811154132725,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -0.6260898319016179,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0.2",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.6424063608867423,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -0.6260898319016174,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0.2",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.6424063608867425,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0.2",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 4644811154132730,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0.2",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 4644811154132725,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -0.6260898319016179,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0.5",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.6424063608867423,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -0.6260898319016174,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0.5",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.6424063608867425,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0.5",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 4644811154132730,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0.5",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 4644811154132725,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -0.6260898319016179,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0.8",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.6424063608867423,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -0.6260898319016174,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0.8",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.6424063608867425,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0.8",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 4644811154132730,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=0.8",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 4644811154132725,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -0.6260898319016179,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=1",
+    "quantity": "p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.6424063608867423,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 0,
+    "app": null,
+    "reference": -0.6260898319016174,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=1",
+    "quantity": "club_p",
+    "coefficient": 0,
+    "app": null,
+    "reference": 0.6424063608867425,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=1",
+    "quantity": "t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 4644811154132730,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  },
+  {
+    "id": "dat.woods2010::001::author::TE::rho=1",
+    "quantity": "club_t",
+    "coefficient": 1,
+    "app": null,
+    "reference": 4644811154132725,
+    "reason_app": "SE_ZERO",
+    "reason_R": null,
+    "passed": false
+  }
+]

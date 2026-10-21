@@ -1,0 +1,17 @@
+Rscript.exe : During startup - Warning messages:
+At line:2 char:143
++ ... lib_extra'; & 'C:/Program Files/R/R-4.6.0/bin/Rscript.exe' rho_locale ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (During startup - Warning messages::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+Registered S3 method overwritten by 'clubSandwich':
+  method    from    
+  bread.mlm sandwich
+Warning messages:
+1: package 'robumeta' was built under R version 4.6.1 
+2: package 'clubSandwich' was built under R version 4.6.1 

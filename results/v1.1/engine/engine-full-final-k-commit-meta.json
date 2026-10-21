@@ -1,0 +1,11 @@
+{
+  "variant": "final-k-commit",
+  "node": "v24.13.0",
+  "host": "local Windows host",
+  "hashes": {
+    "shared/rve.js": "384f898299131e7595271984c4c6e79ab417e6ade8814d86352fe18a2efc4d1c",
+    "shared/stats-qt.js": "67a1094959b4a2227f947c228068753be7d6cc825b1191047226bd2e6d1a2c65",
+    "shared/rve-eigen.js": "21334f33b2a38b2cfd25f41476cf4dab51a464e84e7a6dac84494499e34b8675"
+  },
+  "configurations": 16270
+}

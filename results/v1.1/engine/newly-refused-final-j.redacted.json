@@ -1,0 +1,54 @@
+{
+  "baseline": "<HOST>/p15diag/engine-full-allmeta.jsonl",
+  "final": "engine-full-final-j.jsonl",
+  "configurations": 16270,
+  "newly_refused": 2,
+  "by_reason": {
+    "invalid comparison with complex values": 2
+  },
+  "designs": [
+    "dat.moura2021::001::species.id::publication.year"
+  ],
+  "newly_fitted": 0,
+  "list": [
+    {
+      "id": "dat.moura2021::001::species.id::publication.year::rho=0.8",
+      "reason": "invalid comparison with complex values"
+    },
+    {
+      "id": "dat.moura2021::001::species.id::publication.year::rho=1",
+      "reason": "invalid comparison with complex values"
+    }
+  ],
+  "refusal_reason_changed": 5,
+  "reason_changes": {
+    "RVE: m<=p; insufficient clusters for inference -> invalid comparison with complex values": 5
+  },
+  "reworded": [
+    {
+      "id": "dat.lehmann2018::001::PRPublication::Year::rho=0.2",
+      "before": "RVE: m<=p; insufficient clusters for inference",
+      "after": "invalid comparison with complex values"
+    },
+    {
+      "id": "dat.lehmann2018::001::PRPublication::Year::rho=1",
+      "before": "RVE: m<=p; insufficient clusters for inference",
+      "after": "invalid comparison with complex values"
+    },
+    {
+      "id": "dat.lehmann2018::003::PRPublication::Year::rho=0",
+      "before": "RVE: m<=p; insufficient clusters for inference",
+      "after": "invalid comparison with complex values"
+    },
+    {
+      "id": "dat.lehmann2018::003::PRPublication::Year::rho=0.5",
+      "before": "RVE: m<=p; insufficient clusters for inference",
+      "after": "invalid comparison with complex values"
+    },
+    {
+      "id": "dat.lehmann2018::003::PRPublication::Year::rho=1",
+      "before": "RVE: m<=p; insufficient clusters for inference",
+      "after": "invalid comparison with complex values"
+    }
+  ]
+}

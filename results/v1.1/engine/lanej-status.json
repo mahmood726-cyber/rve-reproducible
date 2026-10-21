@@ -1,0 +1,64 @@
+{
+  "rules": {
+    "finite": {
+      "passing": {
+        "v1.8.0": 15485,
+        "8ad97fa": 16136,
+        "lane-j": 16136
+      },
+      "failed_checks": {
+        "v1.8.0": 2617,
+        "8ad97fa": 626,
+        "lane-j": 626
+      },
+      "checks": {
+        "v1.8.0": 546941,
+        "8ad97fa": 546943,
+        "lane-j": 546943
+      },
+      "newly_failing_vs_v1.8.0": [],
+      "fixed_vs_v1.8.0": 651,
+      "newly_failing_vs_8ad97fa": [],
+      "fixed_vs_8ad97fa": []
+    },
+    "option-a": {
+      "passing": {
+        "v1.8.0": 15520,
+        "8ad97fa": 16221,
+        "lane-j": 16221
+      },
+      "failed_checks": {
+        "v1.8.0": 2407,
+        "8ad97fa": 116,
+        "lane-j": 116
+      },
+      "checks": {
+        "v1.8.0": 546941,
+        "8ad97fa": 546943,
+        "lane-j": 546943
+      },
+      "newly_failing_vs_v1.8.0": [],
+      "fixed_vs_v1.8.0": 701,
+      "newly_failing_vs_8ad97fa": [],
+      "fixed_vs_8ad97fa": []
+    }
+  },
+  "capture_identity": {
+    "records": 16270,
+    "byte_identical_records": 16270,
+    "differing_ids": [],
+    "8ad97fa_capture_sha256": "5d9dae530490ec54ac56bf15872096b250de93491d73e7bb65cc6c93cb8aed41",
+    "lane_j_capture_sha256": "5d9dae530490ec54ac56bf15872096b250de93491d73e7bb65cc6c93cb8aed41",
+    "lane_j_meta": {
+      "variant": "final-j",
+      "node": "v24.13.0",
+      "host": "local Windows host",
+      "hashes": {
+        "shared/rve.js": "5681f616450b59e9a3c1317d9261ca639ae0a9091af7172f8c0ac51d826f9b01",
+        "shared/stats-qt.js": "67a1094959b4a2227f947c228068753be7d6cc825b1191047226bd2e6d1a2c65",
+        "shared/rve-eigen.js": "7619080f09b8aabda957608b034e429e7cd4dddc25f70713c994834b9cca67b5"
+      },
+      "configurations": 16270
+    }
+  }
+}

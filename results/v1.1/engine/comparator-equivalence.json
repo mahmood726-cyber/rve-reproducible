@@ -1,0 +1,16 @@
+{
+  "original_comparator_sha256": "6b8dd7922188ff9af2b1e55f3aa78cdb5c72d52800e3c93c06f69d9d0f099d1a",
+  "verified_reference_bytes": 16270,
+  "results": [
+    {
+      "variant": "baseline",
+      "checks": 546941,
+      "all_checks_and_failures_identical": true
+    },
+    {
+      "variant": "final",
+      "checks": 546943,
+      "all_checks_and_failures_identical": true
+    }
+  ]
+}
