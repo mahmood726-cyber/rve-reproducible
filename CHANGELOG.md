@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.1.0 (unreleased; not yet published)
+## 1.1.0 (2026-10-31)
 
 Adds a version 1.1 layer for the merged exact-R engine: allmeta pull request #210, merge commit
 `575cb29468f814ad09401d78f1a75fbda16b8abc`. The 1.0.0 layer is unchanged.
@@ -34,7 +34,7 @@ re-run on the v1.9.0 engine bytes is byte-identical to the archived one, and the
 on the v1.9.0 bytes in Edge 155, Chromium 147, Firefox 148 and WebKit 26.4 (`RELEASE_EQUIVALENCE.md`,
 `results/v1.1/release-v1.9.0/`). The verifier requires these identifiers.
 
-## 1.0.0 (unreleased; not yet published)
+## 1.0.0 (not released separately; its layer ships unchanged in 1.1.0)
 
 Initial reproducibility archive for the paper-15 validation of allmeta rve-meta (robust variance estimation,
 CORR weights, CR2/Satterthwaite) against robumeta 2.1 and clubSandwich 0.7.0. The page is the one committed at
