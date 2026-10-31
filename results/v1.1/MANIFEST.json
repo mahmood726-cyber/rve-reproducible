@@ -776,6 +776,78 @@
    "source_bytes": 37609,
    "stored_sha256": "0ac1bff20e1329e244669e318269e6b40f327aecc78c3f18376ac59e923dde23",
    "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/release-v1.9.0/capture-v1.9.0.log",
+   "source": "host rerun on allmeta v1.9.0 bytes: audit/v190/capture-v1.9.0.log",
+   "source_sha256": "f04a3c855c5ce2f65b00db33c9cac0567f6b3583e8ccb76948d37c94411dae7d",
+   "source_bytes": 3029,
+   "stored_sha256": "f04a3c855c5ce2f65b00db33c9cac0567f6b3583e8ccb76948d37c94411dae7d",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/release-v1.9.0/engine-full-v1.9.0-meta.json",
+   "source": "host rerun on allmeta v1.9.0 bytes: audit/v190/engine-full-v1.9.0-meta.json",
+   "source_sha256": "5b036ce08cefde480c8af6361fcdde52062b17297e5fbf8da58e90bd76a862f5",
+   "source_bytes": 402,
+   "stored_sha256": "5b036ce08cefde480c8af6361fcdde52062b17297e5fbf8da58e90bd76a862f5",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/release-v1.9.0/pw-v1.9.0.log",
+   "source": "host rerun on allmeta v1.9.0 bytes: Playwright list reporter output",
+   "source_sha256": "30d87dab3a7999de0ee98f809c5cafac97359bc380be1f3581cbd95aee6dd507",
+   "source_bytes": 11073,
+   "stored_sha256": "30d87dab3a7999de0ee98f809c5cafac97359bc380be1f3581cbd95aee6dd507",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/release-v1.9.0/browser-versions.log",
+   "source": "host rerun: output of browser_versions.mjs",
+   "source_sha256": "e59de31acd9af9daaa9c1a26ddfcfff2272627f91aad87985fbc25ef2a96c4e0",
+   "source_bytes": 136,
+   "stored_sha256": "e59de31acd9af9daaa9c1a26ddfcfff2272627f91aad87985fbc25ef2a96c4e0",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/release-v1.9.0/pw.v190.config.mjs",
+   "source": "Playwright config used for the v1.9.0 browser rerun",
+   "source_sha256": "af6fde6fb4a2cb71a7d629eff4e53a1201692992e006ba2722a72d243a0e1134",
+   "source_bytes": 1050,
+   "stored_sha256": "af6fde6fb4a2cb71a7d629eff4e53a1201692992e006ba2722a72d243a0e1134",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/release-v1.9.0/browser_versions.mjs",
+   "source": "script printing the browser builds used for the v1.9.0 rerun",
+   "source_sha256": "95201c731a28f44e881ef78d753a558e1759d99f7781a4990a011d8e4dfd09f5",
+   "source_bytes": 612,
+   "stored_sha256": "95201c731a28f44e881ef78d753a558e1759d99f7781a4990a011d8e4dfd09f5",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/release-v1.9.0/build-info.v1.9.0.js",
+   "source": "allmeta v1.9.0 (d38d3fd) shared/build-info.js Git blob bytes",
+   "source_sha256": "4027d064ddc71e5997dc715ffe0a2953baa48584adee400fdbf68df087105d1d",
+   "source_bytes": 1274,
+   "stored_sha256": "4027d064ddc71e5997dc715ffe0a2953baa48584adee400fdbf68df087105d1d",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/release-v1.9.0/release-equivalence.json",
+   "source": "written by the release-equivalence step from the allmeta v1.9.0 tag (Git blob comparison)",
+   "source_sha256": "abdd58230502ab776a966095e7d052a5414c4c435a5bb7d3c31e44260ca282c8",
+   "source_bytes": 6418,
+   "stored_sha256": "abdd58230502ab776a966095e7d052a5414c4c435a5bb7d3c31e44260ca282c8",
+   "treatment": "verbatim"
+  },
+  {
+   "archived": "results/v1.1/release-v1.9.0/capture-identity-v1.9.0.txt",
+   "source": "release-equivalence step: SHA-256 comparison of the v1.9.0 capture with the archived capture",
+   "source_sha256": "541039fb8fbd95cce8f2fb47bdfc5dfa619d5b54b763711bc22e3bf981f10c8b",
+   "source_bytes": 564,
+   "stored_sha256": "541039fb8fbd95cce8f2fb47bdfc5dfa619d5b54b763711bc22e3bf981f10c8b",
+   "treatment": "verbatim"
   }
  ]
 }

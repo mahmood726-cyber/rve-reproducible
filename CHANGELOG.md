@@ -18,11 +18,21 @@ Adds a version 1.1 layer for the merged exact-R engine: allmeta pull request #21
 - `analysis/verify_archive.py` verifies the layer by hashes. It re-runs both comparator modes and the rho recheck on
   the archived captures and asserts the counts in `expected/v1.1_values.json` exactly.
 
-**Release identifiers left unfilled.** For the v1.1 layer the allmeta release is recorded as `<ALLMETA_RELEASE>`, and
-its DOI as `<ALLMETA_RELEASE_DOI>`. The engine ships in allmeta v1.9.0, which has not been cut yet. A provenance commit
-should fill both tokens with the v1.9.0 tag and DOI once they exist, record equivalence with the v1.9.0 bytes, make
-the verifier require the filled values, and re-pin SOURCE_SHA256.json. The verifier currently requires the tokens to
-be present and unfilled.
+- Feature-check evidence (`results/features/`, `bench/features/`): the inputs, outputs, logs, pre-registrations and
+  unmodified comparators behind the centring (56,265 / 56,265; invariance 23,698 / 23,842; κ 3,363 / 3,408),
+  R-script export (353 scripts, 9,040 / 9,051) and rho-table (21,126 / 21,280 on 442 designs) counts, measured on the
+  corrected engine (e042af5 bytes) with the `feat/rve-meta-usability-centring` extras. `analysis/compare_features.py`
+  replays the comparators; the verifier asserts `expected/features_values.json`, the archived outputs and the archived
+  log text exactly, and `analysis/test_features.py` plants a defect in each. The same script splits the v1.1 rho
+  recheck's 24,086 checks into the 21,280 shared ones and the 2,806 that only that comparator or only those six extra
+  designs contribute (README).
+
+**Release identifiers.** The v1.1 layer's engine ships in allmeta **v1.9.0**, tag commit
+`d38d3fd70656f3fedfa03916573fe0bf904f5e9c`, DOI **10.5281/zenodo.23833871**. Every `app-v1.1/` file has the same
+Git blob at v1.9.0 except `shared/build-info.js` (release version, commit and build time only). The full-corpus capture
+re-run on the v1.9.0 engine bytes is byte-identical to the archived one, and the rendered rve-meta browser tests pass
+on the v1.9.0 bytes in Edge 155, Chromium 147, Firefox 148 and WebKit 26.4 (`RELEASE_EQUIVALENCE.md`,
+`results/v1.1/release-v1.9.0/`). The verifier requires these identifiers.
 
 ## 1.0.0 (unreleased; not yet published)
 

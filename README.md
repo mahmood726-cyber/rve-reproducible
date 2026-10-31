@@ -102,8 +102,9 @@ Other checks do not need the R packages:
   bundle, the expected values against archived evidence, the release placeholders and a private-path scan. It also
   verifies the version 1.1 layer by SHA-256. It then re-runs both comparator modes (finite-only and Option A) on the
   archived 1.0.0 and v1.1 captures, plus the rho recheck. Every count must equal `expected/v1.1_values.json` exactly,
-  and every output must equal the archived integration output. It also requires the v1.1 release tokens to stay
-  unfilled (about 1 min). `--full`
+  and every output must equal the archived integration output. It requires the allmeta v1.9.0 identifiers and checks
+  the release-equivalence record (`RELEASE_EQUIVALENCE.md`). It then replays the feature-check comparators and their
+  planted defects (`expected/features_values.json`, `analysis/test_features.py`) (about 6 min). `--full`
   also replays both unmodified comparators on the archived references and requires byte-identical engine results.
 - `python analysis/test_safeguards.py` plants a defect for every gate and checks that the gate fails (it runs
   `analysis/test_gate.R` with Rscript).
@@ -127,8 +128,10 @@ comparison on these archived observations against fresh R references.
 Version 1.1 adds a layer for the engine that replaced the e042af5 page. It was merged into allmeta main by pull request
 #210 at commit `575cb29468f814ad09401d78f1a75fbda16b8abc`. The engine combines a stable C-locale factor ordering, a
 64-significand-bit extended sum and corrected mean with a WebAssembly DSYEVR/DGEEV eigen backend
-(`shared/rve-eigen.js`). allmeta release: **`<ALLMETA_RELEASE>`**. allmeta release DOI: **`<ALLMETA_RELEASE_DOI>`**.
-Both are left unfilled until the release exists. Nothing in the 1.0.0 layer above is changed.
+(`shared/rve-eigen.js`). allmeta release: **`v1.9.0`** (tag commit `d38d3fd70656f3fedfa03916573fe0bf904f5e9c`).
+allmeta release DOI: **`10.5281/zenodo.23833871`**. Every archived `app-v1.1/` file has the same Git blob at v1.9.0 except
+`shared/build-info.js`, which carries only the release's version, commit and build time; the engine and the rendered
+tests were re-run on the v1.9.0 bytes (`RELEASE_EQUIVALENCE.md`). Nothing in the 1.0.0 layer above is changed.
 
 - `app-v1.1/` holds the rve-meta page and every file it loads (two stylesheets, eight scripts) at the 575cb29 Git LF
   bytes. It also holds `shared/numerics/`: the backend build script, runtime, notes and `LICENSES-rve-eigen.md`.
@@ -174,6 +177,43 @@ each of them the app and R are both undefined (t and p against robumeta and club
 `analysis/test_option_a.py` plants three defects that must fail in both modes: app null where R has a number, R null
 where the app has a number, and both null with different reasons. It also plants a 2e-9 estimate change.
 
+## Feature checks: centring, R-script export and the rho table (corrected engine)
+
+`results/features/` and `bench/features/` hold the evidence behind the feature-check counts. These checks ran on the
+**corrected engine**, not the merged one: `shared/rve.js` and `shared/stats-qt.js` are the e042af5 bytes archived in
+`app/` (the captures record the CRLF working-copy hashes, equal to `bench/captured-engine/patched/`), with
+`shared/rve-extras.js` from allmeta branch `feat/rve-meta-usability-centring` (head 6740d2f, later PR #172):
+`rve-extras.6740d2f.js` (sha256 `e24c34ba…`) for the rho table and the pre-registration snapshot
+`rve-extras.prereg.js` (`cbfa4153…`) for the centred capture. R 4.6.0, robumeta 2.1 and clubSandwich 0.7.0 on the
+Windows integration host. The pre-registrations are in `bench/features/prereg/` with their SHA-256 files; their
+"written before" times are recorded inside the files themselves and have no external timestamp.
+
+| Check (unchanged 1e-9 gate) | Passes / checks | Comparator output line |
+|---|---:|---|
+| Centring P1: centred engine vs R on the same centred rows, all 1,705 configurations with κ > 9.0×10⁶ | **56,265 / 56,265** | `P1 56265/56265 checks pass; 0 configurations with any failure` |
+| Centring P2: invariant slope quantities vs the uncentred R references | 23,698 / 23,842 (66 configurations fail, all with uncentred κ > 10¹²) | `P2 23698/23842 checks pass; 66 configurations with any failure` |
+| Centring P3: κ agreement at 1e-6 | 3,363 / 3,408 (45 fail, all with uncentred κ > 10¹²) | `P3 3363/3408 checks pass; 45 configurations with any failure` |
+| R-script export, 353 sampled scripts run unmodified (300 uncentred, 50 centred, 3 fixtures) | **9,040 / 9,051** (7,561/7,572; 1,350/1,350; 129/129) | `uncentred 7561/7572 checks pass; 2 scripts with any failure` |
+| rho table: new fixed-locale R fits at rho 0.4 and 0.6, 442 of 448 sampled designs | **21,126 / 21,280** (all 154 failures in 27 of the 28 pre-identified known-failure designs) | `new_refs_04_06 21126/21280 pass; failing designs 27 (not known-failure: 0)` |
+
+The logs are `bench/features/logs/compare_centred.py.log`, `compare_rscripts.py.log` and `compare_rho.log`.
+`analysis/compare_features.py` replays the three unmodified comparators on the archived inputs; the only change is the
+redacted lane path, which is pointed at a scratch copy of the archived R references (`results/reference/`, the same
+16,270 files the lanes read, byte-identical). `analysis/verify_archive.py` requires every count in
+`expected/features_values.json`, the archived comparator outputs and the archived logs to be reproduced exactly, and
+`analysis/test_features.py` plants a 2e-9 change in one engine value of each check and requires the replay to fail.
+
+**Why 21,280 and not 24,086.** The v1.1 rho recheck (`analysis/compare_rho.py`) and the feature-lane rho table have the
+same 154 failing checks for the e042af5 engine but different denominators. `analysis/compare_features.py` splits the
+recheck's 24,086 checks exactly: 21,280 are the check types both comparators make on the 442 designs the lane fitted
+(21,126 pass); 884 `coefficient_count` and 1,626 `club_reference_success` checks exist only in the v1.1 comparator (all
+pass); 296 checks are on the six designs (more than 200 clusters) that the fixed-locale lane did not fit on a 16 GB
+host and that a later run did (all pass). 21,280 + 884 + 1,626 + 296 = 24,086 and 21,126 + 884 + 1,626 + 296 = 23,932.
+The merged engine scores 21,255 / 21,280 on the same subset.
+
+The browser versions quoted for the merged engine (Edge 155.0.4283.62, Chromium 147.0.7727.15, Firefox 148.0.2,
+WebKit 26.4) are printed in `results/v1.1/release-v1.9.0/browser-versions.log`, from the rerun on the v1.9.0 bytes.
+
 ## Layout
 
 | Path | Contents |
@@ -190,6 +230,8 @@ where the app has a number, and both null with different reasons. It also plants
 | `expected/paper_values.json` | Pinned counts, read from archived evidence by `analysis/build_archive.py`. |
 | `analysis/` | validate.R helpers, the build, verification, safeguard and output scripts, and the compression proof. |
 | `app-v1.1/`, `results/v1.1/`, `bench/v1.1/` | The version 1.1 layer: the merged engine at allmeta 575cb29, its evidence and the integration scripts (see above). |
+| `results/v1.1/release-v1.9.0/`, `RELEASE_EQUIVALENCE.md` | Byte comparison of `app-v1.1/` with allmeta v1.9.0 and the capture and browser reruns on the v1.9.0 bytes. |
+| `results/features/`, `bench/features/` | The feature-check evidence (centring, R-script export, rho table) on the corrected engine, with `results/features/MANIFEST.json`. |
 | `outputs/` | Derived artefacts (tables, numbers, logs, fresh validate outputs). These are not source evidence and are not pinned. |
 
 `SOURCE_SHA256.json` pins every file except `outputs/`, `results/validate-run.json`, scratch directories and itself.

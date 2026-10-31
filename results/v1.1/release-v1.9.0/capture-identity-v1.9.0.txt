@@ -1,0 +1,4 @@
+engine-full-v1.9.0.jsonl (16270 lines, captured on the allmeta v1.9.0 bytes) sha256 5d9dae530490ec54ac56bf15872096b250de93491d73e7bb65cc6c93cb8aed41
+archived results/v1.1/engine/engine-full-final-j.jsonl.xz uncompressed sha256 5d9dae530490ec54ac56bf15872096b250de93491d73e7bb65cc6c93cb8aed41
+byte-identical: yes
+The capture process was stopped once by the host session at 1,800 configurations and restarted; engine_full.cjs resumes by appending in ledger order after checking the existing keys and unchanged metadata (both log segments are in capture-v1.9.0.log).

@@ -2,8 +2,9 @@
  "description": "The rve-meta page and every file it loads (two stylesheets, eight scripts), plus shared/numerics/ (the eigen backend build, runtime, notes and licence file), as merged into allmeta main by pull request #210 at commit 575cb29468f814ad09401d78f1a75fbda16b8abc; byte-identical Git LF blob bytes. shared/rve-eigen.js is GPL-3.0 as distributed by webR (shared/numerics/LICENSES-rve-eigen.md); the rest is MIT.",
  "commit": "575cb29468f814ad09401d78f1a75fbda16b8abc",
  "pull_request": 210,
- "release": "<ALLMETA_RELEASE>",
- "doi": "<ALLMETA_RELEASE_DOI>",
+ "release": "v1.9.0",
+ "doi": "10.5281/zenodo.23833871",
+ "release_commit": "d38d3fd70656f3fedfa03916573fe0bf904f5e9c",
  "page_files": [
   "rve-meta/index.html",
   "shared/forced-colors.css",

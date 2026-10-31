@@ -1,0 +1,139 @@
+{
+ "tag": "v1.9.0",
+ "release_commit": "d38d3fd70656f3fedfa03916573fe0bf904f5e9c",
+ "release_parent": "6ce55eb9232b17b6fb0948ec8217d653acf28b57",
+ "doi": "10.5281/zenodo.23833871",
+ "concept_doi": "10.5281/zenodo.20516880",
+ "archived_commit": "575cb29468f814ad09401d78f1a75fbda16b8abc",
+ "release_commit_changes": [
+  "CHANGELOG.md",
+  "CITATION.cff",
+  "shared/build-info.js"
+ ],
+ "files": {
+  "hub/app-style.css": {
+   "blob_575cb29": "24574bf090eaa4ec0ab3c24aa965069f1ca7d4ea",
+   "blob_release": "24574bf090eaa4ec0ab3c24aa965069f1ca7d4ea",
+   "sha256_release": "905dba05ebb123f3c3baec8b5691830b48eb9c9092648f5cba71be0efc6a12a6",
+   "archived_sha256": "905dba05ebb123f3c3baec8b5691830b48eb9c9092648f5cba71be0efc6a12a6",
+   "identical": true
+  },
+  "hub/shared/a11y-landmarks.js": {
+   "blob_575cb29": "293c9ad23a84810b4831da3cc2834899c75af9e8",
+   "blob_release": "293c9ad23a84810b4831da3cc2834899c75af9e8",
+   "sha256_release": "f7a89f3c72dd80f666d16d52592a7e60f45fba62efc9dfeb4c2faf7fb0e8b5a2",
+   "archived_sha256": "f7a89f3c72dd80f666d16d52592a7e60f45fba62efc9dfeb4c2faf7fb0e8b5a2",
+   "identical": true
+  },
+  "rve-meta/index.html": {
+   "blob_575cb29": "3dcbc570a3f20c8d0699b88162762ab800925663",
+   "blob_release": "3dcbc570a3f20c8d0699b88162762ab800925663",
+   "sha256_release": "5686f0bd4bf803de4349168725b716fd4b90c54dac53714ba9edc4f98818c633",
+   "archived_sha256": "5686f0bd4bf803de4349168725b716fd4b90c54dac53714ba9edc4f98818c633",
+   "identical": true
+  },
+  "shared/app-flow.js": {
+   "blob_575cb29": "41bbae7ec6a862373fe56c7803fcf5444fc0de51",
+   "blob_release": "41bbae7ec6a862373fe56c7803fcf5444fc0de51",
+   "sha256_release": "733458866c716ed4f3ecefea64e9374c49b12eb33cd56b9ab5ec0e0cf5eb8c77",
+   "archived_sha256": "733458866c716ed4f3ecefea64e9374c49b12eb33cd56b9ab5ec0e0cf5eb8c77",
+   "identical": true
+  },
+  "shared/autosave.js": {
+   "blob_575cb29": "5bfa20ac20b95d986277de1eb5a67cf19829d569",
+   "blob_release": "5bfa20ac20b95d986277de1eb5a67cf19829d569",
+   "sha256_release": "919165910d2b46a674b5ec1c81c01bce4d3c0779a86232ec032c994274980f1c",
+   "archived_sha256": "919165910d2b46a674b5ec1c81c01bce4d3c0779a86232ec032c994274980f1c",
+   "identical": true
+  },
+  "shared/build-info.js": {
+   "blob_575cb29": "ba55c2cace553c364f22ceb13b30c41fbda826e5",
+   "blob_release": "e3b8ac927c58b0ba589068ff060a005cbcb98a47",
+   "sha256_release": "4027d064ddc71e5997dc715ffe0a2953baa48584adee400fdbf68df087105d1d",
+   "archived_sha256": "232a5a903b1fcc451fede886d11688a80c0dce736d60a3613cc8ef5d41c94668",
+   "identical": false
+  },
+  "shared/forced-colors.css": {
+   "blob_575cb29": "abbfcf01b6b7c4fd2e2f550d8b034a0b97c71466",
+   "blob_release": "abbfcf01b6b7c4fd2e2f550d8b034a0b97c71466",
+   "sha256_release": "a26b396b0b5b683ea06fca129855e3aba34805348e2d8d4e811ef74b44f5e96e",
+   "archived_sha256": "a26b396b0b5b683ea06fca129855e3aba34805348e2d8d4e811ef74b44f5e96e",
+   "identical": true
+  },
+  "shared/numerics/LICENSES-rve-eigen.md": {
+   "blob_575cb29": "5e25c30d332ca20d72e7468cc7fdc6f744704b2b",
+   "blob_release": "5e25c30d332ca20d72e7468cc7fdc6f744704b2b",
+   "sha256_release": "34b0286d7aab13ab4146c4b848b3d4955c637a21d58a54a8f090a136dec49f90",
+   "archived_sha256": "34b0286d7aab13ab4146c4b848b3d4955c637a21d58a54a8f090a136dec49f90",
+   "identical": true
+  },
+  "shared/numerics/RVE-EIGEN.md": {
+   "blob_575cb29": "ac878f359c44637962ba733adb9c2189fb76f725",
+   "blob_release": "ac878f359c44637962ba733adb9c2189fb76f725",
+   "sha256_release": "e724dddf4dd5605952bc533689b140f5951220627c52e58b7c181f544ac10a02",
+   "archived_sha256": "e724dddf4dd5605952bc533689b140f5951220627c52e58b7c181f544ac10a02",
+   "identical": true
+  },
+  "shared/numerics/build-rve-eigen.cjs": {
+   "blob_575cb29": "c708bf34b0f97985bd709467f5665f56350917bc",
+   "blob_release": "c708bf34b0f97985bd709467f5665f56350917bc",
+   "sha256_release": "d4dedb99c0ea03948def0e94dba98a66fd7c124aa1d16582352b968996028106",
+   "archived_sha256": "d4dedb99c0ea03948def0e94dba98a66fd7c124aa1d16582352b968996028106",
+   "identical": true
+  },
+  "shared/numerics/rve-eigen-runtime.js": {
+   "blob_575cb29": "029f2694713b4c1afc873690f40dab15efb12db0",
+   "blob_release": "029f2694713b4c1afc873690f40dab15efb12db0",
+   "sha256_release": "8af039b217740dfe62d28fdb260fd20d37c331d96ec2319b5c5e8c21be88c14b",
+   "archived_sha256": "8af039b217740dfe62d28fdb260fd20d37c331d96ec2319b5c5e8c21be88c14b",
+   "identical": true
+  },
+  "shared/rve-eigen.js": {
+   "blob_575cb29": "23558dd1934efbfa39839f7e82dd07bdbf22fc95",
+   "blob_release": "23558dd1934efbfa39839f7e82dd07bdbf22fc95",
+   "sha256_release": "21334f33b2a38b2cfd25f41476cf4dab51a464e84e7a6dac84494499e34b8675",
+   "archived_sha256": "21334f33b2a38b2cfd25f41476cf4dab51a464e84e7a6dac84494499e34b8675",
+   "identical": true
+  },
+  "shared/rve-extras.js": {
+   "blob_575cb29": "e5b85b09daee171aea72918694921b97999d04c3",
+   "blob_release": "e5b85b09daee171aea72918694921b97999d04c3",
+   "sha256_release": "74e7161633d508c27bee7c1b1d4052cea51dd00f0f17ac3cbf163fc8ca66be71",
+   "archived_sha256": "74e7161633d508c27bee7c1b1d4052cea51dd00f0f17ac3cbf163fc8ca66be71",
+   "identical": true
+  },
+  "shared/rve.js": {
+   "blob_575cb29": "6d0e8c21e224867796d75c054d7bfdde63f27fcd",
+   "blob_release": "6d0e8c21e224867796d75c054d7bfdde63f27fcd",
+   "sha256_release": "384f898299131e7595271984c4c6e79ab417e6ade8814d86352fe18a2efc4d1c",
+   "archived_sha256": "384f898299131e7595271984c4c6e79ab417e6ade8814d86352fe18a2efc4d1c",
+   "identical": true
+  },
+  "shared/stats-qt.js": {
+   "blob_575cb29": "4b9e8fb9f260793ccd203a10d1529c3129656d0d",
+   "blob_release": "4b9e8fb9f260793ccd203a10d1529c3129656d0d",
+   "sha256_release": "67a1094959b4a2227f947c228068753be7d6cc825b1191047226bd2e6d1a2c65",
+   "archived_sha256": "67a1094959b4a2227f947c228068753be7d6cc825b1191047226bd2e6d1a2c65",
+   "identical": true
+  }
+ },
+ "identical": 14,
+ "compared": 15,
+ "engine_replay": {
+  "capture_sha256": "5d9dae530490ec54ac56bf15872096b250de93491d73e7bb65cc6c93cb8aed41",
+  "script": "bench/v1.1/engine_full.redacted.cjs (configuration path only) + bench/v1.1/r2-capture-worker.cjs",
+  "log": "capture-v1.9.0.log",
+  "meta": "engine-full-v1.9.0-meta.json"
+ },
+ "browser_rerun": {
+  "config": "pw.v190.config.mjs",
+  "log": "pw-v1.9.0.log",
+  "versions_log": "browser-versions.log",
+  "versions": {
+   "msedge": "155.0.4283.62",
+   "chromium": "147.0.7727.15",
+   "firefox": "148.0.2",
+   "webkit": "26.4"
+  }
+ }
+}

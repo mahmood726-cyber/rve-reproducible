@@ -1,0 +1,29 @@
+{
+ "description": "Feature-check counts (corrected engine e042af5 + feat/rve-meta-usability-centring extras), as printed by the unmodified comparators in bench/features/logs/ and reproduced by analysis/compare_features.py. Lists are [passes, checks, failing configurations/scripts/designs] unless named otherwise.",
+ "engine": {
+  "rve.js_crlf_sha256": "c12a87ce03827a20c47ec97a4ec70dec72aeb1adcd66f8dd0294538aaf6b61ac",
+  "stats-qt.js_crlf_sha256": "fb4110ba8e4b2e784193fde258ac37086713dc8d75a3295f84272d6fbdba8efb",
+  "rve-extras_6740d2f_sha256": "e24c34ba4abdbcfcb9514523274824082b668a1220e82dfb3e994670db05518c",
+  "rve-extras_prereg_sha256": "cbfa4153de181b4aa814b694d29804f8b2e676a9dfc3f35d3805f6ab1ec4ef4f"
+ },
+ "prereg_sha256": {
+  "PREREG_CENTRING.md": "16d0e9133819fd33c9fdfe124470d15c2c82e5171e6174cea9dc3c6c4446a898",
+  "PREREG_RSCRIPT_SAMPLE.md": "3c543ee02fbe227b19028ca5efe8d39a90fc7f48c4feb1d86923556afd8056a2",
+  "PREREG_RHO.md": "f99ee8c15bac95724689a50d909068a22d5171354674d8103a1d221a6aeb745b"
+ },
+ "summary": {
+  "centring": {"configurations": 1705, "P1": [56265, 56265, 0], "P2": [23698, 23842, 66], "P3": [3363, 3408, 45], "centred_kappa_over_9e6": 461, "input_echo_mismatches": 0},
+  "rscripts": {"scripts": 353, "run_status": {"uncentred:ok": 300, "centred:ok": 50, "fixture:ok": 3},
+               "strata": {"uncentred": [7561, 7572, 2], "centred": [1350, 1350, 0], "fixture": [129, 129, 0]}, "total": [9040, 9051]},
+  "rho": {"designs": 442, "known_failure_designs": 28, "sensitivity_errors": 1,
+          "groups": {"new_refs_04_06": [21126, 21280, 27, 0], "lane_refs_0_02_08_1": [42250, 42560, 27, 0], "sensitivity_strings": [11261, 12378, 66, 66]}}
+ },
+ "p2_p3_failures_only_above_uncentred_kappa": 1e12,
+ "rho_skipped_indices": [1, 312, 333, 334, 335, 336],
+ "rho_denominator": {
+  "baseline": {"parts": {"designs_442/club_reference_success": [1626, 1626], "designs_442/coefficient_count": [884, 884], "designs_442/shared": [21126, 21280],
+                         "skipped_6/club_reference_success": [20, 20], "skipped_6/coefficient_count": [12, 12], "skipped_6/shared": [264, 264]}, "total": [23932, 24086]},
+  "final-j": {"parts": {"designs_442/club_reference_success": [1626, 1626], "designs_442/coefficient_count": [884, 884], "designs_442/shared": [21255, 21280],
+                        "skipped_6/club_reference_success": [20, 20], "skipped_6/coefficient_count": [12, 12], "skipped_6/shared": [264, 264]}, "total": [24061, 24086]}
+ }
+}

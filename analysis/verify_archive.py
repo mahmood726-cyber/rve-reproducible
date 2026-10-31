@@ -91,9 +91,11 @@ check('causes: counts equal expected', dict(collections.Counter(r['diagnosed_cau
 
 # 7. provenance placeholders and private paths
 PH = '[ALLMETA RELEASE PENDING]'
-check('release placeholders present; no allmeta DOI asserted',
+import re as _re
+_dois = set(_re.findall(r'10\.5281/zenodo\.\d+', (ROOT / 'CITATION.cff').read_text(encoding='utf-8')))
+check('release placeholders present for the 1.0.0 layer; the only allmeta DOI asserted is the v1.9.0 one (v1.1 layer)',
       all(PH in (ROOT / f).read_text(encoding='utf-8') for f in ['README.md', 'CITATION.cff', '.zenodo.json', 'app/app-sha256.json'])
-      and 'zenodo' not in (ROOT / 'CITATION.cff').read_text(encoding='utf-8').lower())
+      and _dois == {read('expected/v1.1_values.json')['allmeta_release_doi']}, ', '.join(sorted(_dois)))
 z = read('.zenodo.json')
 check('.zenodo.json metadata', z['upload_type'] == 'software' and z['license'] == 'MIT' and z['creators'][0]['orcid'] == '0000-0001-9107-3704'
       and any(r['relation'] == 'isDerivedFrom' and r['identifier'] == 'https://github.com/mahmood726-cyber/allmeta' for r in z['related_identifiers']))
@@ -176,12 +178,113 @@ def verify_v11():
     r = subprocess.run([sys.executable, str(ROOT / 'analysis/test_option_a.py')], capture_output=True, text=True)
     check('v1.1 Option A planted must-fail checks (analysis/test_option_a.py)', r.returncode == 0, r.stdout.strip().splitlines()[-1] if r.stdout else r.stderr[-200:])
     # release tokens stay unfilled for the v1.1 layer until allmeta v1.9.0 exists
-    T = ('<ALLMETA_RELEASE>', '<ALLMETA_RELEASE_DOI>')
-    check('v1.1 release tokens present and unfilled',
-          (a11['release'], a11['doi']) == T == (x['allmeta_release'], x['allmeta_release_doi'])
-          and all(t in (ROOT / f).read_text(encoding='utf-8') for t in T for f in ['README.md', 'CHANGELOG.md', 'CITATION.cff']))
+    # release identifiers: allmeta v1.9.0 (tag commit d38d3fd, a descendant of 575cb29), recorded and checked by bytes
+    R = ('v1.9.0', '10.5281/zenodo.23833871', 'd38d3fd70656f3fedfa03916573fe0bf904f5e9c')
+    texts = [(ROOT / f).read_text(encoding='utf-8') for f in ['README.md', 'CHANGELOG.md', 'CITATION.cff', '.zenodo.json', 'RELEASE_EQUIVALENCE.md']]
+    check('v1.1 release identifiers filled with allmeta v1.9.0 and its DOI; no unfilled token remains',
+          (a11['release'], a11['doi'], a11['release_commit']) == R == (x['allmeta_release'], x['allmeta_release_doi'], x['allmeta_release_commit'])
+          and all(R[0] in t and R[1] in t for t in texts) and not any('<ALLMETA_RELEASE' in t for t in texts))
+    eq = read('results/v1.1/release-v1.9.0/release-equivalence.json')
+    same = [f for f, r in eq['files'].items() if r['blob_575cb29'] == r['blob_release']]
+    diff = sorted(set(eq['files']) - set(same))
+    bi = (ROOT / 'results/v1.1/release-v1.9.0/build-info.v1.9.0.js').read_bytes()
+    strip = lambda b: _re.sub(rb'(version|sha|shortSha|builtAt): "[^"]*"', rb'\1: ""', b)
+    check('v1.1 release equivalence: every app-v1.1 file has the same Git blob at v1.9.0 except shared/build-info.js, whose only change is its build fields',
+          eq['release_commit'] == R[2] and eq['tag'] == R[0] and set(eq['files']) == set(a11['files']) and diff == ['shared/build-info.js']
+          and all(eq['files'][f]['sha256_release'] == a11['files'][f] for f in same)
+          and hashlib.sha256(bi).hexdigest() == eq['files']['shared/build-info.js']['sha256_release']
+          and strip(bi) == strip((ROOT / 'app-v1.1/shared/build-info.js').read_bytes()) and b'"v1.9.0"' in bi, f'{len(same)}/{len(eq["files"])} identical')
+    rm = read('results/v1.1/release-v1.9.0/engine-full-v1.9.0-meta.json')
+    check('v1.1 release replay: the full-corpus capture on the v1.9.0 engine bytes is byte-identical to the archived capture',
+          rm['configurations'] == 16270 and all(a11['files'][f] == h for f, h in rm['hashes'].items())
+          and eq['engine_replay']['capture_sha256'] == x['capture_uncompressed_sha256']['results/v1.1/engine/engine-full-final-j.jsonl.xz'] == prf['results/v1.1/engine/engine-full-final-j.jsonl.xz']['original_sha256'])
+    pw = (ROOT / 'results/v1.1/release-v1.9.0/pw-v1.9.0.log').read_text(encoding='utf-8', errors='replace')
+    bv = (ROOT / 'results/v1.1/release-v1.9.0/browser-versions.log').read_text(encoding='utf-8')
+    check('v1.1 release browser rerun on the v1.9.0 bytes: 76 passed, none failed; browser builds printed',
+          _re.search(r'\b76 passed\b', pw) and not _re.search(r'\b\d+ (failed|flaky)\b', pw)
+          and all(f'browser {b} {v}' in bv for b, v in eq['browser_rerun']['versions'].items()), ', '.join(f'{b} {v}' for b, v in eq['browser_rerun']['versions'].items()))
 
 verify_v11()
+
+
+# 10. feature-check evidence (centring, R-script export, rho table; corrected engine): hashes, provenance, then the
+#     unmodified comparators replayed on the archived inputs, every count, output and log line asserted exactly
+def verify_features():
+    from compare_features import FR, FB, bundle, rho_denominator, run_all, summary, xz
+    fx = read('expected/features_values.json'); man = read('results/features/MANIFEST.json'); prf = {p['stored']: p for p in proof}
+    layer = {p.relative_to(ROOT).as_posix() for d in (FR, FB) for p in d.rglob('*') if p.is_file()}
+    check('features: MANIFEST covers every evidence file once, stored SHA-256 matches',
+          layer == {m['archived'] for m in man['files']} | {'results/features/MANIFEST.json'} and len(man['files']) == len(layer) - 1
+          and all(sha256(ROOT / m['archived']) == m['stored_sha256'] for m in man['files']), f"{len(man['files'])} files")
+    check('features: verbatim files equal their source bytes; xz files decompress to them (compression_proof.json)',
+          all((m['stored_sha256'] == m['source_sha256']) if m['treatment'] == 'verbatim' else
+              (m['archived'] in prf and prf[m['archived']]['original_sha256'] == m['source_sha256']) if m['treatment'].endswith('xz') else
+              ('redacted' in m['archived'] and 'host paths' in m['treatment']) for m in man['files']))
+    ok = True
+    for m in man['files']:
+        if 'member_sha256' in m:
+            b = bundle(m['archived'])
+            ok &= sorted(b) == sorted(m['member_sha256']) and all(hashlib.sha256(t.encode('utf-8')).hexdigest() == m['member_sha256'][n] for n, t in b.items())
+    check('features: every bundle member matches its recorded SHA-256', ok)
+    cp = man['copies_of_original_run_directory']
+    check('features: archived centred references, script outputs and scripts equal the original run directory (1705, 353, 353)',
+          [cp[k]['identical'] for k in ('centred_ref', 'rs_out', 'rscripts')] == [1705, 353, 353] and all(v['p15d_equals_feature_lane'] for k, v in cp.items() if k.endswith(('.json', '.jsonl'))))
+    E = FR / 'engine'; cap = ROOT / 'bench/captured-engine/patched/shared'
+    check('features: engine files are the archived corrected engine (CRLF capture bytes = app/ e042af5 LF bytes)',
+          (E / 'rve.crlf.js').read_bytes() == (cap / 'rve.js').read_bytes() and (E / 'stats-qt.crlf.js').read_bytes() == (cap / 'stats-qt.js').read_bytes()
+          and (E / 'rve.crlf.js').read_bytes().replace(b'\r\n', b'\n') == (ROOT / 'app/shared/rve.js').read_bytes())
+    e = fx['engine']; cm = read('results/features/centring/centred_engine_meta.json')['hashes']; rm = read('results/features/rho/compare_inputs/rho_engine_meta.json')['hashes']
+    check('features: capture metadata hashes equal the archived engine and extras bytes',
+          sha256(E / 'rve.crlf.js') == e['rve.js_crlf_sha256'] == cm['rve'] == rm['rve'] and sha256(E / 'stats-qt.crlf.js') == e['stats-qt.js_crlf_sha256'] == cm['statsqt'] == rm['statsqt']
+          and sha256(E / 'rve-extras.6740d2f.js') == e['rve-extras_6740d2f_sha256'] == rm['extras'] and sha256(E / 'rve-extras.prereg.js') == e['rve-extras_prereg_sha256'] == cm['extras_prereg'])
+    P = FB / 'prereg'
+    check('features: pre-registration texts match their .sha256 files and expected',
+          all(sha256(P / n) == h == (P / f'{n}.sha256').read_text(encoding='utf-8').split()[0] for n, h in fx['prereg_sha256'].items()))
+    # the rho comparator view is the archived 448-design sample minus the six skipped designs, references and fits unchanged
+    full = json.loads(xz('results/v1.1/rho/rho_sample.json.xz')); fb = bundle('results/v1.1/rho/rho-reference-bundle.json.xz')
+    view = json.loads(xz('results/features/rho/compare_inputs/rho_sample.json.xz')); vb = bundle('results/features/rho/compare_inputs/rho_ref-bundle.json.xz')
+    veng = [json.loads(l) for l in xz('results/features/rho/compare_inputs/rho_engine.jsonl.xz').decode('utf-8').splitlines() if l.strip()]
+    feng = [json.loads(l) for l in xz('results/features/rho/rho_engine_full.jsonl.xz').decode('utf-8').splitlines() if l.strip()]
+    keep = [i for i in range(1, 449) if i not in set(fx['rho_skipped_indices'])]
+    fit = lambda x: {f['rho']: f for f in x['fits']}
+    check('features rho: the 442-design comparator view equals the archived sample, references (r04, r06) and capture minus the six skipped designs',
+          len(full) == len(feng) == 448 and len(view) == len(veng) == len(vb) == len(keep) == 442
+          and [x['index'] for x in read('results/features/rho/skipped.json')] == fx['rho_skipped_indices']
+          and all(view[k]['design'] == full[i - 1]['design'] and view[k]['rows'] == full[i - 1]['rows'] and veng[k]['design'] == feng[i - 1]['design']
+                  and fit(veng[k]) == fit(feng[i - 1])
+                  and all(json.loads(vb[f'{k + 1:04d}.json'])[rk] == json.loads(fb[f'{i:04d}.json'])[rk] for rk in ('r04', 'r06'))
+                  for k, i in enumerate(keep)))
+    # replay the unmodified comparators
+    res = run_all()
+    got = summary(res)
+    check('features: replayed counts equal expected/features_values.json exactly', got == fx['summary'],
+          f"P1 {got['centring']['P1'][0]}/{got['centring']['P1'][1]}, scripts {got['rscripts']['total'][0]}/{got['rscripts']['total'][1]}, rho {got['rho']['groups']['new_refs_04_06'][0]}/{got['rho']['groups']['new_refs_04_06'][1]}")
+    arch = {'centring': ('results/features/centring/', ['centring_results.json', 'centring_failures.json', 'centring_kappa.json.xz']),
+            'rscripts': ('results/features/rscripts/', ['rscript_results.json', 'rscript_failures.json']),
+            'rho': ('results/features/rho/', ['rho_results.json', 'rho_failures.json'])}
+    for name, (d, outs) in arch.items():
+        mine = list(res[name]['outputs'].values())
+        theirs = [json.loads(xz(d + o)) if o.endswith('.xz') else read(d + o) for o in outs]
+        check(f'features {name}: replayed comparator outputs equal the archived lane outputs', mine == theirs)
+    logs = {'centring': 'compare_centred.py.log', 'rscripts': 'compare_rscripts.py.log', 'rho': 'compare_rho.log'}
+    for name, log in logs.items():
+        check(f'features {name}: replayed stdout equals the archived log bench/features/logs/{log}',
+              res[name]['stdout'] == (FB / 'logs' / log).read_bytes().decode('utf-8').replace('\r\n', '\n'))
+    kap = {r['id']: r.get('ku_R') for r in res['centring']['outputs']['centring_kappa.json']}
+    fl = res['centring']['outputs']['centring_failures.json']
+    check('features centring: every P2 and P3 failure has uncentred R kappa > 1e12',
+          all(kap[f['id']] is not None and kap[f['id']] > fx['p2_p3_failures_only_above_uncentred_kappa'] for f in fl['P2'] + fl['P3']) and len(fl['P1']) == 0,
+          f"{len({f['id'] for f in fl['P2']})} and {len({f['id'] for f in fl['P3']})} configurations")
+    den = rho_denominator()
+    check('features rho: 24,086 v1.1 recheck checks = 21,280 shared on 442 designs + 884 + 1,626 v1.1-only + 296 on the six skipped designs',
+          den['reference_hashes_ok'] and den['skipped_indices'] == fx['rho_skipped_indices'] and den['finite_only'] == fx['rho_denominator']
+          and all(den['finite_only'][v]['total'] == [read('expected/v1.1_values.json')['rho'][v]['finite-only'][k] for k in ('passes', 'checks')]
+                  for v in ('baseline', 'final-j'))
+          and den['finite_only']['baseline']['parts']['designs_442/shared'] == fx['summary']['rho']['groups']['new_refs_04_06'][:2])
+    r = subprocess.run([sys.executable, str(ROOT / 'analysis/test_features.py')], capture_output=True, text=True)
+    check('features planted must-fail checks (analysis/test_features.py)', r.returncode == 0, r.stdout.strip().splitlines()[-1] if r.stdout else r.stderr[-200:])
+
+verify_features()
 
 
 # 8. optional full replay of the unmodified comparators on archived evidence
