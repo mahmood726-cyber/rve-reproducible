@@ -1,0 +1,351 @@
+{
+  "prereg_sha256": "f99ee8c15bac95724689a50d909068a22d5171354674d8103a1d221a6aeb745b",
+  "designs": 442,
+  "known_failure_designs": 28,
+  "sensitivity_errors": 1,
+  "engine_meta": {
+    "node": "v24.13.0",
+    "host": "BASEIMAGE",
+    "hashes": {
+      "rve": "c12a87ce03827a20c47ec97a4ec70dec72aeb1adcd66f8dd0294538aaf6b61ac",
+      "statsqt": "fb4110ba8e4b2e784193fde258ac37086713dc8d75a3295f84272d6fbdba8efb",
+      "extras": "e24c34ba4abdbcfcb9514523274824082b668a1220e82dfb3e994670db05518c"
+    }
+  },
+  "groups": {
+    "new_refs_04_06": {
+      "checks": 21280,
+      "passes": 21126,
+      "failing_designs": 27,
+      "failing_designs_not_known": 0,
+      "quantities": {
+        "status": {
+          "checks": 828,
+          "passes": 828,
+          "max_difference": 0.0
+        },
+        "tau2": {
+          "checks": 828,
+          "passes": 828,
+          "max_difference": 1.0602629885170245e-14
+        },
+        "estimate": {
+          "checks": 1514,
+          "passes": 1514,
+          "max_difference": 2.3644585535499648e-11
+        },
+        "se": {
+          "checks": 1514,
+          "passes": 1514,
+          "max_difference": 4.950370728441929e-11
+        },
+        "t": {
+          "checks": 1514,
+          "passes": 1514,
+          "max_difference": 7.094834988535038e-11
+        },
+        "df": {
+          "checks": 1514,
+          "passes": 1514,
+          "max_difference": 7.554013148355822e-12
+        },
+        "p": {
+          "checks": 1514,
+          "passes": 1514,
+          "max_difference": 2.5391383440265258e-11
+        },
+        "ci_lo": {
+          "checks": 1514,
+          "passes": 1514,
+          "max_difference": 7.813856228722216e-10
+        },
+        "ci_hi": {
+          "checks": 1514,
+          "passes": 1514,
+          "max_difference": 4.3213788103457773e-10
+        },
+        "club_estimate": {
+          "checks": 1514,
+          "passes": 1514,
+          "max_difference": 2.3644585535499648e-11
+        },
+        "club_se": {
+          "checks": 1514,
+          "passes": 1514,
+          "max_difference": 6.127568294441847e-11
+        },
+        "club_t": {
+          "checks": 1514,
+          "passes": 1514,
+          "max_difference": 8.272025304245653e-11
+        },
+        "club_df": {
+          "checks": 1514,
+          "passes": 1514,
+          "max_difference": 5.811717448116269e-12
+        },
+        "club_p": {
+          "checks": 1514,
+          "passes": 1514,
+          "max_difference": 2.9937163859017346e-11
+        },
+        "status [known-failure design]": {
+          "checks": 56,
+          "passes": 56,
+          "max_difference": 0.0
+        },
+        "tau2 [known-failure design]": {
+          "checks": 56,
+          "passes": 56,
+          "max_difference": 7.624694950703403e-11
+        },
+        "estimate [known-failure design]": {
+          "checks": 112,
+          "passes": 110,
+          "max_difference": 1.0438597800261439e-09
+        },
+        "se [known-failure design]": {
+          "checks": 112,
+          "passes": 112,
+          "max_difference": 7.399766848953664e-10
+        },
+        "t [known-failure design]": {
+          "checks": 112,
+          "passes": 94,
+          "max_difference": 0.5703151570052096
+        },
+        "df [known-failure design]": {
+          "checks": 112,
+          "passes": 108,
+          "max_difference": 2.511107890112918e-09
+        },
+        "p [known-failure design]": {
+          "checks": 112,
+          "passes": 104,
+          "max_difference": 0.09746330518398538
+        },
+        "ci_lo [known-failure design]": {
+          "checks": 112,
+          "passes": 74,
+          "max_difference": 4.0434485981677426e-07
+        },
+        "ci_hi [known-failure design]": {
+          "checks": 112,
+          "passes": 70,
+          "max_difference": 4.676747948906268e-07
+        },
+        "club_estimate [known-failure design]": {
+          "checks": 112,
+          "passes": 110,
+          "max_difference": 1.0438597800261439e-09
+        },
+        "club_se [known-failure design]": {
+          "checks": 112,
+          "passes": 108,
+          "max_difference": 1.7670670710295038e-09
+        },
+        "club_t [known-failure design]": {
+          "checks": 112,
+          "passes": 92,
+          "max_difference": 0.5703151570052096
+        },
+        "club_df [known-failure design]": {
+          "checks": 112,
+          "passes": 106,
+          "max_difference": 60.33249339553232
+        },
+        "club_p [known-failure design]": {
+          "checks": 112,
+          "passes": 102,
+          "max_difference": 0.0974633051839442
+        }
+      }
+    },
+    "lane_refs_0_02_08_1": {
+      "checks": 42560,
+      "passes": 42250,
+      "failing_designs": 27,
+      "failing_designs_not_known": 0,
+      "quantities": {
+        "status": {
+          "checks": 1656,
+          "passes": 1656,
+          "max_difference": 0.0
+        },
+        "tau2": {
+          "checks": 1656,
+          "passes": 1656,
+          "max_difference": 3.510733370681862e-14
+        },
+        "estimate": {
+          "checks": 3028,
+          "passes": 3028,
+          "max_difference": 2.9371007296629854e-11
+        },
+        "se": {
+          "checks": 3028,
+          "passes": 3028,
+          "max_difference": 4.950370728441929e-11
+        },
+        "t": {
+          "checks": 3028,
+          "passes": 3028,
+          "max_difference": 7.094834988535038e-11
+        },
+        "df": {
+          "checks": 3028,
+          "passes": 3028,
+          "max_difference": 9.335757473356443e-12
+        },
+        "p": {
+          "checks": 3028,
+          "passes": 3028,
+          "max_difference": 2.5391383440265258e-11
+        },
+        "ci_lo": {
+          "checks": 3028,
+          "passes": 3028,
+          "max_difference": 7.813856228722216e-10
+        },
+        "ci_hi": {
+          "checks": 3028,
+          "passes": 3028,
+          "max_difference": 4.3213788103457773e-10
+        },
+        "club_estimate": {
+          "checks": 3028,
+          "passes": 3028,
+          "max_difference": 2.9371007296629854e-11
+        },
+        "club_se": {
+          "checks": 3028,
+          "passes": 3028,
+          "max_difference": 6.127568294441847e-11
+        },
+        "club_t": {
+          "checks": 3028,
+          "passes": 3028,
+          "max_difference": 8.272025304245653e-11
+        },
+        "club_df": {
+          "checks": 3028,
+          "passes": 3028,
+          "max_difference": 4.619958951206115e-12
+        },
+        "club_p": {
+          "checks": 3028,
+          "passes": 3028,
+          "max_difference": 2.9937163859017346e-11
+        },
+        "status [known-failure design]": {
+          "checks": 112,
+          "passes": 112,
+          "max_difference": 0.0
+        },
+        "tau2 [known-failure design]": {
+          "checks": 112,
+          "passes": 112,
+          "max_difference": 7.624737663367008e-11
+        },
+        "estimate [known-failure design]": {
+          "checks": 224,
+          "passes": 220,
+          "max_difference": 1.0438597800261439e-09
+        },
+        "se [known-failure design]": {
+          "checks": 224,
+          "passes": 224,
+          "max_difference": 6.637404520002498e-10
+        },
+        "t [known-failure design]": {
+          "checks": 224,
+          "passes": 188,
+          "max_difference": 0.5703151570052096
+        },
+        "df [known-failure design]": {
+          "checks": 224,
+          "passes": 216,
+          "max_difference": 2.511107890112918e-09
+        },
+        "p [known-failure design]": {
+          "checks": 224,
+          "passes": 208,
+          "max_difference": 0.09746330518398538
+        },
+        "ci_lo [known-failure design]": {
+          "checks": 224,
+          "passes": 144,
+          "max_difference": 7.752705641905777e-07
+        },
+        "ci_hi [known-failure design]": {
+          "checks": 224,
+          "passes": 143,
+          "max_difference": 5.838837751070969e-07
+        },
+        "club_estimate [known-failure design]": {
+          "checks": 224,
+          "passes": 220,
+          "max_difference": 1.0438597800261439e-09
+        },
+        "club_se [known-failure design]": {
+          "checks": 224,
+          "passes": 215,
+          "max_difference": 1.7670670710295038e-09
+        },
+        "club_t [known-failure design]": {
+          "checks": 224,
+          "passes": 184,
+          "max_difference": 0.5703151570052096
+        },
+        "club_df [known-failure design]": {
+          "checks": 224,
+          "passes": 212,
+          "max_difference": 60.63081998345838
+        },
+        "club_p [known-failure design]": {
+          "checks": 224,
+          "passes": 204,
+          "max_difference": 0.0974633051839442
+        }
+      }
+    },
+    "sensitivity_strings": {
+      "checks": 12378,
+      "passes": 11261,
+      "failing_designs": 66,
+      "failing_designs_not_known": 66,
+      "quantities": {
+        "coefficient": {
+          "checks": 4542,
+          "passes": 4129,
+          "max_difference": 0.38070769597263165
+        },
+        "se": {
+          "checks": 4542,
+          "passes": 4128,
+          "max_difference": 0.04891028252220764
+        },
+        "tau2": {
+          "checks": 2484,
+          "passes": 2194,
+          "max_difference": 4.868789634490895
+        },
+        "coefficient [known-failure design]": {
+          "checks": 324,
+          "passes": 324,
+          "max_difference": 4.9925625326352474e-05
+        },
+        "se [known-failure design]": {
+          "checks": 324,
+          "passes": 324,
+          "max_difference": 4.975257493811114e-05
+        },
+        "tau2 [known-failure design]": {
+          "checks": 162,
+          "passes": 162,
+          "max_difference": 4.9595959792730904e-05
+        }
+      }
+    }
+  }
+}

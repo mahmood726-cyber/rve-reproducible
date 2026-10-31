@@ -1,0 +1,19 @@
+{
+  "references": 442,
+  "sample": 448,
+  "known_failure_designs": 28,
+  "sensitivity_errors": [
+    {
+      "index": 69,
+      "design": "dat.besson2016::001::dam_ID::photoperiod",
+      "known_failure": true,
+      "error": {
+        "error": "infinite or missing values in 'x'"
+      }
+    }
+  ],
+  "original_complete_rows": 0,
+  "original_incomplete_rows": 2063,
+  "normalized_complete_rows": 2063,
+  "strings_unchanged": 12378
+}

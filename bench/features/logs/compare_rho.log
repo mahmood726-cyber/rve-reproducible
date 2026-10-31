@@ -1,0 +1,71 @@
+{
+ "prereg_sha256": "f99ee8c15bac95724689a50d909068a22d5171354674d8103a1d221a6aeb745b",
+ "designs": 442,
+ "known_failure_designs": 28,
+ "sensitivity_errors": 1,
+ "engine_meta": {
+  "node": "v24.13.0",
+  "host": "BASEIMAGE",
+  "hashes": {
+   "rve": "c12a87ce03827a20c47ec97a4ec70dec72aeb1adcd66f8dd0294538aaf6b61ac",
+   "statsqt": "fb4110ba8e4b2e784193fde258ac37086713dc8d75a3295f84272d6fbdba8efb",
+   "extras": "e24c34ba4abdbcfcb9514523274824082b668a1220e82dfb3e994670db05518c"
+  }
+ }
+}
+new_refs_04_06 21126/21280 pass; failing designs 27 (not known-failure: 0)
+   ci_hi                                          1514/1514   max 4.32e-10
+   ci_hi [known-failure design]                     70/112    max 4.68e-07
+   ci_lo                                          1514/1514   max 7.81e-10
+   ci_lo [known-failure design]                     74/112    max 4.04e-07
+   club_df                                        1514/1514   max 5.81e-12
+   club_df [known-failure design]                  106/112    max 60.3
+   club_estimate                                  1514/1514   max 2.36e-11
+   club_estimate [known-failure design]            110/112    max 1.04e-09
+   club_p                                         1514/1514   max 2.99e-11
+   club_p [known-failure design]                   102/112    max 0.0975
+   club_se                                        1514/1514   max 6.13e-11
+   club_se [known-failure design]                  108/112    max 1.77e-09
+   club_t                                         1514/1514   max 8.27e-11
+   club_t [known-failure design]                    92/112    max 0.57
+   df                                             1514/1514   max 7.55e-12
+   df [known-failure design]                       108/112    max 2.51e-09
+   estimate                                       1514/1514   max 2.36e-11
+   estimate [known-failure design]                 110/112    max 1.04e-09
+   p                                              1514/1514   max 2.54e-11
+   p [known-failure design]                        104/112    max 0.0975
+   se                                             1514/1514   max 4.95e-11
+   status                                          828/828    max 0
+   t                                              1514/1514   max 7.09e-11
+   t [known-failure design]                         94/112    max 0.57
+   tau2                                            828/828    max 1.06e-14
+lane_refs_0_02_08_1 42250/42560 pass; failing designs 27 (not known-failure: 0)
+   ci_hi                                          3028/3028   max 4.32e-10
+   ci_hi [known-failure design]                    143/224    max 5.84e-07
+   ci_lo                                          3028/3028   max 7.81e-10
+   ci_lo [known-failure design]                    144/224    max 7.75e-07
+   club_df                                        3028/3028   max 4.62e-12
+   club_df [known-failure design]                  212/224    max 60.6
+   club_estimate                                  3028/3028   max 2.94e-11
+   club_estimate [known-failure design]            220/224    max 1.04e-09
+   club_p                                         3028/3028   max 2.99e-11
+   club_p [known-failure design]                   204/224    max 0.0975
+   club_se                                        3028/3028   max 6.13e-11
+   club_se [known-failure design]                  215/224    max 1.77e-09
+   club_t                                         3028/3028   max 8.27e-11
+   club_t [known-failure design]                   184/224    max 0.57
+   df                                             3028/3028   max 9.34e-12
+   df [known-failure design]                       216/224    max 2.51e-09
+   estimate                                       3028/3028   max 2.94e-11
+   estimate [known-failure design]                 220/224    max 1.04e-09
+   p                                              3028/3028   max 2.54e-11
+   p [known-failure design]                        208/224    max 0.0975
+   se                                             3028/3028   max 4.95e-11
+   status                                         1656/1656   max 0
+   t                                              3028/3028   max 7.09e-11
+   t [known-failure design]                        188/224    max 0.57
+   tau2                                           1656/1656   max 3.51e-14
+sensitivity_strings 11261/12378 pass; failing designs 66 (not known-failure: 66)
+   coefficient                                    4129/4542   max 0.381
+   se                                             4128/4542   max 0.0489
+   tau2                                           2194/2484   max 4.87

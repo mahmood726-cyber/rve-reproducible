@@ -1,0 +1,90 @@
+[
+ {
+  "kind": "uncentred",
+  "name": "u_015",
+  "quantity": "t",
+  "script": -4.265920761869576,
+  "reference": null,
+  "difference": null
+ },
+ {
+  "kind": "uncentred",
+  "name": "u_015",
+  "quantity": "prob",
+  "script": 0.00022502424570913782,
+  "reference": null,
+  "difference": null
+ },
+ {
+  "kind": "uncentred",
+  "name": "u_015",
+  "quantity": "club_tstat",
+  "script": -4.265920761869568,
+  "reference": null,
+  "difference": null
+ },
+ {
+  "kind": "uncentred",
+  "name": "u_015",
+  "quantity": "club_p_Satt",
+  "script": 0.00022502424570917387,
+  "reference": null,
+  "difference": null
+ },
+ {
+  "kind": "uncentred",
+  "name": "u_015",
+  "quantity": "t",
+  "script": 18365860067306596,
+  "reference": null,
+  "difference": null
+ },
+ {
+  "kind": "uncentred",
+  "name": "u_015",
+  "quantity": "club_tstat",
+  "script": 18365860067306540,
+  "reference": null,
+  "difference": null
+ },
+ {
+  "kind": "uncentred",
+  "name": "u_017",
+  "quantity": "b.r",
+  "script": -6.766432466727565,
+  "reference": -6.766432457981864,
+  "difference": 1.2925128724120813e-09
+ },
+ {
+  "kind": "uncentred",
+  "name": "u_017",
+  "quantity": "SE",
+  "script": 32.66173989245847,
+  "reference": 32.6617398537683,
+  "difference": 1.1845715411198088e-09
+ },
+ {
+  "kind": "uncentred",
+  "name": "u_017",
+  "quantity": "CI.L",
+  "script": -77.88630207158148,
+  "reference": -77.88630197774212,
+  "difference": 9.383936117046687e-08
+ },
+ {
+  "kind": "uncentred",
+  "name": "u_017",
+  "quantity": "CI.U",
+  "script": 64.35343713812635,
+  "reference": 64.3534370617784,
+  "difference": 7.634795906596992e-08
+ },
+ {
+  "kind": "uncentred",
+  "name": "u_017",
+  "quantity": "club_beta",
+  "script": -6.766432466727565,
+  "reference": -6.766432457981864,
+  "difference": 1.2925128724120813e-09
+ }
+]

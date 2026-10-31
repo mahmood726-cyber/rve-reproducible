@@ -1,0 +1,1458 @@
+{
+ "seed": 20261019,
+ "datasets": 118,
+ "uncentred": [
+  {
+   "id": "clubSandwich::SATcoaching::study_type::ETS::rho=0.2",
+   "index": 13462
+  },
+  {
+   "id": "clubSandwich::SATcoaching::study::hrs::rho=0",
+   "index": 13421
+  },
+  {
+   "id": "clubSandwich::dropoutPrevention::studyID::white_pct::rho=1",
+   "index": 13250
+  },
+  {
+   "id": "clubSandwich::dropoutPrevention::study_design::big_study::rho=0",
+   "index": 13356
+  },
+  {
+   "id": "dat.aloe2013::003::study::preds::rho=1",
+   "index": 70
+  },
+  {
+   "id": "dat.aloe2013::002::study::n::rho=0.5",
+   "index": 33
+  },
+  {
+   "id": "dat.anand1999::001::study::n2i::rho=1",
+   "index": 115
+  },
+  {
+   "id": "dat.anand1999::001::study::(intercept)::rho=0.8",
+   "index": 79
+  },
+  {
+   "id": "dat.anker2025::002::study::placebo.n::rho=0.8",
+   "index": 279
+  },
+  {
+   "id": "dat.anker2025::001::study::placebo.n::rho=0",
+   "index": 171
+  },
+  {
+   "id": "dat.assink2016::001::id::(intercept)::rho=0",
+   "index": 601
+  },
+  {
+   "id": "dat.assink2016::001::study::year::rho=0.2",
+   "index": 597
+  },
+  {
+   "id": "dat.axfors2021::001::id::hcq_arm_event::rho=0.5",
+   "index": 638
+  },
+  {
+   "id": "dat.axfors2021::001::id::control_arm_event::rho=1",
+   "index": 650
+  },
+  {
+   "id": "dat.bakdash2021::001::Author::es.z::rho=0.8",
+   "index": 674
+  },
+  {
+   "id": "dat.bakdash2021::001::Author::Sample.size::rho=0.5",
+   "index": 663
+  },
+  {
+   "id": "dat.baker2009::001::studlab::year::rho=0.5",
+   "index": 13673
+  },
+  {
+   "id": "dat.baker2009::001::studlab::event1::rho=0",
+   "index": 13641
+  },
+  {
+   "id": "dat.bangertdrowns2004::001::author::feedback::rho=1",
+   "index": 785
+  },
+  {
+   "id": "dat.bangertdrowns2004::001::author::grade::rho=0",
+   "index": 761
+  },
+  {
+   "id": "dat.bartos2023::003::person::tdiff::rho=0.8",
+   "index": 13939
+  },
+  {
+   "id": "dat.bartos2023::002::person::tdiff::rho=1",
+   "index": 13905
+  },
+  {
+   "id": "dat.baskerville2012::001::author::hours::rho=1",
+   "index": 875
+  },
+  {
+   "id": "dat.baskerville2012::001::author::score::rho=0.5",
+   "index": 823
+  },
+  {
+   "id": "dat.bassler2004::001::study::Ec::rho=0",
+   "index": 906
+  },
+  {
+   "id": "dat.bassler2004::001::study::Ee::rho=0.2",
+   "index": 897
+  },
+  {
+   "id": "dat.bauer2002::002::study::(intercept)::rho=0.2",
+   "index": 987
+  },
+  {
+   "id": "dat.bauer2002::001::study::wmwstat::rho=0.8",
+   "index": 969
+  },
+  {
+   "id": "dat.bcg::001::author::(intercept)::rho=0.5",
+   "index": 1068
+  },
+  {
+   "id": "dat.bcg::001::trial::year::rho=0",
+   "index": 1036
+  },
+  {
+   "id": "dat.begg1989::001::study::arms::rho=0",
+   "index": 1111
+  },
+  {
+   "id": "dat.begg1989::001::study::(intercept)::rho=1",
+   "index": 1110
+  },
+  {
+   "id": "dat.berkey1998::001::trial::year::rho=0.5",
+   "index": 1123
+  },
+  {
+   "id": "dat.berkey1998::001::author::trial::rho=0.2",
+   "index": 1147
+  },
+  {
+   "id": "dat.berkey1998r::001::trial::ni::rho=0.2",
+   "index": 1182
+  },
+  {
+   "id": "dat.berkey1998r::001::author::ni::rho=0.2",
+   "index": 1212
+  },
+  {
+   "id": "dat.besson2016::001::time_trial::sd_c::rho=1",
+   "index": 2025
+  },
+  {
+   "id": "dat.besson2016::001::study_ID::response_age_dPP::rho=0.2",
+   "index": 1447
+  },
+  {
+   "id": "dat.bonett2010::002::study::ai::rho=0.8",
+   "index": 2199
+  },
+  {
+   "id": "dat.bonett2010::003::study::ai::rho=1",
+   "index": 2220
+  },
+  {
+   "id": "dat.bornmann2007::001::study::(intercept)::rho=0.5",
+   "index": 2228
+  },
+  {
+   "id": "dat.bornmann2007::001::study::waward::rho=1",
+   "index": 2245
+  },
+  {
+   "id": "dat.bourassa1996::001::author::(intercept)::rho=0",
+   "index": 2301
+  },
+  {
+   "id": "dat.bourassa1996::001::study::(intercept)::rho=0",
+   "index": 2261
+  },
+  {
+   "id": "dat.cannon2006::005::trial::ep3t::rho=1",
+   "index": 2685
+  },
+  {
+   "id": "dat.cannon2006::007::trial::ep5t::rho=0",
+   "index": 2851
+  },
+  {
+   "id": "dat.chiarito2020::004::study::p2y12.vdeath::rho=0.2",
+   "index": 3137
+  },
+  {
+   "id": "dat.chiarito2020::005::study::baseline.hypertension::rho=0.8",
+   "index": 3214
+  },
+  {
+   "id": "dat.cohen1981::001::study::(intercept)::rho=1",
+   "index": 3375
+  },
+  {
+   "id": "dat.cohen1981::001::study::ni::rho=0.8",
+   "index": 3379
+  },
+  {
+   "id": "dat.colditz1994::001::author::year::rho=0.8",
+   "index": 3434
+  },
+  {
+   "id": "dat.colditz1994::001::trial::(intercept)::rho=0.2",
+   "index": 3387
+  },
+  {
+   "id": "dat.collins1985a::003::id::nci::rho=0.2",
+   "index": 3727
+  },
+  {
+   "id": "dat.collins1985a::006::id::ref::rho=0.5",
+   "index": 4048
+  },
+  {
+   "id": "dat.collins1985b::001::id::ped.xci::rho=0",
+   "index": 4201
+  },
+  {
+   "id": "dat.collins1985b::005::author::pre.nti::rho=0.5",
+   "index": 4863
+  },
+  {
+   "id": "dat.craft2003::001::study::ri::rho=0.2",
+   "index": 4937
+  },
+  {
+   "id": "dat.craft2003::001::study::(intercept)::rho=0.5",
+   "index": 4928
+  },
+  {
+   "id": "dat.crede2010::001::studyid::sampleid::rho=0",
+   "index": 4951
+  },
+  {
+   "id": "dat.crede2010::001::studyid::(intercept)::rho=0.5",
+   "index": 4943
+  },
+  {
+   "id": "dat.crisafulli2020::001::study::cases::rho=0.5",
+   "index": 4988
+  },
+  {
+   "id": "dat.crisafulli2020::001::study::to::rho=0.8",
+   "index": 4984
+  },
+  {
+   "id": "dat.curtin2002::001::author::N::rho=0.2",
+   "index": 5002
+  },
+  {
+   "id": "dat.curtin2002::001::author::SE::rho=0.5",
+   "index": 5013
+  },
+  {
+   "id": "dat.curtis1998::001::id::co2.ambi::rho=0.2",
+   "index": 5032
+  },
+  {
+   "id": "dat.curtis1998::001::id::sd1i::rho=1",
+   "index": 5055
+  },
+  {
+   "id": "dat.dagostino1998::002::study::sdt::rho=1",
+   "index": 5210
+  },
+  {
+   "id": "dat.dagostino1998::002::study::nc::rho=0.5",
+   "index": 5238
+  },
+  {
+   "id": "dat.damico2009::001::study::blind::rho=0",
+   "index": 5331
+  },
+  {
+   "id": "dat.damico2009::002::study::year::rho=0",
+   "index": 5341
+  },
+  {
+   "id": "dat.debruin2009::001::author::xi::rho=1",
+   "index": 5400
+  },
+  {
+   "id": "dat.debruin2009::001::author::xi::rho=0.5",
+   "index": 5398
+  },
+  {
+   "id": "dat.demir2022::001::author::year::rho=0",
+   "index": 5451
+  },
+  {
+   "id": "dat.demir2022::001::studyid::esid::rho=1",
+   "index": 5415
+  },
+  {
+   "id": "dat.dogliotti2014::001::studlab::event1::rho=0",
+   "index": 14006
+  },
+  {
+   "id": "dat.dogliotti2014::001::id::n2::rho=0.5",
+   "index": 14163
+  },
+  {
+   "id": "dat.dong2013::001::studlab::death1::rho=0.2",
+   "index": 14247
+  },
+  {
+   "id": "dat.dong2013::001::id::TE::rho=0",
+   "index": 14276
+  },
+  {
+   "id": "dat.dorn2007::001::study::n.a::rho=0.5",
+   "index": 5553
+  },
+  {
+   "id": "dat.dorn2007::001::study::days::rho=0.2",
+   "index": 5532
+  },
+  {
+   "id": "dat.dumouchel1994::001::study::lower::rho=0",
+   "index": 5576
+  },
+  {
+   "id": "dat.dumouchel1994::001::study::upper::rho=0.8",
+   "index": 5584
+  },
+  {
+   "id": "dat.egger2001::002::id::(intercept)::rho=1",
+   "index": 5655
+  },
+  {
+   "id": "dat.egger2001::001::id::n1i::rho=0.2",
+   "index": 5602
+  },
+  {
+   "id": "dat.feng2019::002::author::n::rho=1",
+   "index": 5785
+  },
+  {
+   "id": "dat.feng2019::002::author::(intercept)::rho=0.8",
+   "index": 5754
+  },
+  {
+   "id": "dat.fine1993::002::study::e2i::rho=0.5",
+   "index": 5878
+  },
+  {
+   "id": "dat.fine1993::003::study::nei::rho=0.5",
+   "index": 5913
+  },
+  {
+   "id": "dat.franchini2012::001::studlab::sd2.orig::rho=0",
+   "index": 14401
+  },
+  {
+   "id": "dat.franchini2012::001::Study::n1::rho=0",
+   "index": 14441
+  },
+  {
+   "id": "dat.frank2008::003::study::bc.ins.del::rho=0.2",
+   "index": 6152
+  },
+  {
+   "id": "dat.frank2008::002::study::bc.del.del::rho=0.2",
+   "index": 6122
+  },
+  {
+   "id": "dat.furukawa2003::002::author::(intercept)::rho=0.8",
+   "index": 6249
+  },
+  {
+   "id": "dat.furukawa2003::003::author::Ne::rho=0",
+   "index": 6286
+  },
+  {
+   "id": "dat.gibson2002::003::author::n1i::rho=0.8",
+   "index": 6459
+  },
+  {
+   "id": "dat.gibson2002::002::author::n1i::rho=0",
+   "index": 6391
+  },
+  {
+   "id": "dat.graves2010::001::study::ai::rho=0.8",
+   "index": 6584
+  },
+  {
+   "id": "dat.graves2010::001::study::n2i::rho=0.8",
+   "index": 6599
+  },
+  {
+   "id": "dat.greb2008::002::study::Ee::rho=1",
+   "index": 6635
+  },
+  {
+   "id": "dat.greb2008::001::study::Ne::rho=1",
+   "index": 6615
+  },
+  {
+   "id": "dat.greenland1992::001::author::SE::rho=0.8",
+   "index": 6669
+  },
+  {
+   "id": "dat.greenland1992::001::author::(intercept)::rho=0.2",
+   "index": 6652
+  },
+  {
+   "id": "dat.gurusamy2011::001::study::death2::rho=0.5",
+   "index": 14633
+  },
+  {
+   "id": "dat.gurusamy2011::001::studlab::death1::rho=0",
+   "index": 14561
+  },
+  {
+   "id": "dat.hackshaw1998::001::study::cases::rho=0",
+   "index": 6681
+  },
+  {
+   "id": "dat.hackshaw1998::001::study::or::rho=0.5",
+   "index": 6688
+  },
+  {
+   "id": "dat.hahn2001::001::study::ai::rho=1",
+   "index": 6745
+  },
+  {
+   "id": "dat.hahn2001::002::study::n2i::rho=0",
+   "index": 6781
+  },
+  {
+   "id": "dat.hannum2020::003::authorName::ni::rho=0.2",
+   "index": 6832
+  },
+  {
+   "id": "dat.hannum2020::002::authorName::percentOlfactoryLoss::rho=0.8",
+   "index": 6824
+  },
+  {
+   "id": "dat.hart1999::001::study::t2i::rho=0.8",
+   "index": 6929
+  },
+  {
+   "id": "dat.hart1999::002::study::t2i::rho=1",
+   "index": 7015
+  },
+  {
+   "id": "dat.hartmannboyce2018::001::study::x.ctrl::rho=0",
+   "index": 7031
+  },
+  {
+   "id": "dat.hartmannboyce2018::001::study::n.ctrl::rho=1",
+   "index": 7040
+  },
+  {
+   "id": "dat.hasselblad1998::002::authors::year::rho=0.2",
+   "index": 7207
+  },
+  {
+   "id": "dat.hasselblad1998::001::id::year::rho=0.5",
+   "index": 7053
+  },
+  {
+   "id": "dat.higgins2008::001::author::resp.plac::rho=0.8",
+   "index": 7254
+  },
+  {
+   "id": "dat.higgins2008::001::author::resp.plac::rho=0.2",
+   "index": 7252
+  },
+  {
+   "id": "dat.hine1989::001::study::n2i::rho=0.5",
+   "index": 7313
+  },
+  {
+   "id": "dat.hine1989::001::study::ci::rho=0.8",
+   "index": 7324
+  },
+  {
+   "id": "dat.huber2000::001::study::(intercept)::rho=0",
+   "index": 14646
+  },
+  {
+   "id": "dat.huber2000::001::study::(intercept)::rho=1",
+   "index": 14650
+  },
+  {
+   "id": "dat.ishak2007::002::study::y1i::rho=0.2",
+   "index": 7412
+  },
+  {
+   "id": "dat.ishak2007::001::study::y1i::rho=0.8",
+   "index": 7359
+  },
+  {
+   "id": "dat.kalaian1996::001::id::hrs::rho=0",
+   "index": 7591
+  },
+  {
+   "id": "dat.kalaian1996::001::id::type::rho=1",
+   "index": 7610
+  },
+  {
+   "id": "dat.karner2014::007::study::sgrq.se::rho=0.5",
+   "index": 8518
+  },
+  {
+   "id": "dat.karner2014::003::study::placebo.sae::rho=0.8",
+   "index": 8004
+  },
+  {
+   "id": "dat.kearon1998::001::study::year::rho=1",
+   "index": 8700
+  },
+  {
+   "id": "dat.kearon1998::001::study::tp::rho=0.2",
+   "index": 8702
+  },
+  {
+   "id": "dat.knapp2017::001::authors::n_hc::rho=1",
+   "index": 8860
+  },
+  {
+   "id": "dat.knapp2017::001::authors::study::rho=0.2",
+   "index": 8837
+  },
+  {
+   "id": "dat.konstantopoulos2011::001::study::year::rho=1",
+   "index": 8950
+  },
+  {
+   "id": "dat.konstantopoulos2011::001::study::(intercept)::rho=0.2",
+   "index": 8932
+  },
+  {
+   "id": "dat.landenberger2005::001::study::interval::rho=0.5",
+   "index": 8978
+  },
+  {
+   "id": "dat.landenberger2005::001::study::interval::rho=1",
+   "index": 8980
+  },
+  {
+   "id": "dat.laopaiboon2015::001::author::ci::rho=0",
+   "index": 9036
+  },
+  {
+   "id": "dat.laopaiboon2015::001::author::diag.pn::rho=1",
+   "index": 9060
+  },
+  {
+   "id": "dat.lau1992::002::trial::n2i::rho=0.2",
+   "index": 9117
+  },
+  {
+   "id": "dat.lau1992::002::trial::(intercept)::rho=0.5",
+   "index": 9093
+  },
+  {
+   "id": "dat.lee2004::001::id::(intercept)::rho=0.5",
+   "index": 9123
+  },
+  {
+   "id": "dat.lee2004::001::study::year::rho=0",
+   "index": 9161
+  },
+  {
+   "id": "dat.lehmann2018::001::PRPublication::(intercept)::rho=0.2",
+   "index": 9187
+  },
+  {
+   "id": "dat.lehmann2018::003::PRPublication::(intercept)::rho=0",
+   "index": 9366
+  },
+  {
+   "id": "dat.li2007::001::study::id::rho=0",
+   "index": 9491
+  },
+  {
+   "id": "dat.li2007::002::id::year::rho=0.5",
+   "index": 9528
+  },
+  {
+   "id": "dat.lim2014::001::author::(intercept)::rho=0.8",
+   "index": 9604
+  },
+  {
+   "id": "dat.lim2014::001::article::(intercept)::rho=0.8",
+   "index": 9589
+  },
+  {
+   "id": "dat.linde2005::001::id::baseline::rho=0",
+   "index": 9641
+  },
+  {
+   "id": "dat.linde2005::002::id::group::rho=0.8",
+   "index": 9834
+  },
+  {
+   "id": "dat.linde2015::001::author::n1::rho=0.5",
+   "index": 14968
+  },
+  {
+   "id": "dat.linde2015::002::id::n2.orig::rho=0.2",
+   "index": 15322
+  },
+  {
+   "id": "dat.linde2016::001::author::n.orig2::rho=0.2",
+   "index": 15747
+  },
+  {
+   "id": "dat.linde2016::001::author::event2::rho=0.5",
+   "index": 15703
+  },
+  {
+   "id": "dat.lloyd2010::004::author::n::rho=1",
+   "index": 10000
+  },
+  {
+   "id": "dat.lloyd2010::001::studlab::(intercept)::rho=0.8",
+   "index": 15754
+  },
+  {
+   "id": "dat.lopez2019::001::id::cog::rho=0.5",
+   "index": 10218
+  },
+  {
+   "id": "dat.lopez2019::001::study::diff1::rho=0.2",
+   "index": 10012
+  },
+  {
+   "id": "dat.maire2019::001::site_station::vars2::rho=0.2",
+   "index": 15822
+  },
+  {
+   "id": "dat.maire2019::001::site::s3::rho=1",
+   "index": 15790
+  },
+  {
+   "id": "dat.mccurdy2020::001::article::id::rho=0.5",
+   "index": 10338
+  },
+  {
+   "id": "dat.mccurdy2020::001::id::article::rho=0.2",
+   "index": 10397
+  },
+  {
+   "id": "dat.mcdaniel1994::002::study::ri::rho=1",
+   "index": 10450
+  },
+  {
+   "id": "dat.mcdaniel1994::002::study::(intercept)::rho=0",
+   "index": 10436
+  },
+  {
+   "id": "dat.meeker2017::001::team::se::rho=0.5",
+   "index": 15853
+  },
+  {
+   "id": "dat.meeker2017::001::team::mean::rho=0.8",
+   "index": 15849
+  },
+  {
+   "id": "dat.michael2013::002::Study::Brain_m::rho=0.5",
+   "index": 10513
+  },
+  {
+   "id": "dat.michael2013::002::Study::No_brain_s::rho=0.5",
+   "index": 10503
+  },
+  {
+   "id": "dat.molloy2014::001::authors::quality::rho=0.5",
+   "index": 10548
+  },
+  {
+   "id": "dat.molloy2014::001::authors::ni::rho=1",
+   "index": 10535
+  },
+  {
+   "id": "dat.moore1998::001::id::Ee::rho=1",
+   "index": 10565
+  },
+  {
+   "id": "dat.moore1998::001::author::nonenglish::rho=0.5",
+   "index": 10638
+  },
+  {
+   "id": "dat.moura2021::001::species.id::publication.year::rho=0.2",
+   "index": 10817
+  },
+  {
+   "id": "dat.moura2021::001::publication.year::effect.size.id::rho=0.2",
+   "index": 10837
+  },
+  {
+   "id": "dat.nakagawa2007::001::StudyID::Correlation::rho=0",
+   "index": 10856
+  },
+  {
+   "id": "dat.nakagawa2007::001::StudyID::(intercept)::rho=0.5",
+   "index": 10853
+  },
+  {
+   "id": "dat.nielweise2007::002::study::n1i::rho=0.5",
+   "index": 10948
+  },
+  {
+   "id": "dat.nielweise2007::001::study::ci::rho=0.2",
+   "index": 10887
+  },
+  {
+   "id": "dat.nielweise2008::001::study::t1i::rho=0.8",
+   "index": 11014
+  },
+  {
+   "id": "dat.nielweise2008::001::study::t1i::rho=1",
+   "index": 11015
+  },
+  {
+   "id": "dat.nissen2007::004::study::treat.total::rho=0.8",
+   "index": 11194
+  },
+  {
+   "id": "dat.nissen2007::006::study::treat.total::rho=0.5",
+   "index": 11273
+  },
+  {
+   "id": "dat.normand1999::001::study::m2i::rho=0.5",
+   "index": 11328
+  },
+  {
+   "id": "dat.normand1999::001::study::m2i::rho=0.8",
+   "index": 11329
+  },
+  {
+   "id": "dat.obrien2003::001::author::study::rho=0.2",
+   "index": 11442
+  },
+  {
+   "id": "dat.obrien2003::001::author::bmi.lb::rho=0.5",
+   "index": 11463
+  },
+  {
+   "id": "dat.pagliaro1992::002::study::ni::rho=0.5",
+   "index": 11683
+  },
+  {
+   "id": "dat.pagliaro1992::001::study::(intercept)::rho=0",
+   "index": 11611
+  },
+  {
+   "id": "dat.pignon2000::001::id::V::rho=0.5",
+   "index": 11698
+  },
+  {
+   "id": "dat.pignon2000::001::trial::(intercept)::rho=0.2",
+   "index": 11707
+  },
+  {
+   "id": "dat.poole2003::002::author::(intercept)::rho=0.5",
+   "index": 11773
+  },
+  {
+   "id": "dat.poole2003::001::author::Se::rho=0.2",
+   "index": 11752
+  },
+  {
+   "id": "dat.pritz1997::001::study::xi::rho=1",
+   "index": 11820
+  },
+  {
+   "id": "dat.pritz1997::002::study::(intercept)::rho=0.2",
+   "index": 11847
+  },
+  {
+   "id": "dat.quan2000::002::study::Ec::rho=0.8",
+   "index": 11994
+  },
+  {
+   "id": "dat.quan2000::001::study::Nc::rho=0",
+   "index": 11971
+  },
+  {
+   "id": "dat.raudenbush1985::001::study::n1i::rho=1",
+   "index": 12020
+  },
+  {
+   "id": "dat.raudenbush1985::001::study::n2i::rho=0.2",
+   "index": 12022
+  },
+  {
+   "id": "dat.riley2003::001::study::(intercept)::rho=0",
+   "index": 12056
+  },
+  {
+   "id": "dat.riley2003::001::study::(intercept)::rho=0.8",
+   "index": 12059
+  },
+  {
+   "id": "dat.rivera2025::004::Author::PPV::rho=0",
+   "index": 12326
+  },
+  {
+   "id": "dat.rivera2025::004::Author::n2::rho=0",
+   "index": 12346
+  },
+  {
+   "id": "dat.roever2022::001::study::(intercept)::rho=0.8",
+   "index": 12459
+  },
+  {
+   "id": "dat.roever2022::001::study::year::rho=0.2",
+   "index": 12462
+  },
+  {
+   "id": "dat.senn2013::002::study::ni.2::rho=1",
+   "index": 12525
+  },
+  {
+   "id": "dat.senn2013::001::study::mi::rho=0.8",
+   "index": 12494
+  },
+  {
+   "id": "dat.spooner2002::001::author::order::rho=0.2",
+   "index": 12612
+  },
+  {
+   "id": "dat.spooner2002::001::author::(intercept)::rho=1",
+   "index": 12580
+  },
+  {
+   "id": "dat.steurer2006::001::author::(intercept)::rho=1",
+   "index": 12660
+  },
+  {
+   "id": "dat.steurer2006::002::author::year::rho=0.5",
+   "index": 12708
+  },
+  {
+   "id": "dat.stowe2010::001::id::n1::rho=1",
+   "index": 16070
+  },
+  {
+   "id": "dat.stowe2010::001::studlab::n2.orig::rho=0.5",
+   "index": 15938
+  },
+  {
+   "id": "dat.tannersmith2016::001::studyid::propmale::rho=0.2",
+   "index": 12762
+  },
+  {
+   "id": "dat.tannersmith2016::001::studyid::aget1::rho=0",
+   "index": 12751
+  },
+  {
+   "id": "dat.thompson1999::002::studyid::cholr::rho=0.8",
+   "index": 12854
+  },
+  {
+   "id": "dat.thompson1999::001::studyid::noihd.exp::rho=0.8",
+   "index": 12789
+  },
+  {
+   "id": "dat.tian2009::003::study::(intercept)::rho=0.5",
+   "index": 12908
+  },
+  {
+   "id": "dat.tian2009::003::study::deaths::rho=0.8",
+   "index": 12934
+  },
+  {
+   "id": "dat.ursino2021::001::study::year::rho=0.5",
+   "index": 12963
+  },
+  {
+   "id": "dat.ursino2021::001::study::(intercept)::rho=0.2",
+   "index": 12957
+  },
+  {
+   "id": "dat.vanhowe1999::001::study::cir.neg::rho=0.8",
+   "index": 13004
+  },
+  {
+   "id": "dat.vanhowe1999::001::study::non.pos::rho=0.2",
+   "index": 12987
+  },
+  {
+   "id": "dat.viechtbauer2021::001::trial::xTi::rho=1",
+   "index": 13025
+  },
+  {
+   "id": "dat.viechtbauer2021::001::trial::nCi::rho=0.8",
+   "index": 13019
+  },
+  {
+   "id": "dat.white2020::001::study_id::n::rho=1",
+   "index": 13055
+  },
+  {
+   "id": "dat.white2020::001::study_id::r::rho=0.5",
+   "index": 13058
+  },
+  {
+   "id": "dat.woods2010::001::author::event2::rho=0.2",
+   "index": 16232
+  },
+  {
+   "id": "dat.woods2010::001::author::n2::rho=1",
+   "index": 16240
+  },
+  {
+   "id": "dat.yusuf1985::002::id::n2i::rho=1",
+   "index": 13135
+  },
+  {
+   "id": "dat.yusuf1985::002::trial::ai::rho=0.8",
+   "index": 13144
+  },
+  {
+   "id": "robumeta::corrdat::studyid::males::rho=0.2",
+   "index": 13182
+  },
+  {
+   "id": "robumeta::corrdat::studyid::esid::rho=1",
+   "index": 13170
+  },
+  {
+   "id": "robumeta::hierdat::studyid::esid::rho=1",
+   "index": 13200
+  },
+  {
+   "id": "robumeta::hierdat::studyid::binge::rho=0",
+   "index": 13201
+  },
+  {
+   "id": "robumeta::oswald2013::IAT.ID::Crit.ID::rho=1",
+   "index": 13510
+  },
+  {
+   "id": "robumeta::oswald2013::IAT.ID::Sample.ID::rho=0.5",
+   "index": 13513
+  },
+  {
+   "id": "dat.hahn2001::001::study::ai::rho=0.8",
+   "index": 6744
+  },
+  {
+   "id": "dat.hine1989::001::study::n2i::rho=1",
+   "index": 7315
+  },
+  {
+   "id": "robumeta::oswald2013::Study::(intercept)::rho=0.2",
+   "index": 13472
+  },
+  {
+   "id": "dat.collins1985b::002::id::stb.xti::rho=0.2",
+   "index": 4362
+  },
+  {
+   "id": "dat.landenberger2005::001::study::hrs_total::rho=0.5",
+   "index": 9013
+  },
+  {
+   "id": "dat.dogliotti2014::001::studlab::n1::rho=0",
+   "index": 14011
+  },
+  {
+   "id": "dat.nissen2007::005::study::(intercept)::rho=0.2",
+   "index": 11222
+  },
+  {
+   "id": "dat.linde2016::001::studlab::id::rho=1",
+   "index": 15580
+  },
+  {
+   "id": "dat.linde2015::001::author::event1::rho=0.2",
+   "index": 14962
+  },
+  {
+   "id": "dat.tian2009::003::study::phase::rho=0.5",
+   "index": 12913
+  },
+  {
+   "id": "dat.collins1985b::003::author::pre.nci::rho=0.8",
+   "index": 4559
+  },
+  {
+   "id": "dat.greb2008::002::study::Nc::rho=0.5",
+   "index": 6648
+  },
+  {
+   "id": "dat.nissen2007::001::study::(intercept)::rho=0.2",
+   "index": 11062
+  },
+  {
+   "id": "dat.karner2014::008::study::fev1.se::rho=1",
+   "index": 8655
+  },
+  {
+   "id": "dat.moore1998::001::author::Ec::rho=0.8",
+   "index": 10629
+  },
+  {
+   "id": "dat.besson2016::001::study_ID::offspring_diet_end_dPP::rho=0.5",
+   "index": 1443
+  },
+  {
+   "id": "dat.cannon2006::006::trial::ep2c::rho=0.2",
+   "index": 2752
+  },
+  {
+   "id": "dat.anker2025::004::study::sex.logrrr::rho=0.5",
+   "index": 568
+  },
+  {
+   "id": "dat.linde2015::001::studlab::n3::rho=0.8",
+   "index": 14769
+  },
+  {
+   "id": "dat.karner2014::005::study::fev1.md::rho=1",
+   "index": 8275
+  },
+  {
+   "id": "dat.collins1985b::004::author::stb.xci::rho=0",
+   "index": 4756
+  },
+  {
+   "id": "dat.woods2010::001::studlab::TE::rho=0.8",
+   "index": 16149
+  },
+  {
+   "id": "dat.bornmann2007::001::study::waward::rho=0.5",
+   "index": 2243
+  },
+  {
+   "id": "dat.linde2016::001::studlab::event2::rho=1",
+   "index": 15560
+  },
+  {
+   "id": "dat.besson2016::001::animal_ID::bm_dPP::rho=1",
+   "index": 1710
+  },
+  {
+   "id": "dat.yusuf1985::001::trial::n1i::rho=1",
+   "index": 13100
+  },
+  {
+   "id": "dat.ishak2007::003::study::y3i::rho=1",
+   "index": 7490
+  },
+  {
+   "id": "dat.collins1985b::004::author::ned.xci::rho=0.8",
+   "index": 4769
+  },
+  {
+   "id": "dat.stowe2010::001::studlab::sd1::rho=1",
+   "index": 15890
+  },
+  {
+   "id": "clubSandwich::dropoutPrevention::studyID::average_age::rho=0.5",
+   "index": 13253
+  },
+  {
+   "id": "dat.nissen2007::005::study::cont.death::rho=0.2",
+   "index": 11257
+  },
+  {
+   "id": "dat.lopez2019::001::id::mind::rho=0.8",
+   "index": 10264
+  },
+  {
+   "id": "dat.dagostino1998::001::study::tnc::rho=0.2",
+   "index": 5142
+  },
+  {
+   "id": "dat.gurusamy2011::001::studlab::event1::rho=1",
+   "index": 14535
+  },
+  {
+   "id": "dat.crede2010::001::studyid::ni::rho=1",
+   "index": 4960
+  },
+  {
+   "id": "dat.li2007::001::id::ci::rho=1",
+   "index": 9480
+  },
+  {
+   "id": "dat.karner2014::007::study::tiotropium.total::rho=1",
+   "index": 8445
+  },
+  {
+   "id": "dat.ishak2007::003::study::v3i::rho=1",
+   "index": 7495
+  },
+  {
+   "id": "dat.frank2008::003::study::bc.del.del::rho=0.8",
+   "index": 6159
+  },
+  {
+   "id": "dat.karner2014::004::study::tiotropium.hospi::rho=0",
+   "index": 8081
+  },
+  {
+   "id": "dat.besson2016::001::dam_ID::exp_n::rho=0.2",
+   "index": 1602
+  },
+  {
+   "id": "dat.cannon2006::006::trial::ep3t::rho=0.2",
+   "index": 2757
+  },
+  {
+   "id": "dat.stowe2010::001::study::y2::rho=0.8",
+   "index": 16024
+  },
+  {
+   "id": "dat.rivera2025::003::Author::(intercept)::rho=1",
+   "index": 12215
+  },
+  {
+   "id": "dat.linde2015::001::id::year::rho=0",
+   "index": 14846
+  },
+  {
+   "id": "dat.linde2015::002::studlab::loss2::rho=0.2",
+   "index": 15192
+  },
+  {
+   "id": "dat.frank2008::002::study::ct.del.del::rho=1",
+   "index": 6140
+  },
+  {
+   "id": "dat.curtis1998::001::id::m1i::rho=1",
+   "index": 5050
+  },
+  {
+   "id": "dat.collins1985b::003::id::ped.xci::rho=0",
+   "index": 4511
+  },
+  {
+   "id": "dat.anand1999::001::study::ci::rho=1",
+   "index": 110
+  },
+  {
+   "id": "dat.cannon2006::005::trial::nc::rho=0.5",
+   "index": 2658
+  },
+  {
+   "id": "dat.linde2016::001::author::seTE::rho=0.5",
+   "index": 15688
+  },
+  {
+   "id": "dat.bakdash2021::001::Author::vi.z::rho=0",
+   "index": 676
+  },
+  {
+   "id": "dat.bartos2023::003::person::hsame::rho=0.2",
+   "index": 13922
+  },
+  {
+   "id": "dat.debruin2009::001::author::xi::rho=0",
+   "index": 5396
+  },
+  {
+   "id": "dat.dagostino1998::003::study::nc::rho=0.8",
+   "index": 5294
+  },
+  {
+   "id": "dat.gibson2002::004::author::sd1i::rho=1",
+   "index": 6535
+  },
+  {
+   "id": "dat.nissen2007::001::study::(intercept)::rho=1",
+   "index": 11065
+  },
+  {
+   "id": "dat.damico2009::002::study::blind::rho=0.8",
+   "index": 5374
+  },
+  {
+   "id": "dat.collins1985a::003::id::b.xci::rho=1",
+   "index": 3735
+  },
+  {
+   "id": "dat.bcg::001::trial::tpos::rho=0.5",
+   "index": 1043
+  },
+  {
+   "id": "dat.chiarito2020::006::study::p2y12.stroke::rho=0.2",
+   "index": 3327
+  },
+  {
+   "id": "dat.linde2015::001::studlab::id::rho=1",
+   "index": 14700
+  },
+  {
+   "id": "dat.tian2009::003::study::infarcts::rho=0.2",
+   "index": 12937
+  }
+ ],
+ "centred": [
+  {
+   "id": "dat.nielweise2008::001::authors::t2i::rho=0.2",
+   "index": 11057,
+   "tierB_pos": 1207
+  },
+  {
+   "id": "dat.collins1985a::001::id::year::rho=0.8",
+   "index": 3469,
+   "tierB_pos": 449
+  },
+  {
+   "id": "dat.hasselblad1998::002::id::year::rho=1",
+   "index": 7135,
+   "tierB_pos": 805
+  },
+  {
+   "id": "dat.karner2014::005::study::tiotropium.total::rho=0.8",
+   "index": 8194,
+   "tierB_pos": 884
+  },
+  {
+   "id": "dat.egger2001::001::id::n1i::rho=1",
+   "index": 5605,
+   "tierB_pos": 635
+  },
+  {
+   "id": "dat.bartos2023::003::person::same::rho=0.2",
+   "index": 13942,
+   "tierB_pos": 1492
+  },
+  {
+   "id": "dat.cannon2006::004::trial::nt::rho=1",
+   "index": 2580,
+   "tierB_pos": 255
+  },
+  {
+   "id": "dat.linde2015::002::studlab::year::rho=0.2",
+   "index": 15142,
+   "tierB_pos": 1647
+  },
+  {
+   "id": "dat.hackshaw1998::001::study::year::rho=1",
+   "index": 6680,
+   "tierB_pos": 760
+  },
+  {
+   "id": "dat.cannon2006::004::trial::ep2c::rho=0",
+   "index": 2601,
+   "tierB_pos": 266
+  },
+  {
+   "id": "dat.nissen2007::003::study::cont.total::rho=0.2",
+   "index": 11167,
+   "tierB_pos": 1212
+  },
+  {
+   "id": "dat.molloy2014::001::authors::year::rho=1",
+   "index": 10530,
+   "tierB_pos": 1115
+  },
+  {
+   "id": "dat.li2007::001::id::n2i::rho=0",
+   "index": 9481,
+   "tierB_pos": 1031
+  },
+  {
+   "id": "dat.egger2001::001::study::n1i::rho=0",
+   "index": 5636,
+   "tierB_pos": 646
+  },
+  {
+   "id": "dat.anker2025::001::study::year::rho=0.5",
+   "index": 163,
+   "tierB_pos": 13
+  },
+  {
+   "id": "dat.linde2016::001::author::year::rho=0.5",
+   "index": 15728,
+   "tierB_pos": 1673
+  },
+  {
+   "id": "dat.dogliotti2014::001::studlab::n1::rho=0.8",
+   "index": 14014,
+   "tierB_pos": 1534
+  },
+  {
+   "id": "dat.colditz1994::001::trial::cneg::rho=0.8",
+   "index": 3414,
+   "tierB_pos": 429
+  },
+  {
+   "id": "dat.anker2025::003::study::year::rho=0.2",
+   "index": 372,
+   "tierB_pos": 42
+  },
+  {
+   "id": "dat.karner2014::004::study::baseline.age::rho=0.8",
+   "index": 8044,
+   "tierB_pos": 869
+  },
+  {
+   "id": "dat.karner2014::008::study::year::rho=0",
+   "index": 8536,
+   "tierB_pos": 931
+  },
+  {
+   "id": "dat.raudenbush1985::001::author::year::rho=1",
+   "index": 12040,
+   "tierB_pos": 1300
+  },
+  {
+   "id": "dat.chiarito2020::003::study::p2y12.total::rho=0",
+   "index": 3041,
+   "tierB_pos": 351
+  },
+  {
+   "id": "dat.besson2016::001::time_trial::exp_mean::rho=0.8",
+   "index": 1994,
+   "tierB_pos": 159
+  },
+  {
+   "id": "dat.karner2014::003::study::year::rho=0",
+   "index": 7911,
+   "tierB_pos": 851
+  },
+  {
+   "id": "dat.bartos2023::001::person::tsame::rho=0.8",
+   "index": 13864,
+   "tierB_pos": 1424
+  },
+  {
+   "id": "dat.chiarito2020::006::study::year::rho=0",
+   "index": 3276,
+   "tierB_pos": 396
+  },
+  {
+   "id": "dat.maire2019::001::site::vars1::rho=1",
+   "index": 15775,
+   "tierB_pos": 1680
+  },
+  {
+   "id": "dat.nielweise2007::002::author::year::rho=0.5",
+   "index": 10973,
+   "tierB_pos": 1178
+  },
+  {
+   "id": "dat.frank2008::001::study::ct.ins.del::rho=0.2",
+   "index": 6097,
+   "tierB_pos": 702
+  },
+  {
+   "id": "dat.hackshaw1998::001::study::year::rho=0.5",
+   "index": 6678,
+   "tierB_pos": 758
+  },
+  {
+   "id": "dat.lau1992::002::trial::year::rho=0.5",
+   "index": 9098,
+   "tierB_pos": 998
+  },
+  {
+   "id": "dat.linde2015::001::author::year::rho=0.8",
+   "index": 14999,
+   "tierB_pos": 1644
+  },
+  {
+   "id": "dat.dong2013::001::studlab::n2::rho=0",
+   "index": 14226,
+   "tierB_pos": 1596
+  },
+  {
+   "id": "dat.karner2014::005::study::tiotropium.total::rho=0.2",
+   "index": 8192,
+   "tierB_pos": 882
+  },
+  {
+   "id": "dat.anand1999::002::study::year::rho=1",
+   "index": 125,
+   "tierB_pos": 10
+  },
+  {
+   "id": "clubSandwich::dropoutPrevention::studySample::studyID::rho=0.5",
+   "index": 13603,
+   "tierB_pos": 1388
+  },
+  {
+   "id": "dat.linde2015::001::author::year::rho=0.5",
+   "index": 14998,
+   "tierB_pos": 1643
+  },
+  {
+   "id": "dat.collins1985b::003::author::year::rho=0",
+   "index": 4546,
+   "tierB_pos": 531
+  },
+  {
+   "id": "dat.chiarito2020::006::study::baseline.age::rho=0.8",
+   "index": 3299,
+   "tierB_pos": 404
+  },
+  {
+   "id": "dat.nielweise2007::002::study::year::rho=0",
+   "index": 10936,
+   "tierB_pos": 1171
+  },
+  {
+   "id": "dat.crisafulli2020::001::study::from::rho=0",
+   "index": 4976,
+   "tierB_pos": 566
+  },
+  {
+   "id": "dat.dong2013::001::id::n1::rho=0.8",
+   "index": 14294,
+   "tierB_pos": 1614
+  },
+  {
+   "id": "dat.baskerville2012::001::author::year::rho=0.5",
+   "index": 818,
+   "tierB_pos": 93
+  },
+  {
+   "id": "dat.anker2025::003::study::total.n::rho=0.5",
+   "index": 418,
+   "tierB_pos": 48
+  },
+  {
+   "id": "dat.cannon2006::005::trial::ep2t::rho=0.8",
+   "index": 2674,
+   "tierB_pos": 284
+  },
+  {
+   "id": "dat.chiarito2020::004::study::year::rho=0.5",
+   "index": 3078,
+   "tierB_pos": 363
+  },
+  {
+   "id": "dat.damico2009::001::study::year::rho=1",
+   "index": 5305,
+   "tierB_pos": 595
+  },
+  {
+   "id": "dat.linde2005::001::id::year::rho=0",
+   "index": 9626,
+   "tierB_pos": 1081
+  },
+  {
+   "id": "dat.linde2005::001::id::year::rho=0.2",
+   "index": 9627,
+   "tierB_pos": 1082
+  }
+ ]
+}

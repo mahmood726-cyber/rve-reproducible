@@ -1,0 +1,44 @@
+P1 56265/56265 checks pass; 0 configurations with any failure
+   ci_hi                              3410/3410   max diff 2.93e-12
+   ci_lo                              3410/3410   max diff 3.15e-12
+   club_df                            3410/3410   max diff 2.16e-12
+   club_estimate                      3410/3410   max diff 1.85e-14
+   club_p                             3410/3410   max diff 4.84e-13
+   club_reference_success             3410/3410   max diff 0
+   club_se                            3410/3410   max diff 1.62e-14
+   club_t                             3410/3410   max diff 6.75e-13
+   coefficient_count                  1705/1705   max diff 0
+   design_columns                     1705/1705   max diff 0
+   df                                 3410/3410   max diff 2.75e-12
+   estimate                           3410/3410   max diff 1.85e-14
+   m                                  1705/1705   max diff 0
+   method                             1705/1705   max diff 0
+   n                                  1705/1705   max diff 0
+   p                                  3410/3410   max diff 4e-13
+   se                                 3410/3410   max diff 2.72e-15
+   status                             1705/1705   max diff 0
+   t                                  3410/3410   max diff 4.74e-13
+   tau2                               1705/1705   max diff 2.19e-14
+P2 23698/23842 checks pass; 66 configurations with any failure
+   slope_ci_hi                        1693/1703   max diff 2.41e-09
+   slope_ci_lo                        1693/1703   max diff 2.11e-09
+   slope_club_df                      1682/1703   max diff 2.22e-09
+   slope_club_estimate                1703/1703   max diff 3.9e-10
+   slope_club_p                       1697/1703   max diff 2.89e-09
+   slope_club_se                      1703/1703   max diff 4.44e-10
+   slope_club_t                       1647/1703   max diff 6.59e-09
+   slope_df                           1693/1703   max diff 2.32e-09
+   slope_estimate                     1703/1703   max diff 3.9e-10
+   slope_p                            1698/1703   max diff 2.88e-09
+   slope_se                           1703/1703   max diff 3.04e-10
+   slope_t                            1682/1703   max diff 6.56e-09
+   status                             1703/1703   max diff 0
+   tau2                               1698/1703   max diff 1.98e-09
+P3 3363/3408 checks pass; 45 configurations with any failure
+   kappa_centred                      1705/1705   max diff 5.94e-11
+   uncentred_kappa_gt_9e8              858/903    max diff 1.94e-06
+   uncentred_kappa_le_9e8              800/800    max diff 9.67e-11
+engine status {'ok': 1705} R status {'ok': 1705} echo mismatches 0
+P2 skipped (uncentred ref refused): 2
+centred kappa max 266701347402.04095 over threshold 461
+uncentred kappa R range [9157607.620671866, 16313843192142.545] n<=9e8 800

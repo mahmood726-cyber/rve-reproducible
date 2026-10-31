@@ -1,0 +1,2212 @@
+[
+  {
+    "comparator_index": 1,
+    "original_index": 2,
+    "design": "clubSandwich::dropoutPrevention::study_design::male_pct"
+  },
+  {
+    "comparator_index": 2,
+    "original_index": 3,
+    "design": "clubSandwich::dropoutPrevention::studyID::group_equivalence"
+  },
+  {
+    "comparator_index": 3,
+    "original_index": 4,
+    "design": "clubSandwich::SATcoaching::study_type::year"
+  },
+  {
+    "comparator_index": 4,
+    "original_index": 5,
+    "design": "dat.aloe2013::002::study::n"
+  },
+  {
+    "comparator_index": 5,
+    "original_index": 6,
+    "design": "dat.aloe2013::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 6,
+    "original_index": 7,
+    "design": "dat.aloe2013::003::study::(intercept)"
+  },
+  {
+    "comparator_index": 7,
+    "original_index": 8,
+    "design": "dat.aloe2013::003::study::tval"
+  },
+  {
+    "comparator_index": 8,
+    "original_index": 9,
+    "design": "dat.anand1999::001::study::asp.c"
+  },
+  {
+    "comparator_index": 9,
+    "original_index": 10,
+    "design": "dat.anand1999::002::study::year"
+  },
+  {
+    "comparator_index": 10,
+    "original_index": 11,
+    "design": "dat.anand1999::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 11,
+    "original_index": 12,
+    "design": "dat.anand1999::001::study::n1i"
+  },
+  {
+    "comparator_index": 12,
+    "original_index": 13,
+    "design": "dat.anker2025::004::study::baseline.ft"
+  },
+  {
+    "comparator_index": 13,
+    "original_index": 14,
+    "design": "dat.anker2025::002::study::baseline.tsat"
+  },
+  {
+    "comparator_index": 14,
+    "original_index": 15,
+    "design": "dat.anker2025::001::study::female.se"
+  },
+  {
+    "comparator_index": 15,
+    "original_index": 16,
+    "design": "dat.anker2025::002::study::intv.n"
+  },
+  {
+    "comparator_index": 16,
+    "original_index": 17,
+    "design": "dat.assink2016::001::study::esid"
+  },
+  {
+    "comparator_index": 17,
+    "original_index": 18,
+    "design": "dat.assink2016::001::id::esid"
+  },
+  {
+    "comparator_index": 18,
+    "original_index": 19,
+    "design": "dat.assink2016::001::id::study"
+  },
+  {
+    "comparator_index": 19,
+    "original_index": 20,
+    "design": "dat.assink2016::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 20,
+    "original_index": 21,
+    "design": "dat.axfors2021::001::id::hcq_arm_total"
+  },
+  {
+    "comparator_index": 21,
+    "original_index": 22,
+    "design": "dat.axfors2021::001::id::control_arm_event"
+  },
+  {
+    "comparator_index": 22,
+    "original_index": 23,
+    "design": "dat.axfors2021::001::id::(intercept)"
+  },
+  {
+    "comparator_index": 23,
+    "original_index": 24,
+    "design": "dat.axfors2021::001::id::control_arm_total"
+  },
+  {
+    "comparator_index": 24,
+    "original_index": 25,
+    "design": "dat.bakdash2021::001::Author::(intercept)"
+  },
+  {
+    "comparator_index": 25,
+    "original_index": 26,
+    "design": "dat.bakdash2021::001::Author::Outcome"
+  },
+  {
+    "comparator_index": 26,
+    "original_index": 27,
+    "design": "dat.bakdash2021::001::Author::vi.z"
+  },
+  {
+    "comparator_index": 27,
+    "original_index": 28,
+    "design": "dat.bakdash2021::001::Author::Sample.size"
+  },
+  {
+    "comparator_index": 28,
+    "original_index": 29,
+    "design": "dat.baker2009::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 29,
+    "original_index": 30,
+    "design": "dat.baker2009::001::studlab::total1"
+  },
+  {
+    "comparator_index": 30,
+    "original_index": 31,
+    "design": "dat.baker2009::001::studlab::event2"
+  },
+  {
+    "comparator_index": 31,
+    "original_index": 32,
+    "design": "dat.baker2009::001::id::year"
+  },
+  {
+    "comparator_index": 32,
+    "original_index": 33,
+    "design": "dat.bangertdrowns2004::001::id::year"
+  },
+  {
+    "comparator_index": 33,
+    "original_index": 34,
+    "design": "dat.bangertdrowns2004::001::id::ni"
+  },
+  {
+    "comparator_index": 34,
+    "original_index": 35,
+    "design": "dat.bangertdrowns2004::001::id::feedback"
+  },
+  {
+    "comparator_index": 35,
+    "original_index": 36,
+    "design": "dat.bangertdrowns2004::001::id::pers"
+  },
+  {
+    "comparator_index": 36,
+    "original_index": 37,
+    "design": "dat.bartos2023::004::person::hdiff"
+  },
+  {
+    "comparator_index": 37,
+    "original_index": 38,
+    "design": "dat.bartos2023::001::person::hdiff"
+  },
+  {
+    "comparator_index": 38,
+    "original_index": 39,
+    "design": "dat.bartos2023::002::person::hsame"
+  },
+  {
+    "comparator_index": 39,
+    "original_index": 40,
+    "design": "dat.bartos2023::004::person::same"
+  },
+  {
+    "comparator_index": 40,
+    "original_index": 41,
+    "design": "dat.baskerville2012::001::author::itt"
+  },
+  {
+    "comparator_index": 41,
+    "original_index": 42,
+    "design": "dat.baskerville2012::001::author::alloconc"
+  },
+  {
+    "comparator_index": 42,
+    "original_index": 43,
+    "design": "dat.baskerville2012::001::author::score"
+  },
+  {
+    "comparator_index": 43,
+    "original_index": 44,
+    "design": "dat.baskerville2012::001::author::pperf"
+  },
+  {
+    "comparator_index": 44,
+    "original_index": 45,
+    "design": "dat.bassler2004::002::study::Ne"
+  },
+  {
+    "comparator_index": 45,
+    "original_index": 46,
+    "design": "dat.bassler2004::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 46,
+    "original_index": 47,
+    "design": "dat.bassler2004::001::study::Nc"
+  },
+  {
+    "comparator_index": 47,
+    "original_index": 48,
+    "design": "dat.bassler2004::002::study::Ee"
+  },
+  {
+    "comparator_index": 48,
+    "original_index": 49,
+    "design": "dat.bauer2002::001::study::threshold"
+  },
+  {
+    "comparator_index": 49,
+    "original_index": 50,
+    "design": "dat.bauer2002::002::study::n.treat"
+  },
+  {
+    "comparator_index": 50,
+    "original_index": 51,
+    "design": "dat.bauer2002::002::study::(intercept)"
+  },
+  {
+    "comparator_index": 51,
+    "original_index": 52,
+    "design": "dat.bauer2002::001::study::stderr"
+  },
+  {
+    "comparator_index": 52,
+    "original_index": 53,
+    "design": "dat.bcg::001::author::tneg"
+  },
+  {
+    "comparator_index": 53,
+    "original_index": 54,
+    "design": "dat.bcg::001::trial::ablat"
+  },
+  {
+    "comparator_index": 54,
+    "original_index": 55,
+    "design": "dat.bcg::001::trial::tpos"
+  },
+  {
+    "comparator_index": 55,
+    "original_index": 56,
+    "design": "dat.bcg::001::author::cneg"
+  },
+  {
+    "comparator_index": 56,
+    "original_index": 57,
+    "design": "dat.begg1989::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 57,
+    "original_index": 58,
+    "design": "dat.begg1989::001::study::arms"
+  },
+  {
+    "comparator_index": 58,
+    "original_index": 59,
+    "design": "dat.berkey1998::001::author::year"
+  },
+  {
+    "comparator_index": 59,
+    "original_index": 60,
+    "design": "dat.berkey1998::001::author::ni"
+  },
+  {
+    "comparator_index": 60,
+    "original_index": 61,
+    "design": "dat.berkey1998::001::author::v1i"
+  },
+  {
+    "comparator_index": 61,
+    "original_index": 62,
+    "design": "dat.berkey1998::001::trial::v2i"
+  },
+  {
+    "comparator_index": 62,
+    "original_index": 63,
+    "design": "dat.berkey1998r::001::trial::(intercept)"
+  },
+  {
+    "comparator_index": 63,
+    "original_index": 64,
+    "design": "dat.berkey1998r::001::author::v1i"
+  },
+  {
+    "comparator_index": 64,
+    "original_index": 65,
+    "design": "dat.berkey1998r::001::author::(intercept)"
+  },
+  {
+    "comparator_index": 65,
+    "original_index": 66,
+    "design": "dat.berkey1998r::001::trial::year"
+  },
+  {
+    "comparator_index": 66,
+    "original_index": 67,
+    "design": "dat.besson2016::001::study_ID::bm_N_exp"
+  },
+  {
+    "comparator_index": 67,
+    "original_index": 68,
+    "design": "dat.besson2016::001::time_trial::(intercept)"
+  },
+  {
+    "comparator_index": 68,
+    "original_index": 69,
+    "design": "dat.besson2016::001::dam_ID::photoperiod"
+  },
+  {
+    "comparator_index": 69,
+    "original_index": 70,
+    "design": "dat.besson2016::001::con_ID::photoperiod"
+  },
+  {
+    "comparator_index": 70,
+    "original_index": 71,
+    "design": "dat.bonett2010::001::study::ni"
+  },
+  {
+    "comparator_index": 71,
+    "original_index": 72,
+    "design": "dat.bonett2010::003::study::ni"
+  },
+  {
+    "comparator_index": 72,
+    "original_index": 73,
+    "design": "dat.bonett2010::002::study::(intercept)"
+  },
+  {
+    "comparator_index": 73,
+    "original_index": 74,
+    "design": "dat.bonett2010::003::study::(intercept)"
+  },
+  {
+    "comparator_index": 74,
+    "original_index": 75,
+    "design": "dat.bornmann2007::001::study::maward"
+  },
+  {
+    "comparator_index": 75,
+    "original_index": 76,
+    "design": "dat.bornmann2007::001::study::wtotal"
+  },
+  {
+    "comparator_index": 76,
+    "original_index": 77,
+    "design": "dat.bornmann2007::001::study::year"
+  },
+  {
+    "comparator_index": 77,
+    "original_index": 78,
+    "design": "dat.bornmann2007::001::study::mtotal"
+  },
+  {
+    "comparator_index": 78,
+    "original_index": 79,
+    "design": "dat.bourassa1996::001::study::sample"
+  },
+  {
+    "comparator_index": 79,
+    "original_index": 80,
+    "design": "dat.bourassa1996::001::study::lh.re"
+  },
+  {
+    "comparator_index": 80,
+    "original_index": 81,
+    "design": "dat.bourassa1996::001::author::study"
+  },
+  {
+    "comparator_index": 81,
+    "original_index": 82,
+    "design": "dat.bourassa1996::001::author::sample"
+  },
+  {
+    "comparator_index": 82,
+    "original_index": 83,
+    "design": "dat.cannon2006::004::trial::nc"
+  },
+  {
+    "comparator_index": 83,
+    "original_index": 84,
+    "design": "dat.cannon2006::004::trial::ep6c"
+  },
+  {
+    "comparator_index": 84,
+    "original_index": 85,
+    "design": "dat.cannon2006::003::trial::(intercept)"
+  },
+  {
+    "comparator_index": 85,
+    "original_index": 86,
+    "design": "dat.cannon2006::002::trial::ep6t"
+  },
+  {
+    "comparator_index": 86,
+    "original_index": 87,
+    "design": "dat.chiarito2020::001::study::aspirin.death"
+  },
+  {
+    "comparator_index": 87,
+    "original_index": 88,
+    "design": "dat.chiarito2020::005::study::aspirin.total"
+  },
+  {
+    "comparator_index": 88,
+    "original_index": 89,
+    "design": "dat.chiarito2020::003::study::aspirin.stroke"
+  },
+  {
+    "comparator_index": 89,
+    "original_index": 90,
+    "design": "dat.chiarito2020::001::study::baseline.diabetes"
+  },
+  {
+    "comparator_index": 90,
+    "original_index": 91,
+    "design": "dat.cohen1981::001::study::ri"
+  },
+  {
+    "comparator_index": 91,
+    "original_index": 92,
+    "design": "dat.cohen1981::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 92,
+    "original_index": 93,
+    "design": "dat.cohen1981::001::study::ni"
+  },
+  {
+    "comparator_index": 93,
+    "original_index": 94,
+    "design": "dat.colditz1994::001::author::cneg"
+  },
+  {
+    "comparator_index": 94,
+    "original_index": 95,
+    "design": "dat.colditz1994::001::author::(intercept)"
+  },
+  {
+    "comparator_index": 95,
+    "original_index": 96,
+    "design": "dat.colditz1994::001::author::ablat"
+  },
+  {
+    "comparator_index": 96,
+    "original_index": 97,
+    "design": "dat.colditz1994::001::trial::cneg"
+  },
+  {
+    "comparator_index": 97,
+    "original_index": 98,
+    "design": "dat.collins1985a::002::trial::ref"
+  },
+  {
+    "comparator_index": 98,
+    "original_index": 99,
+    "design": "dat.collins1985a::006::id::d.xci"
+  },
+  {
+    "comparator_index": 99,
+    "original_index": 100,
+    "design": "dat.collins1985a::006::trial::nti"
+  },
+  {
+    "comparator_index": 100,
+    "original_index": 101,
+    "design": "dat.collins1985a::006::trial::(intercept)"
+  },
+  {
+    "comparator_index": 101,
+    "original_index": 102,
+    "design": "dat.collins1985b::005::id::ped.xci"
+  },
+  {
+    "comparator_index": 102,
+    "original_index": 103,
+    "design": "dat.collins1985b::002::author::pre.nti"
+  },
+  {
+    "comparator_index": 103,
+    "original_index": 104,
+    "design": "dat.collins1985b::003::author::pre.xci"
+  },
+  {
+    "comparator_index": 104,
+    "original_index": 105,
+    "design": "dat.collins1985b::001::author::fup.nti"
+  },
+  {
+    "comparator_index": 105,
+    "original_index": 106,
+    "design": "dat.craft2003::001::study::ri"
+  },
+  {
+    "comparator_index": 106,
+    "original_index": 107,
+    "design": "dat.craft2003::001::study::ni"
+  },
+  {
+    "comparator_index": 107,
+    "original_index": 108,
+    "design": "dat.craft2003::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 108,
+    "original_index": 109,
+    "design": "dat.crede2010::001::studyid::ri"
+  },
+  {
+    "comparator_index": 109,
+    "original_index": 110,
+    "design": "dat.crede2010::001::studyid::sampleid"
+  },
+  {
+    "comparator_index": 110,
+    "original_index": 111,
+    "design": "dat.crede2010::001::studyid::year"
+  },
+  {
+    "comparator_index": 111,
+    "original_index": 112,
+    "design": "dat.crede2010::001::studyid::ni"
+  },
+  {
+    "comparator_index": 112,
+    "original_index": 113,
+    "design": "dat.crisafulli2020::001::study::to"
+  },
+  {
+    "comparator_index": 113,
+    "original_index": 114,
+    "design": "dat.crisafulli2020::001::study::cases"
+  },
+  {
+    "comparator_index": 114,
+    "original_index": 115,
+    "design": "dat.crisafulli2020::001::study::pubyear"
+  },
+  {
+    "comparator_index": 115,
+    "original_index": 116,
+    "design": "dat.crisafulli2020::001::study::total"
+  },
+  {
+    "comparator_index": 116,
+    "original_index": 117,
+    "design": "dat.curtin2002::001::author::SE"
+  },
+  {
+    "comparator_index": 117,
+    "original_index": 118,
+    "design": "dat.curtin2002::001::author::N"
+  },
+  {
+    "comparator_index": 118,
+    "original_index": 119,
+    "design": "dat.curtin2002::001::author::corr"
+  },
+  {
+    "comparator_index": 119,
+    "original_index": 120,
+    "design": "dat.curtin2002::001::author::(intercept)"
+  },
+  {
+    "comparator_index": 120,
+    "original_index": 121,
+    "design": "dat.curtis1998::001::id::sd1i"
+  },
+  {
+    "comparator_index": 121,
+    "original_index": 122,
+    "design": "dat.curtis1998::001::paper::m1i"
+  },
+  {
+    "comparator_index": 122,
+    "original_index": 123,
+    "design": "dat.curtis1998::001::id::m1i"
+  },
+  {
+    "comparator_index": 123,
+    "original_index": 124,
+    "design": "dat.curtis1998::001::paper::time"
+  },
+  {
+    "comparator_index": 124,
+    "original_index": 125,
+    "design": "dat.dagostino1998::001::study::mt"
+  },
+  {
+    "comparator_index": 125,
+    "original_index": 126,
+    "design": "dat.dagostino1998::002::study::nc"
+  },
+  {
+    "comparator_index": 126,
+    "original_index": 127,
+    "design": "dat.dagostino1998::002::study::tnt"
+  },
+  {
+    "comparator_index": 127,
+    "original_index": 128,
+    "design": "dat.dagostino1998::003::study::tnc"
+  },
+  {
+    "comparator_index": 128,
+    "original_index": 129,
+    "design": "dat.damico2009::002::study::nt"
+  },
+  {
+    "comparator_index": 129,
+    "original_index": 130,
+    "design": "dat.damico2009::002::study::blind"
+  },
+  {
+    "comparator_index": 130,
+    "original_index": 131,
+    "design": "dat.damico2009::001::study::xt"
+  },
+  {
+    "comparator_index": 131,
+    "original_index": 132,
+    "design": "dat.damico2009::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 132,
+    "original_index": 133,
+    "design": "dat.debruin2009::001::author::mi"
+  },
+  {
+    "comparator_index": 133,
+    "original_index": 134,
+    "design": "dat.debruin2009::001::author::scq"
+  },
+  {
+    "comparator_index": 134,
+    "original_index": 135,
+    "design": "dat.debruin2009::001::author::year"
+  },
+  {
+    "comparator_index": 135,
+    "original_index": 136,
+    "design": "dat.debruin2009::001::author::ni"
+  },
+  {
+    "comparator_index": 136,
+    "original_index": 137,
+    "design": "dat.demir2022::001::author::(intercept)"
+  },
+  {
+    "comparator_index": 137,
+    "original_index": 138,
+    "design": "dat.demir2022::001::author::year"
+  },
+  {
+    "comparator_index": 138,
+    "original_index": 139,
+    "design": "dat.demir2022::001::author::n"
+  },
+  {
+    "comparator_index": 139,
+    "original_index": 140,
+    "design": "dat.demir2022::001::studyid::(intercept)"
+  },
+  {
+    "comparator_index": 140,
+    "original_index": 141,
+    "design": "dat.dogliotti2014::001::study::stroke1"
+  },
+  {
+    "comparator_index": 141,
+    "original_index": 142,
+    "design": "dat.dogliotti2014::001::study::TE"
+  },
+  {
+    "comparator_index": 142,
+    "original_index": 143,
+    "design": "dat.dogliotti2014::001::id::event1"
+  },
+  {
+    "comparator_index": 143,
+    "original_index": 144,
+    "design": "dat.dogliotti2014::001::study::event2"
+  },
+  {
+    "comparator_index": 144,
+    "original_index": 145,
+    "design": "dat.dong2013::001::id::randomized1"
+  },
+  {
+    "comparator_index": 145,
+    "original_index": 146,
+    "design": "dat.dong2013::001::id::TE"
+  },
+  {
+    "comparator_index": 146,
+    "original_index": 147,
+    "design": "dat.dong2013::001::studlab::n2"
+  },
+  {
+    "comparator_index": 147,
+    "original_index": 148,
+    "design": "dat.dong2013::001::studlab::death1"
+  },
+  {
+    "comparator_index": 148,
+    "original_index": 149,
+    "design": "dat.dorn2007::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 149,
+    "original_index": 150,
+    "design": "dat.dorn2007::001::study::n.a"
+  },
+  {
+    "comparator_index": 150,
+    "original_index": 151,
+    "design": "dat.dorn2007::001::study::x.a"
+  },
+  {
+    "comparator_index": 151,
+    "original_index": 152,
+    "design": "dat.dorn2007::001::study::visits"
+  },
+  {
+    "comparator_index": 152,
+    "original_index": 153,
+    "design": "dat.dumouchel1994::001::study::lower"
+  },
+  {
+    "comparator_index": 153,
+    "original_index": 154,
+    "design": "dat.dumouchel1994::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 154,
+    "original_index": 155,
+    "design": "dat.dumouchel1994::001::study::or"
+  },
+  {
+    "comparator_index": 155,
+    "original_index": 156,
+    "design": "dat.dumouchel1994::001::study::upper"
+  },
+  {
+    "comparator_index": 156,
+    "original_index": 157,
+    "design": "dat.egger2001::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 157,
+    "original_index": 158,
+    "design": "dat.egger2001::002::study::year"
+  },
+  {
+    "comparator_index": 158,
+    "original_index": 159,
+    "design": "dat.egger2001::001::study::n1i"
+  },
+  {
+    "comparator_index": 159,
+    "original_index": 160,
+    "design": "dat.egger2001::001::study::n2i"
+  },
+  {
+    "comparator_index": 160,
+    "original_index": 161,
+    "design": "dat.feng2019::002::author::n"
+  },
+  {
+    "comparator_index": 161,
+    "original_index": 162,
+    "design": "dat.feng2019::002::author::age"
+  },
+  {
+    "comparator_index": 162,
+    "original_index": 163,
+    "design": "dat.feng2019::001::author::first"
+  },
+  {
+    "comparator_index": 163,
+    "original_index": 164,
+    "design": "dat.feng2019::001::author::(intercept)"
+  },
+  {
+    "comparator_index": 164,
+    "original_index": 165,
+    "design": "dat.fine1993::003::study::e4i"
+  },
+  {
+    "comparator_index": 165,
+    "original_index": 166,
+    "design": "dat.fine1993::004::study::nei"
+  },
+  {
+    "comparator_index": 166,
+    "original_index": 167,
+    "design": "dat.fine1993::004::study::e1i"
+  },
+  {
+    "comparator_index": 167,
+    "original_index": 168,
+    "design": "dat.fine1993::002::study::nci"
+  },
+  {
+    "comparator_index": 168,
+    "original_index": 169,
+    "design": "dat.franchini2012::001::studlab::n2.orig"
+  },
+  {
+    "comparator_index": 169,
+    "original_index": 170,
+    "design": "dat.franchini2012::001::Study::y1"
+  },
+  {
+    "comparator_index": 170,
+    "original_index": 171,
+    "design": "dat.franchini2012::001::Study::mean2"
+  },
+  {
+    "comparator_index": 171,
+    "original_index": 172,
+    "design": "dat.franchini2012::001::Study::n1.orig"
+  },
+  {
+    "comparator_index": 172,
+    "original_index": 173,
+    "design": "dat.frank2008::003::study::bc.ins.ins"
+  },
+  {
+    "comparator_index": 173,
+    "original_index": 174,
+    "design": "dat.frank2008::002::study::bc.ins.del"
+  },
+  {
+    "comparator_index": 174,
+    "original_index": 175,
+    "design": "dat.frank2008::001::study::bc.ins.ins"
+  },
+  {
+    "comparator_index": 175,
+    "original_index": 176,
+    "design": "dat.frank2008::001::study::ct.del.del"
+  },
+  {
+    "comparator_index": 176,
+    "original_index": 177,
+    "design": "dat.furukawa2003::002::author::Me"
+  },
+  {
+    "comparator_index": 177,
+    "original_index": 178,
+    "design": "dat.furukawa2003::003::author::(intercept)"
+  },
+  {
+    "comparator_index": 178,
+    "original_index": 179,
+    "design": "dat.furukawa2003::001::author::Sc"
+  },
+  {
+    "comparator_index": 179,
+    "original_index": 180,
+    "design": "dat.furukawa2003::002::author::Nc"
+  },
+  {
+    "comparator_index": 180,
+    "original_index": 181,
+    "design": "dat.gibson2002::004::author::bi"
+  },
+  {
+    "comparator_index": 181,
+    "original_index": 182,
+    "design": "dat.gibson2002::003::author::ci"
+  },
+  {
+    "comparator_index": 182,
+    "original_index": 183,
+    "design": "dat.gibson2002::004::author::di"
+  },
+  {
+    "comparator_index": 183,
+    "original_index": 184,
+    "design": "dat.gibson2002::002::author::sd1i"
+  },
+  {
+    "comparator_index": 184,
+    "original_index": 185,
+    "design": "dat.graves2010::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 185,
+    "original_index": 186,
+    "design": "dat.graves2010::001::study::ai"
+  },
+  {
+    "comparator_index": 186,
+    "original_index": 187,
+    "design": "dat.graves2010::001::study::ci"
+  },
+  {
+    "comparator_index": 187,
+    "original_index": 188,
+    "design": "dat.graves2010::001::study::n1i"
+  },
+  {
+    "comparator_index": 188,
+    "original_index": 189,
+    "design": "dat.greb2008::002::study::Ec"
+  },
+  {
+    "comparator_index": 189,
+    "original_index": 190,
+    "design": "dat.greb2008::001::study::Nc"
+  },
+  {
+    "comparator_index": 190,
+    "original_index": 191,
+    "design": "dat.greb2008::001::study::Ec"
+  },
+  {
+    "comparator_index": 191,
+    "original_index": 192,
+    "design": "dat.greb2008::002::study::Nc"
+  },
+  {
+    "comparator_index": 192,
+    "original_index": 193,
+    "design": "dat.greenland1992::001::author::b"
+  },
+  {
+    "comparator_index": 193,
+    "original_index": 194,
+    "design": "dat.greenland1992::001::author::SE"
+  },
+  {
+    "comparator_index": 194,
+    "original_index": 195,
+    "design": "dat.greenland1992::001::author::year"
+  },
+  {
+    "comparator_index": 195,
+    "original_index": 196,
+    "design": "dat.greenland1992::001::author::(intercept)"
+  },
+  {
+    "comparator_index": 196,
+    "original_index": 197,
+    "design": "dat.gurusamy2011::001::studlab::TE"
+  },
+  {
+    "comparator_index": 197,
+    "original_index": 198,
+    "design": "dat.gurusamy2011::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 198,
+    "original_index": 199,
+    "design": "dat.gurusamy2011::001::studlab::n1"
+  },
+  {
+    "comparator_index": 199,
+    "original_index": 200,
+    "design": "dat.gurusamy2011::001::study::seTE"
+  },
+  {
+    "comparator_index": 200,
+    "original_index": 201,
+    "design": "dat.hackshaw1998::001::study::year"
+  },
+  {
+    "comparator_index": 201,
+    "original_index": 202,
+    "design": "dat.hackshaw1998::001::study::cases"
+  },
+  {
+    "comparator_index": 202,
+    "original_index": 203,
+    "design": "dat.hackshaw1998::001::author::or"
+  },
+  {
+    "comparator_index": 203,
+    "original_index": 204,
+    "design": "dat.hackshaw1998::001::author::year"
+  },
+  {
+    "comparator_index": 204,
+    "original_index": 205,
+    "design": "dat.hahn2001::002::study::ai"
+  },
+  {
+    "comparator_index": 205,
+    "original_index": 206,
+    "design": "dat.hahn2001::001::study::ci"
+  },
+  {
+    "comparator_index": 206,
+    "original_index": 207,
+    "design": "dat.hahn2001::002::study::n1i"
+  },
+  {
+    "comparator_index": 207,
+    "original_index": 208,
+    "design": "dat.hahn2001::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 208,
+    "original_index": 209,
+    "design": "dat.hannum2020::001::authorName::ni"
+  },
+  {
+    "comparator_index": 209,
+    "original_index": 210,
+    "design": "dat.hannum2020::003::authorName::(intercept)"
+  },
+  {
+    "comparator_index": 210,
+    "original_index": 211,
+    "design": "dat.hannum2020::003::authorName::ni"
+  },
+  {
+    "comparator_index": 211,
+    "original_index": 212,
+    "design": "dat.hannum2020::003::authorName::xi"
+  },
+  {
+    "comparator_index": 212,
+    "original_index": 213,
+    "design": "dat.hart1999::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 213,
+    "original_index": 214,
+    "design": "dat.hart1999::001::study::n1i"
+  },
+  {
+    "comparator_index": 214,
+    "original_index": 215,
+    "design": "dat.hart1999::002::trial::x2i"
+  },
+  {
+    "comparator_index": 215,
+    "original_index": 216,
+    "design": "dat.hart1999::001::trial::x1i"
+  },
+  {
+    "comparator_index": 216,
+    "original_index": 217,
+    "design": "dat.hartmannboyce2018::001::study::n.ctrl"
+  },
+  {
+    "comparator_index": 217,
+    "original_index": 218,
+    "design": "dat.hartmannboyce2018::001::study::n.nrt"
+  },
+  {
+    "comparator_index": 218,
+    "original_index": 219,
+    "design": "dat.hartmannboyce2018::001::study::x.ctrl"
+  },
+  {
+    "comparator_index": 219,
+    "original_index": 220,
+    "design": "dat.hartmannboyce2018::001::study::x.nrt"
+  },
+  {
+    "comparator_index": 220,
+    "original_index": 221,
+    "design": "dat.hasselblad1998::001::id::ni"
+  },
+  {
+    "comparator_index": 221,
+    "original_index": 222,
+    "design": "dat.hasselblad1998::002::authors::(intercept)"
+  },
+  {
+    "comparator_index": 222,
+    "original_index": 223,
+    "design": "dat.hasselblad1998::001::authors::id"
+  },
+  {
+    "comparator_index": 223,
+    "original_index": 224,
+    "design": "dat.hasselblad1998::002::authors::xi.1"
+  },
+  {
+    "comparator_index": 224,
+    "original_index": 225,
+    "design": "dat.higgins2008::001::author::fail.halo"
+  },
+  {
+    "comparator_index": 225,
+    "original_index": 226,
+    "design": "dat.higgins2008::001::author::fail.plac"
+  },
+  {
+    "comparator_index": 226,
+    "original_index": 227,
+    "design": "dat.higgins2008::001::author::(intercept)"
+  },
+  {
+    "comparator_index": 227,
+    "original_index": 228,
+    "design": "dat.higgins2008::001::author::resp.plac"
+  },
+  {
+    "comparator_index": 228,
+    "original_index": 229,
+    "design": "dat.hine1989::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 229,
+    "original_index": 230,
+    "design": "dat.hine1989::002::study::(intercept)"
+  },
+  {
+    "comparator_index": 230,
+    "original_index": 231,
+    "design": "dat.hine1989::001::study::ai"
+  },
+  {
+    "comparator_index": 231,
+    "original_index": 232,
+    "design": "dat.hine1989::002::study::n1i"
+  },
+  {
+    "comparator_index": 232,
+    "original_index": 233,
+    "design": "dat.huber2000::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 233,
+    "original_index": 234,
+    "design": "dat.ishak2007::002::study::mdur"
+  },
+  {
+    "comparator_index": 234,
+    "original_index": 235,
+    "design": "dat.ishak2007::002::study::y4i"
+  },
+  {
+    "comparator_index": 235,
+    "original_index": 236,
+    "design": "dat.ishak2007::001::study::y1i"
+  },
+  {
+    "comparator_index": 236,
+    "original_index": 237,
+    "design": "dat.ishak2007::003::study::v1i"
+  },
+  {
+    "comparator_index": 237,
+    "original_index": 238,
+    "design": "dat.kalaian1996::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 238,
+    "original_index": 239,
+    "design": "dat.kalaian1996::001::id::homework"
+  },
+  {
+    "comparator_index": 239,
+    "original_index": 240,
+    "design": "dat.kalaian1996::001::study::id"
+  },
+  {
+    "comparator_index": 240,
+    "original_index": 241,
+    "design": "dat.kalaian1996::001::id::type"
+  },
+  {
+    "comparator_index": 241,
+    "original_index": 242,
+    "design": "dat.karner2014::008::study::placebo.sae"
+  },
+  {
+    "comparator_index": 242,
+    "original_index": 243,
+    "design": "dat.karner2014::005::study::baseline.fev1"
+  },
+  {
+    "comparator_index": 243,
+    "original_index": 244,
+    "design": "dat.karner2014::001::study::baseline.pyr"
+  },
+  {
+    "comparator_index": 244,
+    "original_index": 245,
+    "design": "dat.karner2014::008::study::tiotropium.total"
+  },
+  {
+    "comparator_index": 245,
+    "original_index": 246,
+    "design": "dat.kearon1998::002::study::year"
+  },
+  {
+    "comparator_index": 246,
+    "original_index": 247,
+    "design": "dat.kearon1998::001::study::tp"
+  },
+  {
+    "comparator_index": 247,
+    "original_index": 248,
+    "design": "dat.kearon1998::001::id::nn"
+  },
+  {
+    "comparator_index": 248,
+    "original_index": 249,
+    "design": "dat.kearon1998::001::study::id"
+  },
+  {
+    "comparator_index": 249,
+    "original_index": 250,
+    "design": "dat.knapp2017::001::study::difficulty"
+  },
+  {
+    "comparator_index": 250,
+    "original_index": 251,
+    "design": "dat.knapp2017::001::authors::study"
+  },
+  {
+    "comparator_index": 251,
+    "original_index": 252,
+    "design": "dat.knapp2017::001::authors::n_sz"
+  },
+  {
+    "comparator_index": 252,
+    "original_index": 253,
+    "design": "dat.knapp2017::001::study::yi_iq"
+  },
+  {
+    "comparator_index": 253,
+    "original_index": 254,
+    "design": "dat.konstantopoulos2011::001::district::(intercept)"
+  },
+  {
+    "comparator_index": 254,
+    "original_index": 255,
+    "design": "dat.konstantopoulos2011::001::district::study"
+  },
+  {
+    "comparator_index": 255,
+    "original_index": 256,
+    "design": "dat.konstantopoulos2011::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 256,
+    "original_index": 257,
+    "design": "dat.konstantopoulos2011::001::study::district"
+  },
+  {
+    "comparator_index": 257,
+    "original_index": 258,
+    "design": "dat.landenberger2005::001::study::interval"
+  },
+  {
+    "comparator_index": 258,
+    "original_index": 259,
+    "design": "dat.landenberger2005::001::study::male"
+  },
+  {
+    "comparator_index": 259,
+    "original_index": 260,
+    "design": "dat.landenberger2005::001::study::n.cbt.rec"
+  },
+  {
+    "comparator_index": 260,
+    "original_index": 261,
+    "design": "dat.landenberger2005::001::study::n.ctrl.rec"
+  },
+  {
+    "comparator_index": 261,
+    "original_index": 262,
+    "design": "dat.laopaiboon2015::001::author::diag.ab"
+  },
+  {
+    "comparator_index": 262,
+    "original_index": 263,
+    "design": "dat.laopaiboon2015::001::author::ai"
+  },
+  {
+    "comparator_index": 263,
+    "original_index": 264,
+    "design": "dat.laopaiboon2015::001::author::n1i"
+  },
+  {
+    "comparator_index": 264,
+    "original_index": 265,
+    "design": "dat.laopaiboon2015::001::author::ci"
+  },
+  {
+    "comparator_index": 265,
+    "original_index": 266,
+    "design": "dat.lau1992::001::trial::n2i"
+  },
+  {
+    "comparator_index": 266,
+    "original_index": 267,
+    "design": "dat.lau1992::002::trial::n1i"
+  },
+  {
+    "comparator_index": 267,
+    "original_index": 268,
+    "design": "dat.lau1992::001::trial::n1i"
+  },
+  {
+    "comparator_index": 268,
+    "original_index": 269,
+    "design": "dat.lau1992::001::trial::ai"
+  },
+  {
+    "comparator_index": 269,
+    "original_index": 270,
+    "design": "dat.lee2004::001::id::ai"
+  },
+  {
+    "comparator_index": 270,
+    "original_index": 271,
+    "design": "dat.lee2004::001::id::year"
+  },
+  {
+    "comparator_index": 271,
+    "original_index": 272,
+    "design": "dat.lee2004::001::id::n2i"
+  },
+  {
+    "comparator_index": 272,
+    "original_index": 273,
+    "design": "dat.lee2004::001::study::n1i"
+  },
+  {
+    "comparator_index": 273,
+    "original_index": 274,
+    "design": "dat.lehmann2018::001::PRPublication::(intercept)"
+  },
+  {
+    "comparator_index": 274,
+    "original_index": 275,
+    "design": "dat.lehmann2018::003::PRPublication::(intercept)"
+  },
+  {
+    "comparator_index": 275,
+    "original_index": 276,
+    "design": "dat.lehmann2018::002::PRPublication::(intercept)"
+  },
+  {
+    "comparator_index": 276,
+    "original_index": 277,
+    "design": "dat.li2007::002::study::ci"
+  },
+  {
+    "comparator_index": 277,
+    "original_index": 278,
+    "design": "dat.li2007::001::id::ci"
+  },
+  {
+    "comparator_index": 278,
+    "original_index": 279,
+    "design": "dat.li2007::001::study::year"
+  },
+  {
+    "comparator_index": 279,
+    "original_index": 280,
+    "design": "dat.li2007::002::id::n2i"
+  },
+  {
+    "comparator_index": 280,
+    "original_index": 281,
+    "design": "dat.lim2014::001::author::(intercept)"
+  },
+  {
+    "comparator_index": 281,
+    "original_index": 282,
+    "design": "dat.lim2014::001::article::(intercept)"
+  },
+  {
+    "comparator_index": 282,
+    "original_index": 283,
+    "design": "dat.lim2014::001::author::article"
+  },
+  {
+    "comparator_index": 283,
+    "original_index": 284,
+    "design": "dat.lim2014::001::article::ri"
+  },
+  {
+    "comparator_index": 284,
+    "original_index": 285,
+    "design": "dat.linde2005::001::study::group"
+  },
+  {
+    "comparator_index": 285,
+    "original_index": 286,
+    "design": "dat.linde2005::002::id::n2i"
+  },
+  {
+    "comparator_index": 286,
+    "original_index": 287,
+    "design": "dat.linde2005::001::study::dosage"
+  },
+  {
+    "comparator_index": 287,
+    "original_index": 288,
+    "design": "dat.linde2005::002::id::n1i"
+  },
+  {
+    "comparator_index": 288,
+    "original_index": 289,
+    "design": "dat.linde2015::002::author::n1"
+  },
+  {
+    "comparator_index": 289,
+    "original_index": 290,
+    "design": "dat.linde2015::002::author::loss.ae3"
+  },
+  {
+    "comparator_index": 290,
+    "original_index": 291,
+    "design": "dat.linde2015::001::studlab::resp2"
+  },
+  {
+    "comparator_index": 291,
+    "original_index": 292,
+    "design": "dat.linde2015::002::id::ae2"
+  },
+  {
+    "comparator_index": 292,
+    "original_index": 293,
+    "design": "dat.linde2016::001::author::year"
+  },
+  {
+    "comparator_index": 293,
+    "original_index": 294,
+    "design": "dat.linde2016::001::author::n.orig2"
+  },
+  {
+    "comparator_index": 294,
+    "original_index": 295,
+    "design": "dat.linde2016::001::author::seTE"
+  },
+  {
+    "comparator_index": 295,
+    "original_index": 296,
+    "design": "dat.linde2016::001::studlab::n1"
+  },
+  {
+    "comparator_index": 296,
+    "original_index": 297,
+    "design": "dat.lloyd2010::003::author::upper.das"
+  },
+  {
+    "comparator_index": 297,
+    "original_index": 298,
+    "design": "dat.lloyd2010::004::author::lower.das"
+  },
+  {
+    "comparator_index": 298,
+    "original_index": 299,
+    "design": "dat.lloyd2010::003::author::mean.das"
+  },
+  {
+    "comparator_index": 299,
+    "original_index": 300,
+    "design": "dat.lloyd2010::003::author::upper.haq"
+  },
+  {
+    "comparator_index": 300,
+    "original_index": 301,
+    "design": "dat.lopez2019::001::study::final"
+  },
+  {
+    "comparator_index": 301,
+    "original_index": 302,
+    "design": "dat.lopez2019::001::study::se2"
+  },
+  {
+    "comparator_index": 302,
+    "original_index": 303,
+    "design": "dat.lopez2019::001::id::n2"
+  },
+  {
+    "comparator_index": 303,
+    "original_index": 304,
+    "design": "dat.lopez2019::001::study::diff1"
+  },
+  {
+    "comparator_index": 304,
+    "original_index": 305,
+    "design": "dat.maire2019::001::site::s3"
+  },
+  {
+    "comparator_index": 305,
+    "original_index": 306,
+    "design": "dat.maire2019::001::site_station::s3"
+  },
+  {
+    "comparator_index": 306,
+    "original_index": 307,
+    "design": "dat.maire2019::001::site::vars2"
+  },
+  {
+    "comparator_index": 307,
+    "original_index": 308,
+    "design": "dat.maire2019::001::site::s2"
+  },
+  {
+    "comparator_index": 308,
+    "original_index": 309,
+    "design": "dat.mccurdy2020::001::experiment::stimuli"
+  },
+  {
+    "comparator_index": 309,
+    "original_index": 310,
+    "design": "dat.mccurdy2020::001::article::stimuli"
+  },
+  {
+    "comparator_index": 310,
+    "original_index": 311,
+    "design": "dat.mccurdy2020::001::experiment::sample"
+  },
+  {
+    "comparator_index": 311,
+    "original_index": 313,
+    "design": "dat.mcdaniel1994::002::study::(intercept)"
+  },
+  {
+    "comparator_index": 312,
+    "original_index": 314,
+    "design": "dat.mcdaniel1994::002::study::ni"
+  },
+  {
+    "comparator_index": 313,
+    "original_index": 315,
+    "design": "dat.mcdaniel1994::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 314,
+    "original_index": 316,
+    "design": "dat.mcdaniel1994::001::study::ni"
+  },
+  {
+    "comparator_index": 315,
+    "original_index": 317,
+    "design": "dat.meeker2017::001::team::batters"
+  },
+  {
+    "comparator_index": 316,
+    "original_index": 318,
+    "design": "dat.meeker2017::001::team::mean"
+  },
+  {
+    "comparator_index": 317,
+    "original_index": 319,
+    "design": "dat.meeker2017::001::team::se"
+  },
+  {
+    "comparator_index": 318,
+    "original_index": 320,
+    "design": "dat.meeker2017::001::team::(intercept)"
+  },
+  {
+    "comparator_index": 319,
+    "original_index": 321,
+    "design": "dat.michael2013::002::Study::No_brain_m"
+  },
+  {
+    "comparator_index": 320,
+    "original_index": 322,
+    "design": "dat.michael2013::001::Study::Brain_s"
+  },
+  {
+    "comparator_index": 321,
+    "original_index": 323,
+    "design": "dat.michael2013::001::Study::Brain_n"
+  },
+  {
+    "comparator_index": 322,
+    "original_index": 324,
+    "design": "dat.michael2013::002::Study::(intercept)"
+  },
+  {
+    "comparator_index": 323,
+    "original_index": 325,
+    "design": "dat.molloy2014::001::authors::ni"
+  },
+  {
+    "comparator_index": 324,
+    "original_index": 326,
+    "design": "dat.molloy2014::001::authors::meanage"
+  },
+  {
+    "comparator_index": 325,
+    "original_index": 327,
+    "design": "dat.molloy2014::001::authors::(intercept)"
+  },
+  {
+    "comparator_index": 326,
+    "original_index": 328,
+    "design": "dat.molloy2014::001::authors::year"
+  },
+  {
+    "comparator_index": 327,
+    "original_index": 329,
+    "design": "dat.moore1998::002::author::Ec"
+  },
+  {
+    "comparator_index": 328,
+    "original_index": 330,
+    "design": "dat.moore1998::002::author::nonenglish"
+  },
+  {
+    "comparator_index": 329,
+    "original_index": 331,
+    "design": "dat.moore1998::002::id::Ec"
+  },
+  {
+    "comparator_index": 330,
+    "original_index": 332,
+    "design": "dat.moore1998::001::id::grey"
+  },
+  {
+    "comparator_index": 331,
+    "original_index": 337,
+    "design": "dat.nakagawa2007::001::StudyID::SampleSize"
+  },
+  {
+    "comparator_index": 332,
+    "original_index": 338,
+    "design": "dat.nakagawa2007::001::StudyID::(intercept)"
+  },
+  {
+    "comparator_index": 333,
+    "original_index": 339,
+    "design": "dat.nakagawa2007::001::StudyID::Correlation"
+  },
+  {
+    "comparator_index": 334,
+    "original_index": 340,
+    "design": "dat.nielweise2007::001::author::n1i"
+  },
+  {
+    "comparator_index": 335,
+    "original_index": 341,
+    "design": "dat.nielweise2007::002::author::ci"
+  },
+  {
+    "comparator_index": 336,
+    "original_index": 342,
+    "design": "dat.nielweise2007::001::study::ai"
+  },
+  {
+    "comparator_index": 337,
+    "original_index": 343,
+    "design": "dat.nielweise2007::002::author::(intercept)"
+  },
+  {
+    "comparator_index": 338,
+    "original_index": 344,
+    "design": "dat.nielweise2008::001::authors::year"
+  },
+  {
+    "comparator_index": 339,
+    "original_index": 345,
+    "design": "dat.nielweise2008::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 340,
+    "original_index": 346,
+    "design": "dat.nielweise2008::001::authors::study"
+  },
+  {
+    "comparator_index": 341,
+    "original_index": 347,
+    "design": "dat.nielweise2008::001::study::t1i"
+  },
+  {
+    "comparator_index": 342,
+    "original_index": 348,
+    "design": "dat.nissen2007::001::study::treat.total"
+  },
+  {
+    "comparator_index": 343,
+    "original_index": 349,
+    "design": "dat.nissen2007::005::study::cont.total"
+  },
+  {
+    "comparator_index": 344,
+    "original_index": 350,
+    "design": "dat.nissen2007::003::study::weeks"
+  },
+  {
+    "comparator_index": 345,
+    "original_index": 351,
+    "design": "dat.nissen2007::002::study::(intercept)"
+  },
+  {
+    "comparator_index": 346,
+    "original_index": 352,
+    "design": "dat.normand1999::002::study::sd1i"
+  },
+  {
+    "comparator_index": 347,
+    "original_index": 353,
+    "design": "dat.normand1999::002::study::n2i"
+  },
+  {
+    "comparator_index": 348,
+    "original_index": 354,
+    "design": "dat.normand1999::001::study::m1i"
+  },
+  {
+    "comparator_index": 349,
+    "original_index": 355,
+    "design": "dat.normand1999::001::study::sd1i"
+  },
+  {
+    "comparator_index": 350,
+    "original_index": 356,
+    "design": "dat.obrien2003::001::author::cases1"
+  },
+  {
+    "comparator_index": 351,
+    "original_index": 357,
+    "design": "dat.obrien2003::002::author::grp"
+  },
+  {
+    "comparator_index": 352,
+    "original_index": 358,
+    "design": "dat.obrien2003::001::study::grp1"
+  },
+  {
+    "comparator_index": 353,
+    "original_index": 359,
+    "design": "dat.obrien2003::002::study::cases"
+  },
+  {
+    "comparator_index": 354,
+    "original_index": 360,
+    "design": "dat.pagliaro1992::001::study::id"
+  },
+  {
+    "comparator_index": 355,
+    "original_index": 361,
+    "design": "dat.pagliaro1992::001::id::xi.1"
+  },
+  {
+    "comparator_index": 356,
+    "original_index": 362,
+    "design": "dat.pagliaro1992::002::study::(intercept)"
+  },
+  {
+    "comparator_index": 357,
+    "original_index": 363,
+    "design": "dat.pagliaro1992::002::study::xi"
+  },
+  {
+    "comparator_index": 358,
+    "original_index": 364,
+    "design": "dat.pignon2000::001::trial::OmE"
+  },
+  {
+    "comparator_index": 359,
+    "original_index": 365,
+    "design": "dat.pignon2000::001::id::OmE"
+  },
+  {
+    "comparator_index": 360,
+    "original_index": 366,
+    "design": "dat.pignon2000::001::trial::(intercept)"
+  },
+  {
+    "comparator_index": 361,
+    "original_index": 367,
+    "design": "dat.pignon2000::001::trial::V"
+  },
+  {
+    "comparator_index": 362,
+    "original_index": 368,
+    "design": "dat.poole2003::002::author::Mc"
+  },
+  {
+    "comparator_index": 363,
+    "original_index": 369,
+    "design": "dat.poole2003::002::author::Me"
+  },
+  {
+    "comparator_index": 364,
+    "original_index": 370,
+    "design": "dat.poole2003::001::author::Me"
+  },
+  {
+    "comparator_index": 365,
+    "original_index": 371,
+    "design": "dat.poole2003::001::author::year"
+  },
+  {
+    "comparator_index": 366,
+    "original_index": 372,
+    "design": "dat.pritz1997::003::authors::ni"
+  },
+  {
+    "comparator_index": 367,
+    "original_index": 373,
+    "design": "dat.pritz1997::003::authors::study"
+  },
+  {
+    "comparator_index": 368,
+    "original_index": 374,
+    "design": "dat.pritz1997::004::study::ni"
+  },
+  {
+    "comparator_index": 369,
+    "original_index": 375,
+    "design": "dat.pritz1997::004::authors::xi"
+  },
+  {
+    "comparator_index": 370,
+    "original_index": 376,
+    "design": "dat.quan2000::002::study::Ec"
+  },
+  {
+    "comparator_index": 371,
+    "original_index": 377,
+    "design": "dat.quan2000::002::study::(intercept)"
+  },
+  {
+    "comparator_index": 372,
+    "original_index": 378,
+    "design": "dat.quan2000::001::study::Ec"
+  },
+  {
+    "comparator_index": 373,
+    "original_index": 379,
+    "design": "dat.quan2000::002::study::Ee"
+  },
+  {
+    "comparator_index": 374,
+    "original_index": 380,
+    "design": "dat.raudenbush1985::001::study::weeks"
+  },
+  {
+    "comparator_index": 375,
+    "original_index": 381,
+    "design": "dat.raudenbush1985::001::author::n2i"
+  },
+  {
+    "comparator_index": 376,
+    "original_index": 382,
+    "design": "dat.raudenbush1985::001::author::weeks"
+  },
+  {
+    "comparator_index": 377,
+    "original_index": 383,
+    "design": "dat.raudenbush1985::001::author::study"
+  },
+  {
+    "comparator_index": 378,
+    "original_index": 384,
+    "design": "dat.riley2003::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 379,
+    "original_index": 385,
+    "design": "dat.rivera2025::002::Author::AUC"
+  },
+  {
+    "comparator_index": 380,
+    "original_index": 386,
+    "design": "dat.rivera2025::004::Author::NPV"
+  },
+  {
+    "comparator_index": 381,
+    "original_index": 387,
+    "design": "dat.rivera2025::002::Author::FP"
+  },
+  {
+    "comparator_index": 382,
+    "original_index": 388,
+    "design": "dat.rivera2025::004::Author::Year"
+  },
+  {
+    "comparator_index": 383,
+    "original_index": 389,
+    "design": "dat.roever2022::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 384,
+    "original_index": 390,
+    "design": "dat.roever2022::001::study::year"
+  },
+  {
+    "comparator_index": 385,
+    "original_index": 391,
+    "design": "dat.roever2022::001::study::dose"
+  },
+  {
+    "comparator_index": 386,
+    "original_index": 392,
+    "design": "dat.roever2022::001::study::total"
+  },
+  {
+    "comparator_index": 387,
+    "original_index": 393,
+    "design": "dat.senn2013::002::study::id"
+  },
+  {
+    "comparator_index": 388,
+    "original_index": 394,
+    "design": "dat.senn2013::002::id::sdi.2"
+  },
+  {
+    "comparator_index": 389,
+    "original_index": 395,
+    "design": "dat.senn2013::002::id::mi.1"
+  },
+  {
+    "comparator_index": 390,
+    "original_index": 396,
+    "design": "dat.senn2013::002::study::sdi.2"
+  },
+  {
+    "comparator_index": 391,
+    "original_index": 397,
+    "design": "dat.spooner2002::001::author::Se"
+  },
+  {
+    "comparator_index": 392,
+    "original_index": 398,
+    "design": "dat.spooner2002::002::author::Nc"
+  },
+  {
+    "comparator_index": 393,
+    "original_index": 399,
+    "design": "dat.spooner2002::001::author::Sc"
+  },
+  {
+    "comparator_index": 394,
+    "original_index": 400,
+    "design": "dat.spooner2002::002::author::(intercept)"
+  },
+  {
+    "comparator_index": 395,
+    "original_index": 401,
+    "design": "dat.steurer2006::002::author::Nc"
+  },
+  {
+    "comparator_index": 396,
+    "original_index": 402,
+    "design": "dat.steurer2006::002::author::uppHR"
+  },
+  {
+    "comparator_index": 397,
+    "original_index": 403,
+    "design": "dat.steurer2006::001::author::(intercept)"
+  },
+  {
+    "comparator_index": 398,
+    "original_index": 404,
+    "design": "dat.steurer2006::001::author::Ne"
+  },
+  {
+    "comparator_index": 399,
+    "original_index": 405,
+    "design": "dat.stowe2010::001::studlab::sd2"
+  },
+  {
+    "comparator_index": 400,
+    "original_index": 406,
+    "design": "dat.stowe2010::001::study::n1"
+  },
+  {
+    "comparator_index": 401,
+    "original_index": 407,
+    "design": "dat.stowe2010::001::studlab::n1.orig"
+  },
+  {
+    "comparator_index": 402,
+    "original_index": 408,
+    "design": "dat.stowe2010::001::studlab::id"
+  },
+  {
+    "comparator_index": 403,
+    "original_index": 409,
+    "design": "dat.tannersmith2016::001::studyid::aget1"
+  },
+  {
+    "comparator_index": 404,
+    "original_index": 410,
+    "design": "dat.tannersmith2016::001::studyid::(intercept)"
+  },
+  {
+    "comparator_index": 405,
+    "original_index": 411,
+    "design": "dat.tannersmith2016::001::studyid::aget2"
+  },
+  {
+    "comparator_index": 406,
+    "original_index": 412,
+    "design": "dat.tannersmith2016::001::studyid::propmale"
+  },
+  {
+    "comparator_index": 407,
+    "original_index": 413,
+    "design": "dat.thompson1999::002::studyid::varlogOR"
+  },
+  {
+    "comparator_index": 408,
+    "original_index": 414,
+    "design": "dat.thompson1999::002::studyid::(intercept)"
+  },
+  {
+    "comparator_index": 409,
+    "original_index": 415,
+    "design": "dat.thompson1999::001::studyid::ihd.cont"
+  },
+  {
+    "comparator_index": 410,
+    "original_index": 416,
+    "design": "dat.thompson1999::002::studyid::cholr"
+  },
+  {
+    "comparator_index": 411,
+    "original_index": 417,
+    "design": "dat.tian2009::002::study::phase"
+  },
+  {
+    "comparator_index": 412,
+    "original_index": 418,
+    "design": "dat.tian2009::002::study::male"
+  },
+  {
+    "comparator_index": 413,
+    "original_index": 419,
+    "design": "dat.tian2009::002::study::duration"
+  },
+  {
+    "comparator_index": 414,
+    "original_index": 420,
+    "design": "dat.tian2009::003::study::n"
+  },
+  {
+    "comparator_index": 415,
+    "original_index": 421,
+    "design": "dat.ursino2021::001::study::year"
+  },
+  {
+    "comparator_index": 416,
+    "original_index": 422,
+    "design": "dat.ursino2021::001::study::events"
+  },
+  {
+    "comparator_index": 417,
+    "original_index": 423,
+    "design": "dat.ursino2021::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 418,
+    "original_index": 424,
+    "design": "dat.ursino2021::001::study::total"
+  },
+  {
+    "comparator_index": 419,
+    "original_index": 425,
+    "design": "dat.vanhowe1999::001::study::cir.neg"
+  },
+  {
+    "comparator_index": 420,
+    "original_index": 426,
+    "design": "dat.vanhowe1999::001::study::non.neg"
+  },
+  {
+    "comparator_index": 421,
+    "original_index": 427,
+    "design": "dat.vanhowe1999::001::study::(intercept)"
+  },
+  {
+    "comparator_index": 422,
+    "original_index": 428,
+    "design": "dat.vanhowe1999::001::study::cir.pos"
+  },
+  {
+    "comparator_index": 423,
+    "original_index": 429,
+    "design": "dat.viechtbauer2021::001::trial::xCi"
+  },
+  {
+    "comparator_index": 424,
+    "original_index": 430,
+    "design": "dat.viechtbauer2021::001::trial::xTi"
+  },
+  {
+    "comparator_index": 425,
+    "original_index": 431,
+    "design": "dat.viechtbauer2021::001::trial::nTi"
+  },
+  {
+    "comparator_index": 426,
+    "original_index": 432,
+    "design": "dat.viechtbauer2021::001::trial::(intercept)"
+  },
+  {
+    "comparator_index": 427,
+    "original_index": 433,
+    "design": "dat.white2020::001::study_id::iridescent"
+  },
+  {
+    "comparator_index": 428,
+    "original_index": 434,
+    "design": "dat.white2020::001::study_id::(intercept)"
+  },
+  {
+    "comparator_index": 429,
+    "original_index": 435,
+    "design": "dat.white2020::001::study_id::r"
+  },
+  {
+    "comparator_index": 430,
+    "original_index": 436,
+    "design": "dat.white2020::001::study_id::n"
+  },
+  {
+    "comparator_index": 431,
+    "original_index": 437,
+    "design": "dat.woods2010::001::author::seTE"
+  },
+  {
+    "comparator_index": 432,
+    "original_index": 438,
+    "design": "dat.woods2010::001::studlab::event2"
+  },
+  {
+    "comparator_index": 433,
+    "original_index": 439,
+    "design": "dat.woods2010::001::author::N2"
+  },
+  {
+    "comparator_index": 434,
+    "original_index": 440,
+    "design": "dat.woods2010::001::studlab::(intercept)"
+  },
+  {
+    "comparator_index": 435,
+    "original_index": 441,
+    "design": "dat.yusuf1985::001::trial::n1i"
+  },
+  {
+    "comparator_index": 436,
+    "original_index": 442,
+    "design": "dat.yusuf1985::002::trial::id"
+  },
+  {
+    "comparator_index": 437,
+    "original_index": 443,
+    "design": "dat.yusuf1985::001::id::ai"
+  },
+  {
+    "comparator_index": 438,
+    "original_index": 444,
+    "design": "dat.yusuf1985::002::id::ai"
+  },
+  {
+    "comparator_index": 439,
+    "original_index": 445,
+    "design": "robumeta::oswald2013::Study::R"
+  },
+  {
+    "comparator_index": 440,
+    "original_index": 446,
+    "design": "robumeta::corrdat::studyid::followup"
+  },
+  {
+    "comparator_index": 441,
+    "original_index": 447,
+    "design": "robumeta::oswald2013::Sample.ID::R"
+  },
+  {
+    "comparator_index": 442,
+    "original_index": 448,
+    "design": "robumeta::corrdat::studyid::esid"
+  }
+]

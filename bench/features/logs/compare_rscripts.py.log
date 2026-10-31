@@ -1,0 +1,62 @@
+{
+ "prereg_sha256": "3c543ee02fbe227b19028ca5efe8d39a90fc7f48c4feb1d86923556afd8056a2",
+ "scripts": 353,
+ "run_status": {
+  "uncentred:ok": 300,
+  "centred:ok": 50,
+  "fixture:ok": 3
+ },
+ "input_exact": {
+  "uncentred:True": 300,
+  "centred:True": 50,
+  "fixture:True": 3
+ }
+}
+uncentred 7561/7572 checks pass; 2 scripts with any failure
+   CI.L               555/556   max diff 9.38e-08
+   CI.U               555/556   max diff 7.63e-08
+   SE                 555/556   max diff 1.18e-09
+   b.r                555/556   max diff 1.29e-09
+   club_SE            556/556   max diff 6.12e-10
+   club_beta          555/556   max diff 1.29e-09
+   club_df_Satt       556/556   max diff 7.42e-11
+   club_p_Satt        555/556   max diff 1.13e-10
+   club_tstat         554/556   max diff 1.49e-10
+   coefficient_count   300/300   max diff 0
+   dfs                556/556   max diff 1.08e-10
+   prob               555/556   max diff 2.39e-11
+   ran                300/300   max diff 0
+   t                  554/556   max diff 3.18e-11
+   tau2               300/300   max diff 5.81e-13
+centred 1350/1350 checks pass; 0 scripts with any failure
+   CI.L               100/100   max diff 8.53e-14
+   CI.U               100/100   max diff 8.53e-14
+   SE                 100/100   max diff 6.55e-16
+   b.r                100/100   max diff 4.41e-16
+   club_SE            100/100   max diff 1.11e-16
+   club_beta          100/100   max diff 4.41e-16
+   club_df_Satt       100/100   max diff 6.85e-15
+   club_p_Satt        100/100   max diff 8.88e-16
+   club_tstat         100/100   max diff 1.89e-15
+   coefficient_count    50/50    max diff 0
+   dfs                100/100   max diff 6.85e-15
+   prob               100/100   max diff 1.11e-15
+   ran                 50/50    max diff 0
+   t                  100/100   max diff 2.05e-15
+   tau2                50/50    max diff 0
+fixture 129/129 checks pass; 0 scripts with any failure
+   CI.L                10/10    max diff 0
+   CI.U                10/10    max diff 0
+   SE                  10/10    max diff 0
+   b.r                 10/10    max diff 0
+   club_SE             10/10    max diff 0
+   club_beta           10/10    max diff 0
+   club_df_Satt        10/10    max diff 0
+   club_p_Satt         10/10    max diff 0
+   club_tstat          10/10    max diff 0
+   coefficient_count     3/3     max diff 0
+   dfs                 10/10    max diff 0
+   prob                10/10    max diff 0
+   ran                  3/3     max diff 0
+   t                   10/10    max diff 0
+   tau2                 3/3     max diff 0

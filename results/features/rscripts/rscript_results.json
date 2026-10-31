@@ -1,0 +1,262 @@
+{
+  "prereg_sha256": "3c543ee02fbe227b19028ca5efe8d39a90fc7f48c4feb1d86923556afd8056a2",
+  "scripts": 353,
+  "run_status": {
+    "uncentred:ok": 300,
+    "centred:ok": 50,
+    "fixture:ok": 3
+  },
+  "input_exact": {
+    "uncentred:True": 300,
+    "centred:True": 50,
+    "fixture:True": 3
+  },
+  "strata": {
+    "uncentred": {
+      "checks": 7572,
+      "passes": 7561,
+      "failing_scripts": 2,
+      "quantities": {
+        "ran": {
+          "checks": 300,
+          "passes": 300,
+          "max_difference": 0.0
+        },
+        "tau2": {
+          "checks": 300,
+          "passes": 300,
+          "max_difference": 5.813544090571554e-13
+        },
+        "coefficient_count": {
+          "checks": 300,
+          "passes": 300,
+          "max_difference": 0.0
+        },
+        "b.r": {
+          "checks": 556,
+          "passes": 555,
+          "max_difference": 1.2925128724120813e-09
+        },
+        "SE": {
+          "checks": 556,
+          "passes": 555,
+          "max_difference": 1.1845715411198088e-09
+        },
+        "t": {
+          "checks": 556,
+          "passes": 554,
+          "max_difference": 3.1761787644413175e-11
+        },
+        "dfs": {
+          "checks": 556,
+          "passes": 556,
+          "max_difference": 1.0810149634058083e-10
+        },
+        "prob": {
+          "checks": 556,
+          "passes": 555,
+          "max_difference": 2.3939072946177475e-11
+        },
+        "CI.L": {
+          "checks": 556,
+          "passes": 555,
+          "max_difference": 9.383936117046687e-08
+        },
+        "CI.U": {
+          "checks": 556,
+          "passes": 555,
+          "max_difference": 7.634795906596992e-08
+        },
+        "club_beta": {
+          "checks": 556,
+          "passes": 555,
+          "max_difference": 1.2925128724120813e-09
+        },
+        "club_SE": {
+          "checks": 556,
+          "passes": 556,
+          "max_difference": 6.120982186387865e-10
+        },
+        "club_tstat": {
+          "checks": 556,
+          "passes": 554,
+          "max_difference": 1.4867468367540937e-10
+        },
+        "club_df_Satt": {
+          "checks": 556,
+          "passes": 556,
+          "max_difference": 7.424782347301671e-11
+        },
+        "club_p_Satt": {
+          "checks": 556,
+          "passes": 555,
+          "max_difference": 1.134745630793077e-10
+        }
+      }
+    },
+    "centred": {
+      "checks": 1350,
+      "passes": 1350,
+      "failing_scripts": 0,
+      "quantities": {
+        "ran": {
+          "checks": 50,
+          "passes": 50,
+          "max_difference": 0.0
+        },
+        "tau2": {
+          "checks": 50,
+          "passes": 50,
+          "max_difference": 0.0
+        },
+        "coefficient_count": {
+          "checks": 50,
+          "passes": 50,
+          "max_difference": 0.0
+        },
+        "b.r": {
+          "checks": 100,
+          "passes": 100,
+          "max_difference": 4.409834986842034e-16
+        },
+        "SE": {
+          "checks": 100,
+          "passes": 100,
+          "max_difference": 6.547463033183875e-16
+        },
+        "t": {
+          "checks": 100,
+          "passes": 100,
+          "max_difference": 2.0539125955565396e-15
+        },
+        "dfs": {
+          "checks": 100,
+          "passes": 100,
+          "max_difference": 6.848186197635622e-15
+        },
+        "prob": {
+          "checks": 100,
+          "passes": 100,
+          "max_difference": 1.1102230246251565e-15
+        },
+        "CI.L": {
+          "checks": 100,
+          "passes": 100,
+          "max_difference": 8.526512829121202e-14
+        },
+        "CI.U": {
+          "checks": 100,
+          "passes": 100,
+          "max_difference": 8.526512829121202e-14
+        },
+        "club_beta": {
+          "checks": 100,
+          "passes": 100,
+          "max_difference": 4.409834986842034e-16
+        },
+        "club_SE": {
+          "checks": 100,
+          "passes": 100,
+          "max_difference": 1.1102230246251565e-16
+        },
+        "club_tstat": {
+          "checks": 100,
+          "passes": 100,
+          "max_difference": 1.887379141862766e-15
+        },
+        "club_df_Satt": {
+          "checks": 100,
+          "passes": 100,
+          "max_difference": 6.848186197635622e-15
+        },
+        "club_p_Satt": {
+          "checks": 100,
+          "passes": 100,
+          "max_difference": 8.881784197001252e-16
+        }
+      }
+    },
+    "fixture": {
+      "checks": 129,
+      "passes": 129,
+      "failing_scripts": 0,
+      "quantities": {
+        "ran": {
+          "checks": 3,
+          "passes": 3,
+          "max_difference": 0.0
+        },
+        "tau2": {
+          "checks": 3,
+          "passes": 3,
+          "max_difference": 0.0
+        },
+        "coefficient_count": {
+          "checks": 3,
+          "passes": 3,
+          "max_difference": 0.0
+        },
+        "b.r": {
+          "checks": 10,
+          "passes": 10,
+          "max_difference": 0.0
+        },
+        "SE": {
+          "checks": 10,
+          "passes": 10,
+          "max_difference": 0.0
+        },
+        "t": {
+          "checks": 10,
+          "passes": 10,
+          "max_difference": 0.0
+        },
+        "dfs": {
+          "checks": 10,
+          "passes": 10,
+          "max_difference": 0.0
+        },
+        "prob": {
+          "checks": 10,
+          "passes": 10,
+          "max_difference": 0.0
+        },
+        "CI.L": {
+          "checks": 10,
+          "passes": 10,
+          "max_difference": 0.0
+        },
+        "CI.U": {
+          "checks": 10,
+          "passes": 10,
+          "max_difference": 0.0
+        },
+        "club_beta": {
+          "checks": 10,
+          "passes": 10,
+          "max_difference": 0.0
+        },
+        "club_SE": {
+          "checks": 10,
+          "passes": 10,
+          "max_difference": 0.0
+        },
+        "club_tstat": {
+          "checks": 10,
+          "passes": 10,
+          "max_difference": 0.0
+        },
+        "club_df_Satt": {
+          "checks": 10,
+          "passes": 10,
+          "max_difference": 0.0
+        },
+        "club_p_Satt": {
+          "checks": 10,
+          "passes": 10,
+          "max_difference": 0.0
+        }
+      }
+    }
+  }
+}

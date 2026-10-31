@@ -1,0 +1,240 @@
+{
+  "prereg_sha256": "16d0e9133819fd33c9fdfe124470d15c2c82e5171e6174cea9dc3c6c4446a898",
+  "configurations": 1705,
+  "engine_status": {
+    "ok": 1705
+  },
+  "R_status": {
+    "ok": 1705
+  },
+  "input_echo_mismatches": 0,
+  "P1": {
+    "checks": 56265,
+    "passes": 56265,
+    "quantities": {
+      "status": {
+        "checks": 1705,
+        "passes": 1705,
+        "max_difference": 0.0
+      },
+      "tau2": {
+        "checks": 1705,
+        "passes": 1705,
+        "max_difference": 2.185751579730777e-14
+      },
+      "method": {
+        "checks": 1705,
+        "passes": 1705,
+        "max_difference": 0.0
+      },
+      "n": {
+        "checks": 1705,
+        "passes": 1705,
+        "max_difference": 0.0
+      },
+      "m": {
+        "checks": 1705,
+        "passes": 1705,
+        "max_difference": 0.0
+      },
+      "design_columns": {
+        "checks": 1705,
+        "passes": 1705,
+        "max_difference": 0.0
+      },
+      "coefficient_count": {
+        "checks": 1705,
+        "passes": 1705,
+        "max_difference": 0.0
+      },
+      "estimate": {
+        "checks": 3410,
+        "passes": 3410,
+        "max_difference": 1.8540724511240114e-14
+      },
+      "se": {
+        "checks": 3410,
+        "passes": 3410,
+        "max_difference": 2.7200464103316335e-15
+      },
+      "t": {
+        "checks": 3410,
+        "passes": 3410,
+        "max_difference": 4.741207426661731e-13
+      },
+      "df": {
+        "checks": 3410,
+        "passes": 3410,
+        "max_difference": 2.74857664957471e-12
+      },
+      "p": {
+        "checks": 3410,
+        "passes": 3410,
+        "max_difference": 4.000133557724439e-13
+      },
+      "ci_lo": {
+        "checks": 3410,
+        "passes": 3410,
+        "max_difference": 3.154809746774845e-12
+      },
+      "ci_hi": {
+        "checks": 3410,
+        "passes": 3410,
+        "max_difference": 2.9274360713316128e-12
+      },
+      "club_reference_success": {
+        "checks": 3410,
+        "passes": 3410,
+        "max_difference": 0.0
+      },
+      "club_estimate": {
+        "checks": 3410,
+        "passes": 3410,
+        "max_difference": 1.8540724511240114e-14
+      },
+      "club_se": {
+        "checks": 3410,
+        "passes": 3410,
+        "max_difference": 1.6202317265623378e-14
+      },
+      "club_t": {
+        "checks": 3410,
+        "passes": 3410,
+        "max_difference": 6.750711101233264e-13
+      },
+      "club_df": {
+        "checks": 3410,
+        "passes": 3410,
+        "max_difference": 2.1644736104617826e-12
+      },
+      "club_p": {
+        "checks": 3410,
+        "passes": 3410,
+        "max_difference": 4.835021272242557e-13
+      }
+    }
+  },
+  "P1_failing_configurations": 0,
+  "P2": {
+    "checks": 23842,
+    "passes": 23698,
+    "quantities": {
+      "status": {
+        "checks": 1703,
+        "passes": 1703,
+        "max_difference": 0.0
+      },
+      "tau2": {
+        "checks": 1703,
+        "passes": 1698,
+        "max_difference": 1.9805767859093493e-09
+      },
+      "slope_estimate": {
+        "checks": 1703,
+        "passes": 1703,
+        "max_difference": 3.904795375930803e-10
+      },
+      "slope_se": {
+        "checks": 1703,
+        "passes": 1703,
+        "max_difference": 3.040879317822826e-10
+      },
+      "slope_t": {
+        "checks": 1703,
+        "passes": 1682,
+        "max_difference": 6.562978938084996e-09
+      },
+      "slope_df": {
+        "checks": 1703,
+        "passes": 1693,
+        "max_difference": 2.3219354957060105e-09
+      },
+      "slope_p": {
+        "checks": 1703,
+        "passes": 1698,
+        "max_difference": 2.8781070859906777e-09
+      },
+      "slope_ci_lo": {
+        "checks": 1703,
+        "passes": 1693,
+        "max_difference": 2.1100809988183755e-09
+      },
+      "slope_ci_hi": {
+        "checks": 1703,
+        "passes": 1693,
+        "max_difference": 2.414120459093283e-09
+      },
+      "slope_club_estimate": {
+        "checks": 1703,
+        "passes": 1703,
+        "max_difference": 3.904795375930803e-10
+      },
+      "slope_club_se": {
+        "checks": 1703,
+        "passes": 1703,
+        "max_difference": 4.4362292751699957e-10
+      },
+      "slope_club_t": {
+        "checks": 1703,
+        "passes": 1647,
+        "max_difference": 6.592935974936154e-09
+      },
+      "slope_club_df": {
+        "checks": 1703,
+        "passes": 1682,
+        "max_difference": 2.2223985606645605e-09
+      },
+      "slope_club_p": {
+        "checks": 1703,
+        "passes": 1697,
+        "max_difference": 2.8919746597466656e-09
+      }
+    }
+  },
+  "P2_failing_configurations": 66,
+  "P2_skipped_uncentred_reference_refused": [
+    {
+      "id": "dat.moura2021::001::species.id::publication.year::rho=0.8",
+      "uncentred_reference_status": "refused",
+      "reason": "invalid comparison with complex values",
+      "centred_engine_status": "ok",
+      "centred_R_status": "ok"
+    },
+    {
+      "id": "dat.moura2021::001::species.id::publication.year::rho=1",
+      "uncentred_reference_status": "refused",
+      "reason": "invalid comparison with complex values",
+      "centred_engine_status": "ok",
+      "centred_R_status": "ok"
+    }
+  ],
+  "P3": {
+    "checks": 3408,
+    "passes": 3363,
+    "quantities": {
+      "kappa_centred": {
+        "checks": 1705,
+        "passes": 1705,
+        "max_difference": 5.936079497604113e-11
+      },
+      "uncentred_kappa_gt_9e8": {
+        "checks": 903,
+        "passes": 858,
+        "max_difference": 1.9422351198496886e-06
+      },
+      "uncentred_kappa_le_9e8": {
+        "checks": 800,
+        "passes": 800,
+        "max_difference": 9.66820922933693e-11
+      }
+    }
+  },
+  "P3_failing_configurations": 45,
+  "centred_kappa_max_app": 266701347402.04095,
+  "centred_kappa_over_threshold": 461,
+  "uncentred_kappa_range_R": [
+    9157607.620671866,
+    16313843192142.545
+  ],
+  "uncentred_kappa_le_9e8_n": 800
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "index": 1,
+    "design": "clubSandwich::dropoutPrevention::studySample::duration",
+    "clusters": 317,
+    "reason": "not computable by robumeta on a 16 GB machine"
+  },
+  {
+    "index": 312,
+    "design": "dat.mccurdy2020::001::id::ni",
+    "clusters": 1653,
+    "reason": "not computable by robumeta on a 16 GB machine"
+  },
+  {
+    "index": 333,
+    "design": "dat.moura2021::001::species.id::effect.size.id",
+    "clusters": 341,
+    "reason": "not computable by robumeta on a 16 GB machine"
+  },
+  {
+    "index": 334,
+    "design": "dat.moura2021::001::study.id::(intercept)",
+    "clusters": 457,
+    "reason": "not computable by robumeta on a 16 GB machine"
+  },
+  {
+    "index": 335,
+    "design": "dat.moura2021::001::species.id::(intercept)",
+    "clusters": 341,
+    "reason": "not computable by robumeta on a 16 GB machine"
+  },
+  {
+    "index": 336,
+    "design": "dat.moura2021::001::study.id::ni",
+    "clusters": 457,
+    "reason": "not computable by robumeta on a 16 GB machine"
+  }
+]
